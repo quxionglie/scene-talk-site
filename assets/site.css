@@ -254,6 +254,12 @@
     margin-top: 7px;
     color: var(--muted);
   }
+  .content-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+  }
   .lesson-card {
     margin-top: 24px;
     border: 1px solid var(--line);
