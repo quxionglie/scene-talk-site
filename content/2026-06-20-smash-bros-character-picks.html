@@ -90,23 +90,33 @@
     <section class="content-images" aria-label="Images">
       <div class="image-grid">
         <figure>
-          <img src="../assets/images/2026-06-20-smash-bros-character-picks-01.png" alt="Min Min" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-20-smash-bros-character-picks-01.png" data-alt="Min Min" aria-label="View larger image">
+            <img src="../assets/images/2026-06-20-smash-bros-character-picks-01.png" alt="Min Min" />
+          </button>
           <figcaption>Min Min</figcaption>
         </figure>
         <figure>
-          <img src="../assets/images/2026-06-20-smash-bros-character-picks-02.png" alt="Link" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-20-smash-bros-character-picks-02.png" data-alt="Link" aria-label="View larger image">
+            <img src="../assets/images/2026-06-20-smash-bros-character-picks-02.png" alt="Link" />
+          </button>
           <figcaption>Link</figcaption>
         </figure>
         <figure>
-          <img src="../assets/images/2026-06-20-smash-bros-character-picks-03.png" alt="Captain Falcon" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-20-smash-bros-character-picks-03.png" data-alt="Captain Falcon" aria-label="View larger image">
+            <img src="../assets/images/2026-06-20-smash-bros-character-picks-03.png" alt="Captain Falcon" />
+          </button>
           <figcaption>Captain Falcon</figcaption>
         </figure>
         <figure>
-          <img src="../assets/images/2026-06-20-smash-bros-character-picks-04.png" alt="Kazuya" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-20-smash-bros-character-picks-04.png" data-alt="Kazuya" aria-label="View larger image">
+            <img src="../assets/images/2026-06-20-smash-bros-character-picks-04.png" alt="Kazuya" />
+          </button>
           <figcaption>Kazuya</figcaption>
         </figure>
         <figure>
-          <img src="../assets/images/2026-06-20-smash-bros-character-picks-05.png" alt="Joker" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-20-smash-bros-character-picks-05.png" data-alt="Joker" aria-label="View larger image">
+            <img src="../assets/images/2026-06-20-smash-bros-character-picks-05.png" alt="Joker" />
+          </button>
           <figcaption>Joker</figcaption>
         </figure>
       </div>
@@ -126,6 +136,41 @@
           <span>Scan for App Store</span>
         </div>
     </section>
+    <div class="image-lightbox" data-image-lightbox hidden>
+      <button class="image-lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img src="" alt="" />
+    </div>
+    <script>
+      (() => {
+        const lightbox = document.querySelector("[data-image-lightbox]");
+        if (!lightbox) return;
+        const image = lightbox.querySelector("img");
+        const closeButton = lightbox.querySelector(".image-lightbox-close");
+        const close = () => {
+          lightbox.hidden = true;
+          image.removeAttribute("src");
+          image.alt = "";
+          document.body.classList.remove("lightbox-open");
+        };
+
+        document.querySelectorAll(".image-zoom-trigger").forEach((button) => {
+          button.addEventListener("click", () => {
+            image.src = button.dataset.fullSrc || "";
+            image.alt = button.dataset.alt || "";
+            lightbox.hidden = false;
+            document.body.classList.add("lightbox-open");
+            closeButton.focus();
+          });
+        });
+        closeButton.addEventListener("click", close);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !lightbox.hidden) close();
+        });
+      })();
+    </script>
   </main>
 </body>
 </html>

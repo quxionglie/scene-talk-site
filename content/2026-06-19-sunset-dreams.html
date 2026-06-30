@@ -85,6 +85,41 @@
           <span>Scan for App Store</span>
         </div>
     </section>
+    <div class="image-lightbox" data-image-lightbox hidden>
+      <button class="image-lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img src="" alt="" />
+    </div>
+    <script>
+      (() => {
+        const lightbox = document.querySelector("[data-image-lightbox]");
+        if (!lightbox) return;
+        const image = lightbox.querySelector("img");
+        const closeButton = lightbox.querySelector(".image-lightbox-close");
+        const close = () => {
+          lightbox.hidden = true;
+          image.removeAttribute("src");
+          image.alt = "";
+          document.body.classList.remove("lightbox-open");
+        };
+
+        document.querySelectorAll(".image-zoom-trigger").forEach((button) => {
+          button.addEventListener("click", () => {
+            image.src = button.dataset.fullSrc || "";
+            image.alt = button.dataset.alt || "";
+            lightbox.hidden = false;
+            document.body.classList.add("lightbox-open");
+            closeButton.focus();
+          });
+        });
+        closeButton.addEventListener("click", close);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !lightbox.hidden) close();
+        });
+      })();
+    </script>
   </main>
 </body>
 </html>

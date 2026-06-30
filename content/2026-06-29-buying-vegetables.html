@@ -67,7 +67,9 @@
     <section class="content-images" aria-label="Images">
       <div class="image-grid">
         <figure>
-          <img src="../assets/images/2026-06-29-buying-vegetables-01.png" alt="豇豆,long beans" />
+          <button class="image-zoom-trigger" type="button" data-full-src="../assets/images/2026-06-29-buying-vegetables-01.png" data-alt="豇豆,long beans" aria-label="View larger image">
+            <img src="../assets/images/2026-06-29-buying-vegetables-01.png" alt="豇豆,long beans" />
+          </button>
           <figcaption>豇豆,long beans</figcaption>
         </figure>
       </div>
@@ -87,6 +89,41 @@
           <span>Scan for App Store</span>
         </div>
     </section>
+    <div class="image-lightbox" data-image-lightbox hidden>
+      <button class="image-lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img src="" alt="" />
+    </div>
+    <script>
+      (() => {
+        const lightbox = document.querySelector("[data-image-lightbox]");
+        if (!lightbox) return;
+        const image = lightbox.querySelector("img");
+        const closeButton = lightbox.querySelector(".image-lightbox-close");
+        const close = () => {
+          lightbox.hidden = true;
+          image.removeAttribute("src");
+          image.alt = "";
+          document.body.classList.remove("lightbox-open");
+        };
+
+        document.querySelectorAll(".image-zoom-trigger").forEach((button) => {
+          button.addEventListener("click", () => {
+            image.src = button.dataset.fullSrc || "";
+            image.alt = button.dataset.alt || "";
+            lightbox.hidden = false;
+            document.body.classList.add("lightbox-open");
+            closeButton.focus();
+          });
+        });
+        closeButton.addEventListener("click", close);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !lightbox.hidden) close();
+        });
+      })();
+    </script>
   </main>
 </body>
 </html>
