@@ -270,12 +270,10 @@
   }
   .speakers-label {
     color: #666666;
-    font-size: 14px;
-    line-height: 1.3;
     font-weight: 600;
+    margin-right: 8px;
   }
   .speaker-map {
-    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
