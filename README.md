@@ -6,6 +6,8 @@ SceneTalk Mandarin is designed for Mandarin beginners and travelers visiting Chi
 
 The iOS app is available on the App Store in all regions outside mainland China.
 
+Copyright © 2026 Xionglie.Qu. All Rights Reserved.
+
 [View on the App Store](https://apps.apple.com/us/app/scenetalk-mandarin/id6762182201)
 
 Website:
