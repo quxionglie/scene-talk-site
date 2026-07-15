@@ -271,12 +271,8 @@
   .speakers-label {
     color: #666666;
     font-weight: 600;
-    margin-right: 8px;
   }
   .speaker-map {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     color: #555555;
     background: transparent;
     font-size: 15px;
@@ -288,7 +284,6 @@
     background: transparent;
   }
   .speaker-separator {
-    margin: 0 10px;
     color: #555555;
     font-weight: 400;
   }
