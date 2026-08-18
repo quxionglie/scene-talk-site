@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>问题太多了 - SceneTalk Mandarin</title>
+<meta name="description" content="The child asks why Dad is ignoring him. Dad says there are too many questions to answer." />
+<link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-18-too-many-questions.html" />
+<link rel="stylesheet" href="../assets/site.css" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9WQMWKJKHC');
+</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">SceneTalk Mandarin</a>
+    <a class="nav-link" href="https://apps.apple.com/us/app/scenetalk-mandarin/id6762182201">App Store</a>
+  </header>
+  <main class="page">
+    <div class="content-nav">
+      <a class="back-link" href="../index.html">Back to all scenes</a>
+      <a class="download-link" href="../assets/pdf/2026-08-18-too-many-questions.pdf" download="2026-08-18-too-many-questions.pdf">Download PDF</a>
+    </div>
+    <section class="content-hero">
+      <div class="eyebrow">2026-08-18</div>
+      <h1>问题太多了</h1>
+      <p class="title-en">Too Many Questions</p>
+      <div class="tag-row"><span class="tag">问题 question</span></div>
+      <div class="summary-block">
+        <p>孩子抱怨父亲不理他，父亲说他每天的问题太多，实在回答不过来。</p>
+        <p class="summary-en">The child asks why Dad is ignoring him. Dad says there are too many questions to answer.</p>
+      </div>
+    </section>
+    <section class="lesson-card">
+      <div class="speakers" aria-label="人物">
+        <div class="speaker-map"><span class="speakers-label">Speakers:</span> <span class="speaker-item">A - 孩子 child</span> <span class="speaker-separator" aria-hidden="true">|</span> <span class="speaker-item">B - 父亲 father</span></div>
+        <div class="speaker-divider" aria-hidden="true"></div>
+      </div>
+      <div class="lines">
+        <article class="line">
+          <div class="zh">A: 怎么不理我啊！</div>
+          <div class="pinyin">zěn me bù lǐ wǒ a!</div>
+          <div class="en">Why are you ignoring me?</div>
+        </article>
+        <article class="line">
+          <div class="zh">B: 你的问题太多了。</div>
+          <div class="pinyin">nǐ de wèn tí tài duō le.</div>
+          <div class="en">You ask too many questions.</div>
+        </article>
+        <article class="line">
+          <div class="zh">B: 一天上百个问题，我都回答不过来。</div>
+          <div class="pinyin">yī tiān shàng bǎi gè wèn tí, wǒ dōu huí dá bù guò lái.</div>
+          <div class="en">You ask me hundreds of questions a day. I can&#x27;t answer them all.</div>
+        </article>
+      </div>
+    </section>
+    <section class="app-promo" aria-label="SceneTalk Mandarin iOS App">
+      <div class="promo-copy">
+        <div class="promo-title">
+          <img src="../assets/images/scenetalk_mandarin_logo.png" alt="SceneTalk Mandarin logo" />
+          <h2>SceneTalk Mandarin</h2>
+        </div>
+        <p>SceneTalk Mandarin is designed for Mandarin beginners and travelers visiting China, helping you start speaking Chinese in real-life situations. It includes offline content such as scene-based dialogues, key expressions, cultural tips, background articles, and human-recorded Chinese audio, helping you learn common, natural Chinese expressions used in real communication.</p>
+        <p>The iOS app is available on the App Store in all regions outside mainland China.</p>
+        <p>Copyright © 2026 Xionglie Qu. All Rights Reserved.</p>
+        <a class="button" href="https://apps.apple.com/us/app/scenetalk-mandarin/id6762182201">View on the App Store</a>
+      </div>
+        <div class="promo-qr">
+          <img src="../assets/images/scenetalk_mandarin_qrcode.png" alt="SceneTalk Mandarin App Store QR code" />
+          <span>Scan for App Store</span>
+        </div>
+    </section>
+    <div class="image-lightbox" data-image-lightbox hidden>
+      <button class="image-lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img src="" alt="" />
+    </div>
+    <script>
+      (() => {
+        const lightbox = document.querySelector("[data-image-lightbox]");
+        if (!lightbox) return;
+        const image = lightbox.querySelector("img");
+        const closeButton = lightbox.querySelector(".image-lightbox-close");
+        const close = () => {
+          lightbox.hidden = true;
+          image.removeAttribute("src");
+          image.alt = "";
+          document.body.classList.remove("lightbox-open");
+        };
+
+        document.querySelectorAll(".image-zoom-trigger").forEach((button) => {
+          button.addEventListener("click", () => {
+            image.src = button.dataset.fullSrc || "";
+            image.alt = button.dataset.alt || "";
+            lightbox.hidden = false;
+            document.body.classList.add("lightbox-open");
+            closeButton.focus();
+          });
+        });
+        closeButton.addEventListener("click", close);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) close();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !lightbox.hidden) close();
+        });
+      })();
+    </script>
+  </main>
+</body>
+</html>
