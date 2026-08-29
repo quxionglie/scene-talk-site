@@ -113,39 +113,25 @@
   }
   .scene-row h2 {
     margin: 0;
-    font-size: 26px;
-    line-height: 1.1;
     letter-spacing: 0;
-    display: flex;
-    align-items: baseline;
-    gap: 9px;
     min-width: 0;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .scene-title-zh,
-  .scene-title-translation,
-  .scene-title-en {
-    min-width: 0;
-  }
-  .scene-title-zh,
-  .scene-title-en {
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .scene-title-zh {
+    display: block;
     color: var(--ink);
+    font-size: 27px;
+    line-height: 1.18;
+    font-weight: 850;
+    overflow-wrap: anywhere;
   }
-  .scene-title-translation {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 9px;
-    color: var(--ink);
-    font-size: 0.72em;
-    font-weight: 800;
-  }
-  .scene-title-divider {
-    flex: 0 0 auto;
+  .scene-title-en {
+    display: block;
+    margin-top: 6px;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 700;
+    overflow-wrap: anywhere;
   }
   .scene-meta {
     margin-top: 16px;
@@ -162,9 +148,6 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-  }
-  .scene-meta-separator {
-    color: var(--muted);
   }
   .scene-row p {
     max-width: 720px;
@@ -242,29 +225,31 @@
   .content-title {
     max-width: none;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 6px 10px;
-    line-height: 1.05;
     font-weight: 850;
   }
-  .content-title-main,
-  .content-title-translation {
-    display: inline-flex;
-    align-items: baseline;
-  }
   .content-title-main {
+    display: flex;
+    align-items: baseline;
     gap: 0.24em;
-    font-size: 36px;
+    font-size: 40px;
+    line-height: 1.1;
   }
-  .content-title-translation {
-    gap: 10px;
-    font-size: 22px;
-    font-weight: 800;
+  .content-title-sequence {
+    flex: 0 0 auto;
   }
-  .content-title-divider {
+  .content-title-zh {
+    min-width: 0;
     color: var(--ink);
+    overflow-wrap: anywhere;
+  }
+  .content-title-en {
+    display: block;
+    margin-top: 9px;
+    color: var(--muted);
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 700;
+    overflow-wrap: anywhere;
   }
   .title-en {
     margin: 7px 0 0;
@@ -545,13 +530,11 @@
     .content-hero {
       padding-top: 26px;
     }
-    .content-title {
-      gap: 5px 8px;
-    }
     .content-title-main {
-      font-size: 32px;
+      font-size: 30px;
     }
-    .content-title-translation {
+    .content-title-en {
+      margin-top: 7px;
       font-size: 18px;
     }
     .content-meta {
