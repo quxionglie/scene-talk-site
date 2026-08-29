@@ -163,9 +163,6 @@
     align-items: center;
     gap: 7px;
   }
-  .scene-meta-calendar {
-    line-height: 1;
-  }
   .scene-meta-separator {
     color: var(--muted);
   }
@@ -291,9 +288,6 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-  }
-  .content-meta-calendar {
-    line-height: 1;
   }
   .content-meta-separator {
     color: var(--muted);
