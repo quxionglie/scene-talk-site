@@ -86,10 +86,6 @@
     padding: 22px 0 22px;
   }
   .scene-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 18px;
-    align-items: center;
     min-height: 124px;
     border: 1px solid var(--line);
     border-bottom: 0;
@@ -149,11 +145,6 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-  }
-  .scene-actions {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 22px;
   }
   .download-link {
     display: inline-flex;
@@ -509,14 +500,6 @@
     .home-hero {
       min-height: 96px;
       padding: 22px 0 16px;
-    }
-    .scene-row {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-    .scene-actions {
-      justify-content: flex-start;
-      padding: 0 16px 16px;
     }
     .scene-main-link {
       padding: 18px 16px 14px;
