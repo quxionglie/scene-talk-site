@@ -90,7 +90,7 @@
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 18px;
     align-items: center;
-    min-height: 146px;
+    min-height: 124px;
     border: 1px solid var(--line);
     border-bottom: 0;
     background: var(--paper);
@@ -134,27 +134,21 @@
     overflow-wrap: anywhere;
   }
   .scene-meta {
-    margin-top: 16px;
+    margin: 0 0 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 7px 10px;
-    color: var(--ink);
-    font-size: 14px;
+    color: var(--accent);
+    font-size: 13px;
     line-height: 1.3;
-    font-weight: 750;
+    font-weight: 800;
+    letter-spacing: 0.04em;
   }
   .scene-meta-date {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-  }
-  .scene-row p {
-    max-width: 720px;
-    margin: 14px 0 0;
-    color: var(--muted);
-    font-size: 15px;
-    line-height: 1.45;
   }
   .scene-actions {
     display: flex;
