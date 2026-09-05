@@ -359,6 +359,26 @@
     font-size: 16px;
     line-height: 1.4;
   }
+  .dialogue-audio-trigger {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+  .dialogue-audio-trigger:hover,
+  .dialogue-audio-trigger.is-playing {
+    color: var(--accent);
+  }
+  .dialogue-audio-trigger:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
   .note {
     margin-top: 10px;
     padding: 9px 11px;

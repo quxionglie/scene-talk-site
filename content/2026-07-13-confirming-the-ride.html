@@ -6,7 +6,7 @@
 <title>确认网约车 - SceneTalk Mandarin</title>
 <meta name="description" content="After the passenger gets in, the driver confirms their identity" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-13-confirming-the-ride.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 我们的车快到了。</div>
           <div class="pinyin">wǒ men de chē kuài dào le.</div>
-          <div class="en">Our ride&#x27;s almost here.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_001_en.mp3" aria-label="Play English audio: Our ride&#x27;s almost here.">Our ride&#x27;s almost here.</button>
         </article>
         <article class="line">
           <div class="zh">B: 哪辆车？</div>
           <div class="pinyin">nǎ liàng chē?</div>
-          <div class="en">Which one?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_002_en.mp3" aria-label="Play English audio: Which one?">Which one?</button>
         </article>
         <article class="line">
           <div class="zh">A: 白色，2138 。</div>
           <div class="pinyin">bái sè,2138.</div>
-          <div class="en">The white one. The plate ends in 2138.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_003_en.mp3" aria-label="Play English audio: The white one. The plate ends in 2138.">The white one. The plate ends in 2138.</button>
           <div class="note">
             <div>2138 是车牌尾号</div>
             <div>2138 is the last four digits of the license plate number.</div>
@@ -62,12 +62,12 @@
         <article class="line">
           <div class="zh">A: 那边那辆车，我们过去。</div>
           <div class="pinyin">nà biān nà liàng chē, wǒ men guò qù.</div>
-          <div class="en">That one over there. Let&#x27;s head over.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_004_en.mp3" aria-label="Play English audio: That one over there. Let&#x27;s head over.">That one over there. Let&#x27;s head over.</button>
         </article>
         <article class="line">
           <div class="zh">C: 是尾号 7629 吗？</div>
           <div class="pinyin">shì wěi hào  7629  ma?</div>
-          <div class="en">Does your phone number end in 7629?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_005_en.mp3" aria-label="Play English audio: Does your phone number end in 7629?">Does your phone number end in 7629?</button>
           <div class="note">
             <div>坐好后，司机会通过手机尾号确认乘客身份，有时要你自己报号码。</div>
             <div>Once you&#x27;re seated, the driver checks the last four digits of your phone number to make sure you&#x27;re the right passenger. Sometimes you may need to give the number first.</div>
@@ -76,7 +76,7 @@
         <article class="line">
           <div class="zh">A: 是的。</div>
           <div class="pinyin">shì de.</div>
-          <div class="en">Yes.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-confirming-the-ride_006_en.mp3" aria-label="Play English audio: Yes.">Yes.</button>
           <div class="note">
             <div>可以接着说目的地，再次确认。如：是的，去万达广场。</div>
             <div>You can also say where you&#x27;re going to confirm the destination with the driver, for example, &quot;Yes, we&#x27;re going to Wanda Plaza.&quot;</div>
@@ -133,6 +133,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

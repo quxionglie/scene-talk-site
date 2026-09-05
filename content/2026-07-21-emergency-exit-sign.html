@@ -6,7 +6,7 @@
 <title>安全出口标志 - SceneTalk Mandarin</title>
 <meta name="description" content="While riding the subway, the child recognizes the &quot;Emergency Exit&quot; sign even though they can&#x27;t read yet." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-21-emergency-exit-sign.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,32 +43,32 @@
         <article class="line">
           <div class="zh">B: 那个标志是什么意思？</div>
           <div class="pinyin">nà ge biāo zhì shì shén me yì si?</div>
-          <div class="en">What does that sign mean?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_001_en.mp3" aria-label="Play English audio: What does that sign mean?">What does that sign mean?</button>
         </article>
         <article class="line">
           <div class="zh">A: 哪一个？</div>
           <div class="pinyin">nǎ yí gè?</div>
-          <div class="en">Which one?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_002_en.mp3" aria-label="Play English audio: Which one?">Which one?</button>
         </article>
         <article class="line">
           <div class="zh">B: 算了，说了反正你也不知道。</div>
           <div class="pinyin">suàn le, shuō le fǎn zhèng nǐ yě bù zhī dào.</div>
-          <div class="en">Never mind. You wouldn&#x27;t know anyway.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_003_en.mp3" aria-label="Play English audio: Never mind. You wouldn&#x27;t know anyway.">Never mind. You wouldn&#x27;t know anyway.</button>
         </article>
         <article class="line">
           <div class="zh">A: 那门口旁边那个标志是什么意思？人在跑的那个!</div>
           <div class="pinyin">nà mén kǒu páng biān nà ge biāo zhì shì shén me yì si? rén zài pǎo de nà ge!</div>
-          <div class="en">Then what does that sign by the door mean? The one with the person running!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_004_en.mp3" aria-label="Play English audio: Then what does that sign by the door mean? The one with the person running!">Then what does that sign by the door mean? The one with the person running!</button>
         </article>
         <article class="line">
           <div class="zh">B: 安全出口。</div>
           <div class="pinyin">ān quán chū kǒu.</div>
-          <div class="en">Emergency exit.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_005_en.mp3" aria-label="Play English audio: Emergency exit.">Emergency exit.</button>
         </article>
         <article class="line">
           <div class="zh">A: 你不认识字也知道？</div>
           <div class="pinyin">nǐ bù rèn shí zì yě zhī dào?</div>
-          <div class="en">You know what it means even though you can&#x27;t read yet?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_006_en.mp3" aria-label="Play English audio: You know what it means even though you can&#x27;t read yet?">You know what it means even though you can&#x27;t read yet?</button>
           <div class="note">
             <div>惊讶的语气。</div>
             <div>Surprised tone.</div>
@@ -77,7 +77,7 @@
         <article class="line">
           <div class="zh">B: 家里楼梯口也有一个“安全出口”。</div>
           <div class="pinyin">jiā lǐ lóu tī kǒu yě yǒu yí gè “ān quán chū kǒu”.</div>
-          <div class="en">There&#x27;s an &quot;Emergency Exit&quot; sign by the stairs in our building too.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-21-emergency-exit-sign_007_en.mp3" aria-label="Play English audio: There&#x27;s an &quot;Emergency Exit&quot; sign by the stairs in our building too.">There&#x27;s an &quot;Emergency Exit&quot; sign by the stairs in our building too.</button>
         </article>
       </div>
     </section>
@@ -140,6 +140,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>放学要出门条 - SceneTalk Mandarin</title>
 <meta name="description" content="For the next few days, an exit pass is required to leave school at dismissal, but the child can&#x27;t find a teacher to issue one. In the end, the child has to go to the school clinic with a classmate to get one." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-09-01-you-need-an-exit-pass-to-leave-school.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,37 +43,37 @@
         <article class="line">
           <div class="zh">C: 出去要出门条，这几天都要。</div>
           <div class="pinyin">chū qù yào chū mén tiáo, zhè jǐ tiān dōu yào.</div>
-          <div class="en">You need an exit pass to leave. You&#x27;ll need one for the next few days.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_001_en.mp3" aria-label="Play English audio: You need an exit pass to leave. You&#x27;ll need one for the next few days.">You need an exit pass to leave. You&#x27;ll need one for the next few days.</button>
         </article>
         <article class="line">
           <div class="zh">A: 老师在吗？要不要回班里拿一下？</div>
           <div class="pinyin">lǎo shī zài ma? yào bù yào huí bān lǐ ná yī xià?</div>
-          <div class="en">Is your teacher there? Should you go back to your classroom and get one?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_002_en.mp3" aria-label="Play English audio: Is your teacher there? Should you go back to your classroom and get one?">Is your teacher there? Should you go back to your classroom and get one?</button>
         </article>
         <article class="line">
           <div class="zh">B: 老师不在教室。</div>
           <div class="pinyin">lǎo shī bù zài jiào shì.</div>
-          <div class="en">My teacher isn&#x27;t in the classroom.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_003_en.mp3" aria-label="Play English audio: My teacher isn&#x27;t in the classroom.">My teacher isn&#x27;t in the classroom.</button>
         </article>
         <article class="line">
           <div class="zh">A: 数学老师呢？</div>
           <div class="pinyin">shù xué lǎo shī ne?</div>
-          <div class="en">What about your math teacher?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_004_en.mp3" aria-label="Play English audio: What about your math teacher?">What about your math teacher?</button>
         </article>
         <article class="line">
           <div class="zh">B: 我不知道她的办公室在哪里。</div>
           <div class="pinyin">wǒ bù zhī dào tā de bàn gōng shì zài nǎ lǐ.</div>
-          <div class="en">I don&#x27;t know where her office is.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_005_en.mp3" aria-label="Play English audio: I don&#x27;t know where her office is.">I don&#x27;t know where her office is.</button>
         </article>
         <article class="line">
           <div class="zh">A: 能让小孩今天先出来吗？老师都不在。</div>
           <div class="pinyin">néng ràng xiǎo hái jīn tiān xiān chū lái ma? lǎo shī dōu bù zài.</div>
-          <div class="en">Could you let my child out just for today? None of the teachers are around.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_006_en.mp3" aria-label="Play English audio: Could you let my child out just for today? None of the teachers are around.">Could you let my child out just for today? None of the teachers are around.</button>
         </article>
         <article class="line">
           <div class="zh">C: 要出门条才行。</div>
           <div class="pinyin">yào chū mén tiáo cái xíng.</div>
-          <div class="en">Not without an exit pass.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-01-you-need-an-exit-pass-to-leave-school_007_en.mp3" aria-label="Play English audio: Not without an exit pass.">Not without an exit pass.</button>
         </article>
       </div>
     </section>
@@ -126,6 +126,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>河边绿道骑车 - SceneTalk Mandarin</title>
 <meta name="description" content="The family rides along the riverside greenway on Friday, and there is hardly anyone else around" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-03-riverside-greenway-bike-ride.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 你知道我们今天骑了多远吗？</div>
           <div class="pinyin">nǐ zhī dào wǒ men jīn tiān qí le duō yuǎn ma?</div>
-          <div class="en">Do you know how far we biked today?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_001_en.mp3" aria-label="Play English audio: Do you know how far we biked today?">Do you know how far we biked today?</button>
         </article>
         <article class="line">
           <div class="zh">B: 有9公里吗？</div>
           <div class="pinyin">yǒu 9 gōng lǐ ma?</div>
-          <div class="en">Around 9 kilometers?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_002_en.mp3" aria-label="Play English audio: Around 9 kilometers?">Around 9 kilometers?</button>
         </article>
         <article class="line">
           <div class="zh">A: 没有，8公里左右。</div>
           <div class="pinyin">méi yǒu,8 gōng lǐ zuǒ yòu.</div>
-          <div class="en">No, around 8 kilometers.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_003_en.mp3" aria-label="Play English audio: No, around 8 kilometers.">No, around 8 kilometers.</button>
           <div class="note">
             <div>车有码表。</div>
             <div>The bike has a distance meter.</div>
@@ -62,22 +62,22 @@
         <article class="line">
           <div class="zh">A: 下次再带你去骑？</div>
           <div class="pinyin">xià cì zài dài nǐ qù qí?</div>
-          <div class="en">Should I take you riding there again next time?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_004_en.mp3" aria-label="Play English audio: Should I take you riding there again next time?">Should I take you riding there again next time?</button>
         </article>
         <article class="line">
           <div class="zh">B: 好。</div>
           <div class="pinyin">hǎo.</div>
-          <div class="en">Okay.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_005_en.mp3" aria-label="Play English audio: Okay.">Okay.</button>
         </article>
         <article class="line">
           <div class="zh">A: 河对面的长坡你刹车了没？</div>
           <div class="pinyin">hé duì miàn de cháng pō nǐ shā chē le méi?</div>
-          <div class="en">Did you use the brakes on the long slope across the river?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_006_en.mp3" aria-label="Play English audio: Did you use the brakes on the long slope across the river?">Did you use the brakes on the long slope across the river?</button>
         </article>
         <article class="line">
           <div class="zh">B: 按了。</div>
           <div class="pinyin">àn le.</div>
-          <div class="en">Yes, I did.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-riverside-greenway-bike-ride_007_en.mp3" aria-label="Play English audio: Yes, I did.">Yes, I did.</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

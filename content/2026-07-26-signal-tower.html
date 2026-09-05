@@ -6,7 +6,7 @@
 <title>信号塔 - SceneTalk Mandarin</title>
 <meta name="description" content="On the road, the child spots a cell tower and talks with the father about phone signals and TV." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-26-signal-tower.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">B: 看，信号塔！</div>
           <div class="pinyin">kàn, xìn hào tǎ!</div>
-          <div class="en">Look, a cell tower!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-signal-tower_001_en.mp3" aria-label="Play English audio: Look, a cell tower!">Look, a cell tower!</button>
         </article>
         <article class="line">
           <div class="zh">A: 你怎么关注起信号塔来了？</div>
           <div class="pinyin">nǐ zěn me guān zhù qǐ xìn hào tǎ lái le?</div>
-          <div class="en">Since when are you into cell towers?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-signal-tower_002_en.mp3" aria-label="Play English audio: Since when are you into cell towers?">Since when are you into cell towers?</button>
         </article>
         <article class="line">
           <div class="zh">B: 有信号塔才有信号。不然打电话都不行，看电视也不行！</div>
           <div class="pinyin">yǒu xìn hào tǎ cái yǒu xìn hào. bù rán dǎ diàn huà dōu bù xíng, kàn diàn shì yě bù xíng!</div>
-          <div class="en">You need cell towers to get a signal. Otherwise you can&#x27;t make calls or watch TV!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-signal-tower_003_en.mp3" aria-label="Play English audio: You need cell towers to get a signal. Otherwise you can&#x27;t make calls or watch TV!">You need cell towers to get a signal. Otherwise you can&#x27;t make calls or watch TV!</button>
         </article>
         <article class="line">
           <div class="zh">A: 看电视跟这个没关系。打电话才是用这个无线网络。</div>
           <div class="pinyin">kàn diàn shì gēn zhè ge méi guān xì. dǎ diàn huà cái shì yòng zhè ge wú xiàn wǎng luò.</div>
-          <div class="en">TV has nothing to do with that. Phone calls use this kind of wireless network.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-signal-tower_004_en.mp3" aria-label="Play English audio: TV has nothing to do with that. Phone calls use this kind of wireless network.">TV has nothing to do with that. Phone calls use this kind of wireless network.</button>
         </article>
       </div>
     </section>
@@ -121,6 +121,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

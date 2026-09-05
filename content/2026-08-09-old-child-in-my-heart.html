@@ -6,7 +6,7 @@
 <title>苍老的小孩 - SceneTalk Mandarin</title>
 <meta name="description" content="While watching the music video for “Ashes from Fireworks,” the child asks if the person on screen is normal." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-09-old-child-in-my-heart.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 这是正常人类吗？</div>
           <div class="pinyin">zhè shì zhèng cháng rén lèi ma?</div>
-          <div class="en">Is that a normal person?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-old-child-in-my-heart_001_en.mp3" aria-label="Play English audio: Is that a normal person?">Is that a normal person?</button>
           <div class="note">
             <div>孩子看到 MV 里夸张的动作。</div>
             <div>The child sees an exaggerated move in the MV.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">B: 前面不是写“非正常人类研究中心”吗？</div>
           <div class="pinyin">qián miàn bú shì xiě “fēi zhèng cháng rén lèi yán jiū zhōng xīn” ma?</div>
-          <div class="en">Didn&#x27;t it say &quot;Abnormal Human Research Center&quot; earlier?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-old-child-in-my-heart_002_en.mp3" aria-label="Play English audio: Didn&#x27;t it say &quot;Abnormal Human Research Center&quot; earlier?">Didn&#x27;t it say &quot;Abnormal Human Research Center&quot; earlier?</button>
           <div class="note">
             <div>MV 中有一个画面写有“非正常人类研究中心”。</div>
             <div>One shot in the MV says &quot;Abnormal Human Research Center.&quot;</div>
@@ -61,12 +61,12 @@
         <article class="line">
           <div class="zh">A: 喔！</div>
           <div class="pinyin">ō!</div>
-          <div class="en">Oh!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-old-child-in-my-heart_003_en.mp3" aria-label="Play English audio: Oh!">Oh!</button>
         </article>
         <article class="line">
           <div class="zh">B: 你看这首歌我一般是什么时候放的？心情不好的时候才放。</div>
           <div class="pinyin">nǐ kàn zhè shǒu gē wǒ yì bān shì shén me shí hòu fàng de? xīn qíng bù hǎo de shí hòu cái fàng.</div>
-          <div class="en">See when I usually put this song on? Only when I&#x27;m feeling down.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-old-child-in-my-heart_004_en.mp3" aria-label="Play English audio: See when I usually put this song on? Only when I&#x27;m feeling down.">See when I usually put this song on? Only when I&#x27;m feeling down.</button>
           <div class="note">
             <div>该曲是西楼(谱曲作者)在人生很灰暗低落的时候，用音乐慰藉自己而写下的。</div>
             <div>The song was written by Xilou, the composer, during a very dark and low point in his life, as a way to comfort himself through music.</div>
@@ -123,6 +123,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

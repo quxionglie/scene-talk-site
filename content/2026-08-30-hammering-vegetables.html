@@ -6,7 +6,7 @@
 <title>锤菜 - SceneTalk Mandarin</title>
 <meta name="description" content="The father uses a hammer and a kitchen knife to explain how different weapons are used." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-30-hammering-vegetables.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,32 +43,32 @@
         <article class="line">
           <div class="zh">B: 小岩石巨人为什么要用阿沅的刀才能打？</div>
           <div class="pinyin">xiǎo yán shí jù rén wèi shén me yào yòng ā yuán de dāo cái néng dǎ?</div>
-          <div class="en">Why do you have to use Yunobo&#x27;s sword to beat a Stone Pebblit?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_001_en.mp3" aria-label="Play English audio: Why do you have to use Yunobo&#x27;s sword to beat a Stone Pebblit?">Why do you have to use Yunobo&#x27;s sword to beat a Stone Pebblit?</button>
         </article>
         <article class="line">
           <div class="zh">A: 有些刀是用来切的，有的刀是用来砸的。</div>
           <div class="pinyin">yǒu xiē dāo shì yòng lái qiē de, yǒu de dāo shì yòng lái zá de.</div>
-          <div class="en">Some weapons are for cutting, and others are for smashing.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_002_en.mp3" aria-label="Play English audio: Some weapons are for cutting, and others are for smashing.">Some weapons are for cutting, and others are for smashing.</button>
         </article>
         <article class="line">
           <div class="zh">A: 就像锤子和菜刀，你总不能用锤子来切菜吧！</div>
           <div class="pinyin">jiù xiàng chuí zi hé cài dāo, nǐ zǒng bù néng yòng chuí zi lái qiē cài ba!</div>
-          <div class="en">Think of a hammer and a kitchen knife. You can&#x27;t use a hammer to chop vegetables!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_003_en.mp3" aria-label="Play English audio: Think of a hammer and a kitchen knife. You can&#x27;t use a hammer to chop vegetables!">Think of a hammer and a kitchen knife. You can&#x27;t use a hammer to chop vegetables!</button>
         </article>
         <article class="line">
           <div class="zh">B: 这就是“锤菜”了。</div>
           <div class="pinyin">zhè jiù shì “chuí cài” le.</div>
-          <div class="en">Then that would be “hammering vegetables.”</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_004_en.mp3" aria-label="Play English audio: Then that would be “hammering vegetables.”">Then that would be “hammering vegetables.”</button>
         </article>
         <article class="line">
           <div class="zh">A: 以前我遇到小岩石巨人都是躲着走的，因为我的武器都打不了它。</div>
           <div class="pinyin">yǐ qián wǒ yù dào xiǎo yán shí jù rén dōu shì duǒ zhe zǒu de, yīn wèi wǒ de wǔ qì dōu dǎ bù liǎo tā.</div>
-          <div class="en">I used to avoid Stone Pebblits whenever I saw them because none of my weapons worked.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_005_en.mp3" aria-label="Play English audio: I used to avoid Stone Pebblits whenever I saw them because none of my weapons worked.">I used to avoid Stone Pebblits whenever I saw them because none of my weapons worked.</button>
         </article>
         <article class="line">
           <div class="zh">A: 后面才看到你把它举起来砸死。</div>
           <div class="pinyin">hòu miàn cái kàn dào nǐ bǎ tā jǔ qǐ lái zá sǐ.</div>
-          <div class="en">Then I saw you pick one up and smash it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-hammering-vegetables_006_en.mp3" aria-label="Play English audio: Then I saw you pick one up and smash it.">Then I saw you pick one up and smash it.</button>
           <div class="note">
             <div>不用武器，靠近了按 A 键举起来再丢地上就可以了。</div>
             <div>You don&#x27;t need a weapon. Just walk up to it, press A to pick it up, and throw it on the ground.</div>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

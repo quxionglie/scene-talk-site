@@ -6,7 +6,7 @@
 <title>垃圾桶就是删除 - SceneTalk Mandarin</title>
 <meta name="description" content="While tapping around on his watch, the child realizes the trash can icon means delete" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-13-trash-can-means-delete.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 我要删除，这有垃圾桶。</div>
           <div class="pinyin">wǒ yào shān chú, zhè yǒu lā jī tǒng.</div>
-          <div class="en">I want to delete it. There&#x27;s a trash can icon here.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_001_en.mp3" aria-label="Play English audio: I want to delete it. There&#x27;s a trash can icon here.">I want to delete it. There&#x27;s a trash can icon here.</button>
           <div class="note">
             <div>乱按手表时，发现有垃圾桶图标。</div>
             <div>He spots a trash can icon while tapping around on his watch.</div>
@@ -52,12 +52,12 @@
         <article class="line">
           <div class="zh">A: 你怎么知道垃圾桶就是删除呢？</div>
           <div class="pinyin">nǐ zěn me zhī dào lā jī tǒng jiù shì shān chú ne?</div>
-          <div class="en">How do you know the trash can icon means delete?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_002_en.mp3" aria-label="Play English audio: How do you know the trash can icon means delete?">How do you know the trash can icon means delete?</button>
         </article>
         <article class="line">
           <div class="zh">B: 电视里有垃圾桶，我不知道是什么意思。按一下动画片就没了。</div>
           <div class="pinyin">diàn shì lǐ yǒu lā jī tǒng, wǒ bù zhī dào shì shén me yì si. àn yī xià dòng huà piàn jiù méi le.</div>
-          <div class="en">I saw a trash can icon on the TV. I didn&#x27;t know what it meant, but when I pressed it, the cartoon disappeared.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_003_en.mp3" aria-label="Play English audio: I saw a trash can icon on the TV. I didn&#x27;t know what it meant, but when I pressed it, the cartoon disappeared.">I saw a trash can icon on the TV. I didn&#x27;t know what it meant, but when I pressed it, the cartoon disappeared.</button>
           <div class="note">
             <div>按一下是指按下电视遥控器的确认键</div>
             <div>Here, &quot;press it&quot; means pressing the OK button on the TV remote.</div>
@@ -66,17 +66,17 @@
         <article class="line">
           <div class="zh">A: 这都被你发现了。</div>
           <div class="pinyin">zhè dōu bèi nǐ fā xiàn le.</div>
-          <div class="en">Wow, you even figured that out.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_004_en.mp3" aria-label="Play English audio: Wow, you even figured that out.">Wow, you even figured that out.</button>
         </article>
         <article class="line">
           <div class="zh">B: 还好删除的都不是我喜欢看的动画片。</div>
           <div class="pinyin">hái hǎo shān chú de dōu bú shì wǒ xǐ huān kàn de dòng huà piàn.</div>
-          <div class="en">Good thing I didn&#x27;t delete any cartoons I like.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_005_en.mp3" aria-label="Play English audio: Good thing I didn&#x27;t delete any cartoons I like.">Good thing I didn&#x27;t delete any cartoons I like.</button>
         </article>
         <article class="line">
           <div class="zh">B: 小时候喜欢，现在不喜欢了。</div>
           <div class="pinyin">xiǎo shí hòu xǐ huān, xiàn zài bù xǐ huān le.</div>
-          <div class="en">I liked them when I was little, but not anymore.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-13-trash-can-means-delete_006_en.mp3" aria-label="Play English audio: I liked them when I was little, but not anymore.">I liked them when I was little, but not anymore.</button>
         </article>
       </div>
     </section>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

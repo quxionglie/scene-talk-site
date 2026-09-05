@@ -6,7 +6,7 @@
 <title>取个中文网名 - SceneTalk Mandarin</title>
 <meta name="description" content="At home, a father and child talk about choosing a Chinese screen name and what &quot;Joker&quot; and &quot;clown&quot; can mean." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-24-choosing-a-chinese-screen-name.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 想一下你的网名？</div>
           <div class="pinyin">xiǎng yī xià nǐ de wǎng míng?</div>
-          <div class="en">Think about what you want your screen name to be.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_001_en.mp3" aria-label="Play English audio: Think about what you want your screen name to be.">Think about what you want your screen name to be.</button>
         </article>
         <article class="line">
           <div class="zh">B: Jaylen。</div>
           <div class="pinyin">Jaylen.</div>
-          <div class="en">Jaylen.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_002_en.mp3" aria-label="Play English audio: Jaylen.">Jaylen.</button>
         </article>
         <article class="line">
           <div class="zh">A: 这是英文名，网名最好取中文的，像你哥可以叫“稻草人”。</div>
           <div class="pinyin">zhè shì yīng wén míng, wǎng míng zuì hǎo qǔ zhōng wén de, xiàng nǐ gē kě yǐ jiào “dào cǎo rén”.</div>
-          <div class="en">That&#x27;s your English name. It&#x27;d be better to pick a Chinese screen name. Your brother could use &quot;Scarecrow,&quot; for example.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_003_en.mp3" aria-label="Play English audio: That&#x27;s your English name. It&#x27;d be better to pick a Chinese screen name. Your brother could use &quot;Scarecrow,&quot; for example.">That&#x27;s your English name. It&#x27;d be better to pick a Chinese screen name. Your brother could use &quot;Scarecrow,&quot; for example.</button>
         </article>
         <article class="line">
           <div class="zh">B: Joker大？</div>
           <div class="pinyin">Joker dà?</div>
-          <div class="en">&quot;Big Joker&quot;?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_004_en.mp3" aria-label="Play English audio: &quot;Big Joker&quot;?">&quot;Big Joker&quot;?</button>
           <div class="note">
             <div>一般直接说“大王”，不会说&quot;Joker大&quot;。这里因为他看到《JJ斗地主》比赛中，“大王”显示的是“JOK大”。</div>
             <div>Normally, people just say &quot;da wang&quot; (Big Joker), not &quot;Joker da.&quot; The child says it this way because he saw the Big Joker labeled &quot;JOK大&quot; during a JJ Dou Dizhu match.</div>
@@ -67,12 +67,12 @@
         <article class="line">
           <div class="zh">A: 这是扑克牌里的大王。</div>
           <div class="pinyin">zhè shì pū kè pái lǐ de dà wáng.</div>
-          <div class="en">That&#x27;s the Big Joker in a deck of cards.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_005_en.mp3" aria-label="Play English audio: That&#x27;s the Big Joker in a deck of cards.">That&#x27;s the Big Joker in a deck of cards.</button>
         </article>
         <article class="line">
           <div class="zh">A: Joker有小丑的意思，小丑有时候是贬义词，就是不好的词。不建议你用。</div>
           <div class="pinyin">Joker yǒu xiǎo chǒu de yì si, xiǎo chǒu yǒu shí hòu shì biǎn yì cí, jiù shì bù hǎo de cí. bù jiàn yì nǐ yòng.</div>
-          <div class="en">&quot;Joker&quot; can also mean &quot;clown.&quot; Sometimes &quot;clown&quot; is used as an insult. It&#x27;s not a nice word. I don&#x27;t think you should use it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-choosing-a-chinese-screen-name_006_en.mp3" aria-label="Play English audio: &quot;Joker&quot; can also mean &quot;clown.&quot; Sometimes &quot;clown&quot; is used as an insult. It&#x27;s not a nice word. I don&#x27;t think you should use it.">&quot;Joker&quot; can also mean &quot;clown.&quot; Sometimes &quot;clown&quot; is used as an insult. It&#x27;s not a nice word. I don&#x27;t think you should use it.</button>
         </article>
       </div>
     </section>
@@ -135,6 +135,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

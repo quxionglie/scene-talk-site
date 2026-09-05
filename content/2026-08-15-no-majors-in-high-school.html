@@ -6,7 +6,7 @@
 <title>高中没专业 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks what major Dad studied in high school. Dad explains that high school does not have majors; university does." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-15-no-majors-in-high-school.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 爸爸，大学你学计算机，高中学啥专业？</div>
           <div class="pinyin">bà bà, dà xué nǐ xué jì suàn jī, gāo zhōng xué shá zhuān yè?</div>
-          <div class="en">Dad, you studied computer science at university. What major did you study in high school?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-15-no-majors-in-high-school_001_en.mp3" aria-label="Play English audio: Dad, you studied computer science at university. What major did you study in high school?">Dad, you studied computer science at university. What major did you study in high school?</button>
         </article>
         <article class="line">
           <div class="zh">B: 高中没专业，大学才分专业！</div>
           <div class="pinyin">gāo zhōng méi zhuān yè, dà xué cái fēn zhuān yè!</div>
-          <div class="en">There are no majors in high school. Majors start at university!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-15-no-majors-in-high-school_002_en.mp3" aria-label="Play English audio: There are no majors in high school. Majors start at university!">There are no majors in high school. Majors start at university!</button>
           <div class="note">
             <div>中国高中只分文科/理科。</div>
             <div>Chinese high schools only divide students into arts and science tracks.</div>
@@ -57,7 +57,7 @@
         <article class="line">
           <div class="zh">B: 高中学的是基础知识。</div>
           <div class="pinyin">gāo zhōng xué de shì jī chǔ zhī shí.</div>
-          <div class="en">In high school, you study the basics.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-15-no-majors-in-high-school_003_en.mp3" aria-label="Play English audio: In high school, you study the basics.">In high school, you study the basics.</button>
         </article>
       </div>
     </section>
@@ -110,6 +110,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

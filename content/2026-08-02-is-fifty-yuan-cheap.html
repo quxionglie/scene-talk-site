@@ -6,7 +6,7 @@
 <title>50块还便宜吗 - SceneTalk Mandarin</title>
 <meta name="description" content="The child thinks the remote-control car is cheap, and Dad tells him people feel differently about prices." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-02-is-fifty-yuan-cheap.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 为什么这个这么便宜？</div>
           <div class="pinyin">wèi shén me zhè ge zhè me pián yi?</div>
-          <div class="en">Why is this one so cheap?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_001_en.mp3" aria-label="Play English audio: Why is this one so cheap?">Why is this one so cheap?</button>
           <div class="note">
             <div>指遥控车便宜。</div>
             <div>He means the remote-control car.</div>
@@ -52,27 +52,27 @@
         <article class="line">
           <div class="zh">B: 50块还便宜吗？</div>
           <div class="pinyin">50 kuài hái pián yi ma?</div>
-          <div class="en">You think 50 yuan is cheap?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_002_en.mp3" aria-label="Play English audio: You think 50 yuan is cheap?">You think 50 yuan is cheap?</button>
         </article>
         <article class="line">
           <div class="zh">A: 为什么不买90块的？</div>
           <div class="pinyin">wèi shén me bù mǎi 90 kuài de?</div>
-          <div class="en">Why didn&#x27;t we buy the 90-yuan one?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_003_en.mp3" aria-label="Play English audio: Why didn&#x27;t we buy the 90-yuan one?">Why didn&#x27;t we buy the 90-yuan one?</button>
         </article>
         <article class="line">
           <div class="zh">B: 为什么你不买1000块的？</div>
           <div class="pinyin">wèi shén me nǐ bù mǎi 1000 kuài de?</div>
-          <div class="en">Then why not buy the 1,000-yuan one?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_004_en.mp3" aria-label="Play English audio: Then why not buy the 1,000-yuan one?">Then why not buy the 1,000-yuan one?</button>
         </article>
         <article class="line">
           <div class="zh">B: 每个人对价格的感觉不一样。</div>
           <div class="pinyin">měi gè rén duì jià gé de gǎn jué bù yí yàng.</div>
-          <div class="en">Everyone has a different sense of what&#x27;s expensive or cheap.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_005_en.mp3" aria-label="Play English audio: Everyone has a different sense of what&#x27;s expensive or cheap.">Everyone has a different sense of what&#x27;s expensive or cheap.</button>
         </article>
         <article class="line">
           <div class="zh">B: 50块有些人觉得贵，有些人觉得便宜。</div>
           <div class="pinyin">50 kuài yǒu xiē rén jué de guì, yǒu xiē rén jué de pián yi.</div>
-          <div class="en">Some people think 50 yuan is expensive. Some think it&#x27;s cheap.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-is-fifty-yuan-cheap_006_en.mp3" aria-label="Play English audio: Some people think 50 yuan is expensive. Some think it&#x27;s cheap.">Some people think 50 yuan is expensive. Some think it&#x27;s cheap.</button>
         </article>
       </div>
     </section>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

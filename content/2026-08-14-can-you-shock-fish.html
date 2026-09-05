@@ -6,7 +6,7 @@
 <title>能电鱼吗 - SceneTalk Mandarin</title>
 <meta name="description" content="In The Legend of Zelda: Tears of the Kingdom, Shock Fruit can shock fish, but Riju&#x27;s lightning cannot." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-14-can-you-shock-fish.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 刚才测了一下，露珠的不能电鱼。</div>
           <div class="pinyin">gāng cái cè le yī xià, lù zhū de bù néng diàn yú.</div>
-          <div class="en">I just tested it. Riju&#x27;s power can&#x27;t shock fish.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-can-you-shock-fish_001_en.mp3" aria-label="Play English audio: I just tested it. Riju&#x27;s power can&#x27;t shock fish.">I just tested it. Riju&#x27;s power can&#x27;t shock fish.</button>
         </article>
         <article class="line">
           <div class="zh">A: 电流果能电鱼！</div>
           <div class="pinyin">diàn liú guǒ néng diàn yú!</div>
-          <div class="en">Shock Fruit can shock fish!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-can-you-shock-fish_002_en.mp3" aria-label="Play English audio: Shock Fruit can shock fish!">Shock Fruit can shock fish!</button>
           <div class="note">
             <div>此外使用“雷龙头”或是附带雷电属性的攻击也能电晕水中的鱼</div>
             <div>You can also stun fish in the water with a Shock Emitter or attacks that deal lightning damage.</div>
@@ -57,7 +57,7 @@
         <article class="line">
           <div class="zh">B: 露珠的电应该很强啊！</div>
           <div class="pinyin">lù zhū de diàn yīng gāi hěn qiáng a!</div>
-          <div class="en">Riju&#x27;s electricity should be really strong!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-can-you-shock-fish_003_en.mp3" aria-label="Play English audio: Riju&#x27;s electricity should be really strong!">Riju&#x27;s electricity should be really strong!</button>
           <div class="note">
             <div>测试时都是攻击在鱼的不远处，但露珠的闪电却不能电晕鱼。</div>
             <div>In the test, the hits landed near the fish, but Riju&#x27;s lightning still couldn&#x27;t stun them.</div>
@@ -66,12 +66,12 @@
         <article class="line">
           <div class="zh">A: 我也不知道！</div>
           <div class="pinyin">wǒ yě bù zhī dào!</div>
-          <div class="en">I don&#x27;t know either!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-can-you-shock-fish_004_en.mp3" aria-label="Play English audio: I don&#x27;t know either!">I don&#x27;t know either!</button>
         </article>
         <article class="line">
           <div class="zh">A: 可能露珠的只针对敌人吧，鱼不算敌人。</div>
           <div class="pinyin">kě néng lù zhū de zhǐ zhēn duì dí rén ba, yú bù suàn dí rén.</div>
-          <div class="en">Maybe Riju&#x27;s power only targets enemies. Fish don&#x27;t count as enemies.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-can-you-shock-fish_005_en.mp3" aria-label="Play English audio: Maybe Riju&#x27;s power only targets enemies. Fish don&#x27;t count as enemies.">Maybe Riju&#x27;s power only targets enemies. Fish don&#x27;t count as enemies.</button>
         </article>
       </div>
     </section>
@@ -124,6 +124,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

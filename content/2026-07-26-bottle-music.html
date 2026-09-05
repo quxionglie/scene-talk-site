@@ -6,7 +6,7 @@
 <title>瓶子音乐 - SceneTalk Mandarin</title>
 <meta name="description" content="The child blows across bottles with different water levels to make different sounds" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-26-bottle-music.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">B: 我来演奏音乐。</div>
           <div class="pinyin">wǒ lái yǎn zòu yīn yuè.</div>
-          <div class="en">I&#x27;ll play some music.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-bottle-music_001_en.mp3" aria-label="Play English audio: I&#x27;ll play some music.">I&#x27;ll play some music.</button>
         </article>
         <article class="line">
           <div class="zh">B: （吹瓶子）</div>
           <div class="pinyin">（ chuī píng zi ）</div>
-          <div class="en">(Blows across the bottle openings.)</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-bottle-music_002_en.mp3" aria-label="Play English audio: (Blows across the bottle openings.)">(Blows across the bottle openings.)</button>
           <div class="note">
             <div>不同大小的瓶子，装水量不一样时，对着瓶口吹会发出不同声音。</div>
             <div>The bottles are different sizes and have different water levels. When you blow across the openings, they make different sounds.</div>
@@ -57,12 +57,12 @@
         <article class="line">
           <div class="zh">A: 怎么只有 3 个瓶子，不是有 Do、Re、Mi、Fa、Sol、La、Si 吗？</div>
           <div class="pinyin">zěn me zhǐ yǒu  3  gè píng zi, bú shì yǒu  Do,Re,Mi,Fa,Sol,La,Si  ma?</div>
-          <div class="en">How come there are only three bottles? Aren&#x27;t there Do, Re, Mi, Fa, Sol, La, and Si?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-bottle-music_003_en.mp3" aria-label="Play English audio: How come there are only three bottles? Aren&#x27;t there Do, Re, Mi, Fa, Sol, La, and Si?">How come there are only three bottles? Aren&#x27;t there Do, Re, Mi, Fa, Sol, La, and Si?</button>
         </article>
         <article class="line">
           <div class="zh">B: 没有瓶子了。</div>
           <div class="pinyin">méi yǒu píng zi le.</div>
-          <div class="en">There aren&#x27;t any more bottles.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-26-bottle-music_004_en.mp3" aria-label="Play English audio: There aren&#x27;t any more bottles.">There aren&#x27;t any more bottles.</button>
         </article>
       </div>
     </section>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

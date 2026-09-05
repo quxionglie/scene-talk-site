@@ -6,7 +6,7 @@
 <title>买李子 - SceneTalk Mandarin</title>
 <meta name="description" content="A customer buys green and red plums at a market" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-06-29-buying-plums.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 阿姨，这个李子怎么卖的？</div>
           <div class="pinyin">ā yí, zhè ge lǐ zi zěn me mài de?</div>
-          <div class="en">Auntie, how much are these plums?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-plums_001_en.mp3" aria-label="Play English audio: Auntie, how much are these plums?">Auntie, how much are these plums?</button>
         </article>
         <article class="line">
           <div class="zh">B: 这种青色的3元一斤，红的4元一斤。</div>
           <div class="pinyin">zhè zhǒng qīng sè de 3 yuán yī jīn, hóng de 4 yuán yī jīn.</div>
-          <div class="en">The green ones are 3 yuan per jin. The red ones are 4 yuan per jin.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-plums_002_en.mp3" aria-label="Play English audio: The green ones are 3 yuan per jin. The red ones are 4 yuan per jin.">The green ones are 3 yuan per jin. The red ones are 4 yuan per jin.</button>
         </article>
         <article class="line">
           <div class="zh">A: 这两种帮我各称一斤，一起7块吧。</div>
           <div class="pinyin">zhè liǎng zhǒng bāng wǒ gè chēng yī jīn, yì qǐ 7 kuài ba.</div>
-          <div class="en">One jin of each, please. That&#x27;s 7 yuan total, right?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-plums_003_en.mp3" aria-label="Play English audio: One jin of each, please. That&#x27;s 7 yuan total, right?">One jin of each, please. That&#x27;s 7 yuan total, right?</button>
         </article>
         <article class="line">
           <div class="zh">B: 好的，称好了。</div>
           <div class="pinyin">hǎo de, chēng hǎo le.</div>
-          <div class="en">Sure. Here you go.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-plums_004_en.mp3" aria-label="Play English audio: Sure. Here you go.">Sure. Here you go.</button>
         </article>
         <article class="line">
           <div class="zh">A: 谢谢。</div>
           <div class="pinyin">xiè xiè.</div>
-          <div class="en">Thanks.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-plums_005_en.mp3" aria-label="Play English audio: Thanks.">Thanks.</button>
         </article>
       </div>
     </section>
@@ -116,6 +116,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>作业比赛 - SceneTalk Mandarin</title>
 <meta name="description" content="A father asks how the homework contest worked, and the child says all the questions were ones they had done before." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-06-17-homework-contest.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 听说你们今天有作业比赛？</div>
           <div class="pinyin">tīng shuō nǐ men jīn tiān yǒu zuò yè bǐ sài?</div>
-          <div class="en">I heard you had a homework contest today.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_001_en.mp3" aria-label="Play English audio: I heard you had a homework contest today.">I heard you had a homework contest today.</button>
           <div class="note">
             <div>小学作业比赛</div>
             <div>An elementary school homework contest</div>
@@ -52,37 +52,37 @@
         <article class="line">
           <div class="zh">B: 是啊，每人发一张试卷。</div>
           <div class="pinyin">shì a, měi rén fā yī zhāng shì juàn.</div>
-          <div class="en">Yeah. Each person got a test paper.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_002_en.mp3" aria-label="Play English audio: Yeah. Each person got a test paper.">Yeah. Each person got a test paper.</button>
         </article>
         <article class="line">
           <div class="zh">A: 怎么比的？</div>
           <div class="pinyin">zěn me bǐ de?</div>
-          <div class="en">How did it work?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_003_en.mp3" aria-label="Play English audio: How did it work?">How did it work?</button>
         </article>
         <article class="line">
           <div class="zh">B: 随机发一套试卷，60分钟做完，试卷可能是语文、数学或英语。</div>
           <div class="pinyin">suí jī fā yī tào shì juàn,60 fēn zhōng zuò wán, shì juàn kě néng shì yǔ wén, shù xué huò yīng yǔ.</div>
-          <div class="en">We each got a random paper and had 60 minutes to finish it. It could be Chinese, math, or English.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_004_en.mp3" aria-label="Play English audio: We each got a random paper and had 60 minutes to finish it. It could be Chinese, math, or English.">We each got a random paper and had 60 minutes to finish it. It could be Chinese, math, or English.</button>
         </article>
         <article class="line">
           <div class="zh">A: 比赛有奖励不？</div>
           <div class="pinyin">bǐ sài yǒu jiǎng lì bù?</div>
-          <div class="en">Was there a prize?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_005_en.mp3" aria-label="Play English audio: Was there a prize?">Was there a prize?</button>
         </article>
         <article class="line">
           <div class="zh">B: 考100分就有。</div>
           <div class="pinyin">kǎo 100 fēn jiù yǒu.</div>
-          <div class="en">You get one if you score 100.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_006_en.mp3" aria-label="Play English audio: You get one if you score 100.">You get one if you score 100.</button>
         </article>
         <article class="line">
           <div class="zh">A: 感觉有点难度啊。</div>
           <div class="pinyin">gǎn jué yǒu diǎn nán dù a.</div>
-          <div class="en">That sounds a little hard.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_007_en.mp3" aria-label="Play English audio: That sounds a little hard.">That sounds a little hard.</button>
         </article>
         <article class="line">
           <div class="zh">B: 简单，都是做过的题目。</div>
           <div class="pinyin">jiǎn dān, dōu shì zuò guò de tí mù.</div>
-          <div class="en">It was easy. They were all questions we&#x27;d done before.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-17-homework-contest_008_en.mp3" aria-label="Play English audio: It was easy. They were all questions we&#x27;d done before.">It was easy. They were all questions we&#x27;d done before.</button>
         </article>
       </div>
     </section>
@@ -135,6 +135,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

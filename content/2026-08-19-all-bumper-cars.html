@@ -6,7 +6,7 @@
 <title>全部玩碰碰车 - SceneTalk Mandarin</title>
 <meta name="description" content="The father and child talk about how to use up all the ride credits in their ticket package the next time they go to the amusement park." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-19-all-bumper-cars.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 下周可以去玩海盗船。</div>
           <div class="pinyin">xià zhōu kě yǐ qù wán hǎi dào chuán.</div>
-          <div class="en">We can ride the pirate ship next week.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_001_en.mp3" aria-label="Play English audio: We can ride the pirate ship next week.">We can ride the pirate ship next week.</button>
         </article>
         <article class="line">
           <div class="zh">B: 还要看天气。</div>
           <div class="pinyin">hái yào kàn tiān qì.</div>
-          <div class="en">We&#x27;ll have to see what the weather&#x27;s like.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_002_en.mp3" aria-label="Play English audio: We&#x27;ll have to see what the weather&#x27;s like.">We&#x27;ll have to see what the weather&#x27;s like.</button>
         </article>
         <article class="line">
           <div class="zh">A: 下次要把游乐项目全部玩完。</div>
           <div class="pinyin">xià cì yào bǎ yóu lè xiàng mù quán bù wán wán.</div>
-          <div class="en">Next time, we have to go on every ride.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_003_en.mp3" aria-label="Play English audio: Next time, we have to go on every ride.">Next time, we have to go on every ride.</button>
         </article>
         <article class="line">
           <div class="zh">B: 全部玩完？这么多项目，你玩得完吗？</div>
           <div class="pinyin">quán bù wán wán? zhè me duō xiàng mù, nǐ wán de wán ma?</div>
-          <div class="en">Every ride? There are so many. Can you go on all of them?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_004_en.mp3" aria-label="Play English audio: Every ride? There are so many. Can you go on all of them?">Every ride? There are so many. Can you go on all of them?</button>
         </article>
         <article class="line">
           <div class="zh">A: 我们把次数用完。像海盗船，你才玩两次、三次吗？或者我们全部玩海盗船！</div>
           <div class="pinyin">wǒ men bǎ cì shù yòng wán. xiàng hǎi dào chuán, nǐ cái wán liǎng cì, sān cì ma? huò zhě wǒ men quán bù wán hǎi dào chuán!</div>
-          <div class="en">We need to use up all our ride credits. You could ride the pirate ship two or three times—or we could use all our credits on it!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_005_en.mp3" aria-label="Play English audio: We need to use up all our ride credits. You could ride the pirate ship two or three times—or we could use all our credits on it!">We need to use up all our ride credits. You could ride the pirate ship two or three times—or we could use all our credits on it!</button>
           <div class="note">
             <div>门票套餐有次数限制。</div>
             <div>The ticket package comes with a limited number of ride credits.</div>
@@ -72,7 +72,7 @@
         <article class="line">
           <div class="zh">B: 我要全部玩碰碰车。</div>
           <div class="pinyin">wǒ yào quán bù wán pèng pèng chē.</div>
-          <div class="en">I want to use all mine on the bumper cars.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-19-all-bumper-cars_006_en.mp3" aria-label="Play English audio: I want to use all mine on the bumper cars.">I want to use all mine on the bumper cars.</button>
         </article>
       </div>
     </section>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

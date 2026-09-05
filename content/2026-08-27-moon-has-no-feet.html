@@ -6,7 +6,7 @@
 <title>月亮没有脚 - SceneTalk Mandarin</title>
 <meta name="description" content="The child notices the moon moving outside, but Dad can&#x27;t explain what makes it move." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-27-moon-has-no-feet.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 月亮怎么移动了！</div>
           <div class="pinyin">yuè liàng zěn me yí dòng le!</div>
-          <div class="en">How come the moon moved?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-27-moon-has-no-feet_001_en.mp3" aria-label="Play English audio: How come the moon moved?">How come the moon moved?</button>
           <div class="note">
             <div>孩子在卧室玩耍，时不时看看窗外圆圆的月亮，发现它的位置在变化。</div>
             <div>While playing in the bedroom, the child occasionally looks at the round moon outside and notices that its position has changed.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">B: 太阳也会移动的。</div>
           <div class="pinyin">tài yáng yě huì yí dòng de.</div>
-          <div class="en">The sun moves too.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-27-moon-has-no-feet_002_en.mp3" aria-label="Play English audio: The sun moves too.">The sun moves too.</button>
           <div class="note">
             <div>我们看到太阳东升西落，其实是因为地球自转。</div>
             <div>We see the sun rise in the east and set in the west because Earth rotates.</div>
@@ -61,12 +61,12 @@
         <article class="line">
           <div class="zh">A: 月亮没有脚，它怎么会动？</div>
           <div class="pinyin">yuè liàng méi yǒu jiǎo, tā zěn me huì dòng?</div>
-          <div class="en">The moon doesn&#x27;t have feet. How can it move?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-27-moon-has-no-feet_003_en.mp3" aria-label="Play English audio: The moon doesn&#x27;t have feet. How can it move?">The moon doesn&#x27;t have feet. How can it move?</button>
         </article>
         <article class="line">
           <div class="zh">B: 我现在想，是不是太阳一动不动，我们地球绕着太阳转？</div>
           <div class="pinyin">wǒ xiàn zài xiǎng, shì bú shì tài yáng yī dòng bù dòng, wǒ men dì qiú rào zhe tài yáng zhuǎn?</div>
-          <div class="en">Now that I think about it, does the sun stay still while Earth goes around it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-27-moon-has-no-feet_004_en.mp3" aria-label="Play English audio: Now that I think about it, does the sun stay still while Earth goes around it?">Now that I think about it, does the sun stay still while Earth goes around it?</button>
           <div class="note">
             <div>父亲沉默片刻，没有正面回答。太阳真的是完全静止吗？</div>
             <div>Dad pauses for a moment and doesn&#x27;t answer the question directly. Is the sun really completely still?</div>
@@ -75,7 +75,7 @@
         <article class="line">
           <div class="zh">B: 以后你可能会学到月亮为什么会动，我现在解释不清楚。</div>
           <div class="pinyin">yǐ hòu nǐ kě néng huì xué dào yuè liàng wèi shén me huì dòng, wǒ xiàn zài jiě shì bù qīng chǔ.</div>
-          <div class="en">Maybe you&#x27;ll learn why the moon moves someday. I can&#x27;t really explain it right now.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-27-moon-has-no-feet_005_en.mp3" aria-label="Play English audio: Maybe you&#x27;ll learn why the moon moves someday. I can&#x27;t really explain it right now.">Maybe you&#x27;ll learn why the moon moves someday. I can&#x27;t really explain it right now.</button>
           <div class="note">
             <div>父亲知道和引力有关，可引力是什么，月亮又怎么运行？想想就头疼！</div>
             <div>Dad knows it has something to do with gravity. But what is gravity? And how does the moon move? Just thinking about it gives him a headache!</div>
@@ -132,6 +132,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

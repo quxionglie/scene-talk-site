@@ -6,7 +6,7 @@
 <title>被蜜蜂蜇 - SceneTalk Mandarin</title>
 <meta name="description" content="The child says a bee &quot;ju-ed&quot; him, and Mom explains that &quot;ju&quot; in Sichuan dialect means &quot;zhe&quot; (to sting) in Mandarin." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-16-stung-by-a-bee.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 我被蜜蜂“JU”了。</div>
           <div class="pinyin">wǒ bèi mì fēng “JU” le.</div>
-          <div class="en">I got &quot;ju&quot; by a bee.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-stung-by-a-bee_001_en.mp3" aria-label="Play English audio: I got &quot;ju&quot; by a bee.">I got &quot;ju&quot; by a bee.</button>
           <div class="note">
             <div>“JU”跟“狙”同音。孩子昨晚出去被蜇的。</div>
             <div>&quot;Ju&quot; sounds like the Chinese word for &quot;snipe.&quot; The child got stung while out last night.</div>
@@ -52,17 +52,17 @@
         <article class="line">
           <div class="zh">B: 是哪个“JU”，狙击枪的“狙”还是拘留的“拘”？</div>
           <div class="pinyin">shì nǎ ge “JU”, jū jī qiāng de “jū” hái shì jū liú de “jū”?</div>
-          <div class="en">Which &quot;ju&quot; do you mean? The &quot;ju&quot; in sniper rifle, or the &quot;ju&quot; in detention?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-stung-by-a-bee_002_en.mp3" aria-label="Play English audio: Which &quot;ju&quot; do you mean? The &quot;ju&quot; in sniper rifle, or the &quot;ju&quot; in detention?">Which &quot;ju&quot; do you mean? The &quot;ju&quot; in sniper rifle, or the &quot;ju&quot; in detention?</button>
         </article>
         <article class="line">
           <div class="zh">B: 只听说过“蜇”，“被蜜蜂蜇”。</div>
           <div class="pinyin">zhǐ tīng shuō guò “zhē”,“bèi mì fēng zhē”.</div>
-          <div class="en">I&#x27;ve only heard &quot;zhe&quot; (to sting), as in &quot;stung by a bee.&quot;</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-stung-by-a-bee_003_en.mp3" aria-label="Play English audio: I&#x27;ve only heard &quot;zhe&quot; (to sting), as in &quot;stung by a bee.&quot;">I&#x27;ve only heard &quot;zhe&quot; (to sting), as in &quot;stung by a bee.&quot;</button>
         </article>
         <article class="line">
           <div class="zh">C: “JU”是四川话，相当于普通话“蜇”。</div>
           <div class="pinyin">“JU” shì sì chuān huà, xiāng dāng yú pǔ tōng huà “zhē”.</div>
-          <div class="en">&quot;Ju&quot; is Sichuan dialect. It means &quot;zhe&quot; (to sting) in Mandarin.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-stung-by-a-bee_004_en.mp3" aria-label="Play English audio: &quot;Ju&quot; is Sichuan dialect. It means &quot;zhe&quot; (to sting) in Mandarin.">&quot;Ju&quot; is Sichuan dialect. It means &quot;zhe&quot; (to sting) in Mandarin.</button>
         </article>
       </div>
     </section>
@@ -115,6 +115,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

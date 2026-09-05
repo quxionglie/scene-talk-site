@@ -6,7 +6,7 @@
 <title>伙伴为什么打不死 - SceneTalk Mandarin</title>
 <meta name="description" content="The child notices that the companions in the game never die, and Dad explains that they&#x27;re invincible." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-25-why-cant-the-companions-die.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 为什么我的伙伴打不死？</div>
           <div class="pinyin">wèi shén me wǒ de huǒ bàn dǎ bù sǐ?</div>
-          <div class="en">Why won&#x27;t my companions die?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_001_en.mp3" aria-label="Play English audio: Why won&#x27;t my companions die?">Why won&#x27;t my companions die?</button>
         </article>
         <article class="line">
           <div class="zh">B: 是不是复制的伙伴？</div>
           <div class="pinyin">shì bú shì fù zhì de huǒ bàn?</div>
-          <div class="en">You mean the copies?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_002_en.mp3" aria-label="Play English audio: You mean the copies?">You mean the copies?</button>
           <div class="note">
             <div>指召唤出来的伙伴。</div>
             <div>He means the companions summoned in the game.</div>
@@ -57,32 +57,32 @@
         <article class="line">
           <div class="zh">A: 是啊！</div>
           <div class="pinyin">shì a!</div>
-          <div class="en">Yeah!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_003_en.mp3" aria-label="Play English audio: Yeah!">Yeah!</button>
         </article>
         <article class="line">
           <div class="zh">B: 你的伙伴都是无敌的！</div>
           <div class="pinyin">nǐ de huǒ bàn dōu shì wú dí de!</div>
-          <div class="en">Your companions are all invincible!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_004_en.mp3" aria-label="Play English audio: Your companions are all invincible!">Your companions are all invincible!</button>
         </article>
         <article class="line">
           <div class="zh">A: 无敌的是什么意思？</div>
           <div class="pinyin">wú dí de shì shén me yì si?</div>
-          <div class="en">What does “invincible” mean?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_005_en.mp3" aria-label="Play English audio: What does “invincible” mean?">What does “invincible” mean?</button>
         </article>
         <article class="line">
           <div class="zh">B: 就是怎么打都不死。</div>
           <div class="pinyin">jiù shì zěn me dǎ dōu bù sǐ.</div>
-          <div class="en">It means they won&#x27;t die, no matter how many times you hit them.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_006_en.mp3" aria-label="Play English audio: It means they won&#x27;t die, no matter how many times you hit them.">It means they won&#x27;t die, no matter how many times you hit them.</button>
         </article>
         <article class="line">
           <div class="zh">A: 为什么林克会被打死？</div>
           <div class="pinyin">wèi shén me lín kè huì bèi dǎ sǐ?</div>
-          <div class="en">Then why can Link die?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_007_en.mp3" aria-label="Play English audio: Then why can Link die?">Then why can Link die?</button>
         </article>
         <article class="line">
           <div class="zh">B: 因为林克有红心啊。</div>
           <div class="pinyin">yīn wèi lín kè yǒu hóng xīn a.</div>
-          <div class="en">Because Link has hearts.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-why-cant-the-companions-die_008_en.mp3" aria-label="Play English audio: Because Link has hearts.">Because Link has hearts.</button>
           <div class="note">
             <div>红心相当于生命值。通常最多 38 颗红心。</div>
             <div>The hearts show Link&#x27;s health. He can usually have up to 38.</div>
@@ -139,6 +139,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

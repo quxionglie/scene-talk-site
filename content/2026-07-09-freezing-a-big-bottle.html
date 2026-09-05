@@ -6,7 +6,7 @@
 <title>冻一瓶冰块 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants to freeze a big bottle of water to stay cool in summer" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-09-freezing-a-big-bottle.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">B: 冰箱中间两层是空的。</div>
           <div class="pinyin">bīng xiāng zhōng jiān liǎng céng shì kōng de.</div>
-          <div class="en">The two middle shelves in the freezer are empty.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_001_en.mp3" aria-label="Play English audio: The two middle shelves in the freezer are empty.">The two middle shelves in the freezer are empty.</button>
         </article>
         <article class="line">
           <div class="zh">A: 怎么今天你又想弄冰块？</div>
           <div class="pinyin">zěn me jīn tiān nǐ yòu xiǎng nòng bīng kuài?</div>
-          <div class="en">Why do you want to make ice again today?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_002_en.mp3" aria-label="Play English audio: Why do you want to make ice again today?">Why do you want to make ice again today?</button>
         </article>
         <article class="line">
           <div class="zh">B: 是啊。</div>
           <div class="pinyin">shì a.</div>
-          <div class="en">Yeah.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_003_en.mp3" aria-label="Play English audio: Yeah.">Yeah.</button>
         </article>
         <article class="line">
           <div class="zh">A: 又想学上次单子里的避暑降温？</div>
           <div class="pinyin">yòu xiǎng xué shàng cì dān zi lǐ de bì shǔ jiàng wēn?</div>
-          <div class="en">Are you trying that stay-cool idea from the handout again?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_004_en.mp3" aria-label="Play English audio: Are you trying that stay-cool idea from the handout again?">Are you trying that stay-cool idea from the handout again?</button>
           <div class="note">
             <div>幼儿园打印的 A4 单子，问题之一：夏天有哪些方法避暑降温？</div>
             <div>It was an A4 handout from kindergarten. One of the questions was how to stay cool in summer.</div>
@@ -67,12 +67,12 @@
         <article class="line">
           <div class="zh">B: 是啊，我要降温。</div>
           <div class="pinyin">shì a, wǒ yào jiàng wēn.</div>
-          <div class="en">Yeah. I want to cool off.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_005_en.mp3" aria-label="Play English audio: Yeah. I want to cool off.">Yeah. I want to cool off.</button>
         </article>
         <article class="line">
           <div class="zh">A: 不要让你妈发现我们放了一个2kg的瓶子进去了啊？</div>
           <div class="pinyin">bú yào ràng nǐ mā fā xiàn wǒ men fàng le yí gè 2kg de píng zi jìn qù le a?</div>
-          <div class="en">Don&#x27;t let Mom find out we put a two-kilo bottle in there, okay?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-09-freezing-a-big-bottle_006_en.mp3" aria-label="Play English audio: Don&#x27;t let Mom find out we put a two-kilo bottle in there, okay?">Don&#x27;t let Mom find out we put a two-kilo bottle in there, okay?</button>
           <div class="note">
             <div>2kg 重的矿泉水瓶，大概放半天就会冻成冰块。</div>
             <div>It&#x27;s a two-kilogram bottle of mineral water. It takes about half a day to freeze solid.</div>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

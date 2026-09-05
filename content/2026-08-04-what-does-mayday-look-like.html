@@ -6,7 +6,7 @@
 <title>五月天长什么样子 - SceneTalk Mandarin</title>
 <meta name="description" content="The children look at a picture of Mayday and talk about who sings in the band." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-04-what-does-mayday-look-like.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 五月天长什么样子？</div>
           <div class="pinyin">wǔ yuè tiān zhǎng shén me yàng zi?</div>
-          <div class="en">What does Mayday look like?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_001_en.mp3" aria-label="Play English audio: What does Mayday look like?">What does Mayday look like?</button>
         </article>
         <article class="line">
           <div class="zh">B: 我搜一下，看一下图片。</div>
           <div class="pinyin">wǒ sōu yī xià, kàn yī xià tú piàn.</div>
-          <div class="en">Let me look up a picture.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_002_en.mp3" aria-label="Play English audio: Let me look up a picture.">Let me look up a picture.</button>
           <div class="note">
             <div>在网上搜一下&quot;五月天&quot;的图片</div>
             <div>Search online for pictures of &quot;Mayday.&quot;</div>
@@ -57,7 +57,7 @@
         <article class="line">
           <div class="zh">B: 5个人组成的一个乐队。</div>
           <div class="pinyin">5 gè rén zǔ chéng de yí gè yuè duì.</div>
-          <div class="en">It&#x27;s a band made up of five people.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_003_en.mp3" aria-label="Play English audio: It&#x27;s a band made up of five people.">It&#x27;s a band made up of five people.</button>
           <div class="note">
             <div>搜到图片后，一起在看。</div>
             <div>They are looking at the picture together after Dad finds it.</div>
@@ -66,7 +66,7 @@
         <article class="line">
           <div class="zh">C: 这首歌是谁唱的呢？</div>
           <div class="pinyin">zhè shǒu gē shì shuí chàng de ne?</div>
-          <div class="en">Who sings this song?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_004_en.mp3" aria-label="Play English audio: Who sings this song?">Who sings this song?</button>
           <div class="note">
             <div>歌曲《你不是真正的快乐》。</div>
             <div>The song is &quot;You Are Not Truly Happy.&quot;</div>
@@ -75,7 +75,7 @@
         <article class="line">
           <div class="zh">B: 乐队中的一个人啊！</div>
           <div class="pinyin">yuè duì zhōng de yí gè rén a!</div>
-          <div class="en">One of the band members!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_005_en.mp3" aria-label="Play English audio: One of the band members!">One of the band members!</button>
           <div class="note">
             <div>父亲并不认识主唱阿信，所以在图片中也不知道主唱是谁！</div>
             <div>Dad does not know Ashin, the lead singer, so he cannot tell which one in the picture is singing.</div>
@@ -84,7 +84,7 @@
         <article class="line">
           <div class="zh">B: 乐队有很多人的，有主唱，有吉他手……</div>
           <div class="pinyin">yuè duì yǒu hěn duō rén de, yǒu zhǔ chàng, yǒu jí tā shǒu ……</div>
-          <div class="en">There are several people in a band: a lead singer, guitarists...</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-04-what-does-mayday-look-like_006_en.mp3" aria-label="Play English audio: There are several people in a band: a lead singer, guitarists...">There are several people in a band: a lead singer, guitarists...</button>
         </article>
       </div>
     </section>
@@ -137,6 +137,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

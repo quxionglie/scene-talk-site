@@ -6,7 +6,7 @@
 <title>我们的自信 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks how tall Dad was in primary school, and Dad turns it into a quick talk about confidence." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-11-that-is-our-confidence.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,37 +43,37 @@
         <article class="line">
           <div class="zh">A: 你小学时身高多少？</div>
           <div class="pinyin">nǐ xiǎo xué shí shēn gāo duō shǎo?</div>
-          <div class="en">How tall were you in primary school?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_001_en.mp3" aria-label="Play English audio: How tall were you in primary school?">How tall were you in primary school?</button>
         </article>
         <article class="line">
           <div class="zh">B: 谁还记得嘛！你为什么天天关注身高体重？</div>
           <div class="pinyin">shuí hái jì de ma! nǐ wèi shén me tiān tiān guān zhù shēn gāo tǐ zhòng?</div>
-          <div class="en">Who remembers that? Why do you care about height and weight every day?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_002_en.mp3" aria-label="Play English audio: Who remembers that? Why do you care about height and weight every day?">Who remembers that? Why do you care about height and weight every day?</button>
         </article>
         <article class="line">
           <div class="zh">A: 我关心别人的身高，不关心自己的身高。</div>
           <div class="pinyin">wǒ guān xīn bié rén de shēn gāo, bù guān xīn zì jǐ de shēn gāo.</div>
-          <div class="en">I care about other people&#x27;s height, not my own.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_003_en.mp3" aria-label="Play English audio: I care about other people&#x27;s height, not my own.">I care about other people&#x27;s height, not my own.</button>
         </article>
         <article class="line">
           <div class="zh">B: 你现在都超过标准身高了。</div>
           <div class="pinyin">nǐ xiàn zài dōu chāo guò biāo zhǔn shēn gāo le.</div>
-          <div class="en">You&#x27;re already above the average height for your age.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_004_en.mp3" aria-label="Play English audio: You&#x27;re already above the average height for your age.">You&#x27;re already above the average height for your age.</button>
         </article>
         <article class="line">
           <div class="zh">B: 学习好的人都不用关心成绩，反正他都是排在前面。</div>
           <div class="pinyin">xué xí hǎo de rén dōu bù yòng guān xīn chéng jì, fǎn zhèng tā dōu shì pái zài qián miàn.</div>
-          <div class="en">Kids who do well in school don&#x27;t need to worry about grades. They&#x27;re near the top anyway.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_005_en.mp3" aria-label="Play English audio: Kids who do well in school don&#x27;t need to worry about grades. They&#x27;re near the top anyway.">Kids who do well in school don&#x27;t need to worry about grades. They&#x27;re near the top anyway.</button>
         </article>
         <article class="line">
           <div class="zh">B: 身高够的人也不会关注身高。多吃点饭，多运动，还能多长几厘米。</div>
           <div class="pinyin">shēn gāo gòu de rén yě bú huì guān zhù shēn gāo. duō chī diǎn fàn, duō yùn dòng, hái néng duō zhǎng jǐ lí mǐ.</div>
-          <div class="en">People who are already tall enough don&#x27;t worry about height either. Eat a little more, get more exercise, and you can still grow a few more centimeters.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_006_en.mp3" aria-label="Play English audio: People who are already tall enough don&#x27;t worry about height either. Eat a little more, get more exercise, and you can still grow a few more centimeters.">People who are already tall enough don&#x27;t worry about height either. Eat a little more, get more exercise, and you can still grow a few more centimeters.</button>
         </article>
         <article class="line">
           <div class="zh">B: 我们从来不关心这个。这就是我们的自信！</div>
           <div class="pinyin">wǒ men cóng lái bù guān xīn zhè ge. zhè jiù shì wǒ men de zì xìn!</div>
-          <div class="en">We never worry about that. That&#x27;s our confidence!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-11-that-is-our-confidence_007_en.mp3" aria-label="Play English audio: We never worry about that. That&#x27;s our confidence!">We never worry about that. That&#x27;s our confidence!</button>
         </article>
       </div>
     </section>
@@ -126,6 +126,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

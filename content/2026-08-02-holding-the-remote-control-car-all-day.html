@@ -6,7 +6,7 @@
 <title>手上拿一天 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants to bring the new remote-control car and insists on holding it in his hand all day." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-02-holding-the-remote-control-car-all-day.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 等下带上遥控车！</div>
           <div class="pinyin">děng xià dài shàng yáo kòng chē!</div>
-          <div class="en">Bring the remote-control car later!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-holding-the-remote-control-car-all-day_001_en.mp3" aria-label="Play English audio: Bring the remote-control car later!">Bring the remote-control car later!</button>
         </article>
         <article class="line">
           <div class="zh">B: 放在行李箱里行不行？</div>
           <div class="pinyin">fàng zài xíng lǐ xiāng lǐ xíng bù xíng?</div>
-          <div class="en">Can we put it in the suitcase?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-holding-the-remote-control-car-all-day_002_en.mp3" aria-label="Play English audio: Can we put it in the suitcase?">Can we put it in the suitcase?</button>
         </article>
         <article class="line">
           <div class="zh">A: 我要在手上拿一天！</div>
           <div class="pinyin">wǒ yào zài shǒu shàng ná yī tiān!</div>
-          <div class="en">I want to hold it in my hand all day!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-holding-the-remote-control-car-all-day_003_en.mp3" aria-label="Play English audio: I want to hold it in my hand all day!">I want to hold it in my hand all day!</button>
         </article>
       </div>
     </section>
@@ -106,6 +106,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

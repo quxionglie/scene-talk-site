@@ -6,7 +6,7 @@
 <title>买猪肉 - SceneTalk Mandarin</title>
 <meta name="description" content="A customer buys one jin of pork at a market" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-06-29-buying-pork.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 老板，猪肉怎么卖？</div>
           <div class="pinyin">lǎo bǎn, zhū ròu zěn me mài?</div>
-          <div class="en">Boss, how much is the pork?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-pork_001_en.mp3" aria-label="Play English audio: Boss, how much is the pork?">Boss, how much is the pork?</button>
           <div class="note">
             <div>在中国购物时，“老板”是最常见、最接地气的店主尊称。</div>
             <div>In China, &quot;boss&quot; is a very common, down-to-earth way to address a shop owner or vendor.</div>
@@ -52,17 +52,17 @@
         <article class="line">
           <div class="zh">B: 猪肉12元一斤。</div>
           <div class="pinyin">zhū ròu 12 yuán yī jīn.</div>
-          <div class="en">It&#x27;s 12 yuan per jin.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-pork_002_en.mp3" aria-label="Play English audio: It&#x27;s 12 yuan per jin.">It&#x27;s 12 yuan per jin.</button>
         </article>
         <article class="line">
           <div class="zh">A: 那给我称一斤。</div>
           <div class="pinyin">nà gěi wǒ chēng yī jīn.</div>
-          <div class="en">One jin, please.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-pork_003_en.mp3" aria-label="Play English audio: One jin, please.">One jin, please.</button>
         </article>
         <article class="line">
           <div class="zh">B: 好的。</div>
           <div class="pinyin">hǎo de.</div>
-          <div class="en">Sure.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-29-buying-pork_004_en.mp3" aria-label="Play English audio: Sure.">Sure.</button>
         </article>
       </div>
     </section>
@@ -115,6 +115,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

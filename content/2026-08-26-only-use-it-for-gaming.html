@@ -6,7 +6,7 @@
 <title>打游戏才会用 - SceneTalk Mandarin</title>
 <meta name="description" content="Dad says using a computer is a basic skill, but the child only knows how to use one for games." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-26-only-use-it-for-gaming.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 爸爸，堂哥也会用电脑？</div>
           <div class="pinyin">bà bà, táng gē yě huì yòng diàn nǎo?</div>
-          <div class="en">Dad, does my older cousin know how to use a computer too?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-26-only-use-it-for-gaming_001_en.mp3" aria-label="Play English audio: Dad, does my older cousin know how to use a computer too?">Dad, does my older cousin know how to use a computer too?</button>
         </article>
         <article class="line">
           <div class="zh">B: 是啊，你以后也会用的。</div>
           <div class="pinyin">shì a, nǐ yǐ hòu yě huì yòng de.</div>
-          <div class="en">Yeah. You&#x27;ll learn how to use one too.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-26-only-use-it-for-gaming_002_en.mp3" aria-label="Play English audio: Yeah. You&#x27;ll learn how to use one too.">Yeah. You&#x27;ll learn how to use one too.</button>
         </article>
         <article class="line">
           <div class="zh">B: 以后都是基本技能了。</div>
           <div class="pinyin">yǐ hòu dōu shì jī běn jì néng le.</div>
-          <div class="en">It&#x27;ll be a basic skill by then.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-26-only-use-it-for-gaming_003_en.mp3" aria-label="Play English audio: It&#x27;ll be a basic skill by then.">It&#x27;ll be a basic skill by then.</button>
         </article>
         <article class="line">
           <div class="zh">A: 我打游戏才会用。</div>
           <div class="pinyin">wǒ dǎ yóu xì cái huì yòng.</div>
-          <div class="en">I only know how to use it for games.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-26-only-use-it-for-gaming_004_en.mp3" aria-label="Play English audio: I only know how to use it for games.">I only know how to use it for games.</button>
           <div class="note">
             <div>这句话有两种意思：一是只在打游戏时用电脑，但也会用电脑做别的事；二是只会用电脑打游戏，别的都不会。结合上下文，这里是第二种意思。</div>
             <div>This line can mean two things. One is: “I only use a computer when I play games, but I also know how to use it for other things.” The other is: “I only know how to use a computer for gaming and nothing else.” Here, the context makes the second meaning clear.</div>
@@ -115,6 +115,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>对家人的期望 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants Mom to be gentle and his little brother to listen, but expects nothing of himself" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-15-family-expectations.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">B: 我要温柔的妈妈！</div>
           <div class="pinyin">wǒ yào wēn róu de mā mā!</div>
-          <div class="en">I want Mom to be gentle!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_001_en.mp3" aria-label="Play English audio: I want Mom to be gentle!">I want Mom to be gentle!</button>
         </article>
         <article class="line">
           <div class="zh">A: 弟弟呢？</div>
           <div class="pinyin">dì di ne?</div>
-          <div class="en">What about your little brother?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_002_en.mp3" aria-label="Play English audio: What about your little brother?">What about your little brother?</button>
         </article>
         <article class="line">
           <div class="zh">B: 听话的弟弟。</div>
           <div class="pinyin">tīng huà de dì di.</div>
-          <div class="en">I want him to listen.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_003_en.mp3" aria-label="Play English audio: I want him to listen.">I want him to listen.</button>
         </article>
         <article class="line">
           <div class="zh">A: 你希望自己是什么样的哥哥？</div>
           <div class="pinyin">nǐ xī wàng zì jǐ shì shén me yàng de gē gē?</div>
-          <div class="en">What kind of big brother do you want to be?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_004_en.mp3" aria-label="Play English audio: What kind of big brother do you want to be?">What kind of big brother do you want to be?</button>
         </article>
         <article class="line">
           <div class="zh">B: 没希望。</div>
           <div class="pinyin">méi xī wàng.</div>
-          <div class="en">Me? Nothing.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_005_en.mp3" aria-label="Play English audio: Me? Nothing.">Me? Nothing.</button>
           <div class="note">
             <div>对自己不做要求。本句容易理解错。如&quot;你有希望上大学的吗？没希望。&quot; 意思是&quot;你有上大学的可能吗？我肯定上不了大学&quot;</div>
             <div>Here, he means he has no expectations for himself. &quot;Mei xi wang&quot; can also mean &quot;no chance.&quot; For example: &quot;Ni you xi wang shang da xue de ma?&quot; (Do you have any chance of getting into college?) &quot;Mei xi wang.&quot; (No. There&#x27;s no way I&#x27;ll get in.)</div>
@@ -72,7 +72,7 @@
         <article class="line">
           <div class="zh">A: 不给自己一点期望吗，聪明的哥哥行不行？</div>
           <div class="pinyin">bù gěi zì jǐ yì diǎn qī wàng ma, cōng míng de gē gē xíng bù xíng?</div>
-          <div class="en">Don&#x27;t you expect anything of yourself? How about being a smart big brother?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-15-family-expectations_006_en.mp3" aria-label="Play English audio: Don&#x27;t you expect anything of yourself? How about being a smart big brother?">Don&#x27;t you expect anything of yourself? How about being a smart big brother?</button>
         </article>
       </div>
     </section>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>幼儿园长草了 - SceneTalk Mandarin</title>
 <meta name="description" content="The kindergarten site downstairs is overgrown and full of rainwater. Dad jokes that they could raise fish there." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-09-kindergarten-overgrown.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 长草没有？</div>
           <div class="pinyin">zhǎng cǎo méi yǒu?</div>
-          <div class="en">Any grass growing yet?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_001_en.mp3" aria-label="Play English audio: Any grass growing yet?">Any grass growing yet?</button>
         </article>
         <article class="line">
           <div class="zh">B: 真的长草了。</div>
           <div class="pinyin">zhēn de zhǎng cǎo le.</div>
-          <div class="en">Yeah, grass really is growing there.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_002_en.mp3" aria-label="Play English audio: Yeah, grass really is growing there.">Yeah, grass really is growing there.</button>
         </article>
         <article class="line">
           <div class="zh">A: 可以养鱼了！</div>
           <div class="pinyin">kě yǐ yǎng yú le!</div>
-          <div class="en">We could raise fish there now!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_003_en.mp3" aria-label="Play English audio: We could raise fish there now!">We could raise fish there now!</button>
         </article>
         <article class="line">
           <div class="zh">B: 水是下雨积的，没法修学校了！学校都没法修了怎么办？</div>
           <div class="pinyin">shuǐ shì xià yǔ jī de, méi fǎ xiū xué xiào le! xué xiào dōu méi fǎ xiū le zěn me bàn?</div>
-          <div class="en">The water&#x27;s from the rain. They can&#x27;t build the school now! What if they really can&#x27;t build it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_004_en.mp3" aria-label="Play English audio: The water&#x27;s from the rain. They can&#x27;t build the school now! What if they really can&#x27;t build it?">The water&#x27;s from the rain. They can&#x27;t build the school now! What if they really can&#x27;t build it?</button>
         </article>
         <article class="line">
           <div class="zh">A: 旁边有个商场10年了都没建起来！</div>
           <div class="pinyin">páng biān yǒu gè shāng chǎng 10 nián le dōu méi jiàn qǐ lái!</div>
-          <div class="en">There&#x27;s a mall next door that still isn&#x27;t finished after ten years!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_005_en.mp3" aria-label="Play English audio: There&#x27;s a mall next door that still isn&#x27;t finished after ten years!">There&#x27;s a mall next door that still isn&#x27;t finished after ten years!</button>
           <div class="note">
             <div>中国社会的现状：宣传与事实的巨大差距。</div>
             <div>A comment on the big gap between what gets promised and what actually happens.</div>
@@ -72,7 +72,7 @@
         <article class="line">
           <div class="zh">A: 都是骗子。</div>
           <div class="pinyin">dōu shì piàn zi.</div>
-          <div class="en">They&#x27;re all scammers.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-09-kindergarten-overgrown_006_en.mp3" aria-label="Play English audio: They&#x27;re all scammers.">They&#x27;re all scammers.</button>
         </article>
       </div>
     </section>
@@ -135,6 +135,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

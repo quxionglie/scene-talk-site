@@ -6,7 +6,7 @@
 <title>名字里都有手 - SceneTalk Mandarin</title>
 <meta name="description" content="The child calls himself &quot;qiangshou&quot; (gunman), and Dad keeps the &quot;shou&quot; wordplay going." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-07-names-with-shou.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 我是枪手。</div>
           <div class="pinyin">wǒ shì qiāng shǒu.</div>
-          <div class="en">I&#x27;m a &quot;qiangshou&quot; (gunman).</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-07-names-with-shou_001_en.mp3" aria-label="Play English audio: I&#x27;m a &quot;qiangshou&quot; (gunman).">I&#x27;m a &quot;qiangshou&quot; (gunman).</button>
           <div class="note">
             <div>今天又玩起了玩具枪。</div>
             <div>He is playing with a toy gun again today.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">B: 你弟弟还是杀手呢！</div>
           <div class="pinyin">nǐ dì di hái shì shā shǒu ne!</div>
-          <div class="en">Then your little brother is a &quot;shashou&quot; (killer)!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-07-names-with-shou_002_en.mp3" aria-label="Play English audio: Then your little brother is a &quot;shashou&quot; (killer)!">Then your little brother is a &quot;shashou&quot; (killer)!</button>
           <div class="note">
             <div>指之前“杀人医生”的玩笑。</div>
             <div>This refers to the earlier &quot;killer doctor&quot; joke.</div>
@@ -61,7 +61,7 @@
         <article class="line">
           <div class="zh">B: 那我就是猎手。跟我的名字差不多。</div>
           <div class="pinyin">nà wǒ jiù shì liè shǒu. gēn wǒ de míng zì chà bu duō.</div>
-          <div class="en">Then I&#x27;m a &quot;lieshou&quot; (hunter). That&#x27;s close to my name.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-07-names-with-shou_003_en.mp3" aria-label="Play English audio: Then I&#x27;m a &quot;lieshou&quot; (hunter). That&#x27;s close to my name.">Then I&#x27;m a &quot;lieshou&quot; (hunter). That&#x27;s close to my name.</button>
           <div class="note">
             <div>父亲拿自己的名字开玩笑，具体名字不记录。</div>
             <div>Dad is joking about his own name. The actual name is not recorded.</div>
@@ -70,12 +70,12 @@
         <article class="line">
           <div class="zh">A: 什么是猎手？</div>
           <div class="pinyin">shén me shì liè shǒu?</div>
-          <div class="en">What does &quot;lieshou&quot; (hunter) mean?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-07-names-with-shou_004_en.mp3" aria-label="Play English audio: What does &quot;lieshou&quot; (hunter) mean?">What does &quot;lieshou&quot; (hunter) mean?</button>
         </article>
         <article class="line">
           <div class="zh">B: 就是去打动物的人。打野猪、山鸡来吃的！</div>
           <div class="pinyin">jiù shì qù dǎ dòng wù de rén. dǎ yě zhū, shān jī lái chī de!</div>
-          <div class="en">Someone who hunts animals, like wild boars and pheasants, for food!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-07-names-with-shou_005_en.mp3" aria-label="Play English audio: Someone who hunts animals, like wild boars and pheasants, for food!">Someone who hunts animals, like wild boars and pheasants, for food!</button>
         </article>
       </div>
     </section>
@@ -128,6 +128,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

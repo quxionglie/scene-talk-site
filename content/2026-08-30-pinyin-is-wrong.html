@@ -6,7 +6,7 @@
 <title>拼音写错了 - SceneTalk Mandarin</title>
 <meta name="description" content="The child points out an error in the pinyin for “bo pi”" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-30-pinyin-is-wrong.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 爸爸，你有一个字错了。</div>
           <div class="pinyin">bà bà, nǐ yǒu yí gè zì cuò le.</div>
-          <div class="en">Dad, you got one of the characters wrong.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_001_en.mp3" aria-label="Play English audio: Dad, you got one of the characters wrong.">Dad, you got one of the characters wrong.</button>
           <div class="note">
             <div>孩子是在翻看之前打印成册的对话时发现这个错误的。</div>
             <div>The child spotted the mistake while looking through a printed collection of earlier dialogues.</div>
@@ -52,12 +52,12 @@
         <article class="line">
           <div class="zh">A: 哪个字，哪里错了？</div>
           <div class="pinyin">nǎ ge zì, nǎ lǐ cuò le?</div>
-          <div class="en">Which one? What&#x27;s wrong with it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_002_en.mp3" aria-label="Play English audio: Which one? What&#x27;s wrong with it?">Which one? What&#x27;s wrong with it?</button>
         </article>
         <article class="line">
           <div class="zh">B: “剥皮”的“剥”拼音写错了，应该是“bō”，不是“bāo”。</div>
           <div class="pinyin">“bō pí” de “bō” pīn yīn xiě cuò le, yīng gāi shì “bō”, bú shì “bāo”.</div>
-          <div class="en">The first character of &quot;bo pi&quot; (peel) has the wrong pinyin. It should be &quot;bō,&quot; not &quot;bāo.&quot;</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_003_en.mp3" aria-label="Play English audio: The first character of &quot;bo pi&quot; (peel) has the wrong pinyin. It should be &quot;bō,&quot; not &quot;bāo.&quot;">The first character of &quot;bo pi&quot; (peel) has the wrong pinyin. It should be &quot;bō,&quot; not &quot;bāo.&quot;</button>
           <div class="note">
             <div>参考“38. 葡萄盖饭”对话。</div>
             <div>See Dialogue 38, “Grape Rice Bowl.”</div>
@@ -66,17 +66,17 @@
         <article class="line">
           <div class="zh">A: 我看一下。</div>
           <div class="pinyin">wǒ kàn yī xià.</div>
-          <div class="en">Let me take a look.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_004_en.mp3" aria-label="Play English audio: Let me take a look.">Let me take a look.</button>
         </article>
         <article class="line">
           <div class="zh">A: 还真是。这是个多音字。拼音是自动生成的，可能会有问题。</div>
           <div class="pinyin">hái zhēn shì. zhè shì gè duō yīn zì. pīn yīn shì zì dòng shēng chéng de, kě néng huì yǒu wèn tí.</div>
-          <div class="en">You&#x27;re right. It does have more than one pronunciation. The pinyin was generated automatically, so there could be mistakes.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_005_en.mp3" aria-label="Play English audio: You&#x27;re right. It does have more than one pronunciation. The pinyin was generated automatically, so there could be mistakes.">You&#x27;re right. It does have more than one pronunciation. The pinyin was generated automatically, so there could be mistakes.</button>
         </article>
         <article class="line">
           <div class="zh">A: 拼音都要检查才行。</div>
           <div class="pinyin">pīn yīn dōu yào jiǎn chá cái xíng.</div>
-          <div class="en">We&#x27;ll have to check all the pinyin.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-pinyin-is-wrong_006_en.mp3" aria-label="Play English audio: We&#x27;ll have to check all the pinyin.">We&#x27;ll have to check all the pinyin.</button>
         </article>
       </div>
     </section>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

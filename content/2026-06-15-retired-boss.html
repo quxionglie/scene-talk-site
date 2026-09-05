@@ -6,7 +6,7 @@
 <title>退休的老板 - SceneTalk Mandarin</title>
 <meta name="description" content="Dad asks whether he&#x27;ll get a Father&#x27;s Day present. His child, whom the family jokingly calls &quot;the boss,&quot; says he&#x27;s already retired." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-06-15-retired-boss.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 听说你今天又表演了节目？</div>
           <div class="pinyin">tīng shuō nǐ jīn tiān yòu biǎo yǎn le jié mù?</div>
-          <div class="en">I heard you performed again today.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_001_en.mp3" aria-label="Play English audio: I heard you performed again today.">I heard you performed again today.</button>
         </article>
         <article class="line">
           <div class="zh">B: 是啊，表演给爸爸的。</div>
           <div class="pinyin">shì a, biǎo yǎn gěi bà bà de.</div>
-          <div class="en">Yeah, I performed it for you.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_002_en.mp3" aria-label="Play English audio: Yeah, I performed it for you.">Yeah, I performed it for you.</button>
         </article>
         <article class="line">
           <div class="zh">A: 6月份父亲节，我还有礼物不？</div>
           <div class="pinyin">6 yuè fèn fù qīn jié, wǒ hái yǒu lǐ wù bù?</div>
-          <div class="en">Father&#x27;s Day is coming up. Do I get a present too?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_003_en.mp3" aria-label="Play English audio: Father&#x27;s Day is coming up. Do I get a present too?">Father&#x27;s Day is coming up. Do I get a present too?</button>
         </article>
         <article class="line">
           <div class="zh">B: 没有。</div>
           <div class="pinyin">méi yǒu.</div>
-          <div class="en">No.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_004_en.mp3" aria-label="Play English audio: No.">No.</button>
         </article>
         <article class="line">
           <div class="zh">A: 你不是老板吗？</div>
           <div class="pinyin">nǐ bú shì lǎo bǎn ma?</div>
-          <div class="en">Aren&#x27;t you the boss?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_005_en.mp3" aria-label="Play English audio: Aren&#x27;t you the boss?">Aren&#x27;t you the boss?</button>
           <div class="note">
             <div>孩子过年收到压岁钱，有了自己的钱，所以家里开玩笑叫他“老板”</div>
             <div>The family jokingly calls the child &quot;the boss&quot; because he received Lunar New Year lucky money and therefore has money of his own.</div>
@@ -72,12 +72,12 @@
         <article class="line">
           <div class="zh">B: 我已经退休了。</div>
           <div class="pinyin">wǒ yǐ jīng tuì xiū le.</div>
-          <div class="en">I&#x27;m retired now.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_006_en.mp3" aria-label="Play English audio: I&#x27;m retired now.">I&#x27;m retired now.</button>
         </article>
         <article class="line">
           <div class="zh">A: 老板还会退休？</div>
           <div class="pinyin">lǎo bǎn hái huì tuì xiū?</div>
-          <div class="en">Bosses can retire too?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-06-15-retired-boss_007_en.mp3" aria-label="Play English audio: Bosses can retire too?">Bosses can retire too?</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

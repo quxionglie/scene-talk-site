@@ -6,7 +6,7 @@
 <title>下雨也要上班 - SceneTalk Mandarin</title>
 <meta name="description" content="On a rainy day, the father and son walk to the subway, and the son asks if Dad used to go to work like this." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-30-going-to-work-in-the-rain.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 你以前上班都是这样的吗？</div>
           <div class="pinyin">nǐ yǐ qián shàng bān dōu shì zhè yàng de ma?</div>
-          <div class="en">Did you always go to work like this before?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-30-going-to-work-in-the-rain_001_en.mp3" aria-label="Play English audio: Did you always go to work like this before?">Did you always go to work like this before?</button>
         </article>
         <article class="line">
           <div class="zh">B: 是啊，下雨也要上班。</div>
           <div class="pinyin">shì a, xià yǔ yě yào shàng bān.</div>
-          <div class="en">Yeah. Even in the rain, you still have to go to work.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-30-going-to-work-in-the-rain_002_en.mp3" aria-label="Play English audio: Yeah. Even in the rain, you still have to go to work.">Yeah. Even in the rain, you still have to go to work.</button>
         </article>
         <article class="line">
           <div class="zh">B: 像深圳还有台风呢！</div>
           <div class="pinyin">xiàng shēn zhèn hái yǒu tái fēng ne!</div>
-          <div class="en">In places like Shenzhen, they even get typhoons!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-30-going-to-work-in-the-rain_003_en.mp3" aria-label="Play English audio: In places like Shenzhen, they even get typhoons!">In places like Shenzhen, they even get typhoons!</button>
         </article>
       </div>
     </section>
@@ -106,6 +106,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

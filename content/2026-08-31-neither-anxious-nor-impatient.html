@@ -6,7 +6,7 @@
 <title>不焦不躁 - SceneTalk Mandarin</title>
 <meta name="description" content="At registration for the new semester, the school hands out bananas to encourage the students to stay calm and patient." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-31-neither-anxious-nor-impatient.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 我看你的书重不重？</div>
           <div class="pinyin">wǒ kàn nǐ de shū zhòng bù zhòng?</div>
-          <div class="en">Let me see how heavy your books are.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_001_en.mp3" aria-label="Play English audio: Let me see how heavy your books are.">Let me see how heavy your books are.</button>
         </article>
         <article class="line">
           <div class="zh">B: 背得我腿都软了。</div>
           <div class="pinyin">bēi de wǒ tuǐ dōu ruǎn le.</div>
-          <div class="en">They&#x27;re so heavy my legs are going weak.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_002_en.mp3" aria-label="Play English audio: They&#x27;re so heavy my legs are going weak.">They&#x27;re so heavy my legs are going weak.</button>
           <div class="note">
             <div>说明书包很重。</div>
             <div>He means the schoolbag is very heavy.</div>
@@ -57,7 +57,7 @@
         <article class="line">
           <div class="zh">B: 怎么发香蕉了？</div>
           <div class="pinyin">zěn me fā xiāng jiāo le?</div>
-          <div class="en">Why are they handing out bananas?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_003_en.mp3" aria-label="Play English audio: Why are they handing out bananas?">Why are they handing out bananas?</button>
           <div class="note">
             <div>“焦”和“香蕉”的“蕉”同音，这里形成了谐音。</div>
             <div>In Mandarin, 焦 is &quot;jiao&quot; (anxious), which sounds the same as 蕉 in &quot;xiangjiao&quot; (banana), creating a pun.</div>
@@ -66,7 +66,7 @@
         <article class="line">
           <div class="zh">A: 喔，不焦不躁！</div>
           <div class="pinyin">ō, bù jiāo bù zào!</div>
-          <div class="en">Oh, &quot;Bu jiao bu zao&quot; (not anxious or impatient)!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_004_en.mp3" aria-label="Play English audio: Oh, &quot;Bu jiao bu zao&quot; (not anxious or impatient)!">Oh, &quot;Bu jiao bu zao&quot; (not anxious or impatient)!</button>
           <div class="note">
             <div>父亲立刻看到了纸板上写的字。更常见的说法是“不骄不躁”。</div>
             <div>The father immediately notices what is written on the cardboard sign. The more common expression is 不骄不躁, &quot;bu jiao bu zao&quot; (neither arrogant nor impatient).</div>
@@ -75,12 +75,12 @@
         <article class="line">
           <div class="zh">B: 什么是不焦不躁？</div>
           <div class="pinyin">shén me shì bù jiāo bù zào?</div>
-          <div class="en">What does &quot;bu jiao bu zao&quot; mean?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_005_en.mp3" aria-label="Play English audio: What does &quot;bu jiao bu zao&quot; mean?">What does &quot;bu jiao bu zao&quot; mean?</button>
         </article>
         <article class="line">
           <div class="zh">A: 应该是不焦虑不急躁吧！</div>
           <div class="pinyin">yīng gāi shì bù jiāo lǜ bù jí zào ba!</div>
-          <div class="en">I guess it means not feeling anxious or impatient!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-neither-anxious-nor-impatient_006_en.mp3" aria-label="Play English audio: I guess it means not feeling anxious or impatient!">I guess it means not feeling anxious or impatient!</button>
         </article>
       </div>
     </section>
@@ -143,6 +143,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

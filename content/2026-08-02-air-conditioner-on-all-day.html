@@ -6,7 +6,7 @@
 <title>空调开一天 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks why the air conditioner has to stay on all day. Dad says leaving it on uses less power than turning it off and on again." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-02-air-conditioner-on-all-day.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 为什么堂哥的空调要开一天？</div>
           <div class="pinyin">wèi shén me táng gē de kōng tiáo yào kāi yī tiān?</div>
-          <div class="en">Why does my older cousin keep the air conditioner on all day?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-air-conditioner-on-all-day_001_en.mp3" aria-label="Play English audio: Why does my older cousin keep the air conditioner on all day?">Why does my older cousin keep the air conditioner on all day?</button>
         </article>
         <article class="line">
           <div class="zh">B: 你堂哥都连续开一个月了。</div>
           <div class="pinyin">nǐ táng gē dōu lián xù kāi yí gè yuè le.</div>
-          <div class="en">Your older cousin has had it on for a whole month.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-air-conditioner-on-all-day_002_en.mp3" aria-label="Play English audio: Your older cousin has had it on for a whole month.">Your older cousin has had it on for a whole month.</button>
         </article>
         <article class="line">
           <div class="zh">B: 一直开比停了又开更省电。</div>
           <div class="pinyin">yì zhí kāi bǐ tíng le yòu kāi gèng shěng diàn.</div>
-          <div class="en">It&#x27;s more energy-efficient to leave it on than to turn it off and on again.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-02-air-conditioner-on-all-day_003_en.mp3" aria-label="Play English audio: It&#x27;s more energy-efficient to leave it on than to turn it off and on again.">It&#x27;s more energy-efficient to leave it on than to turn it off and on again.</button>
         </article>
       </div>
     </section>
@@ -106,6 +106,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

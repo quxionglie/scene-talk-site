@@ -6,7 +6,7 @@
 <title>高兴的事 - SceneTalk Mandarin</title>
 <meta name="description" content="The father asks for something happy, but the child&#x27;s answer is a new workbook from Mom, leaving him unsure whether to laugh or cry" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-03-happy-about-workbook.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 天天听《伤心太平洋》，不说伤心的事了，你有高兴的事吗？</div>
           <div class="pinyin">tiān tiān tīng 《 shāng xīn tài píng yáng 》, bù shuō shāng xīn de shì le, nǐ yǒu gāo xìng de shì ma?</div>
-          <div class="en">We&#x27;ve been listening to &quot;The Sad Pacific&quot; every day. Enough sad stuff. Do you have anything happy to tell me?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-happy-about-workbook_001_en.mp3" aria-label="Play English audio: We&#x27;ve been listening to &quot;The Sad Pacific&quot; every day. Enough sad stuff. Do you have anything happy to tell me?">We&#x27;ve been listening to &quot;The Sad Pacific&quot; every day. Enough sad stuff. Do you have anything happy to tell me?</button>
           <div class="note">
             <div>《伤心太平洋》是任贤齐唱的歌。</div>
             <div>&quot;Shang Xin Tai Ping Yang&quot; (&quot;The Sad Pacific&quot;) is a song by Richie Jen.</div>
@@ -52,17 +52,17 @@
         <article class="line">
           <div class="zh">B: 妈妈给我买了练习册。</div>
           <div class="pinyin">mā mā gěi wǒ mǎi le liàn xí cè.</div>
-          <div class="en">Mom bought me a workbook.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-happy-about-workbook_002_en.mp3" aria-label="Play English audio: Mom bought me a workbook.">Mom bought me a workbook.</button>
         </article>
         <article class="line">
           <div class="zh">A: 放假了别人都是天天想玩，你还想做题！</div>
           <div class="pinyin">fàng jià le bié rén dōu shì tiān tiān xiǎng wán, nǐ hái xiǎng zuò tí!</div>
-          <div class="en">It&#x27;s school break. Other kids just want to play all day, but you still want to do workbook problems!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-happy-about-workbook_003_en.mp3" aria-label="Play English audio: It&#x27;s school break. Other kids just want to play all day, but you still want to do workbook problems!">It&#x27;s school break. Other kids just want to play all day, but you still want to do workbook problems!</button>
         </article>
         <article class="line">
           <div class="zh">A: 我眼泪都要出来了，你说我是想哭还是想笑？</div>
           <div class="pinyin">wǒ yǎn lèi dōu yào chū lái le, nǐ shuō wǒ shì xiǎng kū hái shì xiǎng xiào?</div>
-          <div class="en">I&#x27;m about to tear up. Am I trying to cry or laugh here?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-happy-about-workbook_004_en.mp3" aria-label="Play English audio: I&#x27;m about to tear up. Am I trying to cry or laugh here?">I&#x27;m about to tear up. Am I trying to cry or laugh here?</button>
           <div class="note">
             <div>父亲哭笑不得</div>
             <div>The father does not know whether to laugh or cry.</div>
@@ -71,7 +71,7 @@
         <article class="line">
           <div class="zh">B: 想哭？</div>
           <div class="pinyin">xiǎng kū?</div>
-          <div class="en">Cry?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-03-happy-about-workbook_005_en.mp3" aria-label="Play English audio: Cry?">Cry?</button>
         </article>
       </div>
     </section>
@@ -124,6 +124,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

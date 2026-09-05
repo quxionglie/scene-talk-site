@@ -6,7 +6,7 @@
 <title>看星星 - SceneTalk Mandarin</title>
 <meta name="description" content="When did it get so hard to see the stars?" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-24-stargazing.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,32 +43,32 @@
         <article class="line">
           <div class="zh">A: 昨晚我看到星星了。</div>
           <div class="pinyin">zuó wǎn wǒ kàn dào xīng xīng le.</div>
-          <div class="en">I saw some stars last night.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_001_en.mp3" aria-label="Play English audio: I saw some stars last night.">I saw some stars last night.</button>
         </article>
         <article class="line">
           <div class="zh">B: 农村以前夏天天气好，整个天空都是星星。</div>
           <div class="pinyin">nóng cūn yǐ qián xià tiān tiān qì hǎo, zhěng gè tiān kōng dōu shì xīng xīng.</div>
-          <div class="en">Back then, on clear summer nights in the countryside, the whole sky was full of stars.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_002_en.mp3" aria-label="Play English audio: Back then, on clear summer nights in the countryside, the whole sky was full of stars.">Back then, on clear summer nights in the countryside, the whole sky was full of stars.</button>
         </article>
         <article class="line">
           <div class="zh">A: 妈妈也是这么说。</div>
           <div class="pinyin">mā mā yě shì zhè me shuō.</div>
-          <div class="en">Mom said the same thing.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_003_en.mp3" aria-label="Play English audio: Mom said the same thing.">Mom said the same thing.</button>
         </article>
         <article class="line">
           <div class="zh">B: 上次带你回去，是因为下雨天阴天，所以没看到。</div>
           <div class="pinyin">shàng cì dài nǐ huí qù, shì yīn wèi xià yǔ tiān yīn tiān, suǒ yǐ méi kàn dào.</div>
-          <div class="en">Last time I took you back, it was rainy and cloudy, so we didn&#x27;t get to see any stars.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_004_en.mp3" aria-label="Play English audio: Last time I took you back, it was rainy and cloudy, so we didn&#x27;t get to see any stars.">Last time I took you back, it was rainy and cloudy, so we didn&#x27;t get to see any stars.</button>
         </article>
         <article class="line">
           <div class="zh">A: 要不改天又回老家一次？</div>
           <div class="pinyin">yào bù gǎi tiān yòu huí lǎo jiā yī cì?</div>
-          <div class="en">How about we go back to our hometown sometime?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_005_en.mp3" aria-label="Play English audio: How about we go back to our hometown sometime?">How about we go back to our hometown sometime?</button>
         </article>
         <article class="line">
           <div class="zh">B: 可惜啊，你在这里不好看。城市里都不容易看得到。</div>
           <div class="pinyin">kě xī a, nǐ zài zhè lǐ bù hǎo kàn. chéng shì lǐ dōu bù róng yì kàn de dào.</div>
-          <div class="en">It&#x27;s a shame you can&#x27;t really see them here. Stars are hard to see in the city.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_006_en.mp3" aria-label="Play English audio: It&#x27;s a shame you can&#x27;t really see them here. Stars are hard to see in the city.">It&#x27;s a shame you can&#x27;t really see them here. Stars are hard to see in the city.</button>
           <div class="note">
             <div>“不好看”可以理解为：不容易看到星星，即使看到也只有几颗。</div>
             <div>Here, “不好看” means that the stars are hard to see, and even when they are visible, you can only see a few.</div>
@@ -77,7 +77,7 @@
         <article class="line">
           <div class="zh">B: 以前整个天空都是星星，还有流星！</div>
           <div class="pinyin">yǐ qián zhěng gè tiān kōng dōu shì xīng xīng, hái yǒu liú xīng!</div>
-          <div class="en">The whole sky used to be full of stars, and there were shooting stars too!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-24-stargazing_007_en.mp3" aria-label="Play English audio: The whole sky used to be full of stars, and there were shooting stars too!">The whole sky used to be full of stars, and there were shooting stars too!</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

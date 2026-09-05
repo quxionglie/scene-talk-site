@@ -6,7 +6,7 @@
 <title>充电会着火吗 - SceneTalk Mandarin</title>
 <meta name="description" content="The child worries that the toy car battery might catch fire while charging." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-21-can-charging-cause-a-fire.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 电池充电会着火吗？</div>
           <div class="pinyin">diàn chí chōng diàn huì zháo huǒ ma?</div>
-          <div class="en">Can the battery catch fire while it&#x27;s charging?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-21-can-charging-cause-a-fire_001_en.mp3" aria-label="Play English audio: Can the battery catch fire while it&#x27;s charging?">Can the battery catch fire while it&#x27;s charging?</button>
           <div class="note">
             <div>玩具车的5号充电电池。</div>
             <div>A rechargeable AA battery for a toy car.</div>
@@ -52,17 +52,17 @@
         <article class="line">
           <div class="zh">B: 可能会。</div>
           <div class="pinyin">kě néng huì.</div>
-          <div class="en">It might.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-21-can-charging-cause-a-fire_002_en.mp3" aria-label="Play English audio: It might.">It might.</button>
         </article>
         <article class="line">
           <div class="zh">A: 你中午帮我看一下，好不好？</div>
           <div class="pinyin">nǐ zhōng wǔ bāng wǒ kàn yī xià, hǎo bù hǎo?</div>
-          <div class="en">Can you keep an eye on it for me at lunchtime?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-21-can-charging-cause-a-fire_003_en.mp3" aria-label="Play English audio: Can you keep an eye on it for me at lunchtime?">Can you keep an eye on it for me at lunchtime?</button>
         </article>
         <article class="line">
           <div class="zh">B: 你担心着火，拔了不行吗？</div>
           <div class="pinyin">nǐ dān xīn zháo huǒ, bá le bù xíng ma?</div>
-          <div class="en">If you&#x27;re worried it&#x27;ll catch fire, why not unplug it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-21-can-charging-cause-a-fire_004_en.mp3" aria-label="Play English audio: If you&#x27;re worried it&#x27;ll catch fire, why not unplug it?">If you&#x27;re worried it&#x27;ll catch fire, why not unplug it?</button>
           <div class="note">
             <div>拔掉充电器后不再充电。</div>
             <div>Unplugging the charger stops it from charging.</div>
@@ -71,7 +71,7 @@
         <article class="line">
           <div class="zh">A: 我下午还要带出去。不充电，玩一下就没电了。</div>
           <div class="pinyin">wǒ xià wǔ hái yào dài chū qù. bù chōng diàn, wán yī xià jiù méi diàn le.</div>
-          <div class="en">But I want to take it out this afternoon. If I don&#x27;t charge it, it&#x27;ll run out of power after just a little while.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-21-can-charging-cause-a-fire_005_en.mp3" aria-label="Play English audio: But I want to take it out this afternoon. If I don&#x27;t charge it, it&#x27;ll run out of power after just a little while.">But I want to take it out this afternoon. If I don&#x27;t charge it, it&#x27;ll run out of power after just a little while.</button>
         </article>
       </div>
     </section>
@@ -124,6 +124,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>晚上开空调吗 - SceneTalk Mandarin</title>
 <meta name="description" content="A father asks if the child rode today, if it was hot, and whether to turn on the air conditioner tonight" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-01-evening-air-conditioner.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 你今天骑车了吗？</div>
           <div class="pinyin">nǐ jīn tiān qí chē le ma?</div>
-          <div class="en">Did you ride your bike today?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_001_en.mp3" aria-label="Play English audio: Did you ride your bike today?">Did you ride your bike today?</button>
           <div class="note">
             <div>在小区里骑自行车</div>
             <div>The child was riding in the residential community.</div>
@@ -52,32 +52,32 @@
         <article class="line">
           <div class="zh">B: 早上骑了，下午没骑。</div>
           <div class="pinyin">zǎo shàng qí le, xià wǔ méi qí.</div>
-          <div class="en">In the morning. Not in the afternoon.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_002_en.mp3" aria-label="Play English audio: In the morning. Not in the afternoon.">In the morning. Not in the afternoon.</button>
         </article>
         <article class="line">
           <div class="zh">A: 热吗？</div>
           <div class="pinyin">rè ma?</div>
-          <div class="en">Was it hot?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_003_en.mp3" aria-label="Play English audio: Was it hot?">Was it hot?</button>
         </article>
         <article class="line">
           <div class="zh">B: 热呀。</div>
           <div class="pinyin">rè ya.</div>
-          <div class="en">Yeah, hot.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_004_en.mp3" aria-label="Play English audio: Yeah, hot.">Yeah, hot.</button>
         </article>
         <article class="line">
           <div class="zh">A: 出汗了吧？</div>
           <div class="pinyin">chū hàn le ba?</div>
-          <div class="en">You got sweaty, right?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_005_en.mp3" aria-label="Play English audio: You got sweaty, right?">You got sweaty, right?</button>
         </article>
         <article class="line">
           <div class="zh">B: 很多汗。</div>
           <div class="pinyin">hěn duō hàn.</div>
-          <div class="en">A lot.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_006_en.mp3" aria-label="Play English audio: A lot.">A lot.</button>
         </article>
         <article class="line">
           <div class="zh">A: 今晚要开空调吗？</div>
           <div class="pinyin">jīn wǎn yào kāi kōng tiáo ma?</div>
-          <div class="en">Should we turn on the air conditioner tonight?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_007_en.mp3" aria-label="Play English audio: Should we turn on the air conditioner tonight?">Should we turn on the air conditioner tonight?</button>
           <div class="note">
             <div>近期气温 22~30 度左右，所以没有给孩子晚上开空调。</div>
             <div>Temperatures have been around 22-30°C lately, so they have not turned on the air conditioner for the child at night.</div>
@@ -86,7 +86,7 @@
         <article class="line">
           <div class="zh">B: （不说话）</div>
           <div class="pinyin">（ bù shuō huà ）</div>
-          <div class="en">(Silence.)</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-01-evening-air-conditioner_008_en.mp3" aria-label="Play English audio: (Silence.)">(Silence.)</button>
         </article>
       </div>
     </section>
@@ -139,6 +139,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>按风向关窗 - SceneTalk Mandarin</title>
 <meta name="description" content="When it rains, decide which windows to close based on how strong the wind is and which way it&#x27;s blowing." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-16-close-windows-by-wind-direction.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 你这边还不是没关窗？</div>
           <div class="pinyin">nǐ zhè biān hái bú shì méi guān chuāng?</div>
-          <div class="en">But you didn&#x27;t close your window either.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-close-windows-by-wind-direction_001_en.mp3" aria-label="Play English audio: But you didn&#x27;t close your window either.">But you didn&#x27;t close your window either.</button>
         </article>
         <article class="line">
           <div class="zh">B: 我这边是南边，不用关。</div>
           <div class="pinyin">wǒ zhè biān shì nán biān, bù yòng guān.</div>
-          <div class="en">This side faces south, so I don&#x27;t need to.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-close-windows-by-wind-direction_002_en.mp3" aria-label="Play English audio: This side faces south, so I don&#x27;t need to.">This side faces south, so I don&#x27;t need to.</button>
         </article>
         <article class="line">
           <div class="zh">B: 你知道现在刮的是什么风吗？</div>
           <div class="pinyin">nǐ zhī dào xiàn zài guā de shì shén me fēng ma?</div>
-          <div class="en">Do you know which way the wind is blowing now?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-close-windows-by-wind-direction_003_en.mp3" aria-label="Play English audio: Do you know which way the wind is blowing now?">Do you know which way the wind is blowing now?</button>
         </article>
         <article class="line">
           <div class="zh">A: 狂风！</div>
           <div class="pinyin">kuáng fēng!</div>
-          <div class="en">A strong wind!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-close-windows-by-wind-direction_004_en.mp3" aria-label="Play English audio: A strong wind!">A strong wind!</button>
         </article>
         <article class="line">
           <div class="zh">B: 狂风？也对。但我说的是方向，不是大小！</div>
           <div class="pinyin">kuáng fēng? yě duì. dàn wǒ shuō de shì fāng xiàng, bú shì dà xiǎo!</div>
-          <div class="en">A strong wind? That&#x27;s true. But I mean the direction, not how strong it is!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-16-close-windows-by-wind-direction_005_en.mp3" aria-label="Play English audio: A strong wind? That&#x27;s true. But I mean the direction, not how strong it is!">A strong wind? That&#x27;s true. But I mean the direction, not how strong it is!</button>
           <div class="note">
             <div>父亲其实想问的是南风还是北风？</div>
             <div>Dad was actually asking whether it was a south wind or a north wind.</div>
@@ -120,6 +120,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>水气球 - SceneTalk Mandarin</title>
 <meta name="description" content="The child shows Dad the water balloons the older girl gave him. One has water, and one is empty." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-29-water-balloons.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 爸爸，来看水气球，一个有水的，一个空的！</div>
           <div class="pinyin">bà bà, lái kàn shuǐ qì qiú, yí gè yǒu shuǐ de, yí gè kōng de!</div>
-          <div class="en">Dad, come look at the water balloons. One has water, and one is empty!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-29-water-balloons_001_en.mp3" aria-label="Play English audio: Dad, come look at the water balloons. One has water, and one is empty!">Dad, come look at the water balloons. One has water, and one is empty!</button>
         </article>
         <article class="line">
           <div class="zh">B: 谁给你的？</div>
           <div class="pinyin">shuí gěi nǐ de?</div>
-          <div class="en">Who gave them to you?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-29-water-balloons_002_en.mp3" aria-label="Play English audio: Who gave them to you?">Who gave them to you?</button>
           <div class="note">
             <div>孩子是空手出去的，晚上外面也不会有水气球卖。只能是别人给的了。</div>
             <div>The child went out empty-handed, and no one would be selling water balloons outside at night, so someone must have given them to him.</div>
@@ -57,17 +57,17 @@
         <article class="line">
           <div class="zh">A: 姐姐送的。</div>
           <div class="pinyin">jiě jiě sòng de.</div>
-          <div class="en">The older girl gave them to me.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-29-water-balloons_003_en.mp3" aria-label="Play English audio: The older girl gave them to me.">The older girl gave them to me.</button>
         </article>
         <article class="line">
           <div class="zh">B: 我看一下，水怎么打进去的？</div>
           <div class="pinyin">wǒ kàn yī xià, shuǐ zěn me dǎ jìn qù de?</div>
-          <div class="en">Let me see. How did the water get in?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-29-water-balloons_004_en.mp3" aria-label="Play English audio: Let me see. How did the water get in?">Let me see. How did the water get in?</button>
         </article>
         <article class="line">
           <div class="zh">A: 有一个水壶，能打水也能打气。</div>
           <div class="pinyin">yǒu yí gè shuǐ hú, néng dǎ shuǐ yě néng dǎ qì.</div>
-          <div class="en">There&#x27;s a little pump. It can pump water and air.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-29-water-balloons_005_en.mp3" aria-label="Play English audio: There&#x27;s a little pump. It can pump water and air.">There&#x27;s a little pump. It can pump water and air.</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

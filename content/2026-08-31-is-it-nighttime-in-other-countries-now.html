@@ -6,7 +6,7 @@
 <title>国外现在是晚上吗 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks whether it is nighttime in other countries, and the father uses a ball to explain how Earth&#x27;s rotation causes day and night." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-31-is-it-nighttime-in-other-countries-now.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 国外现在是晚上吗？</div>
           <div class="pinyin">guó wài xiàn zài shì wǎn shàng ma?</div>
-          <div class="en">Is it nighttime in other countries now?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_001_en.mp3" aria-label="Play English audio: Is it nighttime in other countries now?">Is it nighttime in other countries now?</button>
         </article>
         <article class="line">
           <div class="zh">B: 是啊。</div>
           <div class="pinyin">shì a.</div>
-          <div class="en">Yeah.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_002_en.mp3" aria-label="Play English audio: Yeah.">Yeah.</button>
         </article>
         <article class="line">
           <div class="zh">B: 总有一个地方是白天，一个是晚上。</div>
           <div class="pinyin">zǒng yǒu yí gè dì fāng shì bái tiān, yí gè shì wǎn shàng.</div>
-          <div class="en">It&#x27;s always daytime somewhere and nighttime somewhere else.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_003_en.mp3" aria-label="Play English audio: It&#x27;s always daytime somewhere and nighttime somewhere else.">It&#x27;s always daytime somewhere and nighttime somewhere else.</button>
         </article>
         <article class="line">
           <div class="zh">B: 假设这个就是地球，太阳照过来，照到的这一面就是白天。</div>
           <div class="pinyin">jiǎ shè zhè ge jiù shì dì qiú, tài yáng zhào guò lái, zhào dào de zhè yí miàn jiù shì bái tiān.</div>
-          <div class="en">Let&#x27;s say this is Earth. The side the Sun shines on is daytime.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_004_en.mp3" aria-label="Play English audio: Let&#x27;s say this is Earth. The side the Sun shines on is daytime.">Let&#x27;s say this is Earth. The side the Sun shines on is daytime.</button>
           <div class="note">
             <div>HomePod mini 外形像一个小圆球，父亲便拿它来模拟地球。</div>
             <div>The HomePod mini is shaped like a small ball, so Dad uses it as a model of Earth.</div>
@@ -67,17 +67,17 @@
         <article class="line">
           <div class="zh">B: 它的背面就是晚上。</div>
           <div class="pinyin">tā de bèi miàn jiù shì wǎn shàng.</div>
-          <div class="en">And the other side is nighttime.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_005_en.mp3" aria-label="Play English audio: And the other side is nighttime.">And the other side is nighttime.</button>
         </article>
         <article class="line">
           <div class="zh">A: 而且地球还在转动。</div>
           <div class="pinyin">ér qiě dì qiú hái zài zhuàn dòng.</div>
-          <div class="en">And Earth is turning too.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_006_en.mp3" aria-label="Play English audio: And Earth is turning too.">And Earth is turning too.</button>
         </article>
         <article class="line">
           <div class="zh">B: 所以早上会慢慢变亮，晚上慢慢变黑。</div>
           <div class="pinyin">suǒ yǐ zǎo shàng huì màn màn biàn liàng, wǎn shàng màn màn biàn hēi.</div>
-          <div class="en">That&#x27;s why it slowly gets light in the morning and dark in the evening.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-31-is-it-nighttime-in-other-countries-now_007_en.mp3" aria-label="Play English audio: That&#x27;s why it slowly gets light in the morning and dark in the evening.">That&#x27;s why it slowly gets light in the morning and dark in the evening.</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

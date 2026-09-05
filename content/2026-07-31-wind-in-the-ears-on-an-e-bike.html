@@ -6,7 +6,7 @@
 <title>耳朵都带风了 - SceneTalk Mandarin</title>
 <meta name="description" content="They ride an e-bike on a country road, and the wind is whooshing in their ears." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-31-wind-in-the-ears-on-an-e-bike.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,17 +43,17 @@
         <article class="line">
           <div class="zh">A: 我耳朵都听到呼呼声了！</div>
           <div class="pinyin">wǒ ěr duǒ dōu tīng dào hū hū shēng le!</div>
-          <div class="en">I can hear the wind whooshing in my ears!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-31-wind-in-the-ears-on-an-e-bike_001_en.mp3" aria-label="Play English audio: I can hear the wind whooshing in my ears!">I can hear the wind whooshing in my ears!</button>
         </article>
         <article class="line">
           <div class="zh">B: 我也是。</div>
           <div class="pinyin">wǒ yě shì.</div>
-          <div class="en">Me too.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-31-wind-in-the-ears-on-an-e-bike_002_en.mp3" aria-label="Play English audio: Me too.">Me too.</button>
         </article>
         <article class="line">
           <div class="zh">A: 我看了速度有40，也不知道对不对？</div>
           <div class="pinyin">wǒ kàn le sù dù yǒu 40, yě bù zhī dào duì bú duì?</div>
-          <div class="en">I checked. It said we were going 40, but I&#x27;m not sure if that&#x27;s right.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-31-wind-in-the-ears-on-an-e-bike_003_en.mp3" aria-label="Play English audio: I checked. It said we were going 40, but I&#x27;m not sure if that&#x27;s right.">I checked. It said we were going 40, but I&#x27;m not sure if that&#x27;s right.</button>
           <div class="note">
             <div>40公里每小时。路上没人才可以这么骑。</div>
             <div>Forty kilometers per hour. They only ride like this when there is no one on the road.</div>
@@ -62,7 +62,7 @@
         <article class="line">
           <div class="zh">A: 我骑自行车下坡最多也就30多。</div>
           <div class="pinyin">wǒ qí zì xíng chē xià pō zuì duō yě jiù 30 duō.</div>
-          <div class="en">Even going downhill on my bike, I only get a little over 30 at most.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-31-wind-in-the-ears-on-an-e-bike_004_en.mp3" aria-label="Play English audio: Even going downhill on my bike, I only get a little over 30 at most.">Even going downhill on my bike, I only get a little over 30 at most.</button>
         </article>
       </div>
     </section>
@@ -115,6 +115,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

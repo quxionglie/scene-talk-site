@@ -6,7 +6,7 @@
 <title>今天是无作业日 - SceneTalk Mandarin</title>
 <meta name="description" content="After school, the child says it&#x27;s a homework-free day and that yesterday&#x27;s homework felt like a lot." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-09-02-no-homework-today.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 你的书包呢？</div>
           <div class="pinyin">nǐ de shū bāo ne?</div>
-          <div class="en">Where&#x27;s your backpack?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_001_en.mp3" aria-label="Play English audio: Where&#x27;s your backpack?">Where&#x27;s your backpack?</button>
         </article>
         <article class="line">
           <div class="zh">B: 今天是无作业日！</div>
           <div class="pinyin">jīn tiān shì wú zuò yè rì!</div>
-          <div class="en">Today&#x27;s a homework-free day!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_002_en.mp3" aria-label="Play English audio: Today&#x27;s a homework-free day!">Today&#x27;s a homework-free day!</button>
           <div class="note">
             <div>周三是无作业日，不带书包回家。</div>
             <div>Wednesdays are homework-free, so the child doesn&#x27;t take their backpack home.</div>
@@ -57,27 +57,27 @@
         <article class="line">
           <div class="zh">A: 我还想问你今天作业多不多呢？</div>
           <div class="pinyin">wǒ hái xiǎng wèn nǐ jīn tiān zuò yè duō bù duō ne?</div>
-          <div class="en">I was going to ask if you had a lot of homework today.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_003_en.mp3" aria-label="Play English audio: I was going to ask if you had a lot of homework today.">I was going to ask if you had a lot of homework today.</button>
         </article>
         <article class="line">
           <div class="zh">A: 你觉得昨天作业多吗？</div>
           <div class="pinyin">nǐ jué de zuó tiān zuò yè duō ma?</div>
-          <div class="en">Did yesterday&#x27;s homework feel like a lot?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_004_en.mp3" aria-label="Play English audio: Did yesterday&#x27;s homework feel like a lot?">Did yesterday&#x27;s homework feel like a lot?</button>
         </article>
         <article class="line">
           <div class="zh">B: 多！</div>
           <div class="pinyin">duō!</div>
-          <div class="en">A lot!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_005_en.mp3" aria-label="Play English audio: A lot!">A lot!</button>
         </article>
         <article class="line">
           <div class="zh">A: 多呀！你不是写了十多分钟就做完了吗？</div>
           <div class="pinyin">duō ya! nǐ bú shì xiě le shí duō fēn zhōng jiù zuò wán le ma?</div>
-          <div class="en">A lot? Didn&#x27;t you finish it in just over ten minutes?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_006_en.mp3" aria-label="Play English audio: A lot? Didn&#x27;t you finish it in just over ten minutes?">A lot? Didn&#x27;t you finish it in just over ten minutes?</button>
         </article>
         <article class="line">
           <div class="zh">B: 不止十多分钟。</div>
           <div class="pinyin">bù zhǐ shí duō fēn zhōng.</div>
-          <div class="en">It took me longer than that.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-02-no-homework-today_007_en.mp3" aria-label="Play English audio: It took me longer than that.">It took me longer than that.</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

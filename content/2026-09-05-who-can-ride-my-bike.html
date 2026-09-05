@@ -6,7 +6,7 @@
 <title>谁能骑我的车 - SceneTalk Mandarin</title>
 <meta name="description" content="The brothers go out for a bike ride one morning while their father follows on foot, and they start talking about who can ride whose bike." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-09-05-who-can-ride-my-bike.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 要不要骑我的车？</div>
           <div class="pinyin">yào bù yào qí wǒ de chē?</div>
-          <div class="en">Want to ride my bike?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_001_en.mp3" aria-label="Play English audio: Want to ride my bike?">Want to ride my bike?</button>
           <div class="note">
             <div>20 英寸自行车。</div>
             <div>The older brother is riding a 20-inch bike.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">A: 你的车我骑不了。</div>
           <div class="pinyin">nǐ de chē wǒ qí bù liǎo.</div>
-          <div class="en">I can&#x27;t ride yours.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_002_en.mp3" aria-label="Play English audio: I can&#x27;t ride yours.">I can&#x27;t ride yours.</button>
           <div class="note">
             <div>回家后查询才得知，这辆车的限重为 100 kg。父亲可以骑，</div>
             <div>They only found out after checking at home that the bike had a weight limit of 100 kg, meaning the father could ride it after all.</div>
@@ -61,12 +61,12 @@
         <article class="line">
           <div class="zh">A: 每辆车都有最大承重量！</div>
           <div class="pinyin">měi liàng chē dōu yǒu zuì dà chéng zhòng liàng!</div>
-          <div class="en">Every bike has a weight limit!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_003_en.mp3" aria-label="Play English audio: Every bike has a weight limit!">Every bike has a weight limit!</button>
         </article>
         <article class="line">
           <div class="zh">C: 那我的呢？</div>
           <div class="pinyin">nà wǒ de ne?</div>
-          <div class="en">What about mine?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_004_en.mp3" aria-label="Play English audio: What about mine?">What about mine?</button>
           <div class="note">
             <div>16 英寸儿童自行车，最大承重（Maximum load）约为 30 kg。</div>
             <div>A 16-inch kids&#x27; bike with a maximum load of about 30 kg.</div>
@@ -75,12 +75,12 @@
         <article class="line">
           <div class="zh">A: 我也骑不了你的车，我一上去你的车就要塌了。</div>
           <div class="pinyin">wǒ yě qí bù liǎo nǐ de chē, wǒ yī shàng qù nǐ de chē jiù yào tā le.</div>
-          <div class="en">I can&#x27;t ride yours either. It&#x27;d collapse as soon as I got on it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_005_en.mp3" aria-label="Play English audio: I can&#x27;t ride yours either. It&#x27;d collapse as soon as I got on it.">I can&#x27;t ride yours either. It&#x27;d collapse as soon as I got on it.</button>
         </article>
         <article class="line">
           <div class="zh">C: “重神”能骑我的车吗？</div>
           <div class="pinyin">“zhòng shén” néng qí wǒ de chē ma?</div>
-          <div class="en">Can HeavyGod ride my bike?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_006_en.mp3" aria-label="Play English audio: Can HeavyGod ride my bike?">Can HeavyGod ride my bike?</button>
           <div class="note">
             <div>对话发生时，HeavyGod 是 G2 战队的 CS2 职业选手。</div>
             <div>At the time of the conversation, HeavyGod was a professional CS2 player for G2.</div>
@@ -89,7 +89,7 @@
         <article class="line">
           <div class="zh">A: 我骑不了，他也骑不了。</div>
           <div class="pinyin">wǒ qí bù liǎo, tā yě qí bù liǎo.</div>
-          <div class="en">I can&#x27;t, and neither can he.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-09-05-who-can-ride-my-bike_007_en.mp3" aria-label="Play English audio: I can&#x27;t, and neither can he.">I can&#x27;t, and neither can he.</button>
         </article>
       </div>
     </section>
@@ -142,6 +142,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

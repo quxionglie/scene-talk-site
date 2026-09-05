@@ -6,7 +6,7 @@
 <title>菜播总是输 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants to watch a shooting game, but there are no matches today, so they have to settle for a noob stream." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-25-noob-streamers-always-lose.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 我要看打枪！</div>
           <div class="pinyin">wǒ yào kàn dǎ qiāng!</div>
-          <div class="en">I want to watch shooting!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_001_en.mp3" aria-label="Play English audio: I want to watch shooting!">I want to watch shooting!</button>
           <div class="note">
             <div>我要看CS2打枪游戏。</div>
             <div>The child wants to watch CS2 gameplay.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">B: 今天没比赛，你也要看吗？</div>
           <div class="pinyin">jīn tiān méi bǐ sài, nǐ yě yào kàn ma?</div>
-          <div class="en">There aren&#x27;t any matches today. You still want to watch?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_002_en.mp3" aria-label="Play English audio: There aren&#x27;t any matches today. You still want to watch?">There aren&#x27;t any matches today. You still want to watch?</button>
           <div class="note">
             <div>EWC26比赛刚结束。</div>
             <div>The EWC26 tournament has just ended.</div>
@@ -61,12 +61,12 @@
         <article class="line">
           <div class="zh">A: 看。</div>
           <div class="pinyin">kàn.</div>
-          <div class="en">Yeah.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_003_en.mp3" aria-label="Play English audio: Yeah.">Yeah.</button>
         </article>
         <article class="line">
           <div class="zh">B: 只能看“菜播”了。</div>
           <div class="pinyin">zhǐ néng kàn “cài bō” le.</div>
-          <div class="en">Then we&#x27;ll have to watch a noob streamer.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_004_en.mp3" aria-label="Play English audio: Then we&#x27;ll have to watch a noob streamer.">Then we&#x27;ll have to watch a noob streamer.</button>
           <div class="note">
             <div>“菜播”是直播平台的菜鸟主播。</div>
             <div>&quot;Cai bo&quot; (noob streamer) is a joking term for an unskilled streamer on a livestreaming platform.</div>
@@ -75,7 +75,7 @@
         <article class="line">
           <div class="zh">A: 怎么总是落后啊？</div>
           <div class="pinyin">zěn me zǒng shì luò hòu a?</div>
-          <div class="en">How come they&#x27;re always behind?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_005_en.mp3" aria-label="Play English audio: How come they&#x27;re always behind?">How come they&#x27;re always behind?</button>
           <div class="note">
             <div>当前主播所在队伍大比分落后。</div>
             <div>The streamer&#x27;s team is way behind.</div>
@@ -84,7 +84,7 @@
         <article class="line">
           <div class="zh">B: 菜播就是这样，总是输！</div>
           <div class="pinyin">cài bō jiù shì zhè yàng, zǒng shì shū!</div>
-          <div class="en">That&#x27;s what noob streamers are like—they always lose!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-25-noob-streamers-always-lose_006_en.mp3" aria-label="Play English audio: That&#x27;s what noob streamers are like—they always lose!">That&#x27;s what noob streamers are like—they always lose!</button>
         </article>
       </div>
     </section>
@@ -137,6 +137,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

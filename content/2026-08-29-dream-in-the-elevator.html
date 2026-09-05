@@ -6,7 +6,7 @@
 <title>电梯里的梦 - SceneTalk Mandarin</title>
 <meta name="description" content="The child dreams that he&#x27;s trapped alone in an elevator and someone tells him to press the bell button." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-29-dream-in-the-elevator.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 我昨天做了一个梦。</div>
           <div class="pinyin">wǒ zuó tiān zuò le yí gè mèng.</div>
-          <div class="en">I had a dream yesterday.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_001_en.mp3" aria-label="Play English audio: I had a dream yesterday.">I had a dream yesterday.</button>
         </article>
         <article class="line">
           <div class="zh">B: 什么梦啊？能告诉我吗？</div>
           <div class="pinyin">shén me mèng a? néng gào sù wǒ ma?</div>
-          <div class="en">What did you dream about? Can you tell me?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_002_en.mp3" aria-label="Play English audio: What did you dream about? Can you tell me?">What did you dream about? Can you tell me?</button>
         </article>
         <article class="line">
           <div class="zh">A: 我坐电梯被困住了，别人让我按铃铛！</div>
           <div class="pinyin">wǒ zuò diàn tī bèi kùn zhù le, bié rén ràng wǒ àn líng dāng!</div>
-          <div class="en">I got stuck in an elevator. Someone told me to press the bell button!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_003_en.mp3" aria-label="Play English audio: I got stuck in an elevator. Someone told me to press the bell button!">I got stuck in an elevator. Someone told me to press the bell button!</button>
         </article>
         <article class="line">
           <div class="zh">B: 铃铛好像是紧急呼叫。</div>
           <div class="pinyin">líng dāng hǎo xiàng shì jǐn jí hū jiào.</div>
-          <div class="en">I think the bell button is for emergency calls.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_004_en.mp3" aria-label="Play English audio: I think the bell button is for emergency calls.">I think the bell button is for emergency calls.</button>
           <div class="note">
             <div>电梯铃铛按钮是紧急报警按钮，被困或发生故障时按下求助。</div>
             <div>The bell button in an elevator is the emergency alarm button. Press it for help if you get trapped or if the elevator malfunctions.</div>
@@ -67,12 +67,12 @@
         <article class="line">
           <div class="zh">B: 你坐电梯一般不是跟爸爸妈妈坐的吗？</div>
           <div class="pinyin">nǐ zuò diàn tī yì bān bú shì gēn bà bà mā mā zuò de ma?</div>
-          <div class="en">Don&#x27;t you usually take the elevator with Mom and Dad?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_005_en.mp3" aria-label="Play English audio: Don&#x27;t you usually take the elevator with Mom and Dad?">Don&#x27;t you usually take the elevator with Mom and Dad?</button>
         </article>
         <article class="line">
           <div class="zh">A: 我一个人坐的。</div>
           <div class="pinyin">wǒ yí gè rén zuò de.</div>
-          <div class="en">I was by myself.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-dream-in-the-elevator_006_en.mp3" aria-label="Play English audio: I was by myself.">I was by myself.</button>
           <div class="note">
             <div>梦里，爸爸妈妈没有和孩子一起坐电梯。</div>
             <div>In the dream, Mom and Dad aren&#x27;t riding the elevator with him.</div>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

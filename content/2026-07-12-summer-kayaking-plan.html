@@ -6,7 +6,7 @@
 <title>暑假去划船 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants to make summer vacation even better, so Dad suggests going kayaking together" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-12-summer-kayaking-plan.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">B: 我要让暑假过得更美好。</div>
           <div class="pinyin">wǒ yào ràng shǔ jià guò de gèng měi hǎo.</div>
-          <div class="en">I want to make summer vacation even better.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_001_en.mp3" aria-label="Play English audio: I want to make summer vacation even better.">I want to make summer vacation even better.</button>
         </article>
         <article class="line">
           <div class="zh">A: 那明天去不去划船？</div>
           <div class="pinyin">nà míng tiān qù bù qù huá chuán?</div>
-          <div class="en">How about we go kayaking tomorrow, then?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_002_en.mp3" aria-label="Play English audio: How about we go kayaking tomorrow, then?">How about we go kayaking tomorrow, then?</button>
         </article>
         <article class="line">
           <div class="zh">B: 去。</div>
           <div class="pinyin">qù.</div>
-          <div class="en">Yeah!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_003_en.mp3" aria-label="Play English audio: Yeah!">Yeah!</button>
         </article>
         <article class="line">
           <div class="zh">A: 千万不要掉到湖里。上次我都怕你掉进水里了。</div>
           <div class="pinyin">qiān wàn bú yào diào dào hú lǐ. shàng cì wǒ dōu pà nǐ diào jìn shuǐ lǐ le.</div>
-          <div class="en">Make sure you don&#x27;t fall in the lake. Last time, I was worried you might fall in.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_004_en.mp3" aria-label="Play English audio: Make sure you don&#x27;t fall in the lake. Last time, I was worried you might fall in.">Make sure you don&#x27;t fall in the lake. Last time, I was worried you might fall in.</button>
         </article>
         <article class="line">
           <div class="zh">A: 等一下问问队长去不去?</div>
           <div class="pinyin">děng yí xià wèn wèn duì zhǎng qù bù qù?</div>
-          <div class="en">Let&#x27;s ask Captain later if he wants to go.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_005_en.mp3" aria-label="Play English audio: Let&#x27;s ask Captain later if he wants to go.">Let&#x27;s ask Captain later if he wants to go.</button>
           <div class="note">
             <div>称呼为&quot;队长&quot;是因为“大乱斗选角色”选了队长，而&quot;老板&quot;已经退休了。前面的对话都有提到。</div>
             <div>They call the younger brother &quot;Captain&quot; because he picked Captain Falcon in the earlier &quot;Picking Characters in Smash Bros.&quot; dialogue. &quot;Boss&quot; had already retired in another dialogue.</div>
@@ -72,7 +72,7 @@
         <article class="line">
           <div class="zh">A: 我们坐三人皮划艇，弟弟坐前面，我坐中间，你坐后面。</div>
           <div class="pinyin">wǒ men zuò sān rén pí huá tǐng, dì di zuò qián miàn, wǒ zuò zhōng jiān, nǐ zuò hòu miàn.</div>
-          <div class="en">We&#x27;ll get a three-person kayak. Your brother can sit in front, I&#x27;ll sit in the middle, and you can sit in the back.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-12-summer-kayaking-plan_006_en.mp3" aria-label="Play English audio: We&#x27;ll get a three-person kayak. Your brother can sit in front, I&#x27;ll sit in the middle, and you can sit in the back.">We&#x27;ll get a three-person kayak. Your brother can sit in front, I&#x27;ll sit in the middle, and you can sit in the back.</button>
           <div class="note">
             <div>三人皮划艇价格大概130元/时。事实上成人应该坐最后，避免出现意外情况。</div>
             <div>A three-person kayak costs about 130 yuan an hour. For safety, the adult should actually sit in the back.</div>
@@ -139,6 +139,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

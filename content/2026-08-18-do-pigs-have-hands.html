@@ -6,7 +6,7 @@
 <title>猪有没有手 - SceneTalk Mandarin</title>
 <meta name="description" content="The child says pigs only have feet, not hands. Dad jokes about a dish called &quot;Zhu shou&quot; (&quot;pig&#x27;s hands&quot;)." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-18-do-pigs-have-hands.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 把手举起来！</div>
           <div class="pinyin">bǎ shǒu jǔ qǐ lái!</div>
-          <div class="en">Put your hands up!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_001_en.mp3" aria-label="Play English audio: Put your hands up!">Put your hands up!</button>
         </article>
         <article class="line">
           <div class="zh">B: 我四只手都举起来了。</div>
           <div class="pinyin">wǒ sì zhǐ shǒu dōu jǔ qǐ lái le.</div>
-          <div class="en">I&#x27;ve got all four of my hands up.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_002_en.mp3" aria-label="Play English audio: I&#x27;ve got all four of my hands up.">I&#x27;ve got all four of my hands up.</button>
         </article>
         <article class="line">
           <div class="zh">A: 这是脚！</div>
           <div class="pinyin">zhè shì jiǎo!</div>
-          <div class="en">Those are feet!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_003_en.mp3" aria-label="Play English audio: Those are feet!">Those are feet!</button>
         </article>
         <article class="line">
           <div class="zh">B: 那猪有没有手？</div>
           <div class="pinyin">nà zhū yǒu méi yǒu shǒu?</div>
-          <div class="en">Then do pigs have hands?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_004_en.mp3" aria-label="Play English audio: Then do pigs have hands?">Then do pigs have hands?</button>
           <div class="note">
             <div>怎么区分手和脚？</div>
             <div>How do you tell hands from feet?</div>
@@ -67,12 +67,12 @@
         <article class="line">
           <div class="zh">A: 都是脚，没有手。</div>
           <div class="pinyin">dōu shì jiǎo, méi yǒu shǒu.</div>
-          <div class="en">They&#x27;re all feet. No hands.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_005_en.mp3" aria-label="Play English audio: They&#x27;re all feet. No hands.">They&#x27;re all feet. No hands.</button>
         </article>
         <article class="line">
           <div class="zh">B: 不是有“猪手”吗？</div>
           <div class="pinyin">bú shì yǒu “zhū shǒu” ma?</div>
-          <div class="en">But what about &quot;Zhu shou&quot; (&quot;pig&#x27;s hands&quot;)?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-18-do-pigs-have-hands_006_en.mp3" aria-label="Play English audio: But what about &quot;Zhu shou&quot; (&quot;pig&#x27;s hands&quot;)?">But what about &quot;Zhu shou&quot; (&quot;pig&#x27;s hands&quot;)?</button>
           <div class="note">
             <div>“猪手”是一个菜名。</div>
             <div>&quot;Zhu shou&quot; is the name of a Chinese dish.</div>
@@ -139,6 +139,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

@@ -6,7 +6,7 @@
 <title>快乐的歌 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks about a &quot;happy&quot; song, and Dad realizes it is Mayday&#x27;s &quot;You Are Not Truly Happy&quot;" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-06-not-really-happy-song.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 昨天那首快……乐的歌是？</div>
           <div class="pinyin">zuó tiān nà shǒu kuài …… lè de gē shì?</div>
-          <div class="en">What was that &quot;kuai... le&quot; song from yesterday?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-not-really-happy-song_001_en.mp3" aria-label="Play English audio: What was that &quot;kuai... le&quot; song from yesterday?">What was that &quot;kuai... le&quot; song from yesterday?</button>
           <div class="note">
             <div>孩子说的是“快乐的歌”。</div>
             <div>The child means &quot;the happy song.&quot;</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">A: 唱得很快的歌？</div>
           <div class="pinyin">chàng de hěn kuài de gē?</div>
-          <div class="en">A fast song?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-not-really-happy-song_002_en.mp3" aria-label="Play English audio: A fast song?">A fast song?</button>
           <div class="note">
             <div>当时正在用 HomePod 听歌，父亲没听清“乐”字。</div>
             <div>They are listening to music on a HomePod, and the father only hears &quot;kuai.&quot;</div>
@@ -61,17 +61,17 @@
         <article class="line">
           <div class="zh">B: 快乐的歌。</div>
           <div class="pinyin">kuài lè de gē.</div>
-          <div class="en">The happy song.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-not-really-happy-song_003_en.mp3" aria-label="Play English audio: The happy song.">The happy song.</button>
         </article>
         <article class="line">
           <div class="zh">A: 五月天，《你不是真正的快乐》。</div>
           <div class="pinyin">wǔ yuè tiān,《 nǐ bú shì zhēn zhèng de kuài lè 》.</div>
-          <div class="en">Mayday. &quot;You Are Not Truly Happy.&quot;</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-not-really-happy-song_004_en.mp3" aria-label="Play English audio: Mayday. &quot;You Are Not Truly Happy.&quot;">Mayday. &quot;You Are Not Truly Happy.&quot;</button>
         </article>
         <article class="line">
           <div class="zh">A: 你不是真正的快乐……</div>
           <div class="pinyin">nǐ bú shì zhēn zhèng de kuài lè ……</div>
-          <div class="en">&quot;Ni bu shi zhenzheng de kuaile...&quot; (He sings a line from the song.)</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-not-really-happy-song_005_en.mp3" aria-label="Play English audio: &quot;Ni bu shi zhenzheng de kuaile...&quot; (He sings a line from the song.)">&quot;Ni bu shi zhenzheng de kuaile...&quot; (He sings a line from the song.)</button>
           <div class="note">
             <div>父亲小唱了一句歌词。</div>
             <div>The father sings a short lyric line.</div>
@@ -128,6 +128,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

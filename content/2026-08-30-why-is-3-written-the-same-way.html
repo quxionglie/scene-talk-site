@@ -6,7 +6,7 @@
 <title>为什么都写3 - SceneTalk Mandarin</title>
 <meta name="description" content="The child notices that the number 3 is written the same way in Chinese and English. The child&#x27;s father explains that Arabic numerals are used worldwide but pronounced differently." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-30-why-is-3-written-the-same-way.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">A: 为什么我们这里是3，英文里也是3？</div>
           <div class="pinyin">wèi shén me wǒ men zhè lǐ shì 3, yīng wén lǐ yě shì 3?</div>
-          <div class="en">Why is it written as 3 in both Chinese and English?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-why-is-3-written-the-same-way_001_en.mp3" aria-label="Play English audio: Why is it written as 3 in both Chinese and English?">Why is it written as 3 in both Chinese and English?</button>
           <div class="note">
             <div>如当前对话会分别显示中文、拼音和英文，但其中的数字都写成 3。</div>
             <div>This dialogue is shown in Chinese, pinyin, and English, but the number is written as 3 in all three.</div>
@@ -52,12 +52,12 @@
         <article class="line">
           <div class="zh">B: 阿拉伯数字是全球通用的。</div>
           <div class="pinyin">ā lā bó shù zì shì quán qiú tōng yòng de.</div>
-          <div class="en">Arabic numerals are used all over the world.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-why-is-3-written-the-same-way_002_en.mp3" aria-label="Play English audio: Arabic numerals are used all over the world.">Arabic numerals are used all over the world.</button>
         </article>
         <article class="line">
           <div class="zh">B: 都是写3。但中文读“sān”（三），英文读 /θriː/（three）。</div>
           <div class="pinyin">dōu shì xiě 3. dàn zhōng wén dú “sān”（ sān ）, yīng wén dú  /θriː/（three）.</div>
-          <div class="en">They&#x27;re both written as 3. In Chinese, it&#x27;s pronounced &quot;sān&quot; (三), and in English, it&#x27;s pronounced /θriː/ (three).</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-why-is-3-written-the-same-way_003_en.mp3" aria-label="Play English audio: They&#x27;re both written as 3. In Chinese, it&#x27;s pronounced &quot;sān&quot; (三), and in English, it&#x27;s pronounced /θriː/ (three).">They&#x27;re both written as 3. In Chinese, it&#x27;s pronounced &quot;sān&quot; (三), and in English, it&#x27;s pronounced /θriː/ (three).</button>
           <div class="note">
             <div>字写的都是3，但读音不一样。</div>
             <div>It&#x27;s written as 3 in both languages, but it&#x27;s pronounced differently.</div>
@@ -66,12 +66,12 @@
         <article class="line">
           <div class="zh">B: 你知道0、1、2叫作阿拉伯数字吧？</div>
           <div class="pinyin">nǐ zhī dào 0,1,2 jiào zuò ā lā bó shù zì ba?</div>
-          <div class="en">You know that 0, 1, and 2 are Arabic numerals, right?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-why-is-3-written-the-same-way_004_en.mp3" aria-label="Play English audio: You know that 0, 1, and 2 are Arabic numerals, right?">You know that 0, 1, and 2 are Arabic numerals, right?</button>
         </article>
         <article class="line">
           <div class="zh">A: 知道。</div>
           <div class="pinyin">zhī dào.</div>
-          <div class="en">Yeah.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-30-why-is-3-written-the-same-way_005_en.mp3" aria-label="Play English audio: Yeah.">Yeah.</button>
         </article>
       </div>
     </section>
@@ -124,6 +124,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

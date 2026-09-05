@@ -6,7 +6,7 @@
 <title>下雨了吗 - SceneTalk Mandarin</title>
 <meta name="description" content="The child fools everyone by saying it&#x27;s raining, then explains that a street-cleaning truck sprayed water on the road." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-28-did-it-rain.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 下雨了。</div>
           <div class="pinyin">xià yǔ le.</div>
-          <div class="en">It&#x27;s raining.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_001_en.mp3" aria-label="Play English audio: It&#x27;s raining.">It&#x27;s raining.</button>
         </article>
         <article class="line">
           <div class="zh">B: 哪里有下雨吗？</div>
           <div class="pinyin">nǎ lǐ yǒu xià yǔ ma?</div>
-          <div class="en">Where? I don&#x27;t see any rain.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_002_en.mp3" aria-label="Play English audio: Where? I don&#x27;t see any rain.">Where? I don&#x27;t see any rain.</button>
           <div class="note">
             <div>母亲向窗外看了看。</div>
             <div>Mom looks out the window.</div>
@@ -57,12 +57,12 @@
         <article class="line">
           <div class="zh">A: 骗你的。</div>
           <div class="pinyin">piàn nǐ de.</div>
-          <div class="en">Just kidding.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_003_en.mp3" aria-label="Play English audio: Just kidding.">Just kidding.</button>
         </article>
         <article class="line">
           <div class="zh">C: 现在骗子真多。一个、两个、三个。</div>
           <div class="pinyin">xiàn zài piàn zi zhēn duō. yí gè, liǎng gè, sān gè.</div>
-          <div class="en">There sure are a lot of liars around here. One, two, three.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_004_en.mp3" aria-label="Play English audio: There sure are a lot of liars around here. One, two, three.">There sure are a lot of liars around here. One, two, three.</button>
           <div class="note">
             <div>父亲一边说，一边按屋里的人数数。</div>
             <div>Dad counts everyone in the room as he says this.</div>
@@ -71,7 +71,7 @@
         <article class="line">
           <div class="zh">C: 下雨了，地板不是湿了吗？</div>
           <div class="pinyin">xià yǔ le, dì bǎn bú shì shī le ma?</div>
-          <div class="en">It did rain. The ground&#x27;s wet, isn&#x27;t it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_005_en.mp3" aria-label="Play English audio: It did rain. The ground&#x27;s wet, isn&#x27;t it?">It did rain. The ground&#x27;s wet, isn&#x27;t it?</button>
           <div class="note">
             <div>父亲还是不放心，向窗外看了看，发现马路是湿的。</div>
             <div>Still unsure, Dad looks out the window and sees that the road is wet.</div>
@@ -80,12 +80,12 @@
         <article class="line">
           <div class="zh">A: 洒水车洒的水，我刚才看到了。</div>
           <div class="pinyin">sǎ shuǐ chē sǎ de shuǐ, wǒ gāng cái kàn dào le.</div>
-          <div class="en">It&#x27;s water from a street-cleaning truck. I just saw it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_006_en.mp3" aria-label="Play English audio: It&#x27;s water from a street-cleaning truck. I just saw it.">It&#x27;s water from a street-cleaning truck. I just saw it.</button>
         </article>
         <article class="line">
           <div class="zh">C: 还真是喔！</div>
           <div class="pinyin">hái zhēn shì ō!</div>
-          <div class="en">Oh, you&#x27;re right!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-28-did-it-rain_007_en.mp3" aria-label="Play English audio: Oh, you&#x27;re right!">Oh, you&#x27;re right!</button>
         </article>
       </div>
     </section>
@@ -138,6 +138,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

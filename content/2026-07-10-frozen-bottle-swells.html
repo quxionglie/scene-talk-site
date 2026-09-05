@@ -6,7 +6,7 @@
 <title>冻胀的瓶子 - SceneTalk Mandarin</title>
 <meta name="description" content="The child finds the big bottle of water frozen solid and bulging after a day in the freezer" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-10-frozen-bottle-swells.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 我的瓶子已经冻成冰了。</div>
           <div class="pinyin">wǒ de píng zi yǐ jīng dòng chéng bīng le.</div>
-          <div class="en">My bottle&#x27;s frozen solid.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-10-frozen-bottle-swells_001_en.mp3" aria-label="Play English audio: My bottle&#x27;s frozen solid.">My bottle&#x27;s frozen solid.</button>
           <div class="note">
             <div>瓶子在冰箱里放了一天。</div>
             <div>The bottle has been in the freezer for a day.</div>
@@ -52,12 +52,12 @@
         <article class="line">
           <div class="zh">A: 拿出来看看。</div>
           <div class="pinyin">ná chū lái kàn kàn.</div>
-          <div class="en">Take it out. Let&#x27;s see.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-10-frozen-bottle-swells_002_en.mp3" aria-label="Play English audio: Take it out. Let&#x27;s see.">Take it out. Let&#x27;s see.</button>
         </article>
         <article class="line">
           <div class="zh">B: 已经胀起来了。</div>
           <div class="pinyin">yǐ jīng zhàng qǐ lái le.</div>
-          <div class="en">It&#x27;s bulging.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-10-frozen-bottle-swells_003_en.mp3" aria-label="Play English audio: It&#x27;s bulging.">It&#x27;s bulging.</button>
           <div class="note">
             <div>水变成冰后体积会增大。</div>
             <div>Water expands when it freezes.</div>
@@ -66,12 +66,12 @@
         <article class="line">
           <div class="zh">A: 下次瓶子水装少一点，不然就变成这样子了。</div>
           <div class="pinyin">xià cì píng zi shuǐ zhuāng shǎo yì diǎn, bù rán jiù biàn chéng zhè yàng zi le.</div>
-          <div class="en">Don&#x27;t fill it up so much next time, or it&#x27;ll end up like this.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-10-frozen-bottle-swells_004_en.mp3" aria-label="Play English audio: Don&#x27;t fill it up so much next time, or it&#x27;ll end up like this.">Don&#x27;t fill it up so much next time, or it&#x27;ll end up like this.</button>
         </article>
         <article class="line">
           <div class="zh">A: 幸好是塑料的，不然就爆了。</div>
           <div class="pinyin">xìng hǎo shì sù liào de, bù rán jiù bào le.</div>
-          <div class="en">Good thing it&#x27;s plastic, or it would&#x27;ve burst.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-10-frozen-bottle-swells_005_en.mp3" aria-label="Play English audio: Good thing it&#x27;s plastic, or it would&#x27;ve burst.">Good thing it&#x27;s plastic, or it would&#x27;ve burst.</button>
           <div class="note">
             <div>像罐装可乐放进冰箱，结冰后就可能会爆掉。</div>
             <div>A can of Coke can burst if you leave it in the freezer and it freezes.</div>
@@ -138,6 +138,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

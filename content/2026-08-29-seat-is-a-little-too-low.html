@@ -6,7 +6,7 @@
 <title>座位有点矮了 - SceneTalk Mandarin</title>
 <meta name="description" content="The child has grown taller, and his bike seat now feels too low. He can&#x27;t stretch his legs out or ride fast outside, so he asks his father to raise it." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-29-seat-is-a-little-too-low.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,27 +43,27 @@
         <article class="line">
           <div class="zh">A: 爸爸，能帮我调一下车的座位不？</div>
           <div class="pinyin">bà ba, néng bāng wǒ tiáo yí xià chē de zuò wèi bù?</div>
-          <div class="en">Dad, can you help me adjust my bike seat?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_001_en.mp3" aria-label="Play English audio: Dad, can you help me adjust my bike seat?">Dad, can you help me adjust my bike seat?</button>
         </article>
         <article class="line">
           <div class="zh">B: 自行车吗？你想怎么调？</div>
           <div class="pinyin">zì xíng chē ma? nǐ xiǎng zěn me tiáo?</div>
-          <div class="en">Your bike? How do you want me to adjust it?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_002_en.mp3" aria-label="Play English audio: Your bike? How do you want me to adjust it?">Your bike? How do you want me to adjust it?</button>
         </article>
         <article class="line">
           <div class="zh">A: 现在座位有点矮了！</div>
           <div class="pinyin">xiàn zài zuò wèi yǒu diǎn ǎi le!</div>
-          <div class="en">The seat is a little too low now!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_003_en.mp3" aria-label="Play English audio: The seat is a little too low now!">The seat is a little too low now!</button>
         </article>
         <article class="line">
           <div class="zh">B: 我们现在去看看吧。</div>
           <div class="pinyin">wǒ men xiàn zài qù kàn kàn ba.</div>
-          <div class="en">Let&#x27;s go take a look.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_004_en.mp3" aria-label="Play English audio: Let&#x27;s go take a look.">Let&#x27;s go take a look.</button>
         </article>
         <article class="line">
           <div class="zh">B: 你坐上来试一下。</div>
           <div class="pinyin">nǐ zuò shàng lái shì yī xià.</div>
-          <div class="en">Hop on and try it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_005_en.mp3" aria-label="Play English audio: Hop on and try it.">Hop on and try it.</button>
           <div class="note">
             <div>把车搬到客厅后。</div>
             <div>After moving the bike into the living room.</div>
@@ -72,12 +72,12 @@
         <article class="line">
           <div class="zh">A: 你看，腿已经到这里了。</div>
           <div class="pinyin">nǐ kàn, tuǐ yǐ jīng dào zhè lǐ le.</div>
-          <div class="en">Look, my knees are already up this high.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_006_en.mp3" aria-label="Play English audio: Look, my knees are already up this high.">Look, my knees are already up this high.</button>
         </article>
         <article class="line">
           <div class="zh">B: 好，我调高一下。</div>
           <div class="pinyin">hǎo, wǒ tiáo gāo yí xià.</div>
-          <div class="en">Okay, I&#x27;ll raise it a little.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-29-seat-is-a-little-too-low_007_en.mp3" aria-label="Play English audio: Okay, I&#x27;ll raise it a little.">Okay, I&#x27;ll raise it a little.</button>
         </article>
       </div>
     </section>
@@ -130,6 +130,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

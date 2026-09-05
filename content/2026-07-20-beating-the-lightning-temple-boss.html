@@ -6,7 +6,7 @@
 <title>打赢雷之神殿的 Boss - SceneTalk Mandarin</title>
 <meta name="description" content="The child beats the Lightning Temple boss after dying just once—to a regular enemy, not the boss." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-20-beating-the-lightning-temple-boss.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 我打赢了雷之神殿的 Boss。</div>
           <div class="pinyin">wǒ dǎ yíng le léi zhī shén diàn de  Boss.</div>
-          <div class="en">I beat the Lightning Temple boss.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_001_en.mp3" aria-label="Play English audio: I beat the Lightning Temple boss.">I beat the Lightning Temple boss.</button>
           <div class="note">
             <div>雷之神殿 Boss 是吉波得女王。</div>
             <div>The Lightning Temple boss is Queen Gibdo.</div>
@@ -52,27 +52,27 @@
         <article class="line">
           <div class="zh">A: 这么强！打了几次？</div>
           <div class="pinyin">zhè me qiáng! dǎ le jǐ cì?</div>
-          <div class="en">Wow, nice! How many tries did it take?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_002_en.mp3" aria-label="Play English audio: Wow, nice! How many tries did it take?">Wow, nice! How many tries did it take?</button>
         </article>
         <article class="line">
           <div class="zh">B: 死了一次，后面才打赢。我用了好多时间。</div>
           <div class="pinyin">sǐ le yī cì, hòu miàn cái dǎ yíng. wǒ yòng le hǎo duō shí jiān.</div>
-          <div class="en">I died once, but I finally beat it. It took me a long time.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_003_en.mp3" aria-label="Play English audio: I died once, but I finally beat it. It took me a long time.">I died once, but I finally beat it. It took me a long time.</button>
         </article>
         <article class="line">
           <div class="zh">B: 我就是被小怪扑过来打死的，不是 Boss 打死的！</div>
           <div class="pinyin">wǒ jiù shì bèi xiǎo guài pū guò lái dǎ sǐ de, bú shì  Boss  dǎ sǐ de!</div>
-          <div class="en">A regular enemy jumped at me and killed me. The boss didn&#x27;t kill me!</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_004_en.mp3" aria-label="Play English audio: A regular enemy jumped at me and killed me. The boss didn&#x27;t kill me!">A regular enemy jumped at me and killed me. The boss didn&#x27;t kill me!</button>
         </article>
         <article class="line">
           <div class="zh">A: 从后面偷袭的？</div>
           <div class="pinyin">cóng hòu miàn tōu xí de?</div>
-          <div class="en">Did it sneak up on you from behind?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_005_en.mp3" aria-label="Play English audio: Did it sneak up on you from behind?">Did it sneak up on you from behind?</button>
         </article>
         <article class="line">
           <div class="zh">B: 正面打的，我正在看上面的树，没注意到地面的情况。</div>
           <div class="pinyin">zhèng miàn dǎ de, wǒ zhèng zài kàn shàng miàn de shù, méi zhù yì dào dì miàn de qíng kuàng.</div>
-          <div class="en">No, it came at me from the front. I was looking at the trees above me and wasn&#x27;t watching the ground.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-20-beating-the-lightning-temple-boss_006_en.mp3" aria-label="Play English audio: No, it came at me from the front. I was looking at the trees above me and wasn&#x27;t watching the ground.">No, it came at me from the front. I was looking at the trees above me and wasn&#x27;t watching the ground.</button>
         </article>
       </div>
     </section>
@@ -125,6 +125,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

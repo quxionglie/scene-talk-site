@@ -6,7 +6,7 @@
 <title>不会超过两百 - SceneTalk Mandarin</title>
 <meta name="description" content="The child asks when Dad bought the suitcase and how much it cost. Dad says he wouldn&#x27;t have bought it for more than 200 yuan." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-12-under-200-yuan.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,22 +43,22 @@
         <article class="line">
           <div class="zh">A: 爸爸，行李箱什么时候买的？</div>
           <div class="pinyin">bà bà, xíng lǐ xiāng shén me shí hòu mǎi de?</div>
-          <div class="en">Dad, when did you buy this suitcase?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_001_en.mp3" aria-label="Play English audio: Dad, when did you buy this suitcase?">Dad, when did you buy this suitcase?</button>
         </article>
         <article class="line">
           <div class="zh">B: 我买的时候你没出生呢！我都忘记什么时候买的了，很多年了。</div>
           <div class="pinyin">wǒ mǎi de shí hòu nǐ méi chū shēng ne! wǒ dōu wàng jì shén me shí hòu mǎi de le, hěn duō nián le.</div>
-          <div class="en">You weren&#x27;t even born when I bought it! I don&#x27;t remember when I got it. It was years ago.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_002_en.mp3" aria-label="Play English audio: You weren&#x27;t even born when I bought it! I don&#x27;t remember when I got it. It was years ago.">You weren&#x27;t even born when I bought it! I don&#x27;t remember when I got it. It was years ago.</button>
         </article>
         <article class="line">
           <div class="zh">A: 行李箱贵吗？</div>
           <div class="pinyin">xíng lǐ xiāng guì ma?</div>
-          <div class="en">Was the suitcase expensive?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_003_en.mp3" aria-label="Play English audio: Was the suitcase expensive?">Was the suitcase expensive?</button>
         </article>
         <article class="line">
           <div class="zh">B: 100多左右，不会超过200。</div>
           <div class="pinyin">100 duō zuǒ yòu, bú huì chāo guò 200.</div>
-          <div class="en">Somewhere over 100 yuan, but not over 200.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_004_en.mp3" aria-label="Play English audio: Somewhere over 100 yuan, but not over 200.">Somewhere over 100 yuan, but not over 200.</button>
           <div class="note">
             <div>不超过200块人民币</div>
             <div>No more than 200 yuan.</div>
@@ -67,7 +67,7 @@
         <article class="line">
           <div class="zh">A: 为什么？</div>
           <div class="pinyin">wèi shén me?</div>
-          <div class="en">Why?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_005_en.mp3" aria-label="Play English audio: Why?">Why?</button>
           <div class="note">
             <div>为什么是这个价格？父亲记不住购买时间，为什么还知道价格？</div>
             <div>The child is asking why that price, and how Dad still remembers it when he does not remember when he bought it.</div>
@@ -76,7 +76,7 @@
         <article class="line">
           <div class="zh">B: 超过200我不会买。</div>
           <div class="pinyin">chāo guò 200 wǒ bú huì mǎi.</div>
-          <div class="en">If it had been over 200, I wouldn&#x27;t have bought it.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-12-under-200-yuan_006_en.mp3" aria-label="Play English audio: If it had been over 200, I wouldn&#x27;t have bought it.">If it had been over 200, I wouldn&#x27;t have bought it.</button>
         </article>
       </div>
     </section>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

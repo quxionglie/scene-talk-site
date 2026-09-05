@@ -6,7 +6,7 @@
 <title>不开空调 - SceneTalk Mandarin</title>
 <meta name="description" content="The AC is on in the other rooms, but not in Dad&#x27;s room, so the child asks why he will not turn it on" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-07-06-no-air-conditioner.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +43,7 @@
         <article class="line">
           <div class="zh">B: 老爸，你不开空调吗？天气很热了。</div>
           <div class="pinyin">lǎo bà, nǐ bù kāi kōng tiáo ma? tiān qì hěn rè le.</div>
-          <div class="en">Dad, are you not turning on the AC? It&#x27;s getting really hot.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-no-air-conditioner_001_en.mp3" aria-label="Play English audio: Dad, are you not turning on the AC? It&#x27;s getting really hot.">Dad, are you not turning on the AC? It&#x27;s getting really hot.</button>
           <div class="note">
             <div>只是父亲自己的房间没开，其它房间都开了</div>
             <div>Only Dad&#x27;s room has no AC on; the other rooms do.</div>
@@ -52,7 +52,7 @@
         <article class="line">
           <div class="zh">A: 不开不开我不开。</div>
           <div class="pinyin">bù kāi bù kāi wǒ bù kāi.</div>
-          <div class="en">No, no, I&#x27;m not turning it on.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-no-air-conditioner_002_en.mp3" aria-label="Play English audio: No, no, I&#x27;m not turning it on.">No, no, I&#x27;m not turning it on.</button>
           <div class="note">
             <div>父亲重复“不开”，带一点玩笑语气。</div>
             <div>Dad repeats the line in a joking tone.</div>
@@ -61,7 +61,7 @@
         <article class="line">
           <div class="zh">B: 妈妈没回来，谁来也不开。</div>
           <div class="pinyin">mā mā méi huí lái, shuí lái yě bù kāi.</div>
-          <div class="en">Mom&#x27;s not back. No matter who comes, we won&#x27;t turn it on.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-07-06-no-air-conditioner_003_en.mp3" aria-label="Play English audio: Mom&#x27;s not back. No matter who comes, we won&#x27;t turn it on.">Mom&#x27;s not back. No matter who comes, we won&#x27;t turn it on.</button>
           <div class="note">
             <div>儿歌《小白兔乖乖》 的歌词。孩子接着父亲的话唱的</div>
             <div>The child follows Dad&#x27;s line and borrows the pattern from the nursery rhyme &quot;Xiao Bai Tu Guai Guai.&quot;</div>
@@ -118,6 +118,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>

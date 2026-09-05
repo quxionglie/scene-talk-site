@@ -6,7 +6,7 @@
 <title>什么时候能喝咖啡 - SceneTalk Mandarin</title>
 <meta name="description" content="The child wants to drink Dad&#x27;s water. Dad says there is coffee in the mug." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-14-when-can-i-drink-coffee.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1788587647607032000" />
+<link rel="stylesheet" href="../assets/site.css?v=1788627009570836000" />
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +43,12 @@
         <article class="line">
           <div class="zh">A: 你的水能喝吗？</div>
           <div class="pinyin">nǐ de shuǐ néng hē ma?</div>
-          <div class="en">Can I drink your water?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_001_en.mp3" aria-label="Play English audio: Can I drink your water?">Can I drink your water?</button>
         </article>
         <article class="line">
           <div class="zh">B: 不能喝杯子里面的水，杯子里面有咖啡！你喝保温杯里面的。</div>
           <div class="pinyin">bù néng hē bēi zi lǐ miàn de shuǐ, bēi zi lǐ miàn yǒu kā fēi! nǐ hē bǎo wēn bēi lǐ miàn de.</div>
-          <div class="en">Don&#x27;t drink from the mug. There&#x27;s coffee in it! Drink from the thermos.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_002_en.mp3" aria-label="Play English audio: Don&#x27;t drink from the mug. There&#x27;s coffee in it! Drink from the thermos.">Don&#x27;t drink from the mug. There&#x27;s coffee in it! Drink from the thermos.</button>
           <div class="note">
             <div>马克杯里的水有咖啡。</div>
             <div>The mug has coffee in it.</div>
@@ -57,17 +57,17 @@
         <article class="line">
           <div class="zh">A: 保温杯的水太烫了。</div>
           <div class="pinyin">bǎo wēn bēi de shuǐ tài tàng le.</div>
-          <div class="en">The water in the thermos is too hot.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_003_en.mp3" aria-label="Play English audio: The water in the thermos is too hot.">The water in the thermos is too hot.</button>
         </article>
         <article class="line">
           <div class="zh">B: 你知道你什么时候才能喝咖啡和茶吗？</div>
           <div class="pinyin">nǐ zhī dào nǐ shén me shí hòu cái néng hē kā fēi hé chá ma?</div>
-          <div class="en">Do you know when you can start drinking coffee and tea?</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_004_en.mp3" aria-label="Play English audio: Do you know when you can start drinking coffee and tea?">Do you know when you can start drinking coffee and tea?</button>
         </article>
         <article class="line">
           <div class="zh">A: 12岁以上。</div>
           <div class="pinyin">12 suì yǐ shàng.</div>
-          <div class="en">When I&#x27;m 12 or older.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_005_en.mp3" aria-label="Play English audio: When I&#x27;m 12 or older.">When I&#x27;m 12 or older.</button>
           <div class="note">
             <div>咖啡和茶：12岁以下应避免饮用，12岁以上可适量饮用，18岁后可正常饮用。</div>
             <div>Coffee and tea: children under 12 should avoid them, children 12 and older can have them in moderation, and adults over 18 can drink them normally.</div>
@@ -76,7 +76,7 @@
         <article class="line">
           <div class="zh">B: 12岁就是要上初中以后才行。上了初中才能喝一点。</div>
           <div class="pinyin">12 suì jiù shì yào shàng chū zhōng yǐ hòu cái xíng. shàng le chū zhōng cái néng hē yì diǎn.</div>
-          <div class="en">Twelve means after you start junior high. Once you&#x27;re in junior high, you can have a little.</div>
+          <button class="en dialogue-audio-trigger" type="button" data-audio-src="../assets/audio/2026/2026-08-14-when-can-i-drink-coffee_006_en.mp3" aria-label="Play English audio: Twelve means after you start junior high. Once you&#x27;re in junior high, you can have a little.">Twelve means after you start junior high. Once you&#x27;re in junior high, you can have a little.</button>
         </article>
       </div>
     </section>
@@ -129,6 +129,33 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape" && !lightbox.hidden) close();
         });
+      })();
+    </script>
+    <script>
+      (() => {
+        const triggers = document.querySelectorAll(".dialogue-audio-trigger");
+        if (!triggers.length) return;
+
+        const audio = new Audio();
+        let activeTrigger = null;
+        const clearActiveTrigger = () => {
+          if (activeTrigger) activeTrigger.classList.remove("is-playing");
+          activeTrigger = null;
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", () => {
+            audio.pause();
+            clearActiveTrigger();
+            activeTrigger = trigger;
+            activeTrigger.classList.add("is-playing");
+            audio.src = trigger.dataset.audioSrc || "";
+            audio.play().catch(clearActiveTrigger);
+          });
+        });
+
+        audio.addEventListener("ended", clearActiveTrigger);
+        audio.addEventListener("error", clearActiveTrigger);
       })();
     </script>
   </main>
