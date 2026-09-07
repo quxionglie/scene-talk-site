@@ -221,7 +221,7 @@
   .back-link {
     display: inline-block;
     color: var(--muted);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 750;
     text-decoration: none;
   }
@@ -266,6 +266,43 @@
     font-size: 18px;
     line-height: 1.35;
     font-weight: 620;
+  }
+  .daily-lookup {
+    width: min(100%, 420px);
+    margin: 24px 0 18px;
+  }
+  .daily-lookup label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--ink);
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .daily-lookup-controls {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .daily-lookup input {
+    min-width: 0;
+    flex: 1 1 auto;
+    min-height: 44px;
+    padding: 0 13px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #ffffff;
+    color: var(--ink);
+    font: inherit;
+  }
+  .daily-lookup input:focus {
+    border-color: var(--accent);
+    outline: 3px solid var(--accent-soft);
+  }
+  .daily-lookup .button {
+    flex: 0 0 auto;
+    min-height: 44px;
+    border: 0;
+    cursor: pointer;
   }
   .content-meta {
     margin-top: 24px;
