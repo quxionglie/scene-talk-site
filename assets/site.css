@@ -679,4 +679,9 @@
     .app-promo {
       flex-direction: column;
     }
+    .promo-qr {
+      flex-basis: auto;
+      width: 142px;
+      text-align: left;
+    }
   }
