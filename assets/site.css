@@ -418,6 +418,15 @@
     width: fit-content;
     max-width: 100%;
   }
+  .summary-audio-trigger,
+  .note-audio-trigger {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
   .audio-trigger:hover,
   .audio-trigger.is-playing {
     color: var(--accent);
