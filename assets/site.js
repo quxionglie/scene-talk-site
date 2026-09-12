@@ -45,6 +45,8 @@
   const triggers = document.querySelectorAll(".audio-trigger");
   const playAllButton = document.querySelector("[data-audio-play-all]");
   const loopSwitch = document.querySelector("[data-audio-loop]");
+  const audioToggle = document.querySelector("[data-audio-toggle]");
+  const audioPosition = document.querySelector("[data-audio-position]");
   if (!triggers.length && !playAllButton) return;
 
   const audio = document.querySelector("[data-audio-player]") || new Audio();
@@ -52,6 +54,24 @@
   let queue = [];
   let playAllQueue = [];
   let isPlayingAll = false;
+  const dialogueSegments = Array.from(
+    document.querySelectorAll("[data-dialogue-segment]"),
+    (element) => element.dataset.dialogueSegment,
+  );
+  const dialogueCount = Number(audio.dataset.dialogueCount) || dialogueSegments.length;
+  const updateAudioPosition = (item) => {
+    if (!audioPosition) return;
+    const index = item ? dialogueSegments.indexOf(item.segment_id) : -1;
+    audioPosition.textContent = `${index + 1} / ${dialogueCount}`;
+  };
+  const setTogglePlaying = (playing) => {
+    if (!audioToggle) return;
+    audioToggle.classList.toggle("is-playing", playing);
+    audioToggle.setAttribute(
+      "aria-label",
+      playing ? "Pause current audio" : "Play current audio",
+    );
+  };
   const clearActiveTrigger = () => {
     if (activeTrigger) activeTrigger.classList.remove("is-playing");
     activeTrigger = null;
@@ -69,16 +89,20 @@
   const playSource = (source) => {
     if (!source) return;
     audio.src = source;
+    if (audioToggle) audioToggle.disabled = false;
     audio.play().catch(() => {
       queue = [];
       playAllQueue = [];
       isPlayingAll = false;
       clearActiveTrigger();
+      updateAudioPosition(null);
+      setTogglePlaying(false);
     });
   };
   const playQueueItem = (item) => {
     if (!item) return;
     highlightQueueItem(item);
+    updateAudioPosition(item);
     playSource(item.url);
   };
 
@@ -91,9 +115,21 @@
       clearActiveTrigger();
       activeTrigger = trigger;
       activeTrigger.classList.add("is-playing");
+      updateAudioPosition({ segment_id: trigger.dataset.audioSegment || "" });
       playSource(trigger.dataset.audioSrc || "");
     });
   });
+
+  if (audioToggle) {
+    audioToggle.addEventListener("click", () => {
+      if (!audio.src) return;
+      if (audio.paused) {
+        audio.play().catch(() => setTogglePlaying(false));
+      } else {
+        audio.pause();
+      }
+    });
+  }
 
   if (playAllButton) {
     const manifestElement = document.getElementById("audio-manifest-data");
@@ -126,12 +162,17 @@
     }
     isPlayingAll = false;
     clearActiveTrigger();
+    updateAudioPosition(null);
   });
+  audio.addEventListener("play", () => setTogglePlaying(true));
+  audio.addEventListener("pause", () => setTogglePlaying(false));
   audio.addEventListener("error", () => {
     queue = [];
     playAllQueue = [];
     isPlayingAll = false;
     clearActiveTrigger();
+    updateAudioPosition(null);
+    setTogglePlaying(false);
   });
 })();
 

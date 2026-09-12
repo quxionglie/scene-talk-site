@@ -6,8 +6,8 @@
 <title>不焦不躁 - SceneTalk Mandarin</title>
 <meta name="description" content="At registration for the new semester, the school hands out bananas to encourage the students to stay calm and patient." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-08-31-neither-anxious-nor-impatient.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1789203194855919000" />
-<script defer src="../assets/site.js?v=1789203194855919000"></script>
+<link rel="stylesheet" href="../assets/site.css?v=1789204295200448000" />
+<script defer src="../assets/site.js?v=1789204295200448000"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 </head>
 <body>
@@ -38,13 +38,13 @@
         <div class="speaker-divider" aria-hidden="true"></div>
       </div>
       <div class="lines">
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:001">
           <div class="zh">A: 我看你的书重不重？</div>
 
           <div class="pinyin">wǒ kàn nǐ de shū zhòng bù zhòng?</div>
           <button class="en dialogue-audio-trigger audio-trigger" type="button" data-audio-src="../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_001_en-us.mp3" data-audio-segment="dialogue:001" data-audio-language="en" aria-label="Play English audio: Let me see how heavy your books are.">Let me see how heavy your books are.</button>
         </article>
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:002">
           <div class="zh">B: 背得我腿都软了。</div>
 
           <div class="pinyin">bēi de wǒ tuǐ dōu ruǎn le.</div>
@@ -54,7 +54,7 @@
             <button class="note-audio-trigger audio-trigger" type="button" lang="en" data-audio-src="../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_002_en-us.mp3" aria-label="Play English note: He means the schoolbag is very heavy.">He means the schoolbag is very heavy.</button>
           </div>
         </article>
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:003">
           <div class="zh">B: 怎么发香蕉了？</div>
 
           <div class="pinyin">zěn me fā xiāng jiāo le?</div>
@@ -64,7 +64,7 @@
             <button class="note-audio-trigger audio-trigger" type="button" lang="en" data-audio-src="../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_003_en-us.mp3" aria-label="Play English note: In Mandarin, 焦 is &#34;jiao&#34; (anxious), which sounds the same as 蕉 in &#34;xiangjiao&#34; (banana), creating a pun.">In Mandarin, 焦 is &#34;jiao&#34; (anxious), which sounds the same as 蕉 in &#34;xiangjiao&#34; (banana), creating a pun.</button>
           </div>
         </article>
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:004">
           <div class="zh">A: 喔，不焦不躁！</div>
 
           <div class="pinyin">ō, bù jiāo bù zào!</div>
@@ -74,13 +74,13 @@
             <button class="note-audio-trigger audio-trigger" type="button" lang="en" data-audio-src="../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_004_en-us.mp3" aria-label="Play English note: The father immediately notices what is written on the cardboard sign. The more common expression is 不骄不躁, &#34;bu jiao bu zao&#34; (neither arrogant nor impatient).">The father immediately notices what is written on the cardboard sign. The more common expression is 不骄不躁, &#34;bu jiao bu zao&#34; (neither arrogant nor impatient).</button>
           </div>
         </article>
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:005">
           <div class="zh">B: 什么是不焦不躁？</div>
 
           <div class="pinyin">shén me shì bù jiāo bù zào?</div>
           <button class="en dialogue-audio-trigger audio-trigger" type="button" data-audio-src="../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_005_en-us.mp3" data-audio-segment="dialogue:005" data-audio-language="en" aria-label="Play English audio: What does &#34;bu jiao bu zao&#34; mean?">What does &#34;bu jiao bu zao&#34; mean?</button>
         </article>
-        <article class="line">
+        <article class="line" data-dialogue-segment="dialogue:006">
           <div class="zh">A: 应该是不焦虑不急躁吧！</div>
 
           <div class="pinyin">yīng gāi shì bù jiāo lǜ bù jí zào ba!</div>
@@ -136,7 +136,14 @@
         <span class="audio-loop-switch" aria-hidden="true"></span>
         <span>Loop</span>
       </label>
-      <audio class="audio-player" controls preload="none" data-audio-player aria-label="Audio player"></audio>
+      <div class="audio-playback-status">
+        <button class="audio-toggle" type="button" data-audio-toggle aria-label="Play current audio" disabled>
+          <span class="audio-toggle-play" aria-hidden="true"></span>
+          <span class="audio-toggle-pause" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <output class="audio-position" data-audio-position aria-label="Current dialogue">0 / 6</output>
+      </div>
+      <audio preload="none" data-audio-player data-dialogue-count="6"></audio>
     </div>
   </section>
   <script id="audio-manifest-data" type="application/json">{"default_track_id": "en-US-elevenlabs", "tracks": [{"clips": {"dialogue:001": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_001_en-us.mp3", "dialogue:002": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_002_en-us.mp3", "dialogue:003": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_003_en-us.mp3", "dialogue:004": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_004_en-us.mp3", "dialogue:005": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_005_en-us.mp3", "dialogue:006": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_006_en-us.mp3", "note:002": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_002_en-us.mp3", "note:003": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_003_en-us.mp3", "note:004": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_004_en-us.mp3", "summary": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_summary_en-us.mp3", "title": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_title_en-us.mp3"}, "code": "en-US", "display_name": "English (US)", "language": "\u82f1\u8bed", "playlist": [{"segment_id": "title", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_title_en-us.mp3"}, {"segment_id": "dialogue:001", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_001_en-us.mp3"}, {"segment_id": "dialogue:002", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_002_en-us.mp3"}, {"segment_id": "dialogue:003", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_003_en-us.mp3"}, {"segment_id": "dialogue:004", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_004_en-us.mp3"}, {"segment_id": "dialogue:005", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_005_en-us.mp3"}, {"segment_id": "dialogue:006", "url": "../assets/audio/2026/elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_006_en-us.mp3"}], "track_id": "en-US-elevenlabs", "variant": "\u7f8e\u5f0f\u82f1\u8bed"}]}</script>
