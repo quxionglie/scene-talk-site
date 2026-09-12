@@ -1,0 +1,144 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-08-26-only-use-it-for-gaming",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-09-12T15:39:32+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "I Only Use It for Gaming",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "Dad says using a computer is a basic skill, but the child only knows how to use one for games.",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_summary_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Dad, does my older cousin know how to use a computer too?",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Yeah. You'll learn how to use one too.",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "It'll be a basic skill by then.",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "I only know how to use it for games.",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "note:004",
+          "type": "note",
+          "source_text": "This line can mean two things. One is: “I only use a computer when I play games, but I also know how to use it for other things.” The other is: “I only know how to use a computer for gaming and nothing else.” Here, the context makes the second meaning clear.",
+          "file": "elevenlabs/2026-08-26-only-use-it-for-gaming_note_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:39:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "004"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-08-01-relaxing-after-gaokao",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-09-12T15:29:27+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Relaxing After the Gaokao",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "After the Gaokao, his older cousin stays home playing games every day. Chinese students study so hard that they need a break after the exam.",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_summary_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Why doesn't my older cousin ever go out? Why does he just play games at home every day?",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "001",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "After the Gaokao, they need to relax.",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "In high school, they study every day. Who knows how much time they even get off each week?",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "That's pretty much what happens after the Gaokao in China.",
+          "file": "elevenlabs/2026-08-01-relaxing-after-gaokao_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:29:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "004",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-06-13-little-old-man",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-09-12T15:16:12+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "A Hundred-Year-Old Little Old Man",
+          "file": "elevenlabs/2026-06-13-little-old-man_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "At home, a father and child talk about age, and the child jokes that they are one hundred years old",
+          "file": "elevenlabs/2026-06-13-little-old-man_summary_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "How old are you now?",
+          "file": "elevenlabs/2026-06-13-little-old-man_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "I'm 100.",
+          "file": "elevenlabs/2026-06-13-little-old-man_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Then can I call you a little old man?",
+          "file": "elevenlabs/2026-06-13-little-old-man_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "No.",
+          "file": "elevenlabs/2026-06-13-little-old-man_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:16:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "004",
+          "speaker": "child"
+        }
+      ]
+    }
+  ]
+}

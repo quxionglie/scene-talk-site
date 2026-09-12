@@ -1,0 +1,145 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-06-29-buying-plums",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-09-12T15:19:19+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Buying Plums",
+          "file": "elevenlabs/2026-06-29-buying-plums_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "A customer buys green and red plums at a market",
+          "file": "elevenlabs/2026-06-29-buying-plums_summary_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Auntie, how much are these plums?",
+          "file": "elevenlabs/2026-06-29-buying-plums_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "001",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "The green ones are 3 yuan per jin. The red ones are 4 yuan per jin.",
+          "file": "elevenlabs/2026-06-29-buying-plums_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "002",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "One jin of each, please. That's 7 yuan total, right?",
+          "file": "elevenlabs/2026-06-29-buying-plums_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "003",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Sure. Here you go.",
+          "file": "elevenlabs/2026-06-29-buying-plums_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "004",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Thanks.",
+          "file": "elevenlabs/2026-06-29-buying-plums_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-12T15:19:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "005",
+          "speaker": "customer"
+        }
+      ]
+    }
+  ]
+}

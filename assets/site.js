@@ -43,28 +43,96 @@
 
 (() => {
   const triggers = document.querySelectorAll(".audio-trigger");
-  if (!triggers.length) return;
+  const playAllButton = document.querySelector("[data-audio-play-all]");
+  const loopSwitch = document.querySelector("[data-audio-loop]");
+  if (!triggers.length && !playAllButton) return;
 
-  const audio = new Audio();
+  const audio = document.querySelector("[data-audio-player]") || new Audio();
   let activeTrigger = null;
+  let queue = [];
+  let playAllQueue = [];
+  let isPlayingAll = false;
   const clearActiveTrigger = () => {
     if (activeTrigger) activeTrigger.classList.remove("is-playing");
     activeTrigger = null;
+  };
+  const highlightQueueItem = (item) => {
+    clearActiveTrigger();
+    if (!item) return;
+    activeTrigger = Array.from(triggers).find(
+      (trigger) =>
+        trigger.dataset.audioSegment === item.segment_id &&
+        trigger.dataset.audioLanguage === item.language,
+    );
+    if (activeTrigger) activeTrigger.classList.add("is-playing");
+  };
+  const playSource = (source) => {
+    if (!source) return;
+    audio.src = source;
+    audio.play().catch(() => {
+      queue = [];
+      playAllQueue = [];
+      isPlayingAll = false;
+      clearActiveTrigger();
+    });
+  };
+  const playQueueItem = (item) => {
+    if (!item) return;
+    highlightQueueItem(item);
+    playSource(item.url);
   };
 
   triggers.forEach((trigger) => {
     trigger.addEventListener("click", () => {
       audio.pause();
+      queue = [];
+      playAllQueue = [];
+      isPlayingAll = false;
       clearActiveTrigger();
       activeTrigger = trigger;
       activeTrigger.classList.add("is-playing");
-      audio.src = trigger.dataset.audioSrc || "";
-      audio.play().catch(clearActiveTrigger);
+      playSource(trigger.dataset.audioSrc || "");
     });
   });
 
-  audio.addEventListener("ended", clearActiveTrigger);
-  audio.addEventListener("error", clearActiveTrigger);
+  if (playAllButton) {
+    const manifestElement = document.getElementById("audio-manifest-data");
+    const trackSelect = document.querySelector("[data-audio-track-select]");
+    const manifest = manifestElement ? JSON.parse(manifestElement.textContent) : null;
+    playAllButton.addEventListener("click", () => {
+      const trackId = trackSelect?.value || manifest?.default_track_id;
+      const track = manifest?.tracks?.find((item) => item.track_id === trackId);
+      const language = (track?.code || "").split("-", 1)[0].toLowerCase();
+      playAllQueue = (track?.playlist || [])
+        .filter((clip) => clip.url)
+        .map((clip) => ({ ...clip, language }));
+      queue = [...playAllQueue];
+      isPlayingAll = queue.length > 0;
+      audio.pause();
+      clearActiveTrigger();
+      playQueueItem(queue.shift());
+    });
+  }
+
+  audio.addEventListener("ended", () => {
+    if (queue.length) {
+      playQueueItem(queue.shift());
+      return;
+    }
+    if (isPlayingAll && loopSwitch?.checked && playAllQueue.length) {
+      queue = [...playAllQueue];
+      playQueueItem(queue.shift());
+      return;
+    }
+    isPlayingAll = false;
+    clearActiveTrigger();
+  });
+  audio.addEventListener("error", () => {
+    queue = [];
+    playAllQueue = [];
+    isPlayingAll = false;
+    clearActiveTrigger();
+  });
 })();
 
 (() => {
