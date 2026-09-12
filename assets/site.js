@@ -47,6 +47,9 @@
   const loopSwitch = document.querySelector("[data-audio-loop]");
   const audioToggle = document.querySelector("[data-audio-toggle]");
   const audioPosition = document.querySelector("[data-audio-position]");
+  const audioBar = document.querySelector("[data-audio-player-bar]");
+  const expandButton = document.querySelector("[data-audio-expand]");
+  const collapseButton = document.querySelector("[data-audio-collapse]");
   if (!triggers.length && !playAllButton) return;
 
   const audio = document.querySelector("[data-audio-player]") || new Audio();
@@ -59,6 +62,18 @@
     (element) => element.dataset.dialogueSegment,
   );
   const dialogueCount = Number(audio.dataset.dialogueCount) || dialogueSegments.length;
+  const expandAudioBar = () => {
+    if (!audioBar) return;
+    audioBar.classList.add("is-expanded");
+    audioBar.classList.remove("is-collapsed");
+    if (expandButton) expandButton.setAttribute("aria-expanded", "true");
+  };
+  const collapseAudioBar = () => {
+    if (!audioBar) return;
+    audioBar.classList.remove("is-expanded");
+    audioBar.classList.add("is-collapsed");
+    if (expandButton) expandButton.setAttribute("aria-expanded", "false");
+  };
   const updateAudioPosition = (item) => {
     if (!audioPosition) return;
     const index = item ? dialogueSegments.indexOf(item.segment_id) : -1;
@@ -108,6 +123,7 @@
 
   triggers.forEach((trigger) => {
     trigger.addEventListener("click", () => {
+      expandAudioBar();
       audio.pause();
       queue = [];
       playAllQueue = [];
@@ -131,11 +147,15 @@
     });
   }
 
+  if (expandButton) expandButton.addEventListener("click", expandAudioBar);
+  if (collapseButton) collapseButton.addEventListener("click", collapseAudioBar);
+
   if (playAllButton) {
     const manifestElement = document.getElementById("audio-manifest-data");
     const trackSelect = document.querySelector("[data-audio-track-select]");
     const manifest = manifestElement ? JSON.parse(manifestElement.textContent) : null;
     playAllButton.addEventListener("click", () => {
+      expandAudioBar();
       const trackId = trackSelect?.value || manifest?.default_track_id;
       const track = manifest?.tracks?.find((item) => item.track_id === trackId);
       const language = (track?.code || "").split("-", 1)[0].toLowerCase();

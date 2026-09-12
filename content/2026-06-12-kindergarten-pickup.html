@@ -6,8 +6,8 @@
 <title>幼儿园放学 - SceneTalk Mandarin</title>
 <meta name="description" content="A father and child talk on the way home from kindergarten" />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/content/2026-06-12-kindergarten-pickup.html" />
-<link rel="stylesheet" href="../assets/site.css?v=1789206281993283000" />
-<script defer src="../assets/site.js?v=1789206281993283000"></script>
+<link rel="stylesheet" href="../assets/site.css?v=1789208138368080000" />
+<script defer src="../assets/site.js?v=1789208138368080000"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 </head>
 <body>
@@ -117,8 +117,9 @@
     </div>
 
   </main>
-  <section class="audio-player-bar" aria-label="Audio player">
-    <div class="audio-player-bar-inner">
+  <section id="audio-player-bar" class="audio-player-bar is-collapsed" data-audio-player-bar aria-label="Audio player">
+    <button class="audio-player-launcher" type="button" data-audio-expand aria-controls="audio-player-controls" aria-expanded="false">Audio</button>
+    <div id="audio-player-controls" class="audio-player-bar-inner">
       <div class="audio-track-control">
         <select id="audio-track-select" data-audio-track-select aria-label="Audio track">
           <option value="en-US-elevenlabs" selected>English (US)</option>
@@ -126,9 +127,9 @@
       </div>
       <button class="audio-play-all" type="button" data-audio-play-all>Play All</button>
       <label class="audio-loop-control">
-        <input type="checkbox" role="switch" data-audio-loop />
+        <input type="checkbox" role="switch" data-audio-loop aria-label="Loop Play All" />
         <span class="audio-loop-switch" aria-hidden="true"></span>
-        <span>Loop</span>
+        <span class="audio-loop-label">Loop</span>
       </label>
       <div class="audio-playback-status">
         <button class="audio-toggle" type="button" data-audio-toggle aria-label="Play current audio" disabled>
@@ -136,6 +137,7 @@
           <span class="audio-toggle-pause" aria-hidden="true"><i></i><i></i></span>
         </button>
         <output class="audio-position" data-audio-position aria-label="Current dialogue">0 / 7</output>
+        <button class="audio-collapse" type="button" data-audio-collapse aria-label="Close audio player"></button>
       </div>
       <audio preload="none" data-audio-player data-dialogue-count="7"></audio>
     </div>
