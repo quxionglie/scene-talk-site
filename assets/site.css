@@ -392,6 +392,7 @@
     font-weight: 700;
     cursor: pointer;
     user-select: none;
+    white-space: nowrap;
   }
   .audio-loop-control input {
     position: absolute;
@@ -832,9 +833,10 @@
     }
     .audio-player-bar-inner {
       width: min(100vw - 24px, 1080px);
-      grid-template-columns: minmax(0, 1fr) auto auto;
-      gap: 8px 10px;
-      padding: 9px 0;
+      min-height: 52px;
+      grid-template-columns: minmax(96px, 1fr) auto auto auto;
+      gap: 6px;
+      padding: 8px 0;
     }
     .audio-track-control {
       min-width: 0;
@@ -842,12 +844,56 @@
     .audio-track-control select {
       min-width: 0;
       width: 100%;
+      min-height: 34px;
+      padding-right: 22px;
+      padding-left: 8px;
+      font-size: 13px;
     }
     .audio-playback-status {
-      grid-column: 1 / -1;
+      min-width: 62px;
+      height: 34px;
+      gap: 7px;
+      padding: 0 9px;
+    }
+    .audio-play-all {
+      min-height: 34px;
+      padding: 0 8px;
+      font-size: 13px;
+    }
+    .audio-loop-control {
+      gap: 4px;
+      font-size: 13px;
+    }
+    .audio-loop-switch {
+      width: 28px;
+      height: 18px;
+    }
+    .audio-loop-switch::after {
+      width: 12px;
+      height: 12px;
+    }
+    .audio-loop-control input:checked + .audio-loop-switch::after {
+      transform: translateX(10px);
+    }
+    .audio-toggle {
+      width: 20px;
+      height: 20px;
+    }
+    .audio-toggle-play {
+      border-top-width: 6px;
+      border-bottom-width: 6px;
+      border-left-width: 9px;
+    }
+    .audio-toggle-pause i {
+      width: 3px;
+      height: 12px;
+    }
+    .audio-position {
+      min-width: 34px;
+      font-size: 14px;
     }
     .audio-player-bar + .site-footer {
-      margin-bottom: 112px;
+      margin-bottom: 52px;
     }
     .home-hero {
       padding: 24px 0 14px;
