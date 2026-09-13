@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-12-no-meals-during-hibernation",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T14:38:49+08:00",
+  "updated_at": "2026-09-13T08:56:12+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -138,6 +138,80 @@
           },
           "sequence": "005",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "冬眠不用吃饭",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "孩子叫父亲来吃饭，父亲开玩笑说自己在冬眠，一个冬天都不用吃饭。",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_summary_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "爸爸，吃饭了！",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "我在冬眠。",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "难道你不想吃饭了吗？",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "冬眠，一个冬天都不用吃饭。",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "为什么，不吃饭不饿吗？",
+          "file": "zh-cn/2026-09-12-no-meals-during-hibernation_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
         }
       ]
     }

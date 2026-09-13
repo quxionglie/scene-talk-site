@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-10-its-so-windy",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T16:00:16+08:00",
+  "updated_at": "2026-09-13T08:56:11+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -213,6 +213,110 @@
           },
           "sequence": "008",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "风也太大了",
+          "file": "zh-cn/2026-09-10-its-so-windy_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "summary",
+          "type": "summary",
+          "source_text": "放学回家路上风很大，父亲和孩子聊起了风声。",
+          "file": "zh-cn/2026-09-10-its-so-windy_summary_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "到外面马路那里，风声很大，呼呼呼的，我的耳机都听不到声音。",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "你放到最大声。",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "放大声也不行，还放到最大声！你要把我的耳朵打聋，是吗？",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "在家里风声也很大，你妈还不关窗。风在吹，冻死我了！",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "这里都有风声。",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "秋天到了就是这样子。这是秋风扫落叶。",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "哇，没穿外套就要冻死了。",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "你才知道啊！",
+          "file": "zh-cn/2026-09-10-its-so-windy_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }
