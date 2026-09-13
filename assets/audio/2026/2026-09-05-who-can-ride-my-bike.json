@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-05-who-can-ride-my-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:44:56+08:00",
+  "updated_at": "2026-09-13T18:13:27+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -103,11 +103,11 @@
         {
           "segment_id": "note:002",
           "type": "note",
-          "source_text": "They only found out after checking at home that the bike had a weight limit of 100 kg, meaning the father could ride it after all.",
+          "source_text": "After checking at home, they found out that this 20-inch bike has a weight limit of 100 kg. The father can ride it.",
           "file": "elevenlabs/2026-09-05-who-can-ride-my-bike_note_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:46+08:00",
+          "generated_at": "2026-09-13T18:13:27+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",

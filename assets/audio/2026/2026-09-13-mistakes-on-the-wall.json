@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-13-mistakes-on-the-wall",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-13T13:24:57+08:00",
+  "updated_at": "2026-09-13T18:13:30+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -45,6 +45,24 @@
           },
           "sequence": "001",
           "speaker": "father"
+        },
+        {
+          "segment_id": "note:001",
+          "type": "note",
+          "source_text": "\"Mistakes\" here refers to the mistake sticky notes on the wall.",
+          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_note_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-13T18:13:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "001"
         },
         {
           "segment_id": "dialogue:002",
@@ -121,6 +139,24 @@
           },
           "sequence": "005",
           "speaker": "younger brother"
+        },
+        {
+          "segment_id": "note:005",
+          "type": "note",
+          "source_text": "The younger brother has six mistake sticky notes.",
+          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_note_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-09-13T18:13:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_multilingual_v2",
+            "output_format": "mp3_44100_128",
+            "speed": 0.9,
+            "similarity_boost": 1.0
+          },
+          "sequence": "005"
         },
         {
           "segment_id": "dialogue:006",
