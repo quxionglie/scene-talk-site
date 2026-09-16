@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-05-who-can-ride-my-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-13T18:13:27+08:00",
+  "updated_at": "2026-09-16T18:03:53+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -62,24 +62,6 @@
           },
           "sequence": "001",
           "speaker": "older brother"
-        },
-        {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The older brother is riding a 20-inch bike.",
-          "file": "elevenlabs/2026-09-05-who-can-ride-my-bike_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:43+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
         },
         {
           "segment_id": "dialogue:002",
