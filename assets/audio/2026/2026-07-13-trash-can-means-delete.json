@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-13-trash-can-means-delete",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:24:30+08:00",
+  "updated_at": "2026-09-18T13:06:22+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -18,23 +18,6 @@
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:16+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "While tapping around on his watch, the child realizes the trash can icon means delete",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:24:17+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -64,24 +47,6 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "He spots a trash can icon while tapping around on his watch.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:24:21+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "How do you know the trash can icon means delete?",
@@ -103,11 +68,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "I saw a trash can icon on the TV. I didn't know what it meant, but when I pressed it, the cartoon disappeared.",
+          "source_text": "There was a trash can icon on the TV. I didn't know what it meant. I pressed the button, and the cartoon disappeared.",
           "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:24:24+08:00",
+          "generated_at": "2026-09-18T13:06:22+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -118,24 +83,6 @@
           },
           "sequence": "003",
           "speaker": "child"
-        },
-        {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "Here, \"press it\" means pressing the OK button on the TV remote.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:24:26+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
         },
         {
           "segment_id": "dialogue:004",
@@ -178,11 +125,11 @@
         {
           "segment_id": "dialogue:006",
           "type": "dialogue",
-          "source_text": "I liked them when I was little, but not anymore.",
+          "source_text": "I used to like them, but I don't anymore.",
           "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:24:30+08:00",
+          "generated_at": "2026-09-18T13:06:15+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
