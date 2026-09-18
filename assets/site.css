@@ -636,6 +636,12 @@
     font-size: 16px;
     line-height: 1.4;
   }
+  .line > .pinyin {
+    color: #2563eb;
+  }
+  .line > .en {
+    color: var(--ink);
+  }
   .audio-trigger {
     padding: 0;
     border: 0;
