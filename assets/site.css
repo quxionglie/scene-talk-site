@@ -151,7 +151,7 @@
   .scene-title-en {
     display: block;
     margin-top: 6px;
-    color: var(--muted);
+    color: var(--ink);
     font-size: 17px;
     line-height: 1.3;
     font-weight: 700;
