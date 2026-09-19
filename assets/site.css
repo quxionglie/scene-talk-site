@@ -638,7 +638,7 @@
     line-height: 1.4;
   }
   .line > .en {
-    color: var(--muted);
+    color: var(--ink);
   }
   .audio-trigger {
     padding: 0;
