@@ -2,6 +2,7 @@
     --bg: #ffffff;
     --ink: #1f2933;
     --muted: #65717f;
+    --pinyin: #5f7896;
     --line: #e5e7eb;
     --paper: #ffffff;
     --accent: #0f766e;
@@ -625,10 +626,10 @@
   }
   .pinyin {
     margin-top: 5px;
-    color: var(--accent);
+    color: var(--pinyin);
     font-size: 16px;
     line-height: 1.35;
-    font-weight: 700;
+    font-weight: 600;
   }
   .en {
     margin-top: 5px;
@@ -636,11 +637,8 @@
     font-size: 16px;
     line-height: 1.4;
   }
-  .line > .pinyin {
-    color: #2563eb;
-  }
   .line > .en {
-    color: var(--ink);
+    color: var(--muted);
   }
   .audio-trigger {
     padding: 0;
