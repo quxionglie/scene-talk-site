@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-19-are-tea-leaves-vegetables",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-19T18:59:34+08:00",
+  "updated_at": "2026-09-19T23:55:11+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -30,11 +30,11 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "Don't touch my tea!",
+          "source_text": "Don't touch my cup!",
           "file": "elevenlabs/2026-09-19-are-tea-leaves-vegetables_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-19T18:53:01+08:00",
+          "generated_at": "2026-09-19T23:55:11+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
