@@ -1,0 +1,15 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-09-19-you-can-have-it",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-09-19T13:48:05+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": []
+    }
+  ]
+}
