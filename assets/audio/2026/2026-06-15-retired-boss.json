@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-15-retired-boss",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:16:46+08:00",
+  "updated_at": "2026-09-26T21:57:32+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -194,6 +194,92 @@
           },
           "sequence": "007",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "退休的老板",
+          "file": "zh-cn/2026-06-15-retired-boss_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "听说你今天又表演了节目？",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "是啊，表演给爸爸的。",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "6月份父亲节，我还有礼物不？",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "没有。",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你不是老板吗？",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "我已经退休了。",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "老板还会退休？",
+          "file": "zh-cn/2026-06-15-retired-boss_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
         }
       ]
     }

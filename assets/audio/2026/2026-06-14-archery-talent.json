@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "dialogue_id": "2026-06-14-archery-talent",
-  "default_track_id": "en-US-elevenlabs",
+  "default_track_id": "zh-CN-mandarin",
   "updated_at": "2026-09-26T21:47:45+08:00",
   "tracks": [
     {
