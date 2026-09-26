@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-14-archery-talent",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:16:22+08:00",
+  "updated_at": "2026-09-26T21:47:45+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -118,6 +118,52 @@
             "similarity_boost": 1.0
           },
           "sequence": "003"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "射箭天赋",
+          "file": "zh-cn/2026-06-14-archery-talent_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "不会就是天赋吧。",
+          "file": "zh-cn/2026-06-14-archery-talent_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "射个箭也能叫天赋，你跟谁学的？",
+          "file": "zh-cn/2026-06-14-archery-talent_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "奶龙。",
+          "file": "zh-cn/2026-06-14-archery-talent_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
         }
       ]
     }
