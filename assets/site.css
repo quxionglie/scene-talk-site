@@ -786,6 +786,46 @@
     border-radius: 8px;
     background: var(--paper);
   }
+  .book-card {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    align-items: start;
+    gap: 28px;
+    margin: 34px auto;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--paper);
+  }
+  .book-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .book-copy h2 {
+    margin: 0;
+    font-size: 24px;
+    overflow-wrap: anywhere;
+  }
+  .book-copy p {
+    margin: 16px 0 0;
+    line-height: 1.7;
+  }
+  .book-date {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .book-copy .button {
+    margin-top: 20px;
+  }
+  @media (max-width: 700px) {
+    .book-card {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .book-cover {
+      max-width: 220px;
+    }
+  }
   .daily-about h2 {
     margin: 0;
     font-size: 24px;
