@@ -1,8 +1,8 @@
 {
   "schema_version": 4,
   "dialogue_id": "2026-06-12-kindergarten-pickup",
-  "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:16:05+08:00",
+  "default_track_id": "zh-CN-mandarin",
+  "updated_at": "2026-09-26T20:37:14+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -176,6 +176,92 @@
           },
           "sequence": "007",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "幼儿园放学",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天是星期几啊？",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "星期五。",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你为什么背一个枕头出来啊？",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "要拿回去洗！还有一个单子，下周要交。",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "是要你妈填？",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "嗯。",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "那回去再看看。",
+          "file": "zh-cn/2026-06-12-kindergarten-pickup_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
         }
       ]
     }
