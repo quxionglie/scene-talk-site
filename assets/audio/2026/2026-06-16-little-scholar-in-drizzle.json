@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-16-little-scholar-in-drizzle",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T11:44:43+08:00",
+  "updated_at": "2026-09-27T18:06:57+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -254,11 +254,11 @@
         {
           "segment_id": "dialogue:010",
           "type": "dialogue",
-          "source_text": "I take a breath.",
+          "source_text": "(I take a breath.)",
           "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_010_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:06+08:00",
+          "generated_at": "2026-09-27T18:06:57+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
