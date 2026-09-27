@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-03-happy-about-workbook",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-27T18:48:19+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -190,6 +190,56 @@
           "file": "zh-cn/2026-07-03-happy-about-workbook_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "天天听《伤心太平洋》，不说伤心的事了，你有高兴的事吗？",
+          "file": "zh-cn/2026-07-03-happy-about-workbook_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "妈妈给我买了练习册。",
+          "file": "zh-cn/2026-07-03-happy-about-workbook_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "放假了别人都是天天想玩，你还想做题！",
+          "file": "zh-cn/2026-07-03-happy-about-workbook_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我眼泪都要出来了，你说我是想哭还是想笑？",
+          "file": "zh-cn/2026-07-03-happy-about-workbook_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "想哭？",
+          "file": "zh-cn/2026-07-03-happy-about-workbook_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
         }
       ]
     }
