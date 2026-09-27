@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-11-choosing-a-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-27T21:19:46+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -246,6 +246,66 @@
           "file": "zh-cn/2026-07-11-choosing-a-bike_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "就不买24寸自行车了，买26寸的。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "这是买给你最后一辆车了。如果后面还买只能你自己挣钱买了。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "迪卡侬26寸自行车，红色/蓝色，1米4就能骑。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "另外是捷安特这款，1米45就能骑。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "就买26寸的",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "你等得越久，就可以买更好的。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
         }
       ]
     }

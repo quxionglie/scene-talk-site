@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-12-the-cute-uncle",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-27T21:19:46+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -284,6 +284,96 @@
           "file": "zh-cn/2026-07-12-the-cute-uncle_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天去到几分钟就吃饭了，我吃了两碗饭。",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "那你们去到可能有点晚了。",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "吃完饭，我们还在餐馆里跑来跑去。",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "其他人你都认识不？",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "有些认识，有些不认识。",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你今天看到表舅了吗？",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "看到了。表舅……有点可爱？",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "是表舅有点可爱吗？",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "表舅儿子有点可爱。我还摸了他...",
+          "file": "zh-cn/2026-07-12-the-cute-uncle_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
         }
       ]
     }
