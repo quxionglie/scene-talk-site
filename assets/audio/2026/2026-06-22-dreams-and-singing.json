@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-22-dreams-and-singing",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:18:11+08:00",
+  "updated_at": "2026-09-27T12:09:15+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -157,6 +157,82 @@
           },
           "sequence": "006",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "梦里的唱歌",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "昨天梦到了什么？",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "梦到我在唱歌，还有一个忘了",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你觉得今天还会做梦吗？",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "会",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "梦是怎么来的，你知道不？",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "嗯，不知道",
+          "file": "zh-cn/2026-06-22-dreams-and-singing_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
         }
       ]
     }

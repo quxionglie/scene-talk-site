@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-26-bottle-music",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:27:26+08:00",
+  "updated_at": "2026-09-27T16:52:59+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -137,6 +137,22 @@
           },
           "sequence": "004",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "瓶子音乐",
+          "file": "zh-cn/2026-07-26-bottle-music_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
         }
       ]
     }

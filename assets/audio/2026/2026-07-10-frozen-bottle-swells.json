@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-10-frozen-bottle-swells",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:22:19+08:00",
+  "updated_at": "2026-09-27T16:44:54+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -192,6 +192,22 @@
             "similarity_boost": 1.0
           },
           "sequence": "005"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "冻胀的瓶子",
+          "file": "zh-cn/2026-07-10-frozen-bottle-swells_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-19-sunset-dreams",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:17:38+08:00",
+  "updated_at": "2026-09-27T11:59:48+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -195,6 +195,102 @@
           },
           "sequence": "008",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "夕阳下的梦想",
+          "file": "zh-cn/2026-06-19-sunset-dreams_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "刚好太阳要下山，看一下夕阳聊聊天。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "你们以后有什么梦想不？",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "没什么梦想，就希望钱多。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子1"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你呢？",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "没有。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子2"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "或者最想做的事也行。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "就想买一把剑，进入游戏世界。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子2"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "我现在就想退休了，喝喝茶。",
+          "file": "zh-cn/2026-06-19-sunset-dreams_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }

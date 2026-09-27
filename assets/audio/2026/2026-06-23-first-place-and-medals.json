@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-23-first-place-and-medals",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:18:27+08:00",
+  "updated_at": "2026-09-27T13:55:05+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -214,6 +214,112 @@
           },
           "sequence": "009",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "第一名和奖牌",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "第一名是冠军，第二名是亚军",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "冠军得金牌，亚军是什么牌?",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "不知道",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "银牌。古代考试第一名叫状元, 第二名呢？",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "不知道",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "第二名榜眼，第三名探花",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "英文里第一叫什么？",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "one",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "不对，第一是 first, 第二是 second, 不是 one two",
+          "file": "zh-cn/2026-06-23-first-place-and-medals_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "父亲"
         }
       ]
     }
