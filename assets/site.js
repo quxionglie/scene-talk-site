@@ -243,18 +243,46 @@
 })();
 
 (() => {
-  const select = document.querySelector("[data-conversation-group-select]");
+  const tabs = Array.from(
+    document.querySelectorAll("[data-conversation-group-tab]"),
+  );
   const groups = Array.from(
     document.querySelectorAll("[data-conversation-group]"),
   );
-  if (!select || !groups.length) return;
+  if (!tabs.length || !groups.length) return;
 
-  const showGroup = (groupId) => {
+  const activateTab = (tab, focus = false) => {
+    const groupId = tab.dataset.conversationGroupTarget;
+    tabs.forEach((item) => {
+      const active = item === tab;
+      item.classList.toggle("is-active", active);
+      item.setAttribute("aria-selected", active ? "true" : "false");
+      item.tabIndex = active ? 0 : -1;
+    });
     groups.forEach((group) => {
       group.hidden = group.id !== groupId;
     });
+    if (focus) tab.focus();
   };
 
-  select.addEventListener("change", () => showGroup(select.value));
-  showGroup(select.value);
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => activateTab(tab));
+    tab.addEventListener("keydown", (event) => {
+      let nextIndex = null;
+      if (event.key === "ArrowRight") nextIndex = (index + 1) % tabs.length;
+      if (event.key === "ArrowLeft") {
+        nextIndex = (index - 1 + tabs.length) % tabs.length;
+      }
+      if (event.key === "Home") nextIndex = 0;
+      if (event.key === "End") nextIndex = tabs.length - 1;
+      if (nextIndex === null) return;
+      event.preventDefault();
+      activateTab(tabs[nextIndex], true);
+    });
+  });
+
+  const activeTab = tabs.find(
+    (tab) => tab.getAttribute("aria-selected") === "true",
+  );
+  activateTab(activeTab || tabs[0]);
 })();

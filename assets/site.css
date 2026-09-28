@@ -106,31 +106,42 @@
     font-size: clamp(34px, 4.2vw, 52px);
     line-height: 1.02;
   }
-  .all-dialogue-filter {
+  .conversation-group-tabs {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 12px;
-    margin: 24px 0 8px;
+    margin: 24px 0 12px;
   }
-  .all-dialogue-filter label {
-    color: var(--ink);
-    font-size: 14px;
-    font-weight: 800;
-  }
-  .all-dialogue-filter select {
-    max-width: 100%;
-    min-height: 40px;
-    padding: 0 36px 0 12px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
+  .conversation-group-tab {
+    min-height: 44px;
+    padding: 0 24px;
+    border: 2px solid #3563e9;
+    border-radius: 999px;
     background: #ffffff;
-    color: var(--ink);
+    color: #3563e9;
     font: inherit;
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 140ms ease, color 140ms ease,
+      box-shadow 140ms ease, transform 140ms ease;
   }
-  .all-dialogue-filter select:focus {
-    border-color: var(--accent);
-    outline: 3px solid var(--accent-soft);
+  .conversation-group-tab:hover {
+    background: #edf2ff;
+  }
+  .conversation-group-tab.is-active {
+    background: #3563e9;
+    color: #ffffff;
+    box-shadow: 0 7px 16px rgba(53, 99, 233, 0.2);
+  }
+  .conversation-group-tab:active {
+    transform: translateY(1px);
+  }
+  .conversation-group-tab:focus-visible {
+    outline: 3px solid rgba(53, 99, 233, 0.24);
+    outline-offset: 3px;
   }
   .all-dialogues {
     list-style: none;
