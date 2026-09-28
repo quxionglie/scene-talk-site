@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-05-who-can-ride-my-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-16T18:03:53+08:00",
+  "updated_at": "2026-09-28T16:19:04+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -230,6 +230,22 @@
           },
           "sequence": "007",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "谁能骑我的车",
+          "file": "zh-cn/2026-09-05-who-can-ride-my-bike_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
         }
       ]
     }
