@@ -110,31 +110,33 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 12px;
-    margin: 24px 0 12px;
+    gap: 8px;
+    margin: 18px 0 6px;
   }
   .conversation-group-tab {
-    min-height: 44px;
-    padding: 0 24px;
-    border: 2px solid #3563e9;
+    min-height: 32px;
+    padding: 0 13px;
+    border: 1px solid #c8d4ed;
     border-radius: 999px;
     background: #ffffff;
-    color: #3563e9;
+    color: #526580;
     font: inherit;
-    font-size: 16px;
-    font-weight: 750;
+    font-size: 13px;
+    font-weight: 650;
     line-height: 1;
     cursor: pointer;
     transition: background-color 140ms ease, color 140ms ease,
-      box-shadow 140ms ease, transform 140ms ease;
+      border-color 140ms ease, transform 140ms ease;
   }
   .conversation-group-tab:hover {
-    background: #edf2ff;
+    border-color: #8ea6d8;
+    background: #f5f7fc;
+    color: #3157a3;
   }
   .conversation-group-tab.is-active {
-    background: #3563e9;
-    color: #ffffff;
-    box-shadow: 0 7px 16px rgba(53, 99, 233, 0.2);
+    border-color: #9eb3df;
+    background: #edf2fb;
+    color: #3157a3;
   }
   .conversation-group-tab:active {
     transform: translateY(1px);
