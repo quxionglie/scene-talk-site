@@ -241,3 +241,20 @@
     showForm("Enter a conversation number to open it.");
   }
 })();
+
+(() => {
+  const select = document.querySelector("[data-conversation-group-select]");
+  const groups = Array.from(
+    document.querySelectorAll("[data-conversation-group]"),
+  );
+  if (!select || !groups.length) return;
+
+  const showGroup = (groupId) => {
+    groups.forEach((group) => {
+      group.hidden = group.id !== groupId;
+    });
+  };
+
+  select.addEventListener("change", () => showGroup(select.value));
+  showGroup(select.value);
+})();
