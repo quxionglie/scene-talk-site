@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-12-summer-kayaking-plan",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-28T21:43:03+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -209,6 +209,56 @@
           "file": "zh-cn/2026-07-12-summer-kayaking-plan_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "我要让暑假过得更美好。",
+          "file": "zh-cn/2026-07-12-summer-kayaking-plan_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "那明天去不去划船？",
+          "file": "zh-cn/2026-07-12-summer-kayaking-plan_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "去。",
+          "file": "zh-cn/2026-07-12-summer-kayaking-plan_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "千万不要掉到湖里。上次我都怕你掉进水里了。",
+          "file": "zh-cn/2026-07-12-summer-kayaking-plan_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "等一下问问队长去不去?",
+          "file": "zh-cn/2026-07-12-summer-kayaking-plan_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
         }
       ]
     }
