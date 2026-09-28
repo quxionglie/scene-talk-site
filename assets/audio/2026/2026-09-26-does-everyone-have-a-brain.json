@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-26-does-everyone-have-a-brain",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-26T12:49:06+08:00",
+  "updated_at": "2026-09-28T10:41:12+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -83,6 +83,24 @@
           },
           "sequence": "003",
           "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "没有脑子怎么想事情！",
+          "file": "zh-cn/2026-09-26-does-everyone-have-a-brain_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "母亲"
         }
       ]
     }

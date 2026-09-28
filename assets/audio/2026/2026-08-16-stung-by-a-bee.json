@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-16-stung-by-a-bee",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-12T15:35:57+08:00",
+  "updated_at": "2026-09-28T10:41:12+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -137,6 +137,24 @@
           },
           "sequence": "004",
           "speaker": "mother"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "“JU”是四川话，相当于普通话“蜇”。",
+          "file": "zh-cn/2026-08-16-stung-by-a-bee_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "母亲"
         }
       ]
     }

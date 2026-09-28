@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-19-you-can-have-it",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-19T14:50:08+08:00",
+  "updated_at": "2026-09-28T10:41:12+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -197,6 +197,44 @@
           },
           "sequence": "009",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "地上的用纸巾捡一下就行。",
+          "file": "zh-cn/2026-09-19-you-can-have-it_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "母亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "又要出钱买一个新杯子。哦，厨房还有一个杯子，学校发的生日礼物！",
+          "file": "zh-cn/2026-09-19-you-can-have-it_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "母亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "在消毒柜下面。",
+          "file": "zh-cn/2026-09-19-you-can-have-it_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "母亲"
         }
       ]
     }

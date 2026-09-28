@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-29-buying-corn",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T11:16:44+08:00",
+  "updated_at": "2026-09-28T11:20:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -154,6 +154,114 @@
           "file": "zh-cn/2026-06-29-buying-corn_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "叔叔，这个玉米多少钱一斤？",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "2块5一斤。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "叔叔"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "帮我称2斤吧。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "称好了，一共5块钱。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "叔叔"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "好的，谢谢。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-x-sichuan-recorded",
+      "code": "zh-CN-x-sichuan",
+      "language": "汉语",
+      "variant": "四川话",
+      "clips": [
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "叔叔，这个玉米多少钱一斤？",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_001_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "2块5一斤。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_002_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "叔叔"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "帮我称2斤吧。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_003_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "称好了，一共5块钱。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_004_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "叔叔"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "好的，谢谢。",
+          "file": "zh-cn/2026-06-29-buying-corn_dialogue_005_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
         }
       ]
     }

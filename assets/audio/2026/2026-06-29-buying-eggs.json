@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-29-buying-eggs",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T11:16:44+08:00",
+  "updated_at": "2026-09-28T11:12:59+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -190,6 +190,114 @@
           "file": "zh-cn/2026-06-29-buying-eggs_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "老板，这个鸡蛋多少钱一斤？",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "这个是土鸡蛋，15元一斤。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "给我称3斤，一共多少钱？",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "称好了，一共45元。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "谢谢。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-x-sichuan-recorded",
+      "code": "zh-CN-x-sichuan",
+      "language": "汉语",
+      "variant": "四川话",
+      "clips": [
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "老板，这个鸡蛋多少钱一斤？",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_001_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "这个是土鸡蛋，15元一斤。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_002_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "给我称3斤，一共多少钱？",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_003_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "称好了，一共45元。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_004_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "谢谢。",
+          "file": "zh-cn/2026-06-29-buying-eggs_dialogue_005_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
         }
       ]
     }

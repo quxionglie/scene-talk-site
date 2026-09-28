@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-29-buying-vegetables",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T11:16:44+08:00",
+  "updated_at": "2026-09-28T11:20:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -191,6 +191,134 @@
           "file": "zh-cn/2026-06-29-buying-vegetables_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "阿姨，这个茄子、苦瓜、丝瓜、豇豆都怎么卖的？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "茄子和豇豆还有丝瓜是3元一斤，苦瓜要贵点4元一斤。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "阿姨"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那请你每样帮我称一斤，看看一共多少钱？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "总共13块，给现金还是扫码支付？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "阿姨"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "扫码吧，谢谢阿姨。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "不客气。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "阿姨"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-x-sichuan-recorded",
+      "code": "zh-CN-x-sichuan",
+      "language": "汉语",
+      "variant": "四川话",
+      "clips": [
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "阿姨，这个茄子、苦瓜、丝瓜、豇豆都怎么卖的？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_001_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "茄子和豇豆还有丝瓜是3元一斤，苦瓜要贵点4元一斤。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_002_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "阿姨"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那请你每样帮我称一斤，看看一共多少钱？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_003_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "总共13块，给现金还是扫码支付？",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_004_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "阿姨"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "扫码吧，谢谢阿姨。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_005_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "顾客"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "不客气。",
+          "file": "zh-cn/2026-06-29-buying-vegetables_dialogue_006_zh-cn-x-sichuan.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "阿姨"
         }
       ]
     }
