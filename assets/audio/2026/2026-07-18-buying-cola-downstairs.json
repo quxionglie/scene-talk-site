@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-18-buying-cola-downstairs",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T14:36:20+08:00",
+  "updated_at": "2026-09-29T20:24:56+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -186,9 +186,19 @@
           "speaker": "父亲"
         },
         {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我本来就不想买。",
+          "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "你就去店里拿两瓶然后交给前台姐姐，后面再给钱就行了。",
+          "source_text": "你就去店里拿两瓶，然后交给前台姐姐，后面再给钱就行了。",
           "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_005_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false,
