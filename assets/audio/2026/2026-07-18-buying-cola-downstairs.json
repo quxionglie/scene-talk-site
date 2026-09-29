@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-18-buying-cola-downstairs",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-29T14:36:20+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -154,6 +154,46 @@
           "file": "zh-cn/2026-07-18-buying-cola-downstairs_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "我给你 10 块钱，你去楼下给我买两瓶可乐，行不行？",
+          "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "不行。",
+          "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "是不会还是不行？",
+          "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你就去店里拿两瓶然后交给前台姐姐，后面再给钱就行了。",
+          "file": "zh-cn/2026-07-18-buying-cola-downstairs_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
         }
       ]
     }

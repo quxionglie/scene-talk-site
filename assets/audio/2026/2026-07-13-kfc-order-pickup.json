@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-13-kfc-order-pickup",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:44:54+08:00",
+  "updated_at": "2026-09-29T15:26:24+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -283,6 +283,86 @@
           "file": "zh-cn/2026-07-13-kfc-order-pickup_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "92 号好了吗？",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "好了，这是你的。冰淇淋现在就要吗？",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "服务员"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "是的。",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "这是你的冰淇淋。",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "服务员"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "好的，谢谢！",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "套餐里还有一本书，你们拿了吗？",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "服务员"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "没有！",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "稍等，我帮你拿一下！",
+          "file": "zh-cn/2026-07-13-kfc-order-pickup_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "服务员"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-11-choosing-a-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T21:19:46+08:00",
+  "updated_at": "2026-09-29T14:56:06+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -229,7 +229,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "007",
-          "speaker": "child"
+          "speaker": "father"
         }
       ]
     },
@@ -285,6 +285,16 @@
           "mime_type": "audio/mpeg",
           "ai_generated": false,
           "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "如果你再等两年，这辆车到1米52才能骑，也是捷安特的。",
+          "file": "zh-cn/2026-07-11-choosing-a-bike_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
           "speaker": "父亲"
         },
         {
