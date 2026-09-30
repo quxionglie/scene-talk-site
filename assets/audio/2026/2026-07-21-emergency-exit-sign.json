@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-21-emergency-exit-sign",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:52:59+08:00",
+  "updated_at": "2026-09-29T20:41:16+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -210,6 +210,76 @@
           "file": "zh-cn/2026-07-21-emergency-exit-sign_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "那个标志是什么意思？",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "哪一个？",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "算了，说了反正你也不知道。",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "那门口旁边那个标志是什么意思？人在跑的那个!",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "安全出口。",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你不认识字也知道？",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "家里楼梯口也有一个“安全出口”。",
+          "file": "zh-cn/2026-07-21-emergency-exit-sign_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
         }
       ]
     }

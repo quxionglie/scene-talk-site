@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-26-signal-tower",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:52:59+08:00",
+  "updated_at": "2026-09-30T11:15:35+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -135,6 +135,46 @@
           "file": "zh-cn/2026-07-26-signal-tower_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "看，信号塔！",
+          "file": "zh-cn/2026-07-26-signal-tower_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "你怎么关注起信号塔来了？",
+          "file": "zh-cn/2026-07-26-signal-tower_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "有信号塔才有信号。不然打电话都不行，看电视也不行！",
+          "file": "zh-cn/2026-07-26-signal-tower_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "看电视跟这个没关系。打电话才是用这个无线网络。",
+          "file": "zh-cn/2026-07-26-signal-tower_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
         }
       ]
     }
