@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-02-breakfast-rice-noodles",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:52:59+08:00",
+  "updated_at": "2026-10-01T12:23:08+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -265,6 +265,86 @@
           "file": "zh-cn/2026-08-02-breakfast-rice-noodles_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "一碗螺蛳粉，一碗素粉，你要什么粉？",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "肉粉。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "堂哥"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "老板，螺蛳粉、素粉、肉粉各一份。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "好。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "嗯，我先付一下。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "老板，有炒粉吗？",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "有。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "老板"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "两份炒粉，另外打包。",
+          "file": "zh-cn/2026-08-02-breakfast-rice-noodles_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }

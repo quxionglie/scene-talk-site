@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-01-relaxing-after-gaokao",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T16:52:59+08:00",
+  "updated_at": "2026-10-01T12:12:57+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -135,6 +135,46 @@
           "file": "zh-cn/2026-08-01-relaxing-after-gaokao_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "为什么堂哥天天不出门，就在家里面打游戏？",
+          "file": "zh-cn/2026-08-01-relaxing-after-gaokao_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "高考完就需要放松了。",
+          "file": "zh-cn/2026-08-01-relaxing-after-gaokao_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "高中就天天学习！一周也不知道放假多久？",
+          "file": "zh-cn/2026-08-01-relaxing-after-gaokao_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "这就是中国高考后的现状。",
+          "file": "zh-cn/2026-08-01-relaxing-after-gaokao_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
         }
       ]
     }
