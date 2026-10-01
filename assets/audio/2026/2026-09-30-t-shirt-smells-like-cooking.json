@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-30-t-shirt-smells-like-cooking",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-30T21:30:29+08:00",
+  "updated_at": "2026-10-01T11:24:32+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -106,11 +106,11 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "No way! With that nose of yours, even you can't smell it?",
+          "source_text": "No way! Even you can't smell it!",
           "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-30T21:30:27+08:00",
+          "generated_at": "2026-10-01T11:24:32+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
