@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-04-what-does-mayday-look-like",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T17:24:04+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -245,6 +245,66 @@
           "file": "zh-cn/2026-08-04-what-does-mayday-look-like_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "五月天长什么样子？",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "弟弟"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "我搜一下，看一下图片。",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "5个人组成的一个乐队。",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "这首歌是谁唱的呢？",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "乐队中的一个人啊！",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "乐队有很多人的，有主唱，有吉他手……",
+          "file": "zh-cn/2026-08-04-what-does-mayday-look-like_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
         }
       ]
     }

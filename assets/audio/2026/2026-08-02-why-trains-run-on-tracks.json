@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-02-why-trains-run-on-tracks",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T17:12:36+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -135,6 +135,46 @@
           "file": "zh-cn/2026-08-02-why-trains-run-on-tracks_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "为什么高铁要在铁轨上跑，不能在马路上跑？",
+          "file": "zh-cn/2026-08-02-why-trains-run-on-tracks_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "轮子不一样。",
+          "file": "zh-cn/2026-08-02-why-trains-run-on-tracks_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "不只是高铁，火车都是这样子。",
+          "file": "zh-cn/2026-08-02-why-trains-run-on-tracks_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "为什么轮子不一样？",
+          "file": "zh-cn/2026-08-02-why-trains-run-on-tracks_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "儿子"
         }
       ]
     }

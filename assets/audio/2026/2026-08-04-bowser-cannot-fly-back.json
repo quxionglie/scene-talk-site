@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-04-bowser-cannot-fly-back",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T17:36:23+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -265,6 +265,86 @@
           "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "爸爸，酷霸王飞不起来！",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "飞不起来就飞不起来嘛，谁叫他那么胖！",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "呵呵！",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你选容易回来的人就行。游戏里有一些属性，如力量、敏捷，像酷霸王力量就大！",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "除了力量、敏捷，你觉得还有其它吗？",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "还有反应。",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "反应也是敏捷的一种，敏捷越高反应越快。",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "像 Joker 就是敏捷型的。",
+          "file": "zh-cn/2026-08-04-bowser-cannot-fly-back_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }

@@ -892,6 +892,34 @@
     margin: 12px 0 0;
     line-height: 1.7;
   }
+  .dialogue-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+    font-size: 14px;
+  }
+  .dialogue-navigation a {
+    padding: 10px 0;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .dialogue-navigation a:hover {
+    color: var(--ink);
+    text-decoration: underline;
+  }
+  .dialogue-navigation a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+  .dialogue-navigation-previous {
+    grid-column: 1;
+    justify-self: start;
+  }
+  .dialogue-navigation-next {
+    grid-column: 2;
+    justify-self: end;
+  }
   .app-promo {
     display: flex;
     gap: 24px;
