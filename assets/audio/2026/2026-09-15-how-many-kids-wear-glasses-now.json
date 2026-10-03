@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-15-how-many-kids-wear-glasses-now",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:28:49+08:00",
+  "updated_at": "2026-10-03T12:53:25+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -17,7 +17,7 @@
           "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-15T19:45:14+08:00",
+          "generated_at": "2026-10-03T12:53:25+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -158,7 +158,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "007",
-          "speaker": "father"
+          "speaker": "child"
         }
       ]
     },
