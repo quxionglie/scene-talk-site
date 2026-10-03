@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-21-can-charging-cause-a-fire",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-03T11:12:44+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -190,6 +190,56 @@
           "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "电池充电会着火吗？",
+          "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "可能会。",
+          "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你中午帮我看一下，好不好？",
+          "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你担心着火，拔了不行吗？",
+          "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "我下午还要带出去。不充电，玩一下就没电了。",
+          "file": "zh-cn/2026-08-21-can-charging-cause-a-fire_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
         }
       ]
     }

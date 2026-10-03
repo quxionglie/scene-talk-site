@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-20-how-old-is-link",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-03T11:05:49+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -191,6 +191,66 @@
           "file": "zh-cn/2026-08-20-how-old-is-link_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "林克几岁了？",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "我一直都想问，就是有时候又忘、有时候又忘。我就等今天中午睡完起来才问。",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "我不知道！游戏都出来20年了，然后林克的跨度估计很大。",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你的公主还能从古代穿到现代，各个时代在穿。",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "为什么啊？",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "主要是游戏出来很多款，游戏的跨度太大，死了也能复活，所以说我也不知道。",
+          "file": "zh-cn/2026-08-20-how-old-is-link_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
         }
       ]
     }
