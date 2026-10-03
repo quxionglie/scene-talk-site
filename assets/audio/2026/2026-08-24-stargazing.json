@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-24-stargazing",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T11:18:00+08:00",
+  "updated_at": "2026-10-03T17:11:56+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -220,6 +220,16 @@
           "ai_generated": false,
           "sequence": "001",
           "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "农村以前夏天天气好，整个天空都是星星。",
+          "file": "zh-cn/2026-08-24-stargazing_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
         },
         {
           "segment_id": "dialogue:003",
