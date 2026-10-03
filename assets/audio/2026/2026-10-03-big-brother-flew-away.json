@@ -90,17 +90,17 @@
           "file": "elevenlabs/2026-10-03-big-brother-flew-away_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-03T12:15:22+08:00",
+          "generated_at": "2026-10-03T12:43:04+08:00",
           "generation": {
             "provider": "ElevenLabs",
-            "voice_id": "l7kNoIfnJKPg7779LI2t",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_multilingual_v2",
             "output_format": "mp3_44100_128",
             "speed": 0.9,
             "similarity_boost": 1.0
           },
           "sequence": "004",
-          "speaker": "younger brother"
+          "speaker": "father"
         },
         {
           "segment_id": "dialogue:005",
@@ -124,5 +124,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-03T12:15:22+08:00"
+  "updated_at": "2026-10-03T12:43:04+08:00"
 }
