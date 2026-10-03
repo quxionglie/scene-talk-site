@@ -86,11 +86,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "Do you have a fever? Then pull your blanket up.",
+          "source_text": "Do you have a fever? Then come here and cover yourself with the blanket.",
           "file": "elevenlabs/2026-10-03-big-brother-flew-away_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-03T12:00:02+08:00",
+          "generated_at": "2026-10-03T12:15:22+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "l7kNoIfnJKPg7779LI2t",
@@ -124,5 +124,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-03T12:00:04+08:00"
+  "updated_at": "2026-10-03T12:15:22+08:00"
 }
