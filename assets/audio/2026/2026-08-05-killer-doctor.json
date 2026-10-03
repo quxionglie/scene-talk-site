@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-05-killer-doctor",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T18:09:22+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -172,6 +172,56 @@
           "file": "zh-cn/2026-08-05-killer-doctor_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "我给你做人工呼吸！",
+          "file": "zh-cn/2026-08-05-killer-doctor_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "啊！",
+          "file": "zh-cn/2026-08-05-killer-doctor_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你这不是救人，而是杀人。",
+          "file": "zh-cn/2026-08-05-killer-doctor_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我是医生。",
+          "file": "zh-cn/2026-08-05-killer-doctor_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "儿子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你是杀人医生。",
+          "file": "zh-cn/2026-08-05-killer-doctor_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
         }
       ]
     }

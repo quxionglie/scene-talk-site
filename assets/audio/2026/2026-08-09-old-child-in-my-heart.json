@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-09-old-child-in-my-heart",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T18:42:40+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -189,6 +189,46 @@
           "file": "zh-cn/2026-08-09-old-child-in-my-heart_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "这是正常人类吗？",
+          "file": "zh-cn/2026-08-09-old-child-in-my-heart_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "前面不是写“非正常人类研究中心”吗？",
+          "file": "zh-cn/2026-08-09-old-child-in-my-heart_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "喔！",
+          "file": "zh-cn/2026-08-09-old-child-in-my-heart_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你看这首歌我一般是什么时候放的？心情不好的时候才放。",
+          "file": "zh-cn/2026-08-09-old-child-in-my-heart_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
         }
       ]
     }

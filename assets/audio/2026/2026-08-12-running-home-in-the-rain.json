@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-12-running-home-in-the-rain",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-02T18:53:15+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -283,6 +283,86 @@
           "file": "zh-cn/2026-08-12-running-home-in-the-rain_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "打雷的时候你们应该要回来了，还要我去接你们？",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "谁知道，别人牛牛都不知道。",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "牛牛为什么冲回来吗？",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "最大的雨的时候。",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "然后你们等雨小了就回来了，是吗？",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "对啊，我们冲回来了。",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "冲回来？我还以为你妈抱你弟弟，然后跟你一起跑回来呢！",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "妈妈牵着弟弟，我是单独一个人跑回来的。",
+          "file": "zh-cn/2026-08-12-running-home-in-the-rain_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "孩子"
         }
       ]
     }

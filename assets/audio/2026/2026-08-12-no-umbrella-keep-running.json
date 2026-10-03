@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-12-no-umbrella-keep-running",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-03T10:05:10+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -171,6 +171,46 @@
           "file": "zh-cn/2026-08-12-no-umbrella-keep-running_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "没有伞的孩子必须努力奔跑。",
+          "file": "zh-cn/2026-08-12-no-umbrella-keep-running_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "昨天你们没伞，下雨就应该跑回来。",
+          "file": "zh-cn/2026-08-12-no-umbrella-keep-running_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "是妈妈不跑。",
+          "file": "zh-cn/2026-08-12-no-umbrella-keep-running_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "那是你妈太胖了！",
+          "file": "zh-cn/2026-08-12-no-umbrella-keep-running_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
         }
       ]
     }

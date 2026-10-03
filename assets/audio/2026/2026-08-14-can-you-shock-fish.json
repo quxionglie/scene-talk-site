@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-14-can-you-shock-fish",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-03T10:17:23+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -190,6 +190,46 @@
           "file": "zh-cn/2026-08-14-can-you-shock-fish_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "电流果能电鱼！",
+          "file": "zh-cn/2026-08-14-can-you-shock-fish_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "露珠的电应该很强啊！",
+          "file": "zh-cn/2026-08-14-can-you-shock-fish_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我也不知道！",
+          "file": "zh-cn/2026-08-14-can-you-shock-fish_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "可能露珠的只针对敌人吧，鱼不算敌人。",
+          "file": "zh-cn/2026-08-14-can-you-shock-fish_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
         }
       ]
     }
