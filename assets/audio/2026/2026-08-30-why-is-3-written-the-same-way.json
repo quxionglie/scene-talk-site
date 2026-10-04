@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-30-why-is-3-written-the-same-way",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-04T16:34:14+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -190,6 +190,56 @@
           "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "为什么我们这里是3，英文里也是3？",
+          "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "阿拉伯数字是全球通用的。",
+          "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "都是写3。但中文读“sān”（三），英文读 /θriː/（three）。",
+          "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你知道0、1、2叫作阿拉伯数字吧？",
+          "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "知道。",
+          "file": "zh-cn/2026-08-30-why-is-3-written-the-same-way_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
         }
       ]
     }

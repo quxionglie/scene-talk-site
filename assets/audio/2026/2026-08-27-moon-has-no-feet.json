@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-27-moon-has-no-feet",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:04:28+08:00",
+  "updated_at": "2026-10-04T15:57:03+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -226,6 +226,56 @@
           "file": "zh-cn/2026-08-27-moon-has-no-feet_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "月亮怎么移动了！",
+          "file": "zh-cn/2026-08-27-moon-has-no-feet_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "太阳也会移动的。",
+          "file": "zh-cn/2026-08-27-moon-has-no-feet_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "月亮没有脚，它怎么会动？",
+          "file": "zh-cn/2026-08-27-moon-has-no-feet_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我现在想，是不是太阳一动不动，我们地球绕着太阳转？",
+          "file": "zh-cn/2026-08-27-moon-has-no-feet_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "以后你可能会学到月亮为什么会动，我现在解释不清楚。",
+          "file": "zh-cn/2026-08-27-moon-has-no-feet_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
         }
       ]
     }

@@ -42,6 +42,33 @@
 })();
 
 (() => {
+  const navigation = document.querySelector(".dialogue-navigation");
+  if (!navigation) return;
+
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.defaultPrevented || event.repeat || event.isComposing ||
+      event.altKey || event.ctrlKey || event.metaKey || event.shiftKey
+    ) return;
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    if (
+      event.target instanceof Element &&
+      (event.target.closest("input, textarea, select, audio, video, [role='slider'], [role='tab']") ||
+        event.target.isContentEditable)
+    ) return;
+    const lightbox = document.querySelector("[data-image-lightbox]");
+    if (lightbox && !lightbox.hidden) return;
+
+    const link = navigation.querySelector(
+      event.key === "ArrowLeft" ? "[rel='prev']" : "[rel='next']",
+    );
+    if (!link) return;
+    event.preventDefault();
+    window.location.assign(link.href);
+  });
+})();
+
+(() => {
   const triggers = document.querySelectorAll(".audio-trigger");
   const playAllButton = document.querySelector("[data-audio-play-all]");
   const loopSwitch = document.querySelector("[data-audio-loop]");
