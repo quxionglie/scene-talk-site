@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-18-too-tired-to-run",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T15:46:26+08:00",
+  "updated_at": "2026-10-05T21:24:38+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -263,6 +263,16 @@
           "mime_type": "audio/mpeg",
           "ai_generated": false,
           "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "然后再上去，拍球再跑几步就累死累活。打半个小时就差不多跑不动了。",
+          "file": "zh-cn/2026-09-18-too-tired-to-run_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
           "speaker": "父亲"
         }
       ]
