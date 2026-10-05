@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "dialogue_id": "2026-10-05-coming-back-for-forgotten-things",
+  "dialogue_id": "2026-10-05-going-out-and-coming-back",
   "default_track_id": "en-US-elevenlabs",
   "tracks": [
     {
@@ -12,11 +12,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "Coming Back for Forgotten Things",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_title_en-us.mp3",
+          "source_text": "Going Out and Coming Back",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-05T20:50:39+08:00",
+          "generated_at": "2026-10-05T21:51:11+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -29,11 +29,11 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "It's raining today. Why are you still going out?",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_001_en-us.mp3",
+          "source_text": "Why did you go out today when it was raining?",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-05T20:51:11+08:00",
+          "generated_at": "2026-10-05T21:51:12+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -49,7 +49,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "We have to go out every day.",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-05T20:51:47+08:00",
@@ -68,7 +68,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Did you come back again later to get the bike?",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-05T20:50:52+08:00",
@@ -87,7 +87,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "We came back for an umbrella and to put on our jackets!",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-05T20:50:56+08:00",
@@ -106,7 +106,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "When you came back for the bag earlier, did you forget your keys? You knocked and rang the doorbell.",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-05T20:50:59+08:00",
@@ -125,7 +125,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Yeah, we forgot them.",
-          "file": "elevenlabs/2026-10-05-coming-back-for-forgotten-things_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/2026-10-05-going-out-and-coming-back_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-05T20:51:01+08:00",
@@ -143,5 +143,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-05T20:51:47+08:00"
+  "updated_at": "2026-10-05T21:51:12+08:00"
 }
