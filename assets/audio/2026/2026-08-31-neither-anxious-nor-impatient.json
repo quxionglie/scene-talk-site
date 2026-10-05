@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-31-neither-anxious-nor-impatient",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-04T16:47:10+08:00",
+  "updated_at": "2026-10-05T20:50:31+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -61,7 +61,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "001",
-          "speaker": "child"
+          "speaker": "father"
         },
         {
           "segment_id": "dialogue:002",
@@ -80,7 +80,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "002",
-          "speaker": "father"
+          "speaker": "child"
         },
         {
           "segment_id": "note:002",
@@ -154,7 +154,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "004",
-          "speaker": "child"
+          "speaker": "father"
         },
         {
           "segment_id": "note:004",
@@ -191,7 +191,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "005",
-          "speaker": "father"
+          "speaker": "child"
         },
         {
           "segment_id": "dialogue:006",
@@ -210,7 +210,7 @@
             "similarity_boost": 1.0
           },
           "sequence": "006",
-          "speaker": "child"
+          "speaker": "father"
         }
       ]
     },
