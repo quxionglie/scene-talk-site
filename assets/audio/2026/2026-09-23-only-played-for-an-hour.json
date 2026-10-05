@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-23-only-played-for-an-hour",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T23:13:00+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -194,6 +194,86 @@
           "file": "zh-cn/2026-09-23-only-played-for-an-hour_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你怎么还是老样子，就只打了一个小时！",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "体力不行了！",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "以前年轻的时候，打一个下午都没问题！",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "一个下午？",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "从下午两点打到六点。",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你知道抽筋吗？",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "不知道。",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "那时还没什么水喝。打一个下午不累也不会抽筋！",
+          "file": "zh-cn/2026-09-23-only-played-for-an-hour_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }

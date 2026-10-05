@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-25-how-many-lines",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T23:19:59+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -194,6 +194,86 @@
           "file": "zh-cn/2026-09-25-how-many-lines_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天排队的人多吗？",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "多，排了半个小时。",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "排了几个队啊？",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "什么意思？",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "像爆米花一个队，灯笼一个队。",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "哦，有5个队。",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "还有什么队？",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "投箭一个队，钓兔子一个队，做月饼一个队。",
+          "file": "zh-cn/2026-09-25-how-many-lines_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "孩子"
         }
       ]
     }

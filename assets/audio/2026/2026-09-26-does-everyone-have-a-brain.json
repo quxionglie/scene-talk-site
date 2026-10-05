@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-26-does-everyone-have-a-brain",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T23:23:50+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -101,6 +101,16 @@
           "ai_generated": false
         },
         {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "妈妈，人都有脑子吗？",
+          "file": "zh-cn/2026-09-26-does-everyone-have-a-brain_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "没有脑子怎么想事情！",
@@ -109,6 +119,16 @@
           "ai_generated": false,
           "sequence": "002",
           "speaker": "母亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "有些人是没有脑子的。",
+          "file": "zh-cn/2026-09-26-does-everyone-have-a-brain_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
         }
       ]
     }
