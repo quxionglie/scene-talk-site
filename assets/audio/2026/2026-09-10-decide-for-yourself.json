@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-10-decide-for-yourself",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T15:14:34+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -266,6 +266,96 @@
           "file": "zh-cn/2026-09-10-decide-for-yourself_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "父母有两种。一种像你妈妈，她帮你做决定：你是盖一床，还是盖两床！",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "另一种像我这样，我把两床被子都拿出来，你自己决定。",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你觉得哪种好？是你决定，还是你妈决定？",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "盖个厚的！",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "不是有一句古诗吗？",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "《爱莲说》吗？",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "不是《爱莲说》，是“春江水暖鸭先知”。",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "就是说：春天到了，鸭子都知道水是暖的还是热的。",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "冬天到了，冷还是热，你也是能感觉到的嘛。所以我觉得你自己决定好点。",
+          "file": "zh-cn/2026-09-10-decide-for-yourself_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "父亲"
         }
       ]
     }

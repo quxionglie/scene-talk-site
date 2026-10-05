@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-07-look-it-up-yourself",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T15:02:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -266,6 +266,86 @@
           "file": "zh-cn/2026-09-07-look-it-up-yourself_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "“自然”的近义词，“一定”好像不太准！",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "它是“当然”“理应”“固然”。写“一定”可能就不对了。",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你不说“一定”吗？",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "字典上有吗？",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "这个要你自己理解。别人说的不一定对。",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "老师为什么叫你查字典？你的《新华字典》还是有用的。",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "大的《新华字典》吗？",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "大的叫《现代汉语词典》。高中就是用这个。",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "父亲"
         }
       ]
     }

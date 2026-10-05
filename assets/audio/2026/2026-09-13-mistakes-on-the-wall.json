@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-13-mistakes-on-the-wall",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T15:19:22+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -211,6 +211,66 @@
           "file": "zh-cn/2026-09-13-mistakes-on-the-wall_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "一墙都是你的\"错误\"，你要怎么改正？",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "弟弟，有没有你的\"错误\"？",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "没有我的\"错误\"。",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "弟弟"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "这都是弟弟的，用铅笔画的都是弟弟的。",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "我的\"错误\"已经改正了，我出了6张。",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "弟弟"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你有6张是吗？",
+          "file": "zh-cn/2026-09-13-mistakes-on-the-wall_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
         }
       ]
     }

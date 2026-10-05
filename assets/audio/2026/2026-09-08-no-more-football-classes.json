@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-08-no-more-football-classes",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T15:05:46+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -227,6 +227,66 @@
           "file": "zh-cn/2026-09-08-no-more-football-classes_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你那个校内足球课好像没有了！",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "什么意思？",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "课表里面，校内课只有一个篮球课，校外足球课只对一年级开放。",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "估计报不了足球了，要不只能报校内篮球了？",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "我不喜欢篮球。",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "那你不报也不行。你要报一个运动啊，不然你的眼睛受不了的。",
+          "file": "zh-cn/2026-09-08-no-more-football-classes_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
         }
       ]
     }

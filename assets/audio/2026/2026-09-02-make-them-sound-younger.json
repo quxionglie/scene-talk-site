@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-02-make-them-sound-younger",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T16:19:04+08:00",
+  "updated_at": "2026-10-05T14:42:24+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -247,6 +247,86 @@
           "file": "zh-cn/2026-09-02-make-them-sound-younger_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "爸爸，刚才那个人，我该叫他哥哥还是叔叔？",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "哪个呀？",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "刚才发你传单那个。",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你叫他叔嘛。",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你叫哥也没问题。人家最喜欢你叫哥，说年轻点好听。",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "别说老的！",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "你称呼别人时，说年轻点，人家就高兴。",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "“叔”是比较老的。",
+          "file": "zh-cn/2026-09-02-make-them-sound-younger_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }
