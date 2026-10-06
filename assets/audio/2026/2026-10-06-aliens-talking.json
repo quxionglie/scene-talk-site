@@ -198,7 +198,23 @@
           "speaker": "child"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "外星人说话",
+          "file": "zh-cn/2026-10-06-aliens-talking_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-06T09:16:54+08:00"
+  "updated_at": "2026-10-06T13:20:50+08:00"
 }

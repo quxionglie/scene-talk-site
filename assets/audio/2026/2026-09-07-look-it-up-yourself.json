@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-07-look-it-up-yourself",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T15:02:52+08:00",
+  "updated_at": "2026-10-06T13:25:06+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -296,6 +296,16 @@
           "ai_generated": false,
           "sequence": "003",
           "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你要学会查字典了！",
+          "file": "zh-cn/2026-09-07-look-it-up-yourself_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
         },
         {
           "segment_id": "dialogue:005",

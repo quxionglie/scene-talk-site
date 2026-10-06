@@ -141,7 +141,23 @@
           "speaker": "child"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "你见过公鸡吗",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-01T19:16:16+08:00"
+  "updated_at": "2026-10-06T13:20:50+08:00"
 }
