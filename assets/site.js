@@ -278,6 +278,44 @@
   );
   if (!tabs.length || !groups.length) return;
 
+  const sortToggle = document.querySelector("[data-conversation-sort]");
+  const updateSortToggle = (group) => {
+    if (!sortToggle || !group) return;
+    const descending = group.dataset.sortOrder === "descending";
+    const nextOrder = descending ? "ascending" : "descending";
+    sortToggle.dataset.sortOrder = descending ? "descending" : "ascending";
+    sortToggle.setAttribute("aria-controls", group.id);
+    sortToggle.setAttribute(
+      "aria-label", `Sort conversations in ${nextOrder} order`,
+    );
+    sortToggle.title = `Sort conversations in ${nextOrder} order`;
+    sortToggle.disabled =
+      group.querySelectorAll("[data-conversation-sequence]").length < 2;
+  };
+
+  if (sortToggle) {
+    sortToggle.hidden = false;
+    sortToggle.addEventListener("click", () => {
+      const group = groups.find((item) => !item.hidden);
+      if (!group) return;
+      const list = group.querySelector(".all-dialogues");
+      if (!list) return;
+      const descending = group.dataset.sortOrder !== "descending";
+      const items = Array.from(
+        list.querySelectorAll("[data-conversation-sequence]"),
+      );
+      items.sort((left, right) => {
+        const difference =
+          Number(left.dataset.conversationSequence) -
+          Number(right.dataset.conversationSequence);
+        return descending ? -difference : difference;
+      });
+      items.forEach((item) => list.appendChild(item));
+      group.dataset.sortOrder = descending ? "descending" : "ascending";
+      updateSortToggle(group);
+    });
+  }
+
   const activateTab = (tab, focus = false) => {
     const groupId = tab.dataset.conversationGroupTarget;
     tabs.forEach((item) => {
@@ -289,6 +327,7 @@
     groups.forEach((group) => {
       group.hidden = group.id !== groupId;
     });
+    updateSortToggle(groups.find((group) => group.id === groupId));
     if (focus) tab.focus();
   };
 
