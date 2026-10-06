@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-28-copying-the-text-instead",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T13:20:50+08:00",
+  "updated_at": "2026-10-06T19:55:51+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "I'll Copy the Text Instead",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:39+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Can I watch you draw?",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:41+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "I'll just copy out a passage from my textbook instead!",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:46+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Are you going to copy a classical Chinese text? Why not copy some modern poetry instead?",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:48+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Okay, let me find the book.",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:49+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Here, look. It's on my phone.",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:51+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Mom said I can't use the phone.",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-28T22:48:54+08:00",
@@ -144,11 +144,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "Everything in this book has been revised.",
-          "file": "elevenlabs/2026-09-28-copying-the-text-instead_dialogue_007_en-us.mp3",
+          "source_text": "I've already revised everything in this notebook.",
+          "file": "elevenlabs/en-us/2026-09-28-copying-the-text-instead_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-28T22:48:55+08:00",
+          "generated_at": "2026-10-06T17:21:44+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -245,6 +245,316 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Mejor copiaré el texto",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Puedo verte dibujar?",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Mejor copiaré un texto del libro!",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Vas a copiar un texto clásico chino? Sería mejor copiar poesía moderna.",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Entonces voy a buscar el cuaderno.",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Aquí, mira. Está en mi teléfono.",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Mamá dijo que no puedo mirar el teléfono.",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ya he revisado todo lo de este cuaderno.",
+          "file": "elevenlabs/es-es/2026-09-28-copying-the-text-instead_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je vais plutôt recopier le texte",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Je peux te regarder dessiner ?",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Je vais plutôt recopier un texte du manuel !",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Tu vas recopier un texte classique chinois ? Tu ferais mieux de recopier un poème moderne.",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Alors, je vais chercher le cahier.",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:39+08:00",
+          "generation": null,
+          "sequence": "004",
+          "speaker": "child",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ici, regarde. C'est sur mon téléphone.",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Maman a dit que je ne pouvais pas regarder le téléphone.",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "J'ai déjà modifié tous les textes de ce cahier.",
+          "file": "elevenlabs/fr-fr/2026-09-28-copying-the-text-instead_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-22-hide-and-seek-downstairs",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T20:45:26+08:00",
+  "updated_at": "2026-10-06T19:33:28+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Hide-and-Seek Downstairs",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-22-hide-and-seek-downstairs_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:46+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "Downstairs in the compound, the child and another kid talk about playing hide-and-seek.",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:26:48+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Want to play hide-and-seek?",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-22-hide-and-seek-downstairs_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:50+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Sure!",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-22-hide-and-seek-downstairs_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:51+08:00",
@@ -80,13 +63,13 @@
             "similarity_boost": 1.0
           },
           "sequence": "002",
-          "speaker": "older kid"
+          "speaker": "older girl"
         },
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Let's do rock-paper-scissors first!",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-22-hide-and-seek-downstairs_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:52+08:00",
@@ -99,13 +82,13 @@
             "similarity_boost": 1.0
           },
           "sequence": "003",
-          "speaker": "older kid"
+          "speaker": "older girl"
         },
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Loser seeks, winner hides.",
-          "file": "elevenlabs/2026-07-22-hide-and-seek-downstairs_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-22-hide-and-seek-downstairs_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:54+08:00",
@@ -175,6 +158,208 @@
           "ai_generated": false,
           "sequence": "004",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "El escondite abajo",
+          "file": "elevenlabs/es-es/2026-07-22-hide-and-seek-downstairs_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:17:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Jugamos al escondite?",
+          "file": "elevenlabs/es-es/2026-07-22-hide-and-seek-downstairs_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:17:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Vale!",
+          "file": "elevenlabs/es-es/2026-07-22-hide-and-seek-downstairs_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:17:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "older girl"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Primero jugamos a piedra, papel o tijera!",
+          "file": "elevenlabs/es-es/2026-07-22-hide-and-seek-downstairs_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:17:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "older girl"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Quien pierda busca y quien gane se esconde.",
+          "file": "elevenlabs/es-es/2026-07-22-hide-and-seek-downstairs_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:17:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Cache-cache en bas",
+          "file": "elevenlabs/fr-fr/2026-07-22-hide-and-seek-downstairs_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:33:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On joue à cache-cache ?",
+          "file": "elevenlabs/fr-fr/2026-07-22-hide-and-seek-downstairs_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:33:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "D'accord !",
+          "file": "elevenlabs/fr-fr/2026-07-22-hide-and-seek-downstairs_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:33:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "older girl"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "On commence par pierre-feuille-ciseaux !",
+          "file": "elevenlabs/fr-fr/2026-07-22-hide-and-seek-downstairs_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:33:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "older girl"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Celui qui perd cherche, et celui qui gagne se cache.",
+          "file": "elevenlabs/fr-fr/2026-07-22-hide-and-seek-downstairs_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:33:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
         }
       ]
     }

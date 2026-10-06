@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-27-mosquitoes-cant-catch-me",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T23:27:18+08:00",
+  "updated_at": "2026-10-06T19:55:30+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Mosquitoes Can't Catch Me",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:04+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Weren't you moving around the whole time?",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:06+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Sometimes I wasn't.",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:08+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "And what about you?",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:10+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "I kept swinging the whole time!",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:13+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "So you kept swinging and the mosquitoes couldn't catch you. Is that it?",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:15+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "If a mosquito is behind me, I swing forward. If it's in front of me, I swing back.",
-          "file": "elevenlabs/2026-09-27-mosquitoes-cant-catch-me_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-27-mosquitoes-cant-catch-me_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-27T18:07:19+08:00",
@@ -216,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "弟弟"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Los mosquitos no pueden alcanzarme",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿No estabas moviéndote todo el tiempo?",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "A veces me quedaba quieto.",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Y tú, hermanito?",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Yo estuve columpiándome todo el tiempo!",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Así que estuviste balanceándote todo el tiempo y los mosquitos no podían alcanzarte, ¿no?",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Si el mosquito está detrás, me balanceo hacia delante. Si está delante, me balanceo hacia atrás.",
+          "file": "elevenlabs/es-es/2026-09-27-mosquitoes-cant-catch-me_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "younger brother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les moustiques n'arrivent pas à me rattraper",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tu ne bougeais pas tout le temps ?",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Parfois, je ne bougeais pas.",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Et toi, petit frère ?",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Moi, j'ai fait de la balançoire sans arrêt !",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tu t'es donc balancé sans arrêt et les moustiques n'arrivaient pas à te rattraper, c'est ça ?",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Si le moustique est derrière moi, je me balance vers l'avant. S'il est devant, je me balance vers l'arrière.",
+          "file": "elevenlabs/fr-fr/2026-09-27-mosquitoes-cant-catch-me_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "younger brother"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-20-beating-the-lightning-temple-boss",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T14:44:32+08:00",
+  "updated_at": "2026-10-06T19:32:29+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Beating the Lightning Temple Boss",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:14+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child beats the Lightning Temple boss after dying just once—to a regular enemy, not the boss.",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:16+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "I beat the Lightning Temple boss.",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:17+08:00",
@@ -64,28 +47,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The Lightning Temple boss is Queen Gibdo.",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:19+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Wow, nice! How many tries did it take?",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:21+08:00",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I died once, but I finally beat it. It took me a long time.",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:22+08:00",
@@ -123,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "A regular enemy jumped at me and killed me. The boss didn't kill me!",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:24+08:00",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Did it sneak up on you from behind?",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:25+08:00",
@@ -161,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "No, it came at me from the front. I was looking at the trees above me and wasn't watching the ground.",
-          "file": "elevenlabs/2026-07-20-beating-the-lightning-temple-boss_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-beating-the-lightning-temple-boss_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:27+08:00",
@@ -251,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Derrotar al jefe del Templo del Rayo",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "He derrotado al jefe del Templo del Rayo.",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Qué bien! ¿Cuántos intentos necesitaste?",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Morí una vez, pero al final lo derroté. Me llevó mucho tiempo.",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Un enemigo normal se me echó encima y me mató. ¡No fue el jefe!",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Te atacó por la espalda?",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "No, me atacó de frente. Estaba mirando los árboles de arriba y no prestaba atención al suelo.",
+          "file": "elevenlabs/es-es/2026-07-20-beating-the-lightning-temple-boss_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Battre le boss du Temple de la Foudre",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "J'ai battu le boss du Temple de la Foudre.",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Bravo ! Il t'a fallu combien d'essais ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je suis mort une fois, mais j'ai fini par le battre. Ça m'a pris beaucoup de temps.",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Un ennemi ordinaire m'a sauté dessus et m'a tué. Ce n'est pas le boss qui m'a tué !",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Il t'a attaqué par-derrière ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Non, il m'a attaqué de face. Je regardais les arbres au-dessus et je ne faisais pas attention au sol.",
+          "file": "elevenlabs/fr-fr/2026-07-20-beating-the-lightning-temple-boss_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
         }
       ]
     }

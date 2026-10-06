@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-30-pinyin-is-wrong",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-04T16:37:43+08:00",
+  "updated_at": "2026-10-06T19:46:48+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "The Pinyin Is Wrong",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:28+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child points out an error in the pinyin for “bo pi”",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:41:31+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Dad, you got one of the characters wrong.",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:32+08:00",
@@ -64,28 +47,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The child spotted the mistake while looking through a printed collection of earlier dialogues.",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:41:35+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Which one? What's wrong with it?",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:36+08:00",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "The first character of \"bo pi\" (peel) has the wrong pinyin. It should be \"bō,\" not \"bāo.\"",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:38+08:00",
@@ -120,28 +85,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "See Dialogue 38, “Grape Rice Bowl.”",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:41:40+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Let me take a look.",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:41+08:00",
@@ -160,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "You're right. It does have more than one pronunciation. The pinyin was generated automatically, so there could be mistakes.",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:44+08:00",
@@ -179,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "We'll have to check all the pinyin.",
-          "file": "elevenlabs/2026-08-30-pinyin-is-wrong_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-30-pinyin-is-wrong_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:41:45+08:00",
@@ -269,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "El pinyin está mal",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papá, tienes un carácter mal.",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Cuál? ¿Qué tiene mal?",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "El pinyin de «bo» en «bo pi» (pelar) está mal. Debería ser «bō», no «bāo».",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Déjame verlo.",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Es verdad. Es un carácter con varias pronunciaciones. El pinyin se generó automáticamente, así que puede tener errores.",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Habrá que revisar todo el pinyin.",
+          "file": "elevenlabs/es-es/2026-08-30-pinyin-is-wrong_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Le pinyin est incorrect",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papa, tu t'es trompé sur un caractère.",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Lequel ? Qu'est-ce qui ne va pas ?",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Le pinyin de « bo » dans « bo pi » (éplucher) est incorrect. Il faut écrire « bō », et non « bāo ».",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Laisse-moi regarder.",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "C'est vrai. Ce caractère a plusieurs prononciations. Le pinyin a été généré automatiquement, donc il peut contenir des erreurs.",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Il faudra vérifier tout le pinyin.",
+          "file": "elevenlabs/fr-fr/2026-08-30-pinyin-is-wrong_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:46:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
         }
       ]
     }

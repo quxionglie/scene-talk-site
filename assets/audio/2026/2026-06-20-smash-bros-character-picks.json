@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-20-smash-bros-character-picks",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T12:05:28+08:00",
+  "updated_at": "2026-10-06T19:23:11+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Picking Characters in Smash Bros.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:40+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "A father and two children talk about which Super Smash Bros. character each person should pick",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:41+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Are we picking Smash Bros. characters? Little guy, who do you want?",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:43+08:00",
@@ -64,28 +47,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "\"Smash Bros.\" refers to Super Smash Bros. Ultimate.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:44+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Captain Falcon.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:47+08:00",
@@ -101,28 +66,10 @@
           "speaker": "younger brother"
         },
         {
-          "segment_id": "note:002",
-          "type": "note",
-          "source_text": "This refers to the game character Captain Falcon.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_note_002_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:48+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "002"
-        },
-        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "What about you, big brother? Do you want Kazuya?",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:49+08:00",
@@ -138,28 +85,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "Kazuya is a character from the Tekken series.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:52+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Yeah.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:53+08:00",
@@ -178,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Then I'll go with Joker, okay?",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:55+08:00",
@@ -197,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "You should pick Link.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:56+08:00",
@@ -216,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Link isn't very good.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:57+08:00",
@@ -235,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "Link can shoot arrows. He's strong too.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:59+08:00",
@@ -253,11 +182,11 @@
         {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "For Mom, let's give her Min Min, the long-armed one.",
-          "file": "elevenlabs/2026-06-20-smash-bros-character-picks_dialogue_009_en-us.mp3",
+          "source_text": "Let's pick Min Min for Mom, the long-armed monster.",
+          "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:18:00+08:00",
+          "generated_at": "2026-10-06T17:19:21+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -374,6 +303,398 @@
           "ai_generated": false,
           "sequence": "009",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Elegir personajes en Smash Bros.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Vamos a elegir personajes de Smash Bros.? Peque, ¿cuál quieres?",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Captain Falcon.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Y tú, hermano mayor, ¿quieres elegir a Kazuya?",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Sí.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Entonces yo elijo a Joker, ¿vale?",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tú tienes que elegir a Link.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Link es muy malo.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Link sabe disparar flechas. También es fuerte.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Para mamá, elegimos a Min Min, el monstruo de brazos largos.",
+          "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Choisir son personnage dans Smash Bros.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On choisit nos personnages dans Smash Bros. ? Petit, tu veux lequel ?",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Captain Falcon.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Et toi, grand frère, tu veux choisir Kazuya ?",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Oui.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Alors, je prends Joker, d'accord ?",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Toi, tu dois choisir Link.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Link est vraiment nul.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Link sait tirer à l'arc. Il est fort aussi.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Pour maman, on choisit Min Min, le monstre aux longs bras.",
+          "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:23:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
         }
       ]
     }

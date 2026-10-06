@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-16-close-windows-by-wind-direction",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T10:33:16+08:00",
+  "updated_at": "2026-10-06T19:41:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Close Windows Based on the Wind Direction",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:33+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "When it rains, decide which windows to close based on how strong the wind is and which way it's blowing.",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:35+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "But you didn't close your window either.",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:37+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "This side faces south, so I don't need to.",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:38+08:00",
@@ -85,11 +68,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "Do you know which way the wind is blowing now?",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_dialogue_003_en-us.mp3",
+          "source_text": "Do you know what kind of wind is blowing now?",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:40+08:00",
+          "generated_at": "2026-10-06T17:20:47+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -105,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "A strong wind!",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:41+08:00",
@@ -124,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "A strong wind? That's true. But I mean the direction, not how strong it is!",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-close-windows-by-wind-direction_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:43+08:00",
@@ -138,24 +121,6 @@
           },
           "sequence": "005",
           "speaker": "father"
-        },
-        {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "Dad was actually asking whether it was a south wind or a north wind.",
-          "file": "elevenlabs/2026-08-16-close-windows-by-wind-direction_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:44+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
         }
       ]
     },
@@ -222,6 +187,246 @@
           "ai_generated": false,
           "sequence": "005",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Cerrar las ventanas según la dirección del viento",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Pero tú tampoco has cerrado la ventana de este lado.",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Este lado da al sur, así que no hace falta cerrarla.",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Sabes qué viento está soplando ahora?",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Un viento muy fuerte!",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Un viento muy fuerte? Sí, eso también. Pero hablo de la dirección, no de la intensidad.",
+          "file": "elevenlabs/es-es/2026-08-16-close-windows-by-wind-direction_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Fermer les fenêtres selon la direction du vent",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Mais toi non plus, tu n'as pas fermé la fenêtre de ce côté.",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Ce côté est orienté au sud, donc je n'ai pas besoin de la fermer.",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Tu sais quel vent souffle en ce moment ?",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Un vent très fort !",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Un vent très fort ? C'est vrai aussi. Mais je parle de sa direction, pas de sa force !",
+          "file": "elevenlabs/fr-fr/2026-08-16-close-windows-by-wind-direction_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
         }
       ]
     }

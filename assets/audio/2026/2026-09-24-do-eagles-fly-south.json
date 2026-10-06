@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-24-do-eagles-fly-south",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T23:16:46+08:00",
+  "updated_at": "2026-10-06T19:54:56+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Do Eagles Fly South?",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:44+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Dad, I saw an eagle today! I saw it flying in the sky when I was upstairs.",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:47+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Just one?",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:48+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Yeah! Then it flew away, and I couldn't see it anymore.",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:50+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "I'll look it up when we get home. Do eagles fly south?",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:51+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Geese fly south.",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:53+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "We've never seen swallows.",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-24T19:09:54+08:00",
@@ -144,11 +144,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "Geese aren't swallows. They're different birds.",
-          "file": "elevenlabs/2026-09-24-do-eagles-fly-south_dialogue_007_en-us.mp3",
+          "source_text": "\"Da yan\" (wild geese) aren't \"yan zi\" (swallows). \"Yan\" (goose) and \"yan\" (swallow) are different words.",
+          "file": "elevenlabs/en-us/2026-09-24-do-eagles-fly-south_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-24T19:10:07+08:00",
+          "generated_at": "2026-10-06T17:21:43+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -245,6 +245,310 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Las águilas vuelan hacia el sur?",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papá, hoy he visto un águila. La vi volando en el cielo cuando estaba en el piso de arriba.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Solo una?",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Sí! Luego se fue volando y ya no pude verla.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Cuando lleguemos a casa, voy a buscar si las águilas vuelan hacia el sur.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Los gansos salvajes sí vuelan hacia el sur.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Nunca hemos visto golondrinas.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Los «da yan» (gansos salvajes) no son «yan zi» (golondrinas). «Yan» (ganso salvaje) y «yan» (golondrina) no son lo mismo.",
+          "file": "elevenlabs/es-es/2026-09-24-do-eagles-fly-south_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les aigles volent-ils vers le sud ?",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papa, j'ai vu un aigle aujourd'hui. Je l'ai vu voler dans le ciel quand j'étais à l'étage.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Un seul ?",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:43+08:00",
+          "generation": null,
+          "sequence": "002",
+          "speaker": "father",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Oui ! Puis il s'est envolé et je ne le voyais plus.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "En rentrant, je vais vérifier si les aigles volent vers le sud.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Les oies sauvages, elles, volent vers le sud.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:49+08:00",
+          "generation": null,
+          "sequence": "005",
+          "speaker": "father",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Nous n'avons jamais vu d'hirondelles.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Les « da yan » (oies sauvages) ne sont pas des « yan zi » (hirondelles). « Yan » (oie sauvage) et « yan » (hirondelle), ce n'est pas la même chose.",
+          "file": "elevenlabs/fr-fr/2026-09-24-do-eagles-fly-south_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
         }
       ]
     }

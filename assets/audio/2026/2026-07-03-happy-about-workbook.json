@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-03-happy-about-workbook",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T18:48:19+08:00",
+  "updated_at": "2026-10-06T19:28:37+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Something to Be Happy About",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:20:19+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The father asks for something happy, but the child's answer is a new workbook from Mom, leaving him unsure whether to laugh or cry",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:20:21+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "We've been listening to \"The Sad Pacific\" every day. Enough sad stuff. Do you have anything happy to tell me?",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:20:23+08:00",
@@ -64,28 +47,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "\"Shang Xin Tai Ping Yang\" (\"The Sad Pacific\") is a song by Richie Jen.",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:20:24+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Mom bought me a workbook.",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:20:26+08:00",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "It's school break. Other kids just want to play all day, but you still want to do workbook problems!",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:20:27+08:00",
@@ -122,11 +87,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "I'm about to tear up. Am I trying to cry or laugh here?",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_dialogue_004_en-us.mp3",
+          "source_text": "I'm about to tear up. Do you think I want to cry or laugh?",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:20:29+08:00",
+          "generated_at": "2026-10-06T17:19:37+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -139,28 +104,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "The father does not know whether to laugh or cry.",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:20:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Cry?",
-          "file": "elevenlabs/2026-07-03-happy-about-workbook_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-03-happy-about-workbook_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:20:32+08:00",
@@ -240,6 +187,246 @@
           "ai_generated": false,
           "sequence": "005",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Algo por lo que alegrarse",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Escuchamos «The Sad Pacific» todos los días. Basta de cosas tristes. ¿Tienes algo alegre que contarme?",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Mamá me ha comprado un cuaderno de ejercicios.",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Estamos de vacaciones. Los demás niños solo quieren jugar todo el día, ¡y tú todavía quieres hacer ejercicios!",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ya se me saltan las lágrimas. ¿Tú qué crees: tengo ganas de llorar o de reír?",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Llorar?",
+          "file": "elevenlabs/es-es/2026-07-03-happy-about-workbook_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "De quoi se réjouir",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On écoute « The Sad Pacific » tous les jours. Assez parlé de choses tristes. Tu as quelque chose de joyeux à me raconter ?",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Maman m'a acheté un cahier d'exercices.",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "C'est les vacances. Les autres enfants veulent seulement jouer toute la journée, et toi, tu veux encore faire des exercices !",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "J'en ai les larmes aux yeux. À ton avis, j'ai envie de pleurer ou de rire ?",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Pleurer ?",
+          "file": "elevenlabs/fr-fr/2026-07-03-happy-about-workbook_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:28:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
         }
       ]
     }

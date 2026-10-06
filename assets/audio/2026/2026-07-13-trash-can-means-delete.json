@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-13-trash-can-means-delete",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T21:43:03+08:00",
+  "updated_at": "2026-10-06T19:31:44+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "The Trash Can Icon Means Delete",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:16+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "I want to delete it. There's a trash can icon here.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:19+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "How do you know the trash can icon means delete?",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:22+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "There was a trash can icon on the TV. I didn't know what it meant. I pressed the button, and the cartoon disappeared.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-18T13:06:22+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Wow, you even figured that out.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:27+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Good thing I didn't delete any cartoons I like.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:24:29+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "I used to like them, but I don't anymore.",
-          "file": "elevenlabs/2026-07-13-trash-can-means-delete_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-13-trash-can-means-delete_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-18T13:06:15+08:00",
@@ -216,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "El icono de la papelera significa eliminar",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Quiero borrarlo. Aquí hay un icono de papelera.",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Cómo sabes que el icono de la papelera significa eliminar?",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "En la tele había un icono de papelera. No sabía qué significaba. Pulsé el botón y los dibujos desaparecieron.",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Vaya, hasta eso lo has descubierto.",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Menos mal que no borré ningún dibujo animado que me gustara.",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Antes me gustaban, pero ahora ya no.",
+          "file": "elevenlabs/es-es/2026-07-13-trash-can-means-delete_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "L'icône de la corbeille signifie supprimer",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Je veux le supprimer. Il y a une icône de corbeille ici.",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Comment tu sais que l'icône de la corbeille signifie supprimer ?",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Il y avait une icône de corbeille sur la télé. Je ne savais pas ce qu'elle voulait dire. J'ai appuyé sur le bouton et le dessin animé a disparu.",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Waouh, tu as même découvert ça.",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Heureusement, je n'ai supprimé aucun dessin animé que j'aime.",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je les aimais avant, mais plus maintenant.",
+          "file": "elevenlabs/fr-fr/2026-07-13-trash-can-means-delete_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
         }
       ]
     }

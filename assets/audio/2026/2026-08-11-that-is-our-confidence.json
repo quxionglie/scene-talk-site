@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-11-that-is-our-confidence",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-02T18:46:31+08:00",
+  "updated_at": "2026-10-06T19:40:17+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -13,28 +13,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "That's Our Confidence",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_title_en-us.mp3",
+          "source_text": "Our Confidence",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:33:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child asks how tall Dad was in primary school, and Dad turns it into a quick talk about confidence.",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:33:32+08:00",
+          "generated_at": "2026-10-06T17:20:36+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -48,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "How tall were you in primary school?",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:33:34+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Who remembers that? Why do you care about height and weight every day?",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:33:36+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I care about other people's height, not my own.",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:33:37+08:00",
@@ -104,11 +87,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "You're already above the average height for your age.",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_004_en-us.mp3",
+          "source_text": "You're already above the standard height for your age.",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:33:39+08:00",
+          "generated_at": "2026-10-06T17:20:37+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -124,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Kids who do well in school don't need to worry about grades. They're near the top anyway.",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:33:41+08:00",
@@ -143,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "People who are already tall enough don't worry about height either. Eat a little more, get more exercise, and you can still grow a few more centimeters.",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:33:43+08:00",
@@ -161,11 +144,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "We never worry about that. That's our confidence!",
-          "file": "elevenlabs/2026-08-11-that-is-our-confidence_dialogue_007_en-us.mp3",
+          "source_text": "We never worry about that. That's how confident we are!",
+          "file": "elevenlabs/en-us/2026-08-11-that-is-our-confidence_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:33:44+08:00",
+          "generated_at": "2026-10-06T17:20:39+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -262,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Nuestra confianza en nosotros mismos",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cuánto medías cuando estabas en primaria?",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Quién se acuerda de eso! ¿Por qué te preocupan todos los días la estatura y el peso?",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Me interesa cuánto miden los demás, no cuánto mido yo.",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ya estás por encima de la estatura de referencia para tu edad.",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Los que estudian bien no tienen que preocuparse por las notas. De todas formas, siempre están entre los primeros.",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Quien ya es suficientemente alto tampoco se preocupa por su estatura. Come un poco más, haz más ejercicio y todavía podrás crecer unos centímetros.",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Nosotros nunca nos preocupamos por eso. ¡Eso es confiar en nosotros mismos!",
+          "file": "elevenlabs/es-es/2026-08-11-that-is-our-confidence_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:00:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Notre confiance en nous",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tu mesurais combien à l'école primaire ?",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Qui se souvient de ça ! Pourquoi tu t'intéresses tous les jours à la taille et au poids ?",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je m'intéresse à la taille des autres, pas à la mienne.",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tu dépasses déjà la taille de référence pour ton âge.",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ceux qui réussissent bien à l'école n'ont pas besoin de s'inquiéter de leurs notes. Ils sont de toute façon parmi les premiers.",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ceux qui sont déjà assez grands ne s'inquiètent pas non plus de leur taille. Mange un peu plus, fais davantage d'exercice et tu pourras encore gagner quelques centimètres.",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Nous, on ne s'inquiète jamais de ça. C'est ça, notre confiance en nous !",
+          "file": "elevenlabs/fr-fr/2026-08-11-that-is-our-confidence_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
         }
       ]
     }

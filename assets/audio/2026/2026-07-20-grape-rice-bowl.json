@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-20-grape-rice-bowl",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T14:39:19+08:00",
+  "updated_at": "2026-10-06T19:32:37+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Grape Rice Bowl",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-grape-rice-bowl_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:29+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child shows off a homemade “grape rice bowl.”",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Dad, come look at my grape rice bowl.",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-grape-rice-bowl_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:32+08:00",
@@ -64,28 +47,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The father has never heard of a grape rice bowl. It's obviously a “weird” dish.",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:34+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Want me to pour some soup on it?",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-grape-rice-bowl_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:35+08:00",
@@ -101,28 +66,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:002",
-          "type": "note",
-          "source_text": "Rice bowls usually come with sauce or broth over the rice.",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_note_002_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:37+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "002"
-        },
-        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "No!",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-grape-rice-bowl_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:38+08:00",
@@ -141,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "It took ten minutes just to peel the grapes.",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-grape-rice-bowl_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:40+08:00",
@@ -155,24 +102,6 @@
           },
           "sequence": "004",
           "speaker": "mother"
-        },
-        {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "The child peeled them all by themselves.",
-          "file": "elevenlabs/2026-07-20-grape-rice-bowl_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:41+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
         }
       ]
     },
@@ -229,6 +158,208 @@
           "ai_generated": false,
           "sequence": "004",
           "speaker": "母亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Arroz cubierto de uvas",
+          "file": "elevenlabs/es-es/2026-07-20-grape-rice-bowl_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papá, ven a ver mi arroz cubierto de uvas.",
+          "file": "elevenlabs/es-es/2026-07-20-grape-rice-bowl_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Quieres que le eche un poco de caldo?",
+          "file": "elevenlabs/es-es/2026-07-20-grape-rice-bowl_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡No!",
+          "file": "elevenlabs/es-es/2026-07-20-grape-rice-bowl_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Solo pelar las uvas llevó diez minutos.",
+          "file": "elevenlabs/es-es/2026-07-20-grape-rice-bowl_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Bol de riz aux raisins",
+          "file": "elevenlabs/fr-fr/2026-07-20-grape-rice-bowl_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papa, viens voir mon bol de riz aux raisins.",
+          "file": "elevenlabs/fr-fr/2026-07-20-grape-rice-bowl_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Tu veux que je verse un peu de bouillon dessus ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-grape-rice-bowl_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Non !",
+          "file": "elevenlabs/fr-fr/2026-07-20-grape-rice-bowl_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Rien qu'éplucher les raisins a pris dix minutes.",
+          "file": "elevenlabs/fr-fr/2026-07-20-grape-rice-bowl_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
         }
       ]
     }

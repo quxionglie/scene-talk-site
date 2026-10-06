@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-11-choosing-a-bike",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T14:56:06+08:00",
+  "updated_at": "2026-10-06T19:30:22+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Choosing a Bike",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:20+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "Dad compares a few bikes, and the child decides on a 26-inch one",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:22:22+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Let's skip the 24-inch bike and get a 26-inch one.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:24+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "This is the last bike we're buying you. If you want another one later, you'll have to earn the money and buy it yourself.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:26+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Decathlon has a 26-inch bike in red or blue. You can ride it once you're 1.4 meters tall.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:28+08:00",
@@ -102,28 +85,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "Decathlon EXPLORE 900. Officially recommended for riders 140–160 cm tall.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:22:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Here's another one from Giant. You can ride it once you're 1.45 meters tall.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:32+08:00",
@@ -139,28 +104,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "Giant ATX 660. Suitable for riders 145–160 cm tall.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:22:34+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "If you wait another two years, you can get this one. You need to be 1.52 meters tall to ride it. It's also a Giant.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:36+08:00",
@@ -176,28 +123,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "Giant ATX 720. Suitable for riders 152–164 cm tall.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:22:39+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Let's get the 26-inch one.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:40+08:00",
@@ -216,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "If you wait longer, you can get a better one.",
-          "file": "elevenlabs/2026-07-11-choosing-a-bike_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-11-choosing-a-bike_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:22:42+08:00",
@@ -316,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Elegir una bicicleta",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "No compremos la bicicleta de 24 pulgadas; compraremos una de 26.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Esta es la última bicicleta que te compramos. Si más adelante quieres otra, tendrás que ganar el dinero y comprarla tú mismo.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Decathlon tiene una bicicleta de 26 pulgadas en rojo o azul. Se puede usar a partir de 1,40 metros de altura.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Esta otra es de Giant. Se puede usar a partir de 1,45 metros.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Si esperas otros dos años, podrás comprar esta. Hay que medir al menos 1,52 metros para usarla. También es de Giant.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Compremos la de 26 pulgadas.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Cuanto más esperes, mejor será la bicicleta que puedas comprar.",
+          "file": "elevenlabs/es-es/2026-07-11-choosing-a-bike_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Choisir un vélo",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On ne va pas prendre le vélo de 24 pouces. On va en prendre un de 26.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "C'est le dernier vélo qu'on t'achète. Si tu en veux encore un plus tard, tu devras gagner de l'argent et te l'acheter toi-même.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Decathlon a un vélo de 26 pouces, rouge ou bleu. On peut rouler avec dès qu'on mesure 1,40 mètre.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Cet autre modèle est de Giant. On peut rouler avec dès qu'on mesure 1,45 mètre.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Si tu attends encore deux ans, tu pourras prendre celui-ci. Il faut mesurer au moins 1,52 mètre pour rouler avec. C'est aussi un Giant.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Prenons celui de 26 pouces.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Plus tu attends, meilleur sera le vélo que tu pourras acheter.",
+          "file": "elevenlabs/fr-fr/2026-07-11-choosing-a-bike_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-13-mistakes-on-the-wall",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T21:29:05+08:00",
+  "updated_at": "2026-10-06T19:54:10+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "\"Mistakes\" on the Wall",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:45+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "This whole wall is covered with your \"mistakes.\" How are you going to correct them?",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:47+08:00",
@@ -47,28 +47,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "\"Mistakes\" here refers to the mistake sticky notes on the wall.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-13T18:13:29+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "What about you? Are any of these \"mistakes\" yours?",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:49+08:00",
@@ -87,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "None of these \"mistakes\" are mine.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:51+08:00",
@@ -106,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "These are all his. Everything drawn in pencil is his.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:53+08:00",
@@ -124,11 +106,11 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "I've already corrected my \"mistakes.\" I had six of them.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_005_en-us.mp3",
+          "source_text": "I've already corrected my \"mistakes.\" I had six notes.",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-13T13:24:54+08:00",
+          "generated_at": "2026-10-06T17:21:36+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "l7kNoIfnJKPg7779LI2t",
@@ -141,31 +123,13 @@
           "speaker": "younger brother"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "The younger brother has six mistake sticky notes.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-13T18:13:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
-          "source_text": "You had six, right?",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_006_en-us.mp3",
+          "source_text": "You have six notes, right?",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-13T13:24:55+08:00",
+          "generated_at": "2026-10-06T17:21:37+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -181,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "I've wiped out all these mistakes.",
-          "file": "elevenlabs/2026-09-13-mistakes-on-the-wall_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-13-mistakes-on-the-wall_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-13T13:24:57+08:00",
@@ -281,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "弟弟"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Los «errores» de la pared",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Toda la pared está llena de tus «errores». ¿Cómo vas a corregirlos?",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Y tú, hermanito, ¿hay algún «error» tuyo?",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ninguno de estos «errores» es mío.",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Todo esto es de mi hermano. Todo lo que está dibujado a lápiz es suyo.",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ya he corregido mis «errores». Tenía seis notas.",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tienes seis notas, ¿verdad?",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "He eliminado todos estos errores.",
+          "file": "elevenlabs/es-es/2026-09-13-mistakes-on-the-wall_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "younger brother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les « erreurs » sur le mur",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tout ce mur est couvert de tes « erreurs ». Comment vas-tu les corriger ?",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Et toi, petit frère, est-ce qu'il y a des « erreurs » à toi ?",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Aucune de ces « erreurs » n'est à moi.",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tout ça appartient à mon petit frère. Tout ce qui est dessiné au crayon est à lui.",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "J'ai déjà corrigé mes « erreurs ». J'avais six notes.",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tu as six notes, c'est ça ?",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "J'ai éliminé toutes ces erreurs.",
+          "file": "elevenlabs/fr-fr/2026-09-13-mistakes-on-the-wall_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "younger brother"
         }
       ]
     }

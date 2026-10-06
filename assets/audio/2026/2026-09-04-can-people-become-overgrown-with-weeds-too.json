@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-04-can-people-become-overgrown-with-weeds-too",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T14:48:57+08:00",
+  "updated_at": "2026-10-06T19:49:08+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Can People Become Overgrown with Weeds Too?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:01+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "One morning at home, a father and child talk about an overgrown vacant lot and wonder what “soil” and “weeds” might mean for a person.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:03+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Why are you up already?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:05+08:00",
@@ -64,28 +47,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The father is up earlier than usual.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:06+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "I was thinking about your construction site.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:08+08:00",
@@ -101,28 +66,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:002",
-          "type": "note",
-          "source_text": "On the way home from school, they passed a vacant lot overgrown with weeds. They hadn't seen it all summer, and the weeds were now about 50 centimeters tall.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_note_002_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:10+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "002"
-        },
-        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "What's the point of thinking about that?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:11+08:00",
@@ -141,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "The buildings at the site were torn down, leaving bare soil behind. Leave it alone for a few months, and weeds start growing.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:13+08:00",
@@ -157,28 +104,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "The buildings on the vacant lot were torn down before summer vacation. Once all the construction debris had been hauled away, only bare soil remained.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:16+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "And here's the poetic angle: if a person were left untended for a few months, would they become overgrown with weeds too?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:17+08:00",
@@ -197,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "But for a person, what would the soil be? And what would the weeds be?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:19+08:00",
@@ -213,28 +142,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:006",
-          "type": "note",
-          "source_text": "The key question is: what does it mean to tend to a person?",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_note_006_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:44:20+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "006"
-        },
-        {
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Now I want to go pick some foxtail grass.",
-          "file": "elevenlabs/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:44:22+08:00",
@@ -334,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Las personas también pueden llenarse de maleza?",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Por qué te has levantado ya?",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Estaba pensando en tu obra.",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿De qué sirve pensar en eso?",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Derribaron los edificios de la obra y dejaron la tierra al descubierto. Si nadie la cuida durante unos meses, empieza a crecer maleza.",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Y, desde un punto de vista poético: si una persona pasara varios meses sin cuidarse, ¿también se llenaría de maleza?",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Pero, para una persona, ¿qué sería la tierra? ¿Y qué sería la hierba?",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ahora hasta me apetece ir a recoger cola de zorro.",
+          "file": "elevenlabs/es-es/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:47:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les gens peuvent-ils aussi être envahis par les herbes ?",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:48:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Pourquoi tu es déjà debout ?",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:48:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Je pensais à ton chantier.",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:48:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "À quoi ça sert d'y penser ?",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:48:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Les bâtiments du chantier ont été démolis, laissant la terre à nu. Si on ne s'en occupe pas pendant quelques mois, les herbes se mettent à pousser.",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:49:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Et d'un point de vue poétique : si personne ne prenait soin d'une personne pendant quelques mois, serait-elle aussi envahie par les herbes ?",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:49:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Mais pour une personne, que représenterait la terre ? Et que représenteraient les herbes ?",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:49:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Maintenant, j'ai même envie d'aller cueillir de la sétaire.",
+          "file": "elevenlabs/fr-fr/2026-09-04-can-people-become-overgrown-with-weeds-too_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:49:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-20-how-old-is-link",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T11:05:49+08:00",
+  "updated_at": "2026-10-06T19:42:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "How Old Is Link?",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:36+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child asks how old Link is. Dad says The Legend of Zelda series spans too many different eras to know for sure.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:38+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "How old is Link?",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:39+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "I've always wanted to ask, but I keep forgetting. So I waited until I woke up from my nap today to ask.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:41+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I don't know! The games have been around for twenty years, so Link's age probably varies a lot.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:43+08:00",
@@ -102,31 +85,13 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "Each game in The Legend of Zelda series may have a different setting.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:45+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "Even your princess can travel from ancient times to the present. She's been in every era.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_004_en-us.mp3",
+          "source_text": "Your princess can even travel from ancient times to the present, between different eras.",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:47+08:00",
+          "generated_at": "2026-10-06T17:21:00+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Why?",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:49+08:00",
@@ -161,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "It's mainly because there are so many games, and they span such a long time. Characters can even come back to life after they die, so I really don't know.",
-          "file": "elevenlabs/2026-08-20-how-old-is-link_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-20-how-old-is-link_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:51+08:00",
@@ -251,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Cuántos años tiene Link?",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cuántos años tiene Link?",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Llevaba mucho tiempo queriendo preguntártelo, pero se me olvidaba una y otra vez. Así que esperé a despertarme de la siesta de hoy para preguntártelo.",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡No lo sé! Los juegos existen desde hace veinte años, así que la edad de Link debe variar mucho.",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Hasta tu princesa puede viajar desde la antigüedad hasta la época actual. Va viajando de una época a otra.",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Por qué?",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Sobre todo porque hay muchos juegos y abarcan muchísimo tiempo. Los personajes incluso pueden resucitar después de morir, así que yo tampoco lo sé.",
+          "file": "elevenlabs/es-es/2026-08-20-how-old-is-link_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Quel âge a Link ?",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Quel âge a Link ?",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Je voulais te le demander depuis longtemps, mais j'oubliais à chaque fois. Alors j'ai attendu de me réveiller de ma sieste de ce midi pour te le demander.",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je ne sais pas ! Les jeux existent depuis vingt ans, donc l'âge de Link doit beaucoup varier.",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Même ta princesse peut voyager de l'Antiquité jusqu'à l'époque moderne. Elle traverse toutes les époques.",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Pourquoi ?",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "C'est surtout parce qu'il y a beaucoup de jeux et qu'ils couvrent une très longue période. Les personnages peuvent même ressusciter après leur mort, alors je ne sais vraiment pas.",
+          "file": "elevenlabs/fr-fr/2026-08-20-how-old-is-link_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
         }
       ]
     }

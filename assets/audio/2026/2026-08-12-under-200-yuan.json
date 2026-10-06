@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-12-under-200-yuan",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T10:07:39+08:00",
+  "updated_at": "2026-10-06T19:41:08+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -13,28 +13,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "Under 200 Yuan",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_title_en-us.mp3",
+          "source_text": "No More Than 200 Yuan",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:34:34+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child asks when Dad bought the suitcase and how much it cost. Dad says he wouldn't have bought it for more than 200 yuan.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:34:35+08:00",
+          "generated_at": "2026-10-06T17:20:43+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -48,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Dad, when did you buy this suitcase?",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:37+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "You weren't even born when I bought it! I don't remember when I got it. It was years ago.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:38+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Was the suitcase expensive?",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:40+08:00",
@@ -105,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Somewhere over 100 yuan, but not over 200.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:41+08:00",
@@ -121,28 +104,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "No more than 200 yuan.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:34:43+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Why?",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:44+08:00",
@@ -158,28 +123,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "The child is asking why that price, and how Dad still remembers it when he does not remember when he bought it.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:34:46+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "If it had been over 200, I wouldn't have bought it.",
-          "file": "elevenlabs/2026-08-12-under-200-yuan_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-12-under-200-yuan_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:34:48+08:00",
@@ -269,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "No costó más de doscientos yuanes",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papá, ¿cuándo compraste esta maleta?",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Ni siquiera habías nacido cuando la compré! Ya no recuerdo cuándo fue. Hace muchos años.",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Era cara la maleta?",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ciento y pico yuanes, pero no más de 200.",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Por qué?",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Si hubiera costado más de 200, no la habría comprado.",
+          "file": "elevenlabs/es-es/2026-08-12-under-200-yuan_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:01:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Pas plus de deux cents yuans",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papa, quand est-ce que tu as acheté cette valise ?",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:40:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Tu n'étais même pas né quand je l'ai achetée ! Je ne me souviens plus quand c'était. Il y a très longtemps.",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Elle était chère, la valise ?",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Un peu plus de 100 yuans, mais pas plus de 200.",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Pourquoi ?",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Si elle avait coûté plus de 200 yuans, je ne l'aurais pas achetée.",
+          "file": "elevenlabs/fr-fr/2026-08-12-under-200-yuan_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
         }
       ]
     }

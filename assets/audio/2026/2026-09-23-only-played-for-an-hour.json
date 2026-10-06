@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-23-only-played-for-an-hour",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T23:13:00+08:00",
+  "updated_at": "2026-10-06T19:54:38+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Only Played for an Hour",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:34+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "You only played for an hour again? You're always like this!",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:36+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "I just don't have the energy anymore!",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:38+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Back when I was young, I could play all afternoon, no problem!",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:40+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "All afternoon?",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:41+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "From two to six in the afternoon.",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:43+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Do you know what a cramp is?",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:44+08:00",
@@ -145,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "No.",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:45+08:00",
@@ -164,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "Back then, we barely had any water to drink. I could play all afternoon without getting tired or getting cramps!",
-          "file": "elevenlabs/2026-09-23-only-played-for-an-hour_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-23-only-played-for-an-hour_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-23T17:48:47+08:00",
@@ -274,6 +274,348 @@
           "ai_generated": false,
           "sequence": "008",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Solo jugué una hora",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Otra vez igual? ¡Solo has jugado una hora!",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Ya no tengo la misma resistencia!",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Cuando era joven, podía jugar toda la tarde sin problema.",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Toda la tarde?",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Desde las dos hasta las seis de la tarde.",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Sabes qué es un calambre?",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "No.",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "En aquella época casi no teníamos agua para beber. ¡Podía jugar toda la tarde sin cansarme ni tener calambres!",
+          "file": "elevenlabs/es-es/2026-09-23-only-played-for-an-hour_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:52:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je n'ai joué qu'une heure",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tu fais encore pareil ? Tu n'as joué qu'une heure !",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:25+08:00",
+          "generation": null,
+          "sequence": "001",
+          "speaker": "child",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Je n'ai plus la même endurance !",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Quand j'étais jeune, je pouvais jouer tout l'après-midi sans problème !",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tout l'après-midi ?",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "De deux heures à six heures de l'après-midi.",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tu sais ce qu'est une crampe ?",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Non.",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:34+08:00",
+          "generation": null,
+          "sequence": "007",
+          "speaker": "child",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "À l'époque, on avait à peine de l'eau à boire. Je pouvais jouer tout l'après-midi sans être fatigué ni avoir de crampes !",
+          "file": "elevenlabs/fr-fr/2026-09-23-only-played-for-an-hour_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:54:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
         }
       ]
     }

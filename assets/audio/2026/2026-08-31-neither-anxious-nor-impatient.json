@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-31-neither-anxious-nor-impatient",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T20:50:31+08:00",
+  "updated_at": "2026-10-06T19:47:29+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Neither Anxious nor Impatient",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:19+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "At registration for the new semester, the school hands out bananas to encourage the students to stay calm and patient.",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:21+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Let me see how heavy your books are.",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:23+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "They're so heavy my legs are going weak.",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:25+08:00",
@@ -83,28 +66,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:002",
-          "type": "note",
-          "source_text": "He means the schoolbag is very heavy.",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_002_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:27+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "002"
-        },
-        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Why are they handing out bananas?",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:28+08:00",
@@ -120,28 +85,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "In Mandarin, 焦 is \"jiao\" (anxious), which sounds the same as 蕉 in \"xiangjiao\" (banana), creating a pun.",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Oh, \"Bu jiao bu zao\" (not anxious or impatient)!",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:32+08:00",
@@ -157,34 +104,16 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "The father immediately notices what is written on the cardboard sign. The more common expression is 不骄不躁, \"bu jiao bu zao\" (neither arrogant nor impatient).",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:35+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "What does \"bu jiao bu zao\" mean?",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_005_en-us.mp3",
+          "source_text": "What does \"bu jiao bu zao\" (neither anxious nor impatient) mean?",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:36+08:00",
+          "generated_at": "2026-10-06T17:21:25+08:00",
           "generation": {
             "provider": "ElevenLabs",
-            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
             "model_id": "eleven_multilingual_v2",
             "output_format": "mp3_44100_128",
             "speed": 0.9,
@@ -197,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "I guess it means not feeling anxious or impatient!",
-          "file": "elevenlabs/2026-08-31-neither-anxious-nor-impatient_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-neither-anxious-nor-impatient_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:37+08:00",
@@ -287,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Ni ansioso ni impaciente",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Déjame ver cuánto pesan tus libros.",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Pesan tanto que me tiemblan las piernas.",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Por qué reparten plátanos?",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Ah, «bu jiao bu zao» (ni ansioso ni impaciente)!",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Qué significa «bu jiao bu zao» (ni ansioso ni impaciente)?",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Supongo que significa no estar ansioso ni impaciente.",
+          "file": "elevenlabs/es-es/2026-08-31-neither-anxious-nor-impatient_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:08:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Ni anxieux ni impatient",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Laisse-moi voir si tes livres sont lourds.",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "C'est tellement lourd que j'en ai les jambes qui flanchent.",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Pourquoi est-ce qu'ils distribuent des bananes ?",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ah, « bu jiao bu zao » (ni anxieux ni impatient) !",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Qu'est-ce que « bu jiao bu zao » (ni anxieux ni impatient) veut dire ?",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je suppose que ça veut dire ne pas être anxieux ni impatient !",
+          "file": "elevenlabs/fr-fr/2026-08-31-neither-anxious-nor-impatient_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
         }
       ]
     }

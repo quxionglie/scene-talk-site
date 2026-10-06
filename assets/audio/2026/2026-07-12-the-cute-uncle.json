@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-12-the-cute-uncle",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T21:19:46+08:00",
+  "updated_at": "2026-10-06T19:31:04+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "The \"Cute\" Uncle",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:14+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "After the banquet, it sounds like the child is calling their uncle \"kind of cute.\"",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:16+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "We'd only been there a few minutes when we started eating. I had two bowls of rice.",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:17+08:00",
@@ -66,11 +49,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "Then you must've gotten there a little late.",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_002_en-us.mp3",
+          "source_text": "Maybe you got there a little late, then.",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:19+08:00",
+          "generated_at": "2026-10-06T17:19:51+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "After we ate, we ran around the restaurant.",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:20+08:00",
@@ -105,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Did you know everyone else there?",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:21+08:00",
@@ -124,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Some of them, but not all.",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:23+08:00",
@@ -143,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Did you see your uncle today?",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:24+08:00",
@@ -159,28 +142,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:006",
-          "type": "note",
-          "source_text": "Chinese has many specific terms for different kinds of uncles—“jiujiu,” “shushu,” “bobo,” “gufu,” “yifu,” and “biaojiu”—but English usually calls all of them “uncle.”",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_note_006_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:27+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "006"
-        },
-        {
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Yeah. My uncle's... kind of cute?",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:28+08:00",
@@ -196,28 +161,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:007",
-          "type": "note",
-          "source_text": "In Chinese, adults aren't usually described as \"cute.\"",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_note_007_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:30+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "007"
-        },
-        {
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "You mean your uncle was kind of cute?",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:23:32+08:00",
@@ -233,31 +180,13 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:008",
-          "type": "note",
-          "source_text": "Dad missed part of what the child said, so he asked again.",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_note_008_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:34+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "008"
-        },
-        {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "I meant my uncle's son. He was kind of cute. I even got to touch him...",
-          "file": "elevenlabs/2026-07-12-the-cute-uncle_dialogue_009_en-us.mp3",
+          "source_text": "I meant my uncle's son. He was kind of cute. I even touched him...",
+          "file": "elevenlabs/en-us/2026-07-12-the-cute-uncle_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:23:35+08:00",
+          "generated_at": "2026-10-06T17:19:52+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -374,6 +303,398 @@
           "ai_generated": false,
           "sequence": "009",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "El tío «mono»",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Llevábamos allí solo unos minutos cuando empezamos a comer. Yo comí dos cuencos de arroz.",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Entonces debisteis de llegar un poco tarde.",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Después de comer, estuvimos corriendo por el restaurante.",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:14:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Conocías a todos los demás?",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "A algunos sí y a otros no.",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Has visto hoy a tu tío?",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Sí. Mi tío es... ¿un poco mono?",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¿Quieres decir que tu tío era un poco mono?",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "El hijo de mi tío es un poco mono. Hasta lo toqué...",
+          "file": "elevenlabs/es-es/2026-07-12-the-cute-uncle_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:15:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "L'oncle « mignon »",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On était arrivés depuis seulement quelques minutes quand on a commencé à manger. J'ai mangé deux bols de riz.",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Alors, vous êtes peut-être arrivés un peu tard.",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Après avoir mangé, on a couru partout dans le restaurant.",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tu connaissais tous les autres ?",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Certains oui, d'autres non.",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tu as vu ton oncle aujourd'hui ?",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:30:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Oui. Mon oncle est... un peu mignon ?",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Tu veux dire que ton oncle était un peu mignon ?",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "C'est le fils de mon oncle qui est un peu mignon. Je l'ai même touché...",
+          "file": "elevenlabs/fr-fr/2026-07-12-the-cute-uncle_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:31:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "child"
         }
       ]
     }

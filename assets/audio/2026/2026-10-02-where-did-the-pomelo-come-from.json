@@ -13,7 +13,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Where Did the Pomelo Come From?",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:29+08:00",
@@ -30,7 +30,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Let me ask you something. Where did this come from?",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:31+08:00",
@@ -49,7 +49,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Someone gave it to us.",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:33+08:00",
@@ -68,7 +68,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I thought you bought it!",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:34+08:00",
@@ -87,7 +87,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "The older lady downstairs gave it to us.",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:36+08:00",
@@ -106,7 +106,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Was it knocked down from the pomelo tree downstairs?",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:38+08:00",
@@ -125,7 +125,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Yeah!",
-          "file": "elevenlabs/2026-10-02-where-did-the-pomelo-come-from_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-02-where-did-the-pomelo-come-from_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-02T18:00:39+08:00",
@@ -157,7 +157,285 @@
           "ai_generated": false
         }
       ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿De dónde salió el pomelo?",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Quiero preguntar una cosa. ¿De dónde salió esto?",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Nos lo dio alguien.",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Pensaba que lo habíais comprado!",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Nos lo dio la señora mayor de abajo.",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Lo hicieron caer del árbol de pomelos de abajo dándole un golpe?",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:19:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡Sí!",
+          "file": "elevenlabs/es-es/2026-10-02-where-did-the-pomelo-come-from_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:20:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "mother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "D'où vient le pamplemousse ?",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Je voulais vous demander quelque chose. D'où vient ça ?",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Quelqu'un nous l'a donné.",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je pensais que vous l'aviez acheté !",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "C'est la dame âgée d'en bas qui nous l'a donné.",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:58:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "On l'a fait tomber de l'arbre à pamplemousses en bas en tapant dessus ?",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Oui !",
+          "file": "elevenlabs/fr-fr/2026-10-02-where-did-the-pomelo-come-from_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "mother"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-06T13:20:50+08:00"
+  "updated_at": "2026-10-06T19:58:48+08:00"
 }

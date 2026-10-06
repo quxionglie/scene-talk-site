@@ -6,38 +6,56 @@
 <title>About - SceneTalk Mandarin</title>
 <meta name="description" content="Learn about SceneTalk Daily&#39;s real-life Chinese and English conversations and the SceneTalk Mandarin iOS app." />
 <link rel="canonical" href="https://scenetalk.quxionglie.com/about-app.html" />
-<link rel="stylesheet" href="assets/site.css?v=1791272874332958000" />
-<script defer src="assets/site.js?v=1791272874332958000"></script>
+<link rel="stylesheet" href="assets/site.css?v=1791288489760056000" />
+<script defer src="assets/site.js?v=1791288489760056000"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WQMWKJKHC"></script>
 </head>
 <body>
   <header class="site-header">
-    <nav class="site-nav" aria-label="Main navigation">
-      <a class="site-nav-link" href="index.html">Home</a>
-      <a class="site-nav-link" href="all.html">Conversations</a>
-      <a class="site-nav-link" href="daily.html">Search</a>
-      <a class="site-nav-link" href="books.html">Books</a>
-      <a class="site-nav-link" href="about-app.html" aria-current="page">About</a>
+    <nav class="site-nav" aria-label="Main navigation" data-i18n-aria-label="nav.label">
+      <a class="site-nav-link" href="index.html" data-i18n="nav.home">Home</a>
+      <a class="site-nav-link" href="all.html" data-i18n="nav.conversations">Conversations</a>
+      <a class="site-nav-link" href="daily.html" data-i18n="nav.search">Search</a>
+      <a class="site-nav-link" href="books.html" data-i18n="nav.books">Books</a>
+      <a class="site-nav-link" href="about-app.html" data-i18n="nav.about" aria-current="page">About</a>
     </nav>
+    <label class="site-language-control"><span class="visually-hidden" data-i18n="language.label">Language</span>
+      <select data-site-language-select aria-label="Language" data-i18n-aria-label="language.label">
+        <option value="en" selected>English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+      </select>
+    </label>
   </header>
   <main class="page">
     <section class="home-hero">
       <div class="hero-copy">
-        <h1>About</h1>
+        <h1 data-i18n="nav.about">About</h1>
       </div>
     </section>
     <section class="daily-about" aria-labelledby="daily-about-title">
-      <h2 id="daily-about-title">My Real-Life Mandarin</h2>
+      <h2 id="daily-about-title" data-i18n="home.title">My Real-Life Mandarin</h2>
       <div lang="zh-CN">
         <p>本网站发布的内容源于真实的日常对话，而不是虚构的教材情境。这些对话保留了日常生活里自然出现的小问题、新发现与误解。</p>
         <p>这些对话不仅帮助中文爱好者——尤其是中文初学者——在真实场景中学习中文，也帮助英文初学者把身边的中文对话转化为自然的英文表达。语言学习是相互的：我们可以从中文学习英文，也可以通过英文理解中文。</p>
         <p>中文文本是原作。英文翻译帮助读者理解原有场景的含义与语境。</p>
       </div>
-      <div lang="en">
+      <div lang="en" data-content-language="en">
         <p>The content on this website comes from real everyday conversations rather than invented textbook situations. These dialogues preserve the small questions, discoveries, and misunderstandings that naturally arise in everyday life.</p>
         <p>These dialogues are intended not only for people who love Chinese—especially beginners learning through real-life situations—but also for beginning English learners who want to turn the Chinese conversations around them into natural English. Language learning works both ways: we can learn English through Chinese, and use English to better understand Chinese.</p>
         <p>The Chinese text is the original. The English translations help readers understand the meaning and context of the original scenes.</p>
       </div>
+      <div lang="fr" data-content-language="fr" hidden>
+        <p>Le contenu publié sur ce site provient de conversations réelles du quotidien, plutôt que de situations inventées pour des manuels. Ces dialogues conservent les petites questions, les découvertes et les malentendus qui surgissent naturellement dans la vie de tous les jours.</p>
+        <p>Ces dialogues aident les personnes qui s&#39;intéressent au chinois, en particulier les débutants, à apprendre cette langue dans des situations réelles. Ils aident aussi les débutants en anglais à exprimer dans un anglais naturel les conversations en chinois qu&#39;ils entendent autour d&#39;eux. L&#39;apprentissage des langues va dans les deux sens : nous pouvons apprendre l&#39;anglais à partir du chinois et mieux comprendre le chinois grâce à l&#39;anglais.</p>
+        <p>Le texte chinois est l&#39;original. Les traductions anglaises aident les lecteurs à comprendre le sens et le contexte des scènes d&#39;origine.</p>
+      </div>
+      <div lang="es" data-content-language="es" hidden>
+        <p>El contenido publicado en este sitio web procede de conversaciones reales del día a día, en lugar de situaciones inventadas para libros de texto. Estos diálogos conservan las pequeñas preguntas, los descubrimientos y los malentendidos que surgen de forma natural en la vida cotidiana.</p>
+        <p>Estos diálogos ayudan a quienes se interesan por el chino, especialmente a los principiantes, a aprender el idioma en situaciones reales. También ayudan a quienes empiezan a aprender inglés a expresar en un inglés natural las conversaciones en chino que escuchan a su alrededor. El aprendizaje de idiomas funciona en ambos sentidos: podemos aprender inglés a partir del chino y comprender mejor el chino a través del inglés.</p>
+        <p>El texto chino es el original. Las traducciones al inglés ayudan a los lectores a comprender el significado y el contexto de las escenas originales.</p>
+      </div>
+
     </section>
     <section class="app-promo" aria-label="SceneTalk Mandarin iOS App">
       <div class="promo-copy">
@@ -45,14 +63,14 @@
           <img src="assets/images/scenetalk_mandarin_logo.png" alt="SceneTalk Mandarin logo" />
           <h2>SceneTalk Mandarin</h2>
         </div>
-        <p>SceneTalk Mandarin is designed for Mandarin beginners and travelers visiting China, helping you start speaking Chinese in real-life situations. It includes offline content such as scene-based dialogues, key expressions, cultural tips, background articles, and human-recorded Chinese audio, helping you learn common, natural Chinese expressions used in real communication.</p>
-        <p>The iOS app is available on the App Store in all regions outside mainland China.</p>
-        <p>Copyright © 2026 Xionglie Qu. All Rights Reserved.</p>
-        <a class="button" href="https://apps.apple.com/us/app/scenetalk-mandarin/id6762182201">View on the App Store</a>
+        <p lang="en">SceneTalk Mandarin is designed for Mandarin beginners and travelers visiting China, helping you start speaking Chinese in real-life situations. It includes offline content such as scene-based dialogues, key expressions, cultural tips, background articles, and human-recorded Chinese audio, helping you learn common, natural Chinese expressions used in real communication.</p>
+        <p lang="en">The iOS app is available on the App Store in all regions outside mainland China.</p>
+        <p lang="en">Copyright © 2026 Xionglie Qu. All Rights Reserved.</p>
+        <a class="button" href="https://apps.apple.com/us/app/scenetalk-mandarin/id6762182201" data-i18n="app.store">View on the App Store</a>
       </div>
       <div class="promo-qr">
         <img src="assets/images/scenetalk_mandarin_qrcode.png" alt="SceneTalk Mandarin App Store QR code" />
-        <span>Scan for App Store</span>
+        <span data-i18n="app.scan">Scan for App Store</span>
       </div>
     </section>
 
@@ -61,5 +79,6 @@
   <footer class="site-footer">
     <p>© 2026 Xionglie Qu. All rights reserved.</p>
   </footer>
+  <script id="site-i18n-data" type="application/json">{"en": {"app.scan": "Scan for App Store", "app.store": "View on the App Store", "audio.audio": "Audio", "audio.close": "Close audio player", "audio.loop": "Loop", "audio.loopAll": "Loop Play All", "audio.pause": "Pause current audio", "audio.play": "Play current audio", "audio.playAll": "Play All", "audio.player": "Audio player", "audio.position": "Current dialogue", "audio.track": "Audio track", "audio.unavailable": "No audio in this language", "books.amazon": "View on Amazon", "books.empty": "No published books yet.", "books.published": "Published", "content.info": "Basic information", "content.navigation": "Conversation navigation", "content.pdf": "Download PDF", "content.speakers": "Speakers:", "error.description": "The page you requested does not exist.", "error.title": "Page not found", "home.title": "My Real-Life Mandarin", "language.label": "Language", "list.all": "All", "list.date": "Scene date", "list.empty": "No conversations in this range.", "list.groups": "Conversation groups", "list.pages": "Pages", "list.scenes": "Daily scenes", "list.sortAscending": "Sort conversations in ascending order", "list.sortDescending": "Sort conversations in descending order", "nav.about": "About", "nav.books": "Books", "nav.conversations": "Conversations", "nav.home": "Home", "nav.label": "Main navigation", "nav.search": "Search", "search.browse": "Browse all conversations", "search.eyebrow": "Daily conversation", "search.invalid": "Enter a positive whole number.", "search.lookup": "Looking up the requested scene\u2026", "search.noScript": "JavaScript is required to open a conversation by number.", "search.notFound": "Conversation No. {number} was not found.", "search.number": "Conversation number", "search.open": "Open", "search.opening": "Opening conversation No. {number}\u2026", "search.placeholder": "e.g. 118", "search.prompt": "Enter a conversation number to open it.", "search.title": "Open a conversation", "translation.unavailable": "Translation not available yet."}, "es": {"app.scan": "Escanear para abrir el App Store", "app.store": "Ver en el App Store", "audio.audio": "Audio", "audio.close": "Cerrar el reproductor de audio", "audio.loop": "En bucle", "audio.loopAll": "Repetir todo en bucle", "audio.pause": "Pausar el audio actual", "audio.play": "Reproducir el audio actual", "audio.playAll": "Reproducir todo", "audio.player": "Reproductor de audio", "audio.position": "Intervenci\u00f3n actual", "audio.track": "Pista de audio", "audio.unavailable": "No hay audio en este idioma", "books.amazon": "Ver en Amazon", "books.empty": "A\u00fan no hay libros publicados.", "books.published": "Publicado el", "content.info": "Informaci\u00f3n b\u00e1sica", "content.navigation": "Navegaci\u00f3n entre conversaciones", "content.pdf": "Descargar PDF", "content.speakers": "Interlocutores:", "error.description": "La p\u00e1gina solicitada no existe.", "error.title": "P\u00e1gina no encontrada", "home.title": "Mi mandar\u00edn del d\u00eda a d\u00eda", "language.label": "Idioma", "list.all": "Todas", "list.date": "Fecha de la escena", "list.empty": "No hay conversaciones en este intervalo.", "list.groups": "Grupos de conversaciones", "list.pages": "P\u00e1ginas", "list.scenes": "Escenas cotidianas", "list.sortAscending": "Ordenar las conversaciones de menor a mayor", "list.sortDescending": "Ordenar las conversaciones de mayor a menor", "nav.about": "Acerca de", "nav.books": "Libros", "nav.conversations": "Conversaciones", "nav.home": "Inicio", "nav.label": "Navegaci\u00f3n principal", "nav.search": "Buscar", "search.browse": "Ver todas las conversaciones", "search.eyebrow": "Conversaci\u00f3n cotidiana", "search.invalid": "Introduce un n\u00famero entero positivo.", "search.lookup": "Buscando la escena solicitada\u2026", "search.noScript": "Se necesita JavaScript para abrir una conversaci\u00f3n por n\u00famero.", "search.notFound": "No se ha encontrado la conversaci\u00f3n n.\u00ba {number}.", "search.number": "N\u00famero de conversaci\u00f3n", "search.open": "Abrir", "search.opening": "Abriendo la conversaci\u00f3n n.\u00ba {number}\u2026", "search.placeholder": "p. ej., 118", "search.prompt": "Introduce un n\u00famero para abrir una conversaci\u00f3n.", "search.title": "Abrir una conversaci\u00f3n", "translation.unavailable": "Traducci\u00f3n a\u00fan no disponible."}, "fr": {"app.scan": "Scanner pour ouvrir l\u2019App Store", "app.store": "Voir sur l\u2019App Store", "audio.audio": "Audio", "audio.close": "Fermer le lecteur audio", "audio.loop": "En boucle", "audio.loopAll": "Tout \u00e9couter en boucle", "audio.pause": "Mettre l\u2019audio en pause", "audio.play": "Lire l\u2019audio actuel", "audio.playAll": "Tout \u00e9couter", "audio.player": "Lecteur audio", "audio.position": "R\u00e9plique actuelle", "audio.track": "Piste audio", "audio.unavailable": "Pas d\u2019audio dans cette langue", "books.amazon": "Voir sur Amazon", "books.empty": "Aucun livre publi\u00e9 pour le moment.", "books.published": "Publi\u00e9 le", "content.info": "Informations g\u00e9n\u00e9rales", "content.navigation": "Navigation entre les conversations", "content.pdf": "T\u00e9l\u00e9charger le PDF", "content.speakers": "Interlocuteurs :", "error.description": "La page demand\u00e9e n\u2019existe pas.", "error.title": "Page introuvable", "home.title": "Mon mandarin au quotidien", "language.label": "Langue", "list.all": "Toutes", "list.date": "Date de la sc\u00e8ne", "list.empty": "Aucune conversation dans cette plage.", "list.groups": "Groupes de conversations", "list.pages": "Pages", "list.scenes": "Sc\u00e8nes du quotidien", "list.sortAscending": "Trier les conversations par ordre croissant", "list.sortDescending": "Trier les conversations par ordre d\u00e9croissant", "nav.about": "\u00c0 propos", "nav.books": "Livres", "nav.conversations": "Conversations", "nav.home": "Accueil", "nav.label": "Navigation principale", "nav.search": "Recherche", "search.browse": "Voir toutes les conversations", "search.eyebrow": "Conversation du quotidien", "search.invalid": "Saisissez un nombre entier positif.", "search.lookup": "Recherche de la sc\u00e8ne demand\u00e9e\u2026", "search.noScript": "JavaScript est n\u00e9cessaire pour ouvrir une conversation par num\u00e9ro.", "search.notFound": "La conversation n\u00b0 {number} est introuvable.", "search.number": "Num\u00e9ro de conversation", "search.open": "Ouvrir", "search.opening": "Ouverture de la conversation n\u00b0 {number}\u2026", "search.placeholder": "par ex. 118", "search.prompt": "Saisissez un num\u00e9ro pour ouvrir une conversation.", "search.title": "Ouvrir une conversation", "translation.unavailable": "Traduction pas encore disponible."}}</script>
 </body>
 </html>

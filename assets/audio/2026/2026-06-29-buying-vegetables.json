@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-29-buying-vegetables",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-28T11:20:52+08:00",
+  "updated_at": "2026-10-06T19:25:07+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Buying Vegetables",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:30+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "A customer buys eggplant, bitter melon, loofah, and long beans at a market",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:19:32+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Auntie, how much are the eggplant, bitter melon, loofah, and long beans?",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:33+08:00",
@@ -64,28 +47,10 @@
           "speaker": "customer"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "Long bean, scientific name Vigna unguiculata.",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:19:35+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Eggplant, long beans, and loofah are 3 yuan per jin. Bitter melon is a bit more, 4 yuan per jin.",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:37+08:00",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Then one jin of each, please. How much is that total?",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:38+08:00",
@@ -123,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "13 yuan total. Cash or scan to pay?",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:40+08:00",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "I'll scan. Thanks, Auntie.",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:41+08:00",
@@ -161,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "No problem.",
-          "file": "elevenlabs/2026-06-29-buying-vegetables_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-29-buying-vegetables_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:19:43+08:00",
@@ -319,6 +284,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "阿姨"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Comprar verduras",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Señora, ¿a cuánto están las berenjenas, el melón amargo, las lufas y las judías largas?",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Las berenjenas, las judías largas y las lufas cuestan 3 yuanes por jin. El melón amargo es un poco más caro: 4 yuanes por jin.",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Entonces póngame un jin de cada cosa, por favor. ¿Cuánto es en total?",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Son 13 yuanes en total. ¿Paga en efectivo o escaneando el código?",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Escaneo el código. Gracias, señora.",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "De nada.",
+          "file": "elevenlabs/es-es/2026-06-29-buying-vegetables_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:12:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "vendor"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Acheter des légumes",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:24:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Madame, combien coûtent les aubergines, les melons amers, les luffas et les haricots longs ?",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:24:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Les aubergines, les haricots longs et les luffas sont à 3 yuans le jin. Le melon amer est un peu plus cher : 4 yuans le jin.",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:25:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Alors, un jin de chaque, s'il vous plaît. Ça fait combien en tout ?",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:25:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ça fait 13 yuans en tout. Vous payez en espèces ou en scannant le code ?",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:25:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "vendor"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Je vais scanner le code. Merci, madame.",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:25:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "customer"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je vous en prie.",
+          "file": "elevenlabs/fr-fr/2026-06-29-buying-vegetables_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:25:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "vendor"
         }
       ]
     }

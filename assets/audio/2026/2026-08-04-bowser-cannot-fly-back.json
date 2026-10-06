@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-04-bowser-cannot-fly-back",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-02T17:36:23+08:00",
+  "updated_at": "2026-10-06T19:38:39+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Bowser Can't Make It Back",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:14+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child says Bowser cannot make it back to the stage, and Dad explains strength and agility in game characters.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:31:15+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Dad, Bowser can't make it back!",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:16+08:00",
@@ -64,28 +47,10 @@
           "speaker": "son"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "This is Bowser in Nintendo's Super Smash Bros. After he gets knocked away, it is hard for him to get back to the stage.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:31:18+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Then he can't make it back. That's what he gets for being so heavy!",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:20+08:00",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Hehe!",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:21+08:00",
@@ -120,28 +85,10 @@
           "speaker": "son"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "A silly laugh.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:31:22+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Just pick someone who can get back more easily. Games have stats like strength and agility. Bowser is really strong!",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:24+08:00",
@@ -160,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Besides strength and agility, what else do you think there is?",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:26+08:00",
@@ -179,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Reaction speed.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:27+08:00",
@@ -195,28 +142,10 @@
           "speaker": "son"
         },
         {
-          "segment_id": "note:006",
-          "type": "note",
-          "source_text": "Common stats include strength (STR), agility (AGI), constitution (CON), intelligence (INT), and spirit (SPI).",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_note_006_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:31:29+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "006"
-        },
-        {
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Reaction speed is part of agility too. The higher your agility, the faster you react.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:31:31+08:00",
@@ -234,11 +163,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "Joker is more of an agility type.",
-          "file": "elevenlabs/2026-08-04-bowser-cannot-fly-back_dialogue_008_en-us.mp3",
+          "source_text": "Joker is the agile type.",
+          "file": "elevenlabs/en-us/2026-08-04-bowser-cannot-fly-back_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:31:33+08:00",
+          "generated_at": "2026-10-06T17:20:26+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -345,6 +274,360 @@
           "ai_generated": false,
           "sequence": "008",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Bowser no consigue volver volando",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¡Papá, Bowser no consigue volver volando!",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Pues si no puede volver volando, no puede. ¡Es que está tan gordo!",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Je, je!",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Elige a un personaje que pueda volver con facilidad. En los juegos hay atributos como fuerza y agilidad. ¡Bowser tiene mucha fuerza!",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Además de la fuerza y la agilidad, ¿qué otros atributos crees que hay?",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "La velocidad de reacción.",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "La velocidad de reacción también forma parte de la agilidad. Cuanta más agilidad tienes, más rápido reaccionas.",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Joker, por ejemplo, es un personaje ágil.",
+          "file": "elevenlabs/es-es/2026-08-04-bowser-cannot-fly-back_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:59:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Bowser n'arrive pas à revenir en volant",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Papa, Bowser n'arrive pas à revenir en volant !",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Eh bien, s'il n'arrive pas à revenir en volant, tant pis. Il est tellement gros !",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Hé hé !",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Choisis simplement un personnage qui peut revenir facilement. Dans les jeux, il y a des caractéristiques comme la force et l'agilité. Bowser est très fort !",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "À part la force et l'agilité, quelles autres caractéristiques y a-t-il, à ton avis ?",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "La vitesse de réaction.",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "son"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "La vitesse de réaction fait aussi partie de l'agilité. Plus ton agilité est élevée, plus tu réagis vite.",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Joker, par exemple, est plutôt un personnage agile.",
+          "file": "elevenlabs/fr-fr/2026-08-04-bowser-cannot-fly-back_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:38:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
         }
       ]
     }

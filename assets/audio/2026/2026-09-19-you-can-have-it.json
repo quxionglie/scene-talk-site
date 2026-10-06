@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-19-you-can-have-it",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T21:24:38+08:00",
+  "updated_at": "2026-10-06T19:53:49+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "You Can Have It",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:03:48+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Just use a tissue to pick up the pieces on the floor.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:03:53+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Now I can't even have a cup of tea.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:03:56+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Now we'll have to buy a new mug. Oh, wait—there's another one in the kitchen. It was a birthday gift from school!",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:49:56+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Let me see.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:49:58+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "It's under the dish sterilizer.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:50:03+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "This one's nicer. Can I have this one? If not, I'll just buy a new one.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:50:06+08:00",
@@ -145,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "You don't have to. You can have it.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:50:08+08:00",
@@ -164,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "Can I have this one? If not, I'll just buy a new one.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:04:13+08:00",
@@ -183,7 +183,7 @@
           "segment_id": "dialogue:009",
           "type": "dialogue",
           "source_text": "You don't need to. You can have it.",
-          "file": "elevenlabs/2026-09-19-you-can-have-it_dialogue_009_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-19-you-can-have-it_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-19T14:04:16+08:00",
@@ -283,6 +283,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Te la regalo",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Recoge los trozos del suelo con un pañuelo de papel.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Ahora ni siquiera puedo tomar té.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ahora tendremos que gastar dinero en otra taza. Ah, espera, hay otra en la cocina. ¡Fue un regalo de cumpleaños de la escuela!",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Déjame verla.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Está debajo del esterilizador de vajilla.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Esta es más bonita. ¿Me la regalas? Si no, compraré una nueva.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "No hace falta. Te la regalo.",
+          "file": "elevenlabs/es-es/2026-09-19-you-can-have-it_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:51:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je te la donne",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Ramasse simplement les morceaux par terre avec un mouchoir en papier.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Maintenant, je ne peux même plus boire de thé.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Il va encore falloir acheter une nouvelle tasse. Ah, attends, il y en a une autre dans la cuisine. C'était un cadeau d'anniversaire de l'école !",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Fais-moi voir.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Elle est sous le stérilisateur à vaisselle.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Celle-ci est plus jolie. Tu peux me la donner ? Sinon, j'en achèterai une nouvelle.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Pas besoin. Je te la donne.",
+          "file": "elevenlabs/fr-fr/2026-09-19-you-can-have-it_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:53:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
         }
       ]
     }

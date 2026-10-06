@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-20-tall-and-handsome-sidon",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-29T18:48:06+08:00",
+  "updated_at": "2026-10-06T19:32:59+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Tall, Handsome Sidon",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:43+08:00",
@@ -28,30 +28,13 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child and his father talk about characters from The Legend of Zelda: Tears of the Kingdom. The child likes Sidon best because he's tall and handsome.",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:45+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "You could call A-Yuan \"Pang Ge\" (Chubby Guy), too. The \"Yuan\" in his name sounds like \"yuan\" (round), and his round belly makes him chubby.",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_001_en-us.mp3",
+          "source_text": "You could call Yunobo \"Pang Ge\" (Chubby Guy), too. The \"Yuan\" in his Chinese name sounds like \"yuan\" (round), and his round belly makes him chubby.",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:48+08:00",
+          "generated_at": "2026-10-06T17:19:55+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -64,28 +47,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "The Chinese characters “沅” and “圆” are both pronounced “yuan.”",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:50+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Really?",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:51+08:00",
@@ -103,11 +68,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "Yeah. The \"Xi\" in Xi-Duo sounds like \"xi\" (suck). He sucks up water.",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_003_en-us.mp3",
+          "source_text": "Yeah. The \"Xi\" in Sidon's Chinese name sounds like \"xi\" (suck). He sucks up water.",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:53+08:00",
+          "generated_at": "2026-10-06T17:19:57+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -120,28 +85,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "The Chinese characters “希” and “吸” are both pronounced “xi.”",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:25:54+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "What about Riju?",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:56+08:00",
@@ -160,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Riju... hmm? I wonder what the little bird's name is.",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:25:58+08:00",
@@ -176,28 +123,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "The bird's Chinese name is Qiu-Li, but many people don't know how to pronounce “栗” (“Li”).",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:26:00+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Check the Character Profiles in the game. His name's pretty hard to pronounce anyway.",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:02+08:00",
@@ -216,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Do you like the bird or the fat guy?",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:04+08:00",
@@ -235,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "I like Sidon!",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:05+08:00",
@@ -254,7 +183,7 @@
           "segment_id": "dialogue:009",
           "type": "dialogue",
           "source_text": "Why?",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_009_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:06+08:00",
@@ -273,7 +202,7 @@
           "segment_id": "dialogue:010",
           "type": "dialogue",
           "source_text": "Sidon's tall and handsome!",
-          "file": "elevenlabs/2026-07-20-tall-and-handsome-sidon_dialogue_010_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-20-tall-and-handsome-sidon_dialogue_010_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:26:08+08:00",
@@ -403,6 +332,436 @@
           "ai_generated": false,
           "sequence": "010",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Sidon, alto y guapo",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "También podrías llamar a Yunobo, «A-Yuan» en chino, «Pang Ge» (el gordito). El «Yuan» de su nombre chino suena igual que «yuan» (redondo), y su barriga redonda lo hace gordito.",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿De verdad?",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Sí. Sidon, «Xi-Duo» en chino, aspira agua. «Xi» suena igual que «xi» (aspirar).",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Y Riju?",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Riju... ¿eh? Me pregunto cómo se llama el pajarito.",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Mira los perfiles de personajes del juego. De todos modos, su nombre es bastante difícil de pronunciar.",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Te gusta más el pájaro o el gordito?",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¡Me gusta Sidon!",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¿Por qué?",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "¡Sidon es alto y guapo!",
+          "file": "elevenlabs/es-es/2026-07-20-tall-and-handsome-sidon_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:16:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "010",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Sidon, grand et beau",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "On pourrait aussi appeler Yunobo, « A-Yuan » en chinois, « Pang Ge » (le gros). Le « Yuan » de son nom chinois se prononce comme « yuan » (rond), et son ventre rond le rend gros.",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Vraiment ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Oui. Sidon, « Xi-Duo » en chinois, aspire de l'eau. « Xi » se prononce comme « xi » (aspirer).",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Et Riju ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Riju... hein ? Je me demande comment s'appelle le petit oiseau.",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Regarde les profils des personnages dans le jeu. De toute façon, son nom est assez difficile à prononcer.",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Tu préfères l'oiseau ou le gros ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Moi, j'aime Sidon !",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Pourquoi ?",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "Sidon est grand et beau !",
+          "file": "elevenlabs/fr-fr/2026-07-20-tall-and-handsome-sidon_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:32:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "010",
+          "speaker": "child"
         }
       ]
     }

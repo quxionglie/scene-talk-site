@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-31-is-it-nighttime-in-other-countries-now",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-04T16:43:43+08:00",
+  "updated_at": "2026-10-06T19:47:17+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Is It Nighttime in Other Countries Now?",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:04+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child asks whether it is nighttime in other countries, and the father uses a ball to explain how Earth's rotation causes day and night.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:06+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Is it nighttime in other countries now?",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:07+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Yeah.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:08+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "It's always daytime somewhere and nighttime somewhere else.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:10+08:00",
@@ -104,11 +87,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "Let's say this is Earth. The side the Sun shines on is daytime.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_004_en-us.mp3",
+          "source_text": "Let's say this is Earth. It's daytime on the side the Sun shines on.",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:12+08:00",
+          "generated_at": "2026-10-06T17:21:22+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -121,31 +104,13 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:004",
-          "type": "note",
-          "source_text": "The HomePod mini is shaped like a small ball, so Dad uses it as a model of Earth.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_note_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:13+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "004"
-        },
-        {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "And the other side is nighttime.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_005_en-us.mp3",
+          "source_text": "And it's nighttime on the other side.",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:42:15+08:00",
+          "generated_at": "2026-10-06T17:21:23+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -161,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "And Earth is turning too.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:17+08:00",
@@ -180,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "That's why it slowly gets light in the morning and dark in the evening.",
-          "file": "elevenlabs/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:42:18+08:00",
@@ -280,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Ahora es de noche en otros países?",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Ahora es de noche en otros países?",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Sí.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Siempre es de día en algún lugar y de noche en otro.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Imaginemos que esto es la Tierra. En el lado que ilumina el sol es de día.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Y en el lado opuesto es de noche.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Y además la Tierra está girando.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Por eso por la mañana se va haciendo de día poco a poco y por la noche va oscureciendo.",
+          "file": "elevenlabs/es-es/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:07:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Est-ce qu'il fait nuit dans d'autres pays en ce moment ?",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Est-ce qu'il fait nuit dans d'autres pays en ce moment ?",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Oui.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Il fait toujours jour quelque part et nuit ailleurs.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Imaginons que ceci soit la Terre. Sur le côté éclairé par le soleil, il fait jour.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Et de l'autre côté, il fait nuit.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Et la Terre tourne aussi.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "C'est pour ça que le jour se lève progressivement le matin et qu'il fait peu à peu nuit le soir.",
+          "file": "elevenlabs/fr-fr/2026-08-31-is-it-nighttime-in-other-countries-now_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:47:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
         }
       ]
     }

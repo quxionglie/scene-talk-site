@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-15-how-many-kids-wear-glasses-now",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T21:20:37+08:00",
+  "updated_at": "2026-10-06T19:52:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "How Many Kids Wear Glasses Now?",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-03T12:53:25+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "When I was in elementary school, none of us wore glasses, though we all became nearsighted later.",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:17+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Why?",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:19+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I don't know!",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:20+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Maybe some of us were already nearsighted. I was already a little nearsighted, but I didn't get glasses until my second year of junior high.",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:24+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Look at you kids now. Three out of those six are nearsighted and wear glasses. And some kids are nearsighted but don't wear glasses.",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:27+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "So how many kids in your class wear glasses? Have you counted?",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:29+08:00",
@@ -145,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Haven't counted.",
-          "file": "elevenlabs/2026-09-15-how-many-kids-wear-glasses-now_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-15-how-many-kids-wear-glasses-now_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-15T19:45:30+08:00",
@@ -245,6 +245,322 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Cuántos niños llevan gafas ahora?",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Cuando estaba en primaria, ninguno llevaba gafas, aunque después todos acabamos siendo miopes.",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Por qué?",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡No lo sé!",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Quizá algunos ya éramos miopes. Yo ya tenía un poco de miopía, pero no me hicieron gafas hasta segundo de secundaria.",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Mira a los niños de ahora. Tres de esos seis son miopes y llevan gafas. Y hay otros que son miopes pero no las llevan.",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Entonces, ¿cuántos niños de tu clase llevan gafas? ¿Los has contado?",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "No los he contado.",
+          "file": "elevenlabs/es-es/2026-09-15-how-many-kids-wear-glasses-now_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:50:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Combien d'enfants portent des lunettes maintenant ?",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Quand j'étais à l'école primaire, aucun de nous ne portait de lunettes, même si nous sommes tous devenus myopes plus tard.",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Pourquoi ?",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je ne sais pas !",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Certains d'entre nous étaient peut-être déjà myopes. Moi, j'étais déjà un peu myope, mais je n'ai eu des lunettes qu'en deuxième année de collège.",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Regarde les enfants aujourd'hui. Sur ces six, trois sont myopes et portent des lunettes. Et certains sont myopes sans porter de lunettes.",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Alors, combien d'enfants portent des lunettes dans ta classe ? Tu les as comptés ?",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Je n'ai pas compté.",
+          "file": "elevenlabs/fr-fr/2026-09-15-how-many-kids-wear-glasses-now_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:52:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "child"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-28-spinning-tops-from-the-older-girl",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-30T11:27:46+08:00",
+  "updated_at": "2026-10-06T19:34:31+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -13,28 +13,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "The Older Girl's Spinning Tops",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_title_en-us.mp3",
+          "source_text": "The Spinning Tops the Older Girl Brought",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:28:06+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child says he saw the older girl today, and they played with spinning tops together.",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:28:08+08:00",
+          "generated_at": "2026-10-06T17:20:08+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -48,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "I saw the older girl today.",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:10+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Did you ask why she hasn't come down these last few days?",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:11+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "She said she just hadn't come out.",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:13+08:00",
@@ -102,28 +85,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "She didn't say why.",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:28:14+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Then we played with spinning tops!",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:15+08:00",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "How many tops did you have?",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:17+08:00",
@@ -158,28 +123,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "If several kids share one top, it may not be enough. That's why Dad asks.",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:28:19+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "She brought two!",
-          "file": "elevenlabs/2026-07-28-spinning-tops-from-the-older-girl_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-07-28-spinning-tops-from-the-older-girl_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:28:20+08:00",
@@ -269,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Las peonzas que trajo la niña mayor",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Hoy me he encontrado con la niña mayor.",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Le preguntaste por qué no había bajado estos últimos días?",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Dijo que estos días no había salido.",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Y nos pusimos a jugar con las peonzas!",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Cuántas peonzas teníais?",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡Ella trajo dos!",
+          "file": "elevenlabs/es-es/2026-07-28-spinning-tops-from-the-older-girl_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:18:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les toupies apportées par la grande",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "J'ai vu la grande aujourd'hui.",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Tu lui as demandé pourquoi elle n'était pas descendue ces derniers jours ?",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Elle a dit qu'elle n'était pas sortie ces derniers jours.",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Et on s'est mis à jouer avec les toupies !",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Vous aviez combien de toupies ?",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Elle en avait apporté deux !",
+          "file": "elevenlabs/fr-fr/2026-07-28-spinning-tops-from-the-older-girl_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:34:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
         }
       ]
     }

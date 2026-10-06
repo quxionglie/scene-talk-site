@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-19-sunset-dreams",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T11:59:48+08:00",
+  "updated_at": "2026-10-06T19:22:53+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Sunset Dreams",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:24+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "A father and two children chat while watching the sunset. The children talk about money, a game world, and a sword, and the father says he wants to retire and drink tea.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:26+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "The sun is about to set. Let's watch the sunset and talk for a bit.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:28+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Do you two have any dreams for the future?",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:30+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Not really. I just want a lot of money.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:31+08:00",
@@ -99,13 +82,13 @@
             "similarity_boost": 1.0
           },
           "sequence": "003",
-          "speaker": "child 1"
+          "speaker": "younger brother"
         },
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "What about you?",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:32+08:00",
@@ -124,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Nothing.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:34+08:00",
@@ -137,13 +120,13 @@
             "similarity_boost": 1.0
           },
           "sequence": "005",
-          "speaker": "child 2"
+          "speaker": "older brother"
         },
         {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Or just something you really want to do.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:35+08:00",
@@ -162,7 +145,7 @@
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "I just want to buy a sword and enter a game world.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:37+08:00",
@@ -175,13 +158,13 @@
             "similarity_boost": 1.0
           },
           "sequence": "007",
-          "speaker": "child 2"
+          "speaker": "older brother"
         },
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "Right now, I just want to retire and drink tea.",
-          "file": "elevenlabs/2026-06-19-sunset-dreams_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-19-sunset-dreams_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:38+08:00",
@@ -240,7 +223,7 @@
           "mime_type": "audio/mpeg",
           "ai_generated": false,
           "sequence": "003",
-          "speaker": "孩子1"
+          "speaker": "弟弟"
         },
         {
           "segment_id": "dialogue:004",
@@ -260,7 +243,7 @@
           "mime_type": "audio/mpeg",
           "ai_generated": false,
           "sequence": "005",
-          "speaker": "孩子2"
+          "speaker": "哥哥"
         },
         {
           "segment_id": "dialogue:006",
@@ -280,7 +263,7 @@
           "mime_type": "audio/mpeg",
           "ai_generated": false,
           "sequence": "007",
-          "speaker": "孩子2"
+          "speaker": "哥哥"
         },
         {
           "segment_id": "dialogue:008",
@@ -291,6 +274,360 @@
           "ai_generated": false,
           "sequence": "008",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Sueños al atardecer",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Justo está a punto de ponerse el sol. Vamos a contemplar el atardecer y charlar un rato.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Tenéis algún sueño para el futuro?",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "No tengo ningún sueño. Solo quiero tener mucho dinero.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Y tú?",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ninguno.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "O algo que tengas muchas ganas de hacer.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Solo quiero comprar una espada y entrar en el mundo de un videojuego.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Ahora mismo solo quiero jubilarme y tomar té.",
+          "file": "elevenlabs/es-es/2026-06-19-sunset-dreams_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:10:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Rêves au coucher du soleil",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Le soleil va justement se coucher. Regardons le coucher du soleil et discutons un peu.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Vous avez des rêves pour l'avenir, tous les deux ?",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Pas vraiment. Je veux juste avoir beaucoup d'argent.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Et toi ?",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Aucun.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ou simplement quelque chose que tu as vraiment envie de faire.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Je veux juste acheter une épée et entrer dans un univers de jeu vidéo.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Moi, en ce moment, je veux juste prendre ma retraite et boire du thé.",
+          "file": "elevenlabs/fr-fr/2026-06-19-sunset-dreams_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
         }
       ]
     }

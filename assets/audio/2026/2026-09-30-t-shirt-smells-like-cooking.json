@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-30-t-shirt-smells-like-cooking",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T13:31:21+08:00",
+  "updated_at": "2026-10-06T19:56:09+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "The T-shirt Smells Like Cooking",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:16+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Why does this T-shirt smell so much like cooking grease?",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:18+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Has it been hanging here for a week, picking up cooking smells all week?",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:21+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Give it a sniff. Can you smell it?",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:22+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "I can't smell it.",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:24+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "No way! Even you can't smell it!",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-10-01T11:24:32+08:00",
@@ -126,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Two days at most!",
-          "file": "elevenlabs/2026-09-30-t-shirt-smells-like-cooking_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-30-t-shirt-smells-like-cooking_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-30T21:30:29+08:00",
@@ -216,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "母亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "La camiseta huele a humo de cocina",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Por qué esta camiseta huele tanto a humo de cocina?",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Lleva una semana colgada aquí, absorbiendo los olores de la cocina toda la semana?",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Huele a ver. ¿Lo notas?",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "No lo noto.",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡No puede ser! ¡Ni tú lo notas!",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡Dos días como mucho!",
+          "file": "elevenlabs/es-es/2026-09-30-t-shirt-smells-like-cooking_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "mother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Le t-shirt sent les fumées de cuisson",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Pourquoi ce t-shirt sent aussi fort les fumées de cuisson ?",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Ça fait une semaine qu’il est suspendu ici, à absorber les odeurs de cuisine toute la semaine ?",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Sens un peu. Tu sens l’odeur ?",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Je ne sens rien.",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Pas possible ! Même toi, tu ne sens rien !",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Deux jours, grand maximum !",
+          "file": "elevenlabs/fr-fr/2026-09-30-t-shirt-smells-like-cooking_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:56:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "mother"
         }
       ]
     }

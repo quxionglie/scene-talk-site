@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-10-decide-for-yourself",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-05T15:14:34+08:00",
+  "updated_at": "2026-10-06T19:51:09+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Decide for Yourself",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:35+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "After the weather turns colder, a father quotes an old poem to tell his child that they can judge for themselves whether they feel warm or cold and decide how many summer quilts to use.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:59:38+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "There are two kinds of parents. One is like your mom—she decides for you whether to use one quilt or two!",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:40+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "The other is like me—I get both quilts out and let you decide for yourself.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:41+08:00",
@@ -83,28 +66,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:002",
-          "type": "note",
-          "source_text": "The quilts come in different thicknesses. The thin one is a lightweight summer quilt for air-conditioned rooms.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_note_002_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:59:44+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "002"
-        },
-        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Which do you think is better—deciding for yourself or having your mom decide?",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:45+08:00",
@@ -123,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "I'll use a thick one!",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:47+08:00",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Isn't there a line from an old poem?",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:48+08:00",
@@ -161,7 +126,7 @@
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "\"On the Love of the Lotus\"?",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:49+08:00",
@@ -177,28 +142,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:006",
-          "type": "note",
-          "source_text": "The teacher asked the child to memorize Zhou Dunyi's \"On the Love of the Lotus\" this week.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_note_006_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:59:51+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "006"
-        },
-        {
           "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "No, not that one. It's \"Ducks are the first to know when the river warms in spring.\"",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:53+08:00",
@@ -217,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "It means that when spring comes, the ducks can tell whether the water is warm or hot.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:55+08:00",
@@ -236,7 +183,7 @@
           "segment_id": "dialogue:009",
           "type": "dialogue",
           "source_text": "When winter comes, you can tell for yourself whether you feel warm or cold. So I think it's better to let you decide.",
-          "file": "elevenlabs/2026-09-10-decide-for-yourself_dialogue_009_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-10-decide-for-yourself_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:59:57+08:00",
@@ -356,6 +303,398 @@
           "ai_generated": false,
           "sequence": "009",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Decide por ti mismo",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Hay dos tipos de padres. Uno es como tu madre: ella decide por ti si te tapas con un edredón o con dos.",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "El otro es como yo: saco los dos edredones y te dejo decidir.",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Qué te parece mejor: decidir tú o que decida tu madre?",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Usaré el grueso!",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿No hay un verso de un poema antiguo que dice algo así?",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿*Sobre el amor al loto*?",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "No, no es *Sobre el amor al loto*. Es: «Los patos son los primeros en saber que el río se calienta en primavera».",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Quiere decir que, cuando llega la primavera, los patos saben si el agua está templada o caliente.",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Cuando llega el invierno, tú también puedes sentir si tienes frío o calor. Por eso creo que es mejor que decidas tú.",
+          "file": "elevenlabs/es-es/2026-09-10-decide-for-yourself_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:49:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Décide par toi-même",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Il y a deux sortes de parents. La première ressemble à ta mère : elle décide pour toi si tu dois prendre une ou deux couettes !",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "L'autre ressemble à moi : je sors les deux couettes et je te laisse décider.",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Qu'est-ce qui te paraît mieux : décider toi-même ou laisser ta mère décider ?",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Je vais prendre la plus épaisse !",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Il n'y a pas un vers d'un ancien poème qui dit quelque chose comme ça ?",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:50:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "*Sur l'amour du lotus* ?",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Non, pas *Sur l'amour du lotus*. C'est : « Les canards sont les premiers à savoir que la rivière se réchauffe au printemps. »",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Cela veut dire que, lorsque le printemps arrive, les canards savent si l'eau est tiède ou chaude.",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Quand l'hiver arrive, tu peux toi aussi sentir si tu as chaud ou froid. Alors je pense qu'il vaut mieux te laisser décider.",
+          "file": "elevenlabs/fr-fr/2026-09-10-decide-for-yourself_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:51:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
         }
       ]
     }

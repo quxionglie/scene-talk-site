@@ -1,4 +1,62 @@
 (() => {
+  const catalogElement = document.getElementById("site-i18n-data");
+  if (!catalogElement) return;
+  const catalog = JSON.parse(catalogElement.textContent);
+  const supported = new Set(["en", "fr", "es"]);
+  const storageKey = "scenetalk-site-language";
+  const requested = new URLSearchParams(window.location.search).get("lang");
+  let saved = "";
+  try { saved = window.localStorage.getItem(storageKey); } catch (_) { /* Optional persistence. */ }
+  let language = supported.has(requested) ? requested : supported.has(saved) ? saved : "en";
+  const translate = (key, values = {}) => {
+    const text = catalog[language]?.[key] || catalog.en[key] || key;
+    return text.replace(/\{(\w+)\}/g, (match, name) => values[name] ?? match);
+  };
+  const updateLinks = () => {
+    document.querySelectorAll("a[href]").forEach((link) => {
+      const raw = link.getAttribute("href");
+      if (!raw || raw.startsWith("#") || link.hasAttribute("download")) return;
+      const url = new URL(raw, window.location.href);
+      if (url.origin !== window.location.origin || !url.pathname.endsWith(".html")) return;
+      url.searchParams.set("lang", language);
+      link.href = url.href;
+    });
+  };
+  const apply = (next, announce = true) => {
+    if (!supported.has(next)) return;
+    language = next;
+    document.documentElement.lang = language;
+    document.documentElement.dataset.siteLanguage = language;
+    document.querySelectorAll("[data-site-language-select]").forEach((select) => { select.value = language; });
+    document.querySelectorAll("[data-content-language]").forEach((element) => {
+      element.hidden = element.dataset.contentLanguage !== language;
+    });
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+      const values = element.dataset.i18nParams ? JSON.parse(element.dataset.i18nParams) : {};
+      element.textContent = translate(element.dataset.i18n, values);
+    });
+    ["aria-label", "placeholder", "title"].forEach((attribute) => {
+      document.querySelectorAll(`[data-i18n-${attribute}]`).forEach((element) => {
+        element.setAttribute(attribute, translate(element.getAttribute(`data-i18n-${attribute}`)));
+      });
+    });
+    try { window.localStorage.setItem(storageKey, language); } catch (_) { /* Links also preserve language. */ }
+    updateLinks();
+    if (announce) {
+      const url = new URL(window.location.href);
+      url.searchParams.set("lang", language);
+      window.history.replaceState(null, "", url.href);
+      document.dispatchEvent(new CustomEvent("site-language-change", { detail: { language } }));
+    }
+  };
+  window.SceneTalkLanguage = { current: () => language, translate };
+  document.querySelectorAll("[data-site-language-select]").forEach((select) => {
+    select.addEventListener("change", () => apply(select.value));
+  });
+  apply(language, false);
+})();
+
+(() => {
   const measurementId = document.documentElement.dataset.googleAnalyticsId;
   if (!measurementId) return;
 
@@ -84,6 +142,7 @@
   let queue = [];
   let playAllQueue = [];
   let isPlayingAll = false;
+  let currentSegment = "";
   const dialogueSegments = Array.from(
     document.querySelectorAll("[data-dialogue-segment]"),
     (element) => element.dataset.dialogueSegment,
@@ -109,10 +168,9 @@
   const setTogglePlaying = (playing) => {
     if (!audioToggle) return;
     audioToggle.classList.toggle("is-playing", playing);
-    audioToggle.setAttribute(
-      "aria-label",
-      playing ? "Pause current audio" : "Play current audio",
-    );
+    const key = playing ? "audio.pause" : "audio.play";
+    audioToggle.setAttribute("data-i18n-aria-label", key);
+    audioToggle.setAttribute("aria-label", window.SceneTalkLanguage.translate(key));
   };
   const clearActiveTrigger = () => {
     if (activeTrigger) activeTrigger.classList.remove("is-playing");
@@ -143,6 +201,7 @@
   };
   const playQueueItem = (item) => {
     if (!item) return;
+    currentSegment = item.segment_id;
     highlightQueueItem(item);
     updateAudioPosition(item);
     playSource(item.url);
@@ -157,6 +216,7 @@
       isPlayingAll = false;
       clearActiveTrigger();
       activeTrigger = trigger;
+      currentSegment = trigger.dataset.audioSegment || "";
       activeTrigger.classList.add("is-playing");
       updateAudioPosition({ segment_id: trigger.dataset.audioSegment || "" });
       playSource(trigger.dataset.audioSrc || "");
@@ -181,9 +241,58 @@
     const manifestElement = document.getElementById("audio-manifest-data");
     const trackSelect = document.querySelector("[data-audio-track-select]");
     const manifest = manifestElement ? JSON.parse(manifestElement.textContent) : null;
+    const stopPlayback = () => {
+      audio.pause();
+      audio.removeAttribute("src");
+      queue = [];
+      playAllQueue = [];
+      isPlayingAll = false;
+      clearActiveTrigger();
+      if (audioToggle) audioToggle.disabled = true;
+      setTogglePlaying(false);
+    };
+    const syncLanguageTrack = (language, preserveDefault = false) => {
+      if (!trackSelect) return;
+      const track = manifest?.tracks?.find((item) => item.code.split("-", 1)[0].toLowerCase() === language);
+      if (!preserveDefault) {
+        let missing = trackSelect.querySelector("option[value='']");
+        if (!missing) {
+          missing = document.createElement("option");
+          missing.value = "";
+          missing.setAttribute("data-i18n", "audio.unavailable");
+          trackSelect.prepend(missing);
+        }
+        missing.textContent = window.SceneTalkLanguage.translate("audio.unavailable");
+        missing.hidden = Boolean(track);
+        trackSelect.value = track?.track_id || "";
+      }
+      playAllButton.disabled = !trackSelect.value;
+    };
+    trackSelect?.addEventListener("change", () => {
+      stopPlayback();
+      currentSegment = "";
+      updateAudioPosition(null);
+      playAllButton.disabled = !trackSelect.value;
+    });
+    document.addEventListener("site-language-change", (event) => {
+      stopPlayback();
+      const language = event.detail.language;
+      syncLanguageTrack(language);
+      const matching = Array.from(triggers).find((trigger) =>
+        trigger.dataset.audioSegment === currentSegment && trigger.dataset.audioLanguage === language,
+      );
+      if (matching) {
+        audio.src = matching.dataset.audioSrc;
+        activeTrigger = matching;
+        if (audioToggle) audioToggle.disabled = false;
+      }
+      updateAudioPosition(currentSegment ? { segment_id: currentSegment } : null);
+    });
+    const initialLanguage = window.SceneTalkLanguage.current();
+    syncLanguageTrack(initialLanguage, initialLanguage === "en");
     playAllButton.addEventListener("click", () => {
       expandAudioBar();
-      const trackId = trackSelect?.value || manifest?.default_track_id;
+      const trackId = trackSelect ? trackSelect.value : manifest?.default_track_id;
       const track = manifest?.tracks?.find((item) => item.track_id === trackId);
       const language = (track?.code || "").split("-", 1)[0].toLowerCase();
       playAllQueue = (track?.playlist || [])
@@ -211,7 +320,17 @@
     clearActiveTrigger();
     updateAudioPosition(null);
   });
-  audio.addEventListener("play", () => setTogglePlaying(true));
+  if (!playAllButton) {
+    document.addEventListener("site-language-change", () => {
+      audio.pause();
+      audio.removeAttribute("src");
+      clearActiveTrigger();
+    });
+  }
+  audio.addEventListener("play", () => {
+    setTogglePlaying(true);
+    if (activeTrigger) activeTrigger.classList.add("is-playing");
+  });
   audio.addEventListener("pause", () => setTogglePlaying(false));
   audio.addEventListener("error", () => {
     queue = [];
@@ -234,8 +353,13 @@
   const rawNumber = new URLSearchParams(window.location.search).get("no");
   const sceneNumber = rawNumber === null ? "" : rawNumber.trim();
 
-  const showForm = (message, value = "") => {
-    status.textContent = message;
+  const setStatus = (key, values = {}) => {
+    status.dataset.i18n = key;
+    status.dataset.i18nParams = JSON.stringify(values);
+    status.textContent = window.SceneTalkLanguage.translate(key, values);
+  };
+  const showForm = (key, value = "", values = {}) => {
+    setStatus(key, values);
     input.value = value;
     form.hidden = false;
     input.focus();
@@ -243,18 +367,20 @@
 
   const openConversation = (number) => {
     if (!/^[1-9]\d*$/.test(number)) {
-      showForm("Enter a positive whole number.", number);
+      showForm("search.invalid", number);
       return;
     }
 
     const target = sceneRoutes[number];
     if (!target) {
-      showForm(`Conversation No. ${number} was not found.`, number);
+      showForm("search.notFound", number, { number });
       return;
     }
 
-    status.textContent = `Opening conversation No. ${number}…`;
-    window.location.replace(new URL(target, window.location.href).href);
+    setStatus("search.opening", { number });
+    const url = new URL(target, window.location.href);
+    url.searchParams.set("lang", window.SceneTalkLanguage.current());
+    window.location.replace(url.href);
   };
 
   form.addEventListener("submit", (event) => {
@@ -265,7 +391,7 @@
   if (sceneNumber) {
     openConversation(sceneNumber);
   } else {
-    showForm("Enter a conversation number to open it.");
+    showForm("search.prompt");
   }
 })();
 
@@ -285,10 +411,11 @@
     const nextOrder = descending ? "ascending" : "descending";
     sortToggle.dataset.sortOrder = descending ? "descending" : "ascending";
     sortToggle.setAttribute("aria-controls", group.id);
-    sortToggle.setAttribute(
-      "aria-label", `Sort conversations in ${nextOrder} order`,
-    );
-    sortToggle.title = `Sort conversations in ${nextOrder} order`;
+    const key = descending ? "list.sortAscending" : "list.sortDescending";
+    sortToggle.setAttribute("data-i18n-aria-label", key);
+    sortToggle.setAttribute("data-i18n-title", key);
+    sortToggle.setAttribute("aria-label", window.SceneTalkLanguage.translate(key));
+    sortToggle.title = window.SceneTalkLanguage.translate(key);
     sortToggle.disabled =
       group.querySelectorAll("[data-conversation-sequence]").length < 2;
   };

@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-19-all-bumper-cars",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T22:08:59+08:00",
+  "updated_at": "2026-10-06T19:42:37+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -13,28 +13,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "Bumper Cars Every Time",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_title_en-us.mp3",
+          "source_text": "All the Ride Credits on Bumper Cars",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:21+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The father and child talk about how to use up all the ride credits in their ticket package the next time they go to the amusement park.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:23+08:00",
+          "generated_at": "2026-10-06T17:20:56+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -48,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "We can ride the pirate ship next week.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:25+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "We'll have to see what the weather's like.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:26+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Next time, we have to go on every ride.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:28+08:00",
@@ -105,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Every ride? There are so many. Can you go on all of them?",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:29+08:00",
@@ -123,11 +106,11 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "We need to use up all our ride credits. You could ride the pirate ship two or three times—or we could use all our credits on it!",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_005_en-us.mp3",
+          "source_text": "We need to use up all our ride credits. Only two or three turns on the pirate ship? Or we could use all our credits on it!",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:31+08:00",
+          "generated_at": "2026-10-06T17:20:58+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -140,28 +123,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "The ticket package comes with a limited number of ride credits.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:36:33+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "I want to use all mine on the bumper cars.",
-          "file": "elevenlabs/2026-08-19-all-bumper-cars_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-19-all-bumper-cars_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:36:35+08:00",
@@ -251,6 +216,284 @@
           "ai_generated": false,
           "sequence": "006",
           "speaker": "孩子"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Todos los turnos en los coches de choque",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "La semana que viene podemos subir al barco pirata.",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Habrá que ver qué tiempo hace.",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "La próxima vez tenemos que hacer todas las atracciones.",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Todas? Hay tantas atracciones… ¿Te dará tiempo a hacerlas todas?",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Vamos a usar todos los turnos. ¿Solo vas a subir dos o tres veces al barco pirata? ¡O podemos usarlos todos en el barco pirata!",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Yo quiero gastar todos los míos en los coches de choque.",
+          "file": "elevenlabs/es-es/2026-08-19-all-bumper-cars_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:03:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Tous les tours en autos tamponneuses",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "La semaine prochaine, on pourra faire le bateau pirate.",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Il faudra voir quel temps il fera.",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "La prochaine fois, il faudra faire toutes les attractions.",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tout faire ? Il y a tellement d'attractions… Tu arriveras à tout faire ?",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "On va utiliser tous nos tours. Tu ne ferais le bateau pirate que deux ou trois fois ? Ou on pourrait utiliser tous nos tours pour le bateau pirate !",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Moi, je veux utiliser tous les miens pour les autos tamponneuses.",
+          "file": "elevenlabs/fr-fr/2026-08-19-all-bumper-cars_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
         }
       ]
     }

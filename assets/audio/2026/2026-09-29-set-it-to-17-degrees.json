@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-29-set-it-to-17-degrees",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T13:20:50+08:00",
+  "updated_at": "2026-10-06T19:55:59+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Set It to 17 Degrees",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:49+08:00",
@@ -31,7 +31,7 @@
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "It's so hot!",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:51+08:00",
@@ -50,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "Do you think anyone still uses the AC at night?",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:53+08:00",
@@ -69,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Probably!",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:55+08:00",
@@ -88,7 +88,7 @@
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Then I'll turn ours on when we get home!",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:56+08:00",
@@ -107,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "I'll set it to 17 degrees and freeze to death.",
-          "file": "elevenlabs/2026-09-29-set-it-to-17-degrees_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-09-29-set-it-to-17-degrees_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-29T18:26:58+08:00",
@@ -187,6 +187,234 @@
           "ai_generated": false,
           "sequence": "005",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Pondré el aire a 17 grados",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¡Qué calor!",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Crees que todavía hay gente que pone el aire acondicionado por la noche?",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Creo que sí!",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Pues yo también pondré el aire cuando lleguemos a casa!",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Lo pondré a 17 grados y me moriré de frío.",
+          "file": "elevenlabs/es-es/2026-09-29-set-it-to-17-degrees_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T18:53:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je vais mettre la clim à 17 degrés",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Il fait vraiment chaud !",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Tu crois qu'il y a encore des gens qui mettent la clim la nuit ?",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:53+08:00",
+          "generation": null,
+          "sequence": "002",
+          "speaker": "father",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je pense que oui !",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:54+08:00",
+          "generation": null,
+          "sequence": "003",
+          "speaker": "child",
+          "metadata_source": "existing_mp3"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Alors, moi aussi, je mettrai la clim en rentrant !",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Je vais la mettre à 17 degrés et mourir de froid.",
+          "file": "elevenlabs/fr-fr/2026-09-29-set-it-to-17-degrees_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:55:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
         }
       ]
     }

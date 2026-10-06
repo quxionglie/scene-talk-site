@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-16-little-scholar-in-drizzle",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-09-27T18:06:57+08:00",
+  "updated_at": "2026-10-06T19:22:03+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "A Little Scholar in the Drizzle",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:47+08:00",
@@ -28,27 +28,10 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "On the way home in the drizzle, the child puts his backpack over his head and treats \"qi\" as both air and strength.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:49+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
           "source_text": "Come on, hurry up.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_001_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:51+08:00",
@@ -67,7 +50,7 @@
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "It's raining. I'll hold the umbrella for you.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_002_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:52+08:00",
@@ -86,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I've got it.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:53+08:00",
@@ -102,28 +85,10 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:003",
-          "type": "note",
-          "source_text": "He puts his backpack over his head.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_note_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:54+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "003"
-        },
-        {
           "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "You look like a little scholar from ancient China.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_004_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:57+08:00",
@@ -142,7 +107,7 @@
           "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Can you still walk?",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:16:58+08:00",
@@ -158,28 +123,10 @@
           "speaker": "father"
         },
         {
-          "segment_id": "note:005",
-          "type": "note",
-          "source_text": "After walking for a while.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_note_005_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:59+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "005"
-        },
-        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "I'm out of breath.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:01+08:00",
@@ -197,11 +144,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "Do you know what \"没气\" means?",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_007_en-us.mp3",
+          "source_text": "Do you know what \"mei qi\" (out of breath) means?",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:02+08:00",
+          "generated_at": "2026-10-06T17:19:16+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -217,7 +164,7 @@
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "It means I don't have any energy left.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:17:03+08:00",
@@ -235,11 +182,11 @@
         {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "Then how did you walk this far?",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_009_en-us.mp3",
+          "source_text": "Then how can you keep walking for so long?",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:05+08:00",
+          "generated_at": "2026-10-06T17:19:17+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -254,11 +201,11 @@
         {
           "segment_id": "dialogue:010",
           "type": "dialogue",
-          "source_text": "(I take a breath.)",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_dialogue_010_en-us.mp3",
+          "source_text": "(Breathes in.)",
+          "file": "elevenlabs/en-us/2026-06-16-little-scholar-in-drizzle_dialogue_010_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-27T18:06:57+08:00",
+          "generated_at": "2026-10-06T17:19:19+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -269,24 +216,6 @@
           },
           "sequence": "010",
           "speaker": "child"
-        },
-        {
-          "segment_id": "note:010",
-          "type": "note",
-          "source_text": "The child takes a breath, as if breathing in could restore his energy.",
-          "file": "elevenlabs/2026-06-16-little-scholar-in-drizzle_note_010_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:17:08+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "010"
         }
       ]
     },
@@ -393,6 +322,436 @@
           "ai_generated": false,
           "sequence": "009",
           "speaker": "父亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Un pequeño erudito bajo la llovizna",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Vamos, date prisa.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Está lloviendo. Yo te sujeto el paraguas.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Yo me apaño.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Así pareces un pequeño erudito de la antigua China.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Puedes seguir andando?",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Me he quedado sin aire.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Sabes qué significa «mei qi» (quedarse sin aire)?",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Significa que ya no me quedan fuerzas.",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Entonces, ¿cómo puedes seguir andando tanto tiempo?",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "(Inhala.)",
+          "file": "elevenlabs/es-es/2026-06-16-little-scholar-in-drizzle_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:09:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "010",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Un petit lettré sous la bruine",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Allez, dépêche-toi.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Il pleut. Je vais tenir le parapluie pour toi.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je me débrouille tout seul.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Comme ça, tu ressembles à un petit lettré de la Chine ancienne.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tu peux encore marcher ?",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je n'ai plus de souffle.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Tu sais ce que veut dire « mei qi » (ne plus avoir de souffle) ?",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:21:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Ça veut dire que je n'ai plus de forces.",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Alors, comment tu peux encore marcher aussi longtemps ?",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "(Il inspire.)",
+          "file": "elevenlabs/fr-fr/2026-06-16-little-scholar-in-drizzle_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:22:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "010",
+          "speaker": "child"
         }
       ]
     }

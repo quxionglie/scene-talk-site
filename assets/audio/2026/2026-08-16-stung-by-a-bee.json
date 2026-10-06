@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-08-16-stung-by-a-bee",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-03T10:26:21+08:00",
+  "updated_at": "2026-10-06T19:42:03+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -14,7 +14,7 @@
           "segment_id": "title",
           "type": "title",
           "source_text": "Stung by a Bee",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_title_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-stung-by-a-bee_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:46+08:00",
@@ -28,30 +28,13 @@
           }
         },
         {
-          "segment_id": "summary",
-          "type": "summary",
-          "source_text": "The child says a bee \"ju-ed\" him, and Mom explains that \"ju\" in Sichuan dialect means \"zhe\" (to sting) in Mandarin.",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_summary_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:48+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          }
-        },
-        {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "I got \"ju\" by a bee.",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_dialogue_001_en-us.mp3",
+          "source_text": "A bee \"ju\" (stung) me.",
+          "file": "elevenlabs/en-us/2026-08-16-stung-by-a-bee_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:49+08:00",
+          "generated_at": "2026-10-06T17:20:48+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -64,31 +47,13 @@
           "speaker": "child"
         },
         {
-          "segment_id": "note:001",
-          "type": "note",
-          "source_text": "\"Ju\" sounds like the Chinese word for \"snipe.\" The child got stung while out last night.",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_note_001_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:52+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
-            "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
-          },
-          "sequence": "001"
-        },
-        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "Which \"ju\" do you mean? The \"ju\" in sniper rifle, or the \"ju\" in detention?",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_dialogue_002_en-us.mp3",
+          "source_text": "Which \"ju\" do you mean—the one in \"ju ji qiang\" (sniper rifle) or the one in \"ju liu\" (detention)?",
+          "file": "elevenlabs/en-us/2026-08-16-stung-by-a-bee_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:54+08:00",
+          "generated_at": "2026-10-06T17:20:50+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -104,7 +69,7 @@
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I've only heard \"zhe\" (to sting), as in \"stung by a bee.\"",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_dialogue_003_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-08-16-stung-by-a-bee_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
           "generated_at": "2026-09-12T15:35:55+08:00",
@@ -122,11 +87,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "\"Ju\" is Sichuan dialect. It means \"zhe\" (to sting) in Mandarin.",
-          "file": "elevenlabs/2026-08-16-stung-by-a-bee_dialogue_004_en-us.mp3",
+          "source_text": "\"Ju\" (sting) is a Sichuan dialect word. It means \"zhe\" (sting) in Mandarin.",
+          "file": "elevenlabs/en-us/2026-08-16-stung-by-a-bee_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:35:57+08:00",
+          "generated_at": "2026-10-06T17:20:55+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "OZ0L6eISlOejga3XjDFt",
@@ -193,6 +158,208 @@
           "ai_generated": false,
           "sequence": "004",
           "speaker": "母亲"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Picado por una abeja",
+          "file": "elevenlabs/es-es/2026-08-16-stung-by-a-bee_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Una abeja me ha «ju» (picado).",
+          "file": "elevenlabs/es-es/2026-08-16-stung-by-a-bee_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Qué «ju» quieres decir? ¿El de «ju ji qiang» (rifle de francotirador) o el de «ju liu» (detención)?",
+          "file": "elevenlabs/es-es/2026-08-16-stung-by-a-bee_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Yo solo conozco «zhe» (picar), como en «una abeja me picó».",
+          "file": "elevenlabs/es-es/2026-08-16-stung-by-a-bee_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "«Ju» es dialecto de Sichuan. Equivale a «zhe» (picar) en mandarín.",
+          "file": "elevenlabs/es-es/2026-08-16-stung-by-a-bee_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:02:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Piqué par une abeille",
+          "file": "elevenlabs/fr-fr/2026-08-16-stung-by-a-bee_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Une abeille m'a « ju » (piqué).",
+          "file": "elevenlabs/fr-fr/2026-08-16-stung-by-a-bee_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "De quel « ju » parles-tu ? Celui de « ju ji qiang » (fusil de précision) ou celui de « ju liu » (détention) ?",
+          "file": "elevenlabs/fr-fr/2026-08-16-stung-by-a-bee_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:41:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je ne connais que « zhe » (piquer), comme dans « se faire piquer par une abeille ».",
+          "file": "elevenlabs/fr-fr/2026-08-16-stung-by-a-bee_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "« Ju » vient du dialecte du Sichuan. Cela correspond à « zhe » (piquer) en mandarin.",
+          "file": "elevenlabs/fr-fr/2026-08-16-stung-by-a-bee_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-06T19:42:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          },
+          "sequence": "004",
+          "speaker": "mother"
         }
       ]
     }
