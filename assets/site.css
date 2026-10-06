@@ -29,6 +29,8 @@
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
       "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
   a { color: inherit; }
   .site-header {
@@ -47,6 +49,34 @@
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
+  }
+  .site-nav-toggle {
+    display: none;
+    align-items: center;
+    justify-self: start;
+    gap: 9px;
+    min-height: 44px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    font-size: 15px;
+    font-weight: 750;
+    cursor: pointer;
+  }
+  .site-nav-toggle-icon {
+    width: 18px;
+    height: 14px;
+    background: linear-gradient(currentColor, currentColor) top / 100% 2px no-repeat,
+      linear-gradient(currentColor, currentColor) center / 100% 2px no-repeat,
+      linear-gradient(currentColor, currentColor) bottom / 100% 2px no-repeat;
+  }
+  .site-nav-toggle:focus-visible,
+  .site-nav-link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
   .site-language-control select {
     max-width: 140px;
@@ -348,6 +378,7 @@
   }
   .content-heading-row .content-title {
     min-width: 0;
+    max-width: 100%;
   }
   .content-heading-row .download-link {
     flex: 0 0 auto;
@@ -694,6 +725,7 @@
     margin: 0;
     font-size: 17px;
     line-height: 1.5;
+    overflow-wrap: anywhere;
   }
   .summary-block .summary-en {
     margin-top: 7px;
@@ -751,12 +783,14 @@
     font-size: 16px;
     line-height: 1.35;
     font-weight: 600;
+    overflow-wrap: anywhere;
   }
   .en {
     margin-top: 5px;
     color: var(--muted);
     font-size: 16px;
     line-height: 1.4;
+    overflow-wrap: anywhere;
   }
   .line > .en {
     color: var(--ink);
@@ -812,6 +846,7 @@
     color: var(--muted);
     font-size: 14px;
     line-height: 1.45;
+    overflow-wrap: anywhere;
   }
   .story-body {
     padding: 22px;
@@ -969,6 +1004,8 @@
     padding: 10px 0;
     color: var(--muted);
     text-decoration: none;
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
   .dialogue-navigation a:hover {
     color: var(--ink);
@@ -1097,7 +1134,47 @@
   @media (max-width: 720px) {
     .site-header {
       width: min(100vw - 24px, 1080px);
-      padding-top: 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      padding: 12px 0 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .site-nav-toggle {
+      display: inline-flex;
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .site-language-control {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    .site-language-control select {
+      min-height: 44px;
+      font-size: 16px;
+    }
+    .site-nav {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 4px 8px;
+      min-width: 0;
+    }
+    .site-header.has-nav-toggle:not(.is-navigation-open) .site-nav {
+      display: none;
+    }
+    .site-nav-link {
+      display: flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 10px 12px;
+      border-radius: 6px;
+      overflow-wrap: anywhere;
+    }
+    .site-nav-link:hover,
+    .site-nav-link[aria-current="page"] {
+      background: var(--accent-soft);
     }
     main, .page {
       width: min(100vw - 24px, 1080px);
@@ -1197,32 +1274,42 @@
       padding: 18px 16px 14px;
     }
     .content-hero {
-      padding-top: 26px;
+      padding-top: 20px;
     }
     .content-heading-row {
       flex-direction: column;
-      gap: 14px;
+      gap: 12px;
+    }
+    .content-heading-row .download-link {
+      min-height: 44px;
+      margin-top: 0;
     }
     .content-title-main {
-      font-size: 30px;
+      font-size: clamp(26px, 7.5vw, 30px);
+      line-height: 1.25;
     }
     .content-title-en {
       margin-top: 7px;
       font-size: 18px;
     }
     .content-meta {
-      margin-top: 18px;
+      margin-top: 16px;
       gap: 7px 9px;
       font-size: 14px;
     }
     .summary-block {
-      padding: 12px 16px;
+      margin-top: 16px;
+      padding: 12px;
+    }
+    .speakers {
+      padding: 14px 12px 0;
     }
     .lines {
-      padding: 2px 16px 8px;
+      padding: 2px 12px 8px;
     }
     .zh {
       font-size: 20px;
+      line-height: 1.45;
     }
     .app-promo {
       flex-direction: column;

@@ -57,6 +57,28 @@
 })();
 
 (() => {
+  const header = document.querySelector(".site-header");
+  const toggle = header?.querySelector("[data-site-nav-toggle]");
+  if (!toggle) return;
+
+  const setOpen = (open) => {
+    header.classList.toggle("is-navigation-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+  toggle.hidden = false;
+  header.classList.add("has-nav-toggle");
+  toggle.addEventListener("click", () => {
+    setOpen(toggle.getAttribute("aria-expanded") !== "true");
+  });
+  header.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
+    setOpen(false);
+    toggle.focus();
+    event.preventDefault();
+  });
+})();
+
+(() => {
   const measurementId = document.documentElement.dataset.googleAnalyticsId;
   if (!measurementId) return;
 
