@@ -86,11 +86,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "The slide goes \"whoosh, whoosh.\" There's stuff to climb on, too.",
+          "source_text": "The slide goes \"rumble, rumble, rumble.\" There's stuff to climb on, too.",
           "file": "elevenlabs/en-us/2026-10-06-the-swing-was-too-slippery_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-07T01:22:12+08:00",
+          "generated_at": "2026-10-07T09:11:01+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -225,11 +225,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "El tobogán hace «fiu, fiu». También hay cosas para trepar.",
+          "source_text": "El tobogán hace «clac, clac, clac». También hay cosas para trepar.",
           "file": "elevenlabs/es-es/2026-10-06-the-swing-was-too-slippery_dialogue_004_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-07T01:22:32+08:00",
+          "generated_at": "2026-10-07T09:10:55+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -364,11 +364,11 @@
         {
           "segment_id": "dialogue:004",
           "type": "dialogue",
-          "source_text": "Le toboggan fait « fiou, fiou ». Il y a aussi des trucs pour grimper.",
+          "source_text": "Le toboggan fait « clac, clac, clac ». Il y a aussi des trucs pour grimper.",
           "file": "elevenlabs/fr-fr/2026-10-06-the-swing-was-too-slippery_dialogue_004_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-07T01:22:51+08:00",
+          "generated_at": "2026-10-07T09:10:46+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -421,5 +421,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-07T01:25:46+08:00"
+  "updated_at": "2026-10-07T09:11:01+08:00"
 }
