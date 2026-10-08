@@ -33,14 +33,15 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T16:09:59+08:00",
+          "generated_at": "2026-10-08T17:56:40+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "next_text": "That's called a green train. It took 35 hours to get from Shenzhen to Chengdu, if I remember right."
           },
           "sequence": "001",
           "speaker": "child"
@@ -52,14 +53,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:35+08:00",
+          "generated_at": "2026-10-08T17:56:43+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "Dad, I heard you've been on a really slow train.",
+            "next_text": "I only took it once, and I don't want to take it again."
           },
           "sequence": "002",
           "speaker": "father"
@@ -71,14 +74,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:38+08:00",
+          "generated_at": "2026-10-08T17:56:45+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "That's called a green train. It took 35 hours to get from Shenzhen to Chengdu, if I remember right.",
+            "next_text": "Why?"
           },
           "sequence": "003",
           "speaker": "father"
@@ -90,14 +95,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:40+08:00",
+          "generated_at": "2026-10-08T17:56:46+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "I only took it once, and I don't want to take it again.",
+            "next_text": "Why? Because it was so slow! Way too slow. My butt went numb from sitting so long."
           },
           "sequence": "004",
           "speaker": "child"
@@ -109,14 +116,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:42+08:00",
+          "generated_at": "2026-10-08T17:56:49+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "Why?",
+            "next_text": "It was hard to sleep, too. People kept walking up and down selling things."
           },
           "sequence": "005",
           "speaker": "father"
@@ -128,14 +137,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:44+08:00",
+          "generated_at": "2026-10-08T17:56:51+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "Why? Because it was so slow! Way too slow. My butt went numb from sitting so long.",
+            "next_text": "How about I take you on one next time?"
           },
           "sequence": "006",
           "speaker": "father"
@@ -147,14 +158,16 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:46+08:00",
+          "generated_at": "2026-10-08T17:56:53+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "It was hard to sleep, too. People kept walking up and down selling things.",
+            "next_text": "No, I don't want to."
           },
           "sequence": "007",
           "speaker": "father"
@@ -166,14 +179,15 @@
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:48+08:00",
+          "generated_at": "2026-10-08T17:56:55+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "How about I take you on one next time?"
           },
           "sequence": "008",
           "speaker": "child"
@@ -535,5 +549,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-08T16:10:05+08:00"
+  "updated_at": "2026-10-08T17:56:55+08:00"
 }
