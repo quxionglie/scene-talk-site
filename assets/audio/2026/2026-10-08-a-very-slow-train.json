@@ -29,11 +29,11 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "I heard you've been on a really slow train.",
+          "source_text": "Dad, I heard you've been on a really slow train.",
           "file": "elevenlabs/en-us/2026-10-08-a-very-slow-train_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:36:32+08:00",
+          "generated_at": "2026-10-08T16:09:59+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -206,11 +206,11 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "He oído que viajaste en un tren muy lento.",
+          "source_text": "Papá, he oído que viajaste en un tren muy lento.",
           "file": "elevenlabs/es-es/2026-10-08-a-very-slow-train_dialogue_001_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:39:19+08:00",
+          "generated_at": "2026-10-08T16:10:05+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -383,11 +383,11 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "J'ai entendu dire que tu avais pris un train vraiment lent.",
+          "source_text": "Papa, j'ai entendu dire que tu avais pris un train vraiment lent.",
           "file": "elevenlabs/fr-fr/2026-10-08-a-very-slow-train_dialogue_001_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-08T11:39:41+08:00",
+          "generated_at": "2026-10-08T16:10:02+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -535,5 +535,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-08T11:40:01+08:00"
+  "updated_at": "2026-10-08T16:10:05+08:00"
 }
