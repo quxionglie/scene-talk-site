@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-12-kindergarten-pickup",
   "default_track_id": "zh-CN-mandarin",
-  "updated_at": "2026-10-06T19:21:05+08:00",
+  "updated_at": "2026-10-08T16:36:31+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -53,14 +53,16 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:15:57+08:00",
+          "generated_at": "2026-10-08T16:36:21+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What day is it today?",
+            "next_text": "Why did you bring your pillow home today?"
           },
           "sequence": "002",
           "speaker": "child"
@@ -72,14 +74,16 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:15:59+08:00",
+          "generated_at": "2026-10-08T16:36:23+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's Friday.",
+            "next_text": "I have to take it home and wash it! There's also a form we need to bring back next week."
           },
           "sequence": "003",
           "speaker": "father"
@@ -91,14 +95,16 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:01+08:00",
+          "generated_at": "2026-10-08T16:36:27+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Why did you bring your pillow home today?",
+            "next_text": "Is your mom supposed to fill it out?"
           },
           "sequence": "004",
           "speaker": "child"
@@ -110,14 +116,16 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:02+08:00",
+          "generated_at": "2026-10-08T16:36:28+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I have to take it home and wash it! There's also a form we need to bring back next week.",
+            "next_text": "Mm-hmm."
           },
           "sequence": "005",
           "speaker": "father"
@@ -129,14 +137,16 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:03+08:00",
+          "generated_at": "2026-10-08T16:36:29+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Is your mom supposed to fill it out?",
+            "next_text": "Okay, we'll check it when we get home."
           },
           "sequence": "006",
           "speaker": "child"
@@ -148,14 +158,15 @@
           "file": "elevenlabs/en-us/2026-06-12-kindergarten-pickup_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:05+08:00",
+          "generated_at": "2026-10-08T16:36:31+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Mm-hmm."
           },
           "sequence": "007",
           "speaker": "father"

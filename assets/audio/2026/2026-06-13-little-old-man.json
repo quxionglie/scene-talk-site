@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-13-little-old-man",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T19:21:12+08:00",
+  "updated_at": "2026-10-08T16:36:32+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -34,14 +34,15 @@
           "file": "elevenlabs/en-us/2026-06-13-little-old-man_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:16:09+08:00",
+          "generated_at": "2026-10-08T16:36:32+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "I'm 100."
           },
           "sequence": "001",
           "speaker": "father"
