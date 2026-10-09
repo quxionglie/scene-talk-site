@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-10-09-how-do-you-pronounce-yifu",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-09T08:49:04+08:00",
+  "updated_at": "2026-10-09T20:23:31+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -239,11 +239,11 @@
         {
           "segment_id": "dialogue:011",
           "type": "dialogue",
-          "source_text": "When we write from memory in class, we get marked wrong if we write \"yīfú\" (clothes). Our teacher reminds us that the second syllable is in the neutral tone.",
+          "source_text": "When we do dictation, we get marked wrong if we write \"yīfú\" (clothes). Our teacher reminds us that the second syllable has a neutral tone.",
           "file": "elevenlabs/en-us/2026-10-09-how-do-you-pronounce-yifu_dialogue_011_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T08:48:14+08:00",
+          "generated_at": "2026-10-09T20:23:21+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -493,11 +493,11 @@
         {
           "segment_id": "dialogue:011",
           "type": "dialogue",
-          "source_text": "Quand on écrit de mémoire en classe, si on écrit « yīfú » (vêtements), c’est compté comme une faute. Le professeur nous rappelle que la deuxième syllabe se prononce au ton neutre.",
+          "source_text": "Quand on fait une dictée, si on écrit « yīfú » (vêtements), c’est compté comme une faute. Le professeur nous rappelle que la deuxième syllabe se prononce au ton neutre.",
           "file": "elevenlabs/fr-fr/2026-10-09-how-do-you-pronounce-yifu_dialogue_011_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T08:48:36+08:00",
+          "generated_at": "2026-10-09T20:23:26+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -747,11 +747,11 @@
         {
           "segment_id": "dialogue:011",
           "type": "dialogue",
-          "source_text": "Cuando escribimos de memoria en clase, si ponemos «yīfú» (ropa), nos lo marcan como un error. El profesor nos recuerda que la segunda sílaba lleva tono neutro.",
+          "source_text": "Cuando hacemos un dictado, si escribimos «yīfú» (ropa), nos lo marcan como un error. El profesor nos recuerda que la segunda sílaba lleva tono neutro.",
           "file": "elevenlabs/es-es/2026-10-09-how-do-you-pronounce-yifu_dialogue_011_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T08:49:04+08:00",
+          "generated_at": "2026-10-09T20:23:31+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
