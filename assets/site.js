@@ -465,7 +465,7 @@
     });
   }
 
-  const activateTab = (tab, focus = false) => {
+  const activateTab = (tab, focus = false, updateUrl = true) => {
     const groupId = tab.dataset.conversationGroupTarget;
     tabs.forEach((item) => {
       const active = item === tab;
@@ -477,6 +477,11 @@
       group.hidden = group.id !== groupId;
     });
     updateSortToggle(groups.find((group) => group.id === groupId));
+    if (updateUrl) {
+      const url = new URL(window.location.href);
+      url.searchParams.set("group", tab.dataset.conversationGroupKey);
+      window.history.replaceState(window.history.state, "", url.href);
+    }
     if (focus) tab.focus();
   };
 
@@ -496,8 +501,9 @@
     });
   });
 
-  const activeTab = tabs.find(
-    (tab) => tab.getAttribute("aria-selected") === "true",
+  const requestedGroup = new URLSearchParams(window.location.search).get("group");
+  const requestedTab = tabs.find(
+    (tab) => tab.dataset.conversationGroupKey === requestedGroup,
   );
-  activateTab(activeTab || tabs[0]);
+  activateTab(requestedTab || tabs[0], false, false);
 })();
