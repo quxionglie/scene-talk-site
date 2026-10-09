@@ -252,6 +252,20 @@
     overflow-wrap: anywhere;
     text-decoration: none;
   }
+  .all-dialogues-date {
+    display: inline-block;
+    margin-left: 1em;
+    color: var(--muted);
+    font-size: 0.75em;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  @media (max-width: 700px) {
+    .all-dialogues-date {
+      display: block;
+      margin-left: 0;
+    }
+  }
   .all-dialogues a:hover,
   .all-dialogues a:focus-visible {
     color: var(--accent);
