@@ -31,6 +31,15 @@
     document.querySelectorAll("[data-content-language]").forEach((element) => {
       element.hidden = element.dataset.contentLanguage !== language;
     });
+    document.querySelectorAll("[data-image-captions]").forEach((figure) => {
+      const captions = JSON.parse(figure.dataset.imageCaptions);
+      const caption = captions[language] || captions.en || "";
+      const image = figure.querySelector("img");
+      const button = figure.querySelector(".image-zoom-trigger");
+      image.alt = caption;
+      button.dataset.alt = caption;
+      button.setAttribute("aria-label", caption ? `View larger image: ${caption}` : "View larger image");
+    });
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       const values = element.dataset.i18nParams ? JSON.parse(element.dataset.i18nParams) : {};
       element.textContent = translate(element.dataset.i18n, values);
@@ -96,10 +105,12 @@
 
   const image = lightbox.querySelector("img");
   const closeButton = lightbox.querySelector(".image-lightbox-close");
+  let activeButton = null;
   const close = () => {
     lightbox.hidden = true;
     image.removeAttribute("src");
     image.alt = "";
+    activeButton = null;
     document.body.classList.remove("lightbox-open");
   };
 
@@ -107,10 +118,14 @@
     button.addEventListener("click", () => {
       image.src = button.dataset.fullSrc || "";
       image.alt = button.dataset.alt || "";
+      activeButton = button;
       lightbox.hidden = false;
       document.body.classList.add("lightbox-open");
       closeButton.focus();
     });
+  });
+  document.addEventListener("site-language-change", () => {
+    if (activeButton) image.alt = activeButton.dataset.alt || "";
   });
   closeButton.addEventListener("click", close);
   lightbox.addEventListener("click", (event) => {
