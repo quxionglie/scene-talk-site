@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-10-09-how-chinese-dictation-works",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-10T19:44:24+08:00",
+  "updated_at": "2026-10-10T20:37:40+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -155,11 +155,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "How do you know which characters you don't need to write pinyin for?",
+          "source_text": "How do you know which ones don't need pinyin?",
           "file": "elevenlabs/en-us/2026-10-09-how-chinese-dictation-works_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T23:56:49+08:00",
+          "generated_at": "2026-10-10T20:36:22+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -189,6 +189,388 @@
             "similarity_boost": 1.0,
             "stability": 0.5,
             "previous_text": "How do you know which characters you don't need to write pinyin for?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Comment se passent les dictées en cours de chinois",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:36:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Vous devez écrire des mots ou des phrases entières ?",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Des mots. Comme « yuwen » (chinois) et « shuxue » (mathématiques)."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Des mots. Comme « yuwen » (chinois) et « shuxue » (mathématiques).",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Vous devez écrire des mots ou des phrases entières ?",
+            "next_text": "D’accord, juste les caractères chinois, c’est ça ?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "D’accord, juste les caractères chinois, c’est ça ?",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Des mots. Comme « yuwen » (chinois) et « shuxue » (mathématiques).",
+            "next_text": "Il faut écrire le pinyin."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Il faut écrire le pinyin.",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "D’accord, juste les caractères chinois, c’est ça ?",
+            "next_text": "Vous écrivez les caractères chinois et le pinyin, les deux ?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Vous écrivez les caractères chinois et le pinyin, les deux ?",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il faut écrire le pinyin.",
+            "next_text": "Pour certains caractères, on n’a pas besoin d’écrire le pinyin. Pour ceux qu’on a déjà appris, ce n’est pas nécessaire."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Pour certains caractères, on n’a pas besoin d’écrire le pinyin. Pour ceux qu’on a déjà appris, ce n’est pas nécessaire.",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:36:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Vous écrivez les caractères chinois et le pinyin, les deux ?",
+            "next_text": "Comment tu sais pour lesquels tu n’as pas besoin d’écrire le pinyin ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Comment tu sais pour lesquels tu n’as pas besoin d’écrire le pinyin ?",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:36:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pour certains caractères, on n’a pas besoin d’écrire le pinyin. Pour ceux qu’on a déjà appris, ce n’est pas nécessaire.",
+            "next_text": "Le prof nous le dit. Par exemple : « Écrivez le pinyin de “po” (pente) dans “shanpo” (flanc de colline). »"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Le prof nous le dit. Par exemple : « Écrivez le pinyin de “po” (pente) dans “shanpo” (flanc de colline). »",
+          "file": "elevenlabs/fr-fr/2026-10-09-how-chinese-dictation-works_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Comment tu sais pour lesquels tu n’as pas besoin d’écrire le pinyin ?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Cómo se hacen los dictados en clase de chino",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Tenéis que escribir palabras sueltas o frases enteras?",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Palabras. Como «yuwen» (lengua china) y «shuxue» (matemáticas)."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Palabras. Como «yuwen» (lengua china) y «shuxue» (matemáticas).",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Tenéis que escribir palabras sueltas o frases enteras?",
+            "next_text": "Ya, solo los caracteres chinos, ¿no?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ya, solo los caracteres chinos, ¿no?",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Palabras. Como «yuwen» (lengua china) y «shuxue» (matemáticas).",
+            "next_text": "Hay que escribir el pinyin."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Hay que escribir el pinyin.",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ya, solo los caracteres chinos, ¿no?",
+            "next_text": "¿Escribís tanto los caracteres chinos como el pinyin?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Escribís tanto los caracteres chinos como el pinyin?",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hay que escribir el pinyin.",
+            "next_text": "Para algunos caracteres no hace falta escribir el pinyin. Para los que ya hemos aprendido, no hace falta."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Para algunos caracteres no hace falta escribir el pinyin. Para los que ya hemos aprendido, no hace falta.",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Escribís tanto los caracteres chinos como el pinyin?",
+            "next_text": "¿Cómo sabes cuáles no necesitan pinyin?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Cómo sabes cuáles no necesitan pinyin?",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Para algunos caracteres no hace falta escribir el pinyin. Para los que ya hemos aprendido, no hace falta.",
+            "next_text": "El profe nos lo dice. Por ejemplo: «Escribid el pinyin de “po” (pendiente) en “shanpo” (ladera)»."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "El profe nos lo dice. Por ejemplo: «Escribid el pinyin de “po” (pendiente) en “shanpo” (ladera)».",
+          "file": "elevenlabs/es-es/2026-10-09-how-chinese-dictation-works_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T20:37:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cómo sabes cuáles no necesitan pinyin?"
           },
           "sequence": "008",
           "speaker": "child"

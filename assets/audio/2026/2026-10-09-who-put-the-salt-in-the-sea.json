@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-10-09-who-put-the-salt-in-the-sea",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-09T22:25:05+08:00",
+  "updated_at": "2026-10-10T20:37:42+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -134,11 +134,11 @@
         {
           "segment_id": "dialogue:006",
           "type": "dialogue",
-          "source_text": "What would it taste like if I put salt in boiled water?",
+          "source_text": "If I put salt in boiled water, what would it taste like?",
           "file": "elevenlabs/en-us/2026-10-09-who-put-the-salt-in-the-sea_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T22:23:57+08:00",
+          "generated_at": "2026-10-10T20:36:17+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -346,11 +346,11 @@
         {
           "segment_id": "dialogue:006",
           "type": "dialogue",
-          "source_text": "Si je mets du sel dans de l’eau bouillie, quel goût aura-t-elle ?",
+          "source_text": "Si je mets du sel dans de l’eau bouillie, ça aura quel goût ?",
           "file": "elevenlabs/fr-fr/2026-10-09-who-put-the-salt-in-the-sea_dialogue_006_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T22:24:24+08:00",
+          "generated_at": "2026-10-10T20:37:04+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -558,11 +558,11 @@
         {
           "segment_id": "dialogue:006",
           "type": "dialogue",
-          "source_text": "Si le pongo sal al agua hervida, ¿a qué sabría?",
+          "source_text": "Si pongo sal en agua hervida, ¿a qué sabría?",
           "file": "elevenlabs/es-es/2026-10-09-who-put-the-salt-in-the-sea_dialogue_006_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-09T22:24:54+08:00",
+          "generated_at": "2026-10-10T20:37:42+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
