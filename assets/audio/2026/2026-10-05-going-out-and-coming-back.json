@@ -105,18 +105,20 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "When you came back for the bag earlier, you didn't have your keys with you, right? You knocked and rang the doorbell.",
+          "source_text": "When you came back for the bag earlier, you didn't have your keys, right? You even knocked and rang the doorbell.",
           "file": "elevenlabs/en-us/2026-10-05-going-out-and-coming-back_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T17:56:09+08:00",
+          "generated_at": "2026-10-11T12:10:25+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "We came back for an umbrella and to put on our jackets!",
+            "next_text": "Yeah, we didn't bring them."
           },
           "sequence": "005",
           "speaker": "father"
@@ -260,18 +262,20 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "Cuando volvisteis antes a por el bolso, ¿no llevabais las llaves? Llamasteis a la puerta y tocasteis el timbre.",
+          "source_text": "Cuando volvisteis antes a por el bolso, ¿no llevabais las llaves? Hasta llamasteis a la puerta y tocasteis el timbre.",
           "file": "elevenlabs/es-es/2026-10-05-going-out-and-coming-back_dialogue_005_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:20:23+08:00",
+          "generated_at": "2026-10-11T12:10:31+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "¡Volvimos a por un paraguas y a ponernos las chaquetas!",
+            "next_text": "Sí, no las llevábamos."
           },
           "sequence": "005",
           "speaker": "father"
@@ -399,18 +403,20 @@
         {
           "segment_id": "dialogue:005",
           "type": "dialogue",
-          "source_text": "Quand vous êtes revenus chercher le sac la première fois, vous n'aviez pas vos clés ? Vous avez frappé à la porte et sonné.",
+          "source_text": "Quand vous êtes revenus chercher le sac tout à l'heure, vous n'aviez pas vos clés ? Vous avez même frappé à la porte et sonné.",
           "file": "elevenlabs/fr-fr/2026-10-05-going-out-and-coming-back_dialogue_005_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:56:59+08:00",
+          "generated_at": "2026-10-11T12:10:28+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "On est revenus chercher un parapluie et mettre nos vestes !",
+            "next_text": "Oui, on ne les avait pas prises."
           },
           "sequence": "005",
           "speaker": "father"
@@ -437,5 +443,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-06T19:58:50+08:00"
+  "updated_at": "2026-10-11T12:10:31+08:00"
 }
