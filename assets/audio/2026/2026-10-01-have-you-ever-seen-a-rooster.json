@@ -155,6 +155,16 @@
           "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你是喜欢吃老母鸡的腿，还是小鸡的？",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
         }
       ]
     },
@@ -437,5 +447,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-06T19:56:19+08:00"
+  "updated_at": "2026-10-11T12:20:13+08:00"
 }

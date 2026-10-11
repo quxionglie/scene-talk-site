@@ -157,6 +157,66 @@
           "file": "zh-cn/2026-10-05-going-out-and-coming-back_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天下雨怎么还出去？",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "每天都要出去。",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你后面是不是又回来拿车了？",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "是回来拿伞、穿外套！",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "前面那次回来拿包，是没带钥匙？还敲门按门铃了。",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "是没带。",
+          "file": "zh-cn/2026-10-05-going-out-and-coming-back_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
         }
       ]
     },
@@ -443,5 +503,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-11T12:10:31+08:00"
+  "updated_at": "2026-10-11T12:25:50+08:00"
 }
