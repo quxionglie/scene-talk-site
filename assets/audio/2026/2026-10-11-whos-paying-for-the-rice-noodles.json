@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-11-whos-paying-for-the-rice-noodles",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-10-11T11:38:23+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Who's Paying for the Rice Noodles?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "How can it be your treat? Didn't I pay?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Dad, how much was it?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Dad, how much was it?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "How can it be your treat? Didn't I pay?",
+            "next_text": "It's 9 yuan a bowl."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "It's 9 yuan a bowl.",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Dad, how much was it?",
+            "next_text": "What about a one-liang bowl?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "What about a one-liang bowl?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's 9 yuan a bowl.",
+            "next_text": "It's 9 yuan for two liang and 7 yuan for one liang."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "It's 9 yuan for two liang and 7 yuan for one liang.",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What about a one-liang bowl?",
+            "next_text": "Would one liang be enough for you guys?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Would one liang be enough for you guys?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's 9 yuan for two liang and 7 yuan for one liang.",
+            "next_text": "What size did those two get?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "What size did those two get?",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "OZ0L6eISlOejga3XjDFt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Would one liang be enough for you guys?",
+            "next_text": "Two liang each. All four of us got two liang."
+          },
+          "sequence": "007",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Two liang each. All four of us got two liang.",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What size did those two get?",
+            "next_text": "We ordered by scanning the QR code for table 23. Our pickup number is 75."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "We ordered by scanning the QR code for table 23. Our pickup number is 75.",
+          "file": "elevenlabs/en-us/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Two liang each. All four of us got two liang."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Qui paie les nouilles de riz ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Comment ça, c’est toi qui invites ? Ce n’est pas moi qui ai payé ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Papa, ça a coûté combien ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Papa, ça a coûté combien ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Comment ça, c’est toi qui invites ? Ce n’est pas moi qui ai payé ?",
+            "next_text": "9 yuans le bol."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "9 yuans le bol.",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Papa, ça a coûté combien ?",
+            "next_text": "Et un bol d’un liang ?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Et un bol d’un liang ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "9 yuans le bol.",
+            "next_text": "9 yuans pour deux liang et 7 yuans pour un liang."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "9 yuans pour deux liang et 7 yuans pour un liang.",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et un bol d’un liang ?",
+            "next_text": "Un liang, ça vous suffirait ?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Un liang, ça vous suffirait ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "9 yuans pour deux liang et 7 yuans pour un liang.",
+            "next_text": "Ils ont pris combien de liang, tous les deux ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ils ont pris combien de liang, tous les deux ?",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Un liang, ça vous suffirait ?",
+            "next_text": "Deux liang chacun. On a tous les quatre pris deux liang."
+          },
+          "sequence": "007",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Deux liang chacun. On a tous les quatre pris deux liang.",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:37:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ils ont pris combien de liang, tous les deux ?",
+            "next_text": "On a commandé en scannant le QR code de la table 23. Notre numéro pour récupérer la commande, c’est le 75."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "On a commandé en scannant le QR code de la table 23. Notre numéro pour récupérer la commande, c’est le 75.",
+          "file": "elevenlabs/fr-fr/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Deux liang chacun. On a tous les quatre pris deux liang."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Quién paga los fideos de arroz?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cómo que invitas tú? ¿No he pagado yo?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Papá, ¿cuánto costó?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Papá, ¿cuánto costó?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cómo que invitas tú? ¿No he pagado yo?",
+            "next_text": "9 yuanes el bol."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "9 yuanes el bol.",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Papá, ¿cuánto costó?",
+            "next_text": "¿Y un bol de un liang?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Y un bol de un liang?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "9 yuanes el bol.",
+            "next_text": "Dos liang cuestan 9 yuanes y un liang cuesta 7 yuanes."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Dos liang cuestan 9 yuanes y un liang cuesta 7 yuanes.",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y un bol de un liang?",
+            "next_text": "¿Os bastaría con un liang?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Os bastaría con un liang?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Dos liang cuestan 9 yuanes y un liang cuesta 7 yuanes.",
+            "next_text": "¿Cuántos liang pidieron esos dos?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Cuántos liang pidieron esos dos?",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Os bastaría con un liang?",
+            "next_text": "Dos liang cada uno. Los cuatro hemos pedido dos liang."
+          },
+          "sequence": "007",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Dos liang cada uno. Los cuatro hemos pedido dos liang.",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cuántos liang pidieron esos dos?",
+            "next_text": "Hemos pedido escaneando el código QR de la mesa 23. Nuestro número para recoger la comida es el 75."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Hemos pedido escaneando el código QR de la mesa 23. Nuestro número para recoger la comida es el 75.",
+          "file": "elevenlabs/es-es/2026-10-11-whos-paying-for-the-rice-noodles_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-11T11:38:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Dos liang cada uno. Los cuatro hemos pedido dos liang."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
