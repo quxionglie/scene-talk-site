@@ -165,6 +165,56 @@
           "ai_generated": false,
           "sequence": "001",
           "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "老母鸡的。",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "为什么？",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "因为老母鸡的比较大。",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "不是还分公鸡和母鸡嘛，你见过公鸡吗？",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "没有。",
+          "file": "zh-cn/2026-10-01-have-you-ever-seen-a-rooster_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
         }
       ]
     },
@@ -447,5 +497,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-11T12:20:13+08:00"
+  "updated_at": "2026-10-11T13:28:49+08:00"
 }
