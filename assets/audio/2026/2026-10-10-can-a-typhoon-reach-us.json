@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-10-10-can-a-typhoon-reach-us",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-10T23:04:44+08:00",
+  "updated_at": "2026-10-10T23:55:19+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -231,6 +231,472 @@
             "similarity_boost": 1.0,
             "stability": 0.5,
             "previous_text": "What about trees?"
+          },
+          "sequence": "010",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Un typhon peut-il arriver jusqu’ici ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Un typhon peut arriver jusqu’ici ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "C’est très peu probable. Il n’y a des typhons que dans les villes côtières."
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "C’est très peu probable. Il n’y a des typhons que dans les villes côtières.",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Un typhon peut arriver jusqu’ici ?",
+            "next_text": "Alors pourquoi il y en a vers Nanning, dans le Guangxi ?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Alors pourquoi il y en a vers Nanning, dans le Guangxi ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "C’est très peu probable. Il n’y a des typhons que dans les villes côtières.",
+            "next_text": "Le Guangxi est au bord de la mer."
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Le Guangxi est au bord de la mer.",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Alors pourquoi il y en a vers Nanning, dans le Guangxi ?",
+            "next_text": "C’est quoi, « yuanhai » (littéralement, mer originelle) ?"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "C’est quoi, « yuanhai » (littéralement, mer originelle) ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le Guangxi est au bord de la mer.",
+            "next_text": "« Yanhai » (côtier). Ça veut dire que la mer est tout près. Quand un typhon arrive, il frappe d’abord les zones côtières."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "« Yanhai » (côtier). Ça veut dire que la mer est tout près. Quand un typhon arrive, il frappe d’abord les zones côtières.",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "C’est quoi, « yuanhai » (littéralement, mer originelle) ?",
+            "next_text": "Un typhon peut faire s’écrouler une maison ?"
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Un typhon peut faire s’écrouler une maison ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "« Yanhai » (côtier). Ça veut dire que la mer est tout près. Quand un typhon arrive, il frappe d’abord les zones côtières.",
+            "next_text": "Les vieilles maisons peuvent facilement s’écrouler sous l’effet du vent !"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Les vieilles maisons peuvent facilement s’écrouler sous l’effet du vent !",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:53:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Un typhon peut faire s’écrouler une maison ?",
+            "next_text": "Et les arbres ?"
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Et les arbres ?",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Les vieilles maisons peuvent facilement s’écrouler sous l’effet du vent !",
+            "next_text": "Les arbres tombent aussi. À Shenzhen, j’ai vu plusieurs fois des vents violents faire tomber des arbres."
+          },
+          "sequence": "009",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "Les arbres tombent aussi. À Shenzhen, j’ai vu plusieurs fois des vents violents faire tomber des arbres.",
+          "file": "elevenlabs/fr-fr/2026-10-10-can-a-typhoon-reach-us_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et les arbres ?"
+          },
+          "sequence": "010",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Puede llegar un tifón hasta aquí?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Puede llegar un tifón hasta aquí?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Es muy poco probable. Solo hay tifones en las ciudades costeras."
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Es muy poco probable. Solo hay tifones en las ciudades costeras.",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Puede llegar un tifón hasta aquí?",
+            "next_text": "¿Y por qué hay tifones por Nanning, en Guangxi?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Y por qué hay tifones por Nanning, en Guangxi?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Es muy poco probable. Solo hay tifones en las ciudades costeras.",
+            "next_text": "Guangxi está en la costa."
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Guangxi está en la costa.",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y por qué hay tifones por Nanning, en Guangxi?",
+            "next_text": "¿Qué es «yuanhai» (literalmente, mar original)?"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Qué es «yuanhai» (literalmente, mar original)?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Guangxi está en la costa.",
+            "next_text": "«Yanhai» (costero). Quiere decir que el mar está cerca. Cuando llega un tifón, primero golpea las zonas costeras."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "«Yanhai» (costero). Quiere decir que el mar está cerca. Cuando llega un tifón, primero golpea las zonas costeras.",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Qué es «yuanhai» (literalmente, mar original)?",
+            "next_text": "¿Puede un tifón derribar una casa?"
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Puede un tifón derribar una casa?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "«Yanhai» (costero). Quiere decir que el mar está cerca. Cuando llega un tifón, primero golpea las zonas costeras.",
+            "next_text": "¡Las casas viejas se pueden derrumbar fácilmente por el viento!"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¡Las casas viejas se pueden derrumbar fácilmente por el viento!",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:54:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Puede un tifón derribar una casa?",
+            "next_text": "¿Y los árboles?"
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¿Y los árboles?",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:55:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Las casas viejas se pueden derrumbar fácilmente por el viento!",
+            "next_text": "Los árboles también se caen. En Shenzhen he visto varias veces cómo el viento fuerte derribaba árboles."
+          },
+          "sequence": "009",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "Los árboles también se caen. En Shenzhen he visto varias veces cómo el viento fuerte derribaba árboles.",
+          "file": "elevenlabs/es-es/2026-10-10-can-a-typhoon-reach-us_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-10T23:55:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y los árboles?"
           },
           "sequence": "010",
           "speaker": "father"

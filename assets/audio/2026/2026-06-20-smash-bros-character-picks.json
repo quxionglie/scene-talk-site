@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-06-20-smash-bros-character-picks",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T19:23:11+08:00",
+  "updated_at": "2026-10-10T23:54:14+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -182,18 +182,19 @@
         {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "Let's pick Min Min for Mom, the long-armed monster.",
+          "source_text": "Let's pick Min Min, the long-armed monster, for Mom.",
           "file": "elevenlabs/en-us/2026-06-20-smash-bros-character-picks_dialogue_009_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T17:19:21+08:00",
+          "generated_at": "2026-10-10T23:53:04+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Link can shoot arrows. He's strong too."
           },
           "sequence": "009",
           "speaker": "father"
@@ -484,18 +485,19 @@
         {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "Para mamá, elegimos a Min Min, el monstruo de brazos largos.",
+          "source_text": "Elijamos a Min Min, el monstruo de brazos largos, para mamá.",
           "file": "elevenlabs/es-es/2026-06-20-smash-bros-character-picks_dialogue_009_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:10:26+08:00",
+          "generated_at": "2026-10-10T23:54:14+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "Link sabe disparar flechas. También es fuerte."
           },
           "sequence": "009",
           "speaker": "father"
@@ -680,18 +682,19 @@
         {
           "segment_id": "dialogue:009",
           "type": "dialogue",
-          "source_text": "Pour maman, on choisit Min Min, le monstre aux longs bras.",
+          "source_text": "On choisit Min Min, le monstre aux longs bras, pour maman.",
           "file": "elevenlabs/fr-fr/2026-06-20-smash-bros-character-picks_dialogue_009_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:23:11+08:00",
+          "generated_at": "2026-10-10T23:53:24+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "previous_text": "Link sait tirer à l'arc. Il est fort aussi."
           },
           "sequence": "009",
           "speaker": "father"

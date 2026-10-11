@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-09-06-printing-calendars",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T19:49:51+08:00",
+  "updated_at": "2026-10-10T23:54:24+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -30,18 +30,19 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "We're going to get the calendars printed this afternoon. Your mom can go on her own, right?",
+          "source_text": "We're going to get the calendars printed this afternoon. Is it okay if Mom takes you?",
           "file": "elevenlabs/en-us/2026-09-06-printing-calendars_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T17:21:30+08:00",
+          "generated_at": "2026-10-10T23:53:20+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "No."
           },
           "sequence": "001",
           "speaker": "father"
@@ -274,18 +275,19 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "Esta tarde vamos a imprimir los calendarios. Basta con que vaya tu madre, ¿no?",
+          "source_text": "Esta tarde vamos a imprimir los calendarios. ¿Te parece bien que te lleve mamá?",
           "file": "elevenlabs/es-es/2026-09-06-printing-calendars_dialogue_001_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T18:48:07+08:00",
+          "generated_at": "2026-10-10T23:54:24+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "next_text": "No."
           },
           "sequence": "001",
           "speaker": "father"
@@ -432,18 +434,19 @@
         {
           "segment_id": "dialogue:001",
           "type": "dialogue",
-          "source_text": "Cet après-midi, on va faire imprimer les calendriers. Il suffit que ta mère y aille, non ?",
+          "source_text": "Cet après-midi, on va faire imprimer les calendriers. Ça te va si maman t'emmène ?",
           "file": "elevenlabs/fr-fr/2026-09-06-printing-calendars_dialogue_001_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:49:39+08:00",
+          "generated_at": "2026-10-10T23:53:34+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
             "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
-            "stability": 0.5
+            "stability": 0.5,
+            "next_text": "Non."
           },
           "sequence": "001",
           "speaker": "father"

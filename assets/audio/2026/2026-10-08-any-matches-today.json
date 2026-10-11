@@ -512,7 +512,23 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "今天有比赛吗",
+          "file": "zh-cn/2026-10-08-any-matches-today_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-08T20:45:22+08:00"
+  "updated_at": "2026-10-11T09:19:36+08:00"
 }

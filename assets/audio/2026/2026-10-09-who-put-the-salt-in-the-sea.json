@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-10-09-who-put-the-salt-in-the-sea",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-10T20:37:42+08:00",
+  "updated_at": "2026-10-11T09:19:36+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -637,6 +637,22 @@
           },
           "sequence": "009",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "海水里的盐是谁放的",
+          "file": "zh-cn/2026-10-09-who-put-the-salt-in-the-sea_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
         }
       ]
     }

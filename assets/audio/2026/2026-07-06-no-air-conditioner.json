@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-07-06-no-air-conditioner",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-10-06T19:29:13+08:00",
+  "updated_at": "2026-10-10T23:54:16+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -13,18 +13,18 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "No Air Conditioner",
+          "source_text": "Keeping the AC Off",
           "file": "elevenlabs/en-us/2026-07-06-no-air-conditioner_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-09-12T15:21:04+08:00",
+          "generated_at": "2026-10-10T23:53:06+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
-            "model_id": "eleven_multilingual_v2",
+            "model_id": "eleven_v4",
             "output_format": "mp3_44100_128",
-            "speed": 0.9,
-            "similarity_boost": 1.0
+            "similarity_boost": 1.0,
+            "stability": 0.5
           }
         },
         {
@@ -141,11 +141,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "Sin aire acondicionado",
+          "source_text": "Dejar el aire acondicionado apagado",
           "file": "elevenlabs/es-es/2026-07-06-no-air-conditioner_title_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:13:23+08:00",
+          "generated_at": "2026-10-10T23:54:16+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ZCh4e9eZSUf41K4cmCEL",
@@ -223,11 +223,11 @@
         {
           "segment_id": "title",
           "type": "title",
-          "source_text": "Pas de climatisation",
+          "source_text": "Laisser la climatisation éteinte",
           "file": "elevenlabs/fr-fr/2026-07-06-no-air-conditioner_title_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-06T19:29:08+08:00",
+          "generated_at": "2026-10-10T23:53:25+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "aQROLel5sQbj1vuIVi6B",
