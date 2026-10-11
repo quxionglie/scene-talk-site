@@ -526,9 +526,79 @@
           "file": "zh-cn/2026-10-08-any-matches-today_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天有比赛吗？",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "今天没比赛。小组赛刚打完了，明天才有淘汰赛。",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你怎么又想看比赛了？",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我本来就想。",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你又不打游戏！你应该看足球赛。",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "也可以啊！",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "但今天又不是周末。周末才有比赛。",
+          "file": "zh-cn/2026-10-08-any-matches-today_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-11T09:19:36+08:00"
+  "updated_at": "2026-10-11T13:05:34+08:00"
 }
