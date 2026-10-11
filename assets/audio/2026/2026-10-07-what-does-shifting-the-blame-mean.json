@@ -617,9 +617,19 @@
           "ai_generated": false,
           "sequence": "007",
           "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "甩在我头上，让我背黑锅。",
+          "file": "zh-cn/2026-10-07-what-does-shifting-the-blame-mean_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-11T12:55:17+08:00"
+  "updated_at": "2026-10-11T16:21:18+08:00"
 }
