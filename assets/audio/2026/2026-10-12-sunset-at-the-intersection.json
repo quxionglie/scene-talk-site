@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-12-sunset-at-the-intersection",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-10-12T19:22:28+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Sunset at the Intersection",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "It doesn't look dark out yet. Why does it look like nighttime?",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "The sun sets in the west."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "The sun sets in the west.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It doesn't look dark out yet. Why does it look like nighttime?",
+            "next_text": "Last time, you were still asking which way was west. You didn't even know which way west was."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Last time, you were still asking which way was west. You didn't even know which way west was.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "The sun sets in the west.",
+            "next_text": "I know it's that way. You have to figure out which way is north first."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "I know it's that way. You have to figure out which way is north first.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Last time, you were still asking which way was west. You didn't even know which way west was.",
+            "next_text": "The sunset at the intersection. I was just wondering why so many people were taking photos!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "The sunset at the intersection. I was just wondering why so many people were taking photos!",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:20:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I know it's that way. You have to figure out which way is north first.",
+            "next_text": "Oh, the sun is just setting."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Oh, the sun is just setting.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "The sunset at the intersection. I was just wondering why so many people were taking photos!",
+            "next_text": "Dad, you're pointing the camera the wrong way. Point it a different way and you'll get it right."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Dad, you're pointing the camera the wrong way. Point it a different way and you'll get it right.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oh, the sun is just setting.",
+            "next_text": "Am I pointing it the wrong way?"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Am I pointing it the wrong way?",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Dad, you're pointing the camera the wrong way. Point it a different way and you'll get it right.",
+            "next_text": "Just take a picture of the sun instead. Zoom in a little."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Just take a picture of the sun instead. Zoom in a little.",
+          "file": "elevenlabs/en-us/2026-10-12-sunset-at-the-intersection_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Am I pointing it the wrong way?"
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Le coucher de soleil au carrefour",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Il ne fait pas encore nuit. Pourquoi on dirait qu’il fait nuit ?",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Le soleil se couche à l’ouest."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Le soleil se couche à l’ouest.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il ne fait pas encore nuit. Pourquoi on dirait qu’il fait nuit ?",
+            "next_text": "La dernière fois, tu demandais encore de quel côté était l’ouest. Tu ne savais même pas où c’était."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "La dernière fois, tu demandais encore de quel côté était l’ouest. Tu ne savais même pas où c’était.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le soleil se couche à l’ouest.",
+            "next_text": "Je sais que c’est par là. Il faut d’abord savoir où est le nord."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Je sais que c’est par là. Il faut d’abord savoir où est le nord.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "La dernière fois, tu demandais encore de quel côté était l’ouest. Tu ne savais même pas où c’était.",
+            "next_text": "Le coucher de soleil au carrefour. Je me demandais justement pourquoi tant de gens prenaient des photos !"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Le coucher de soleil au carrefour. Je me demandais justement pourquoi tant de gens prenaient des photos !",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je sais que c’est par là. Il faut d’abord savoir où est le nord.",
+            "next_text": "Ah, c’est le soleil qui est en train de se coucher."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ah, c’est le soleil qui est en train de se coucher.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le coucher de soleil au carrefour. Je me demandais justement pourquoi tant de gens prenaient des photos !",
+            "next_text": "Papa, tu ne vises pas dans la bonne direction. Vise dans une autre direction et ce sera bon."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Papa, tu ne vises pas dans la bonne direction. Vise dans une autre direction et ce sera bon.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, c’est le soleil qui est en train de se coucher.",
+            "next_text": "Je ne vise pas dans la bonne direction ?"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Je ne vise pas dans la bonne direction ?",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Papa, tu ne vises pas dans la bonne direction. Vise dans une autre direction et ce sera bon.",
+            "next_text": "Tu ferais mieux de prendre directement le soleil en photo et de zoomer un peu."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Tu ferais mieux de prendre directement le soleil en photo et de zoomer un peu.",
+          "file": "elevenlabs/fr-fr/2026-10-12-sunset-at-the-intersection_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je ne vise pas dans la bonne direction ?"
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Atardecer en el cruce",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:21:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Todavía no está oscuro. ¿Por qué parece de noche?",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "El sol se pone por el oeste."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "El sol se pone por el oeste.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Todavía no está oscuro. ¿Por qué parece de noche?",
+            "next_text": "La última vez todavía preguntabas por dónde estaba el oeste. Ni siquiera sabías dónde estaba."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "La última vez todavía preguntabas por dónde estaba el oeste. Ni siquiera sabías dónde estaba.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "El sol se pone por el oeste.",
+            "next_text": "Sé que está por ahí. Primero tienes que saber dónde está el norte."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Sé que está por ahí. Primero tienes que saber dónde está el norte.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "La última vez todavía preguntabas por dónde estaba el oeste. Ni siquiera sabías dónde estaba.",
+            "next_text": "El atardecer en el cruce. ¡Justo me preguntaba por qué había tanta gente haciendo fotos!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "El atardecer en el cruce. ¡Justo me preguntaba por qué había tanta gente haciendo fotos!",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sé que está por ahí. Primero tienes que saber dónde está el norte.",
+            "next_text": "Ah, es que el sol se está poniendo justo ahora."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ah, es que el sol se está poniendo justo ahora.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "El atardecer en el cruce. ¡Justo me preguntaba por qué había tanta gente haciendo fotos!",
+            "next_text": "Papá, estás apuntando en la dirección equivocada. Apunta hacia otro lado y te saldrá bien."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Papá, estás apuntando en la dirección equivocada. Apunta hacia otro lado y te saldrá bien.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, es que el sol se está poniendo justo ahora.",
+            "next_text": "¿Estoy apuntando en la dirección equivocada?"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¿Estoy apuntando en la dirección equivocada?",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Papá, estás apuntando en la dirección equivocada. Apunta hacia otro lado y te saldrá bien.",
+            "next_text": "Mejor haz una foto del sol directamente y haz un poco de zoom."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Mejor haz una foto del sol directamente y haz un poco de zoom.",
+          "file": "elevenlabs/es-es/2026-10-12-sunset-at-the-intersection_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-12T19:22:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Estoy apuntando en la dirección equivocada?"
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    }
+  ]
+}
