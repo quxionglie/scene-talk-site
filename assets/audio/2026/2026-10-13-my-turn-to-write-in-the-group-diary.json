@@ -175,11 +175,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "How come you had time to write it today?",
+          "source_text": "How come you had time to write today?",
           "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:41+08:00",
+          "generated_at": "2026-10-13T18:34:48+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -387,11 +387,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "Comment ça se fait que tu aies eu le temps de l’écrire aujourd’hui ?",
+          "source_text": "Comment ça se fait que tu aies eu le temps d’écrire aujourd’hui ?",
           "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:02+08:00",
+          "generated_at": "2026-10-13T18:34:50+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -599,11 +599,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "¿Cómo es que has tenido tiempo de escribirlo hoy?",
+          "source_text": "¿Cómo es que has tenido tiempo para escribir hoy?",
           "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:22+08:00",
+          "generated_at": "2026-10-13T18:34:52+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -640,5 +640,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-13T18:22:24+08:00"
+  "updated_at": "2026-10-13T18:34:52+08:00"
 }
