@@ -16,7 +16,7 @@
           "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_title_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:27+08:00",
+          "generated_at": "2026-10-14T14:48:28+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ktkP7Nsj67dw2zcplQYt",
@@ -33,7 +33,7 @@
           "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_001_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:29+08:00",
+          "generated_at": "2026-10-14T14:49:04+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -41,7 +41,7 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "next_text": "What's a group diary?"
+            "next_text": "They probably moved your turn up because you're going to be away from school."
           },
           "sequence": "001",
           "speaker": "child"
@@ -49,53 +49,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "What's a group diary?",
+          "source_text": "They probably moved your turn up because you're going to be away from school.",
           "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:31+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "OZ0L6eISlOejga3XjDFt",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "It's my turn to write in the group diary!",
-            "next_text": "It's a diary we take turns writing in as a group. It's my turn today."
-          },
-          "sequence": "002",
-          "speaker": "mother"
-        },
-        {
-          "segment_id": "dialogue:003",
-          "type": "dialogue",
-          "source_text": "It's a diary we take turns writing in as a group. It's my turn today.",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:33+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "7QN34D2r3hCNwbOYIeK0",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "What's a group diary?",
-            "next_text": "They probably moved your turn up because you're going to be away from school."
-          },
-          "sequence": "003",
-          "speaker": "child"
-        },
-        {
-          "segment_id": "dialogue:004",
-          "type": "dialogue",
-          "source_text": "They probably moved your turn up because you're going to be away from school.",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_en-us.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:35+08:00",
+          "generated_at": "2026-10-14T14:48:34+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -103,20 +61,20 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "It's a diary we take turns writing in as a group. It's my turn today.",
+            "previous_text": "It's my turn to write in the group diary!",
             "next_text": "I'm almost done."
           },
-          "sequence": "004",
+          "sequence": "002",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:005",
+          "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "I'm almost done.",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:36+08:00",
+          "generated_at": "2026-10-14T14:48:37+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -127,17 +85,17 @@
             "previous_text": "They probably moved your turn up because you're going to be away from school.",
             "next_text": "How many characters do you have to write?"
           },
-          "sequence": "005",
+          "sequence": "003",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:006",
+          "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "How many characters do you have to write?",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:38+08:00",
+          "generated_at": "2026-10-14T14:48:40+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -148,17 +106,17 @@
             "previous_text": "I'm almost done.",
             "next_text": "The teacher said at least one entry. Over a hundred characters each."
           },
-          "sequence": "006",
+          "sequence": "004",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:007",
+          "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "The teacher said at least one entry. Over a hundred characters each.",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:39+08:00",
+          "generated_at": "2026-10-14T14:48:43+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -167,19 +125,19 @@
             "similarity_boost": 1.0,
             "stability": 0.5,
             "previous_text": "How many characters do you have to write?",
-            "next_text": "How come you had time to write it today?"
+            "next_text": "How come you had time to write today?"
           },
-          "sequence": "007",
+          "sequence": "005",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:008",
+          "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "How come you had time to write today?",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:34:48+08:00",
+          "generated_at": "2026-10-14T14:48:45+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -190,17 +148,17 @@
             "previous_text": "The teacher said at least one entry. Over a hundred characters each.",
             "next_text": "During Block A."
           },
-          "sequence": "008",
+          "sequence": "006",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:009",
+          "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "During Block A.",
-          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_009_en-us.mp3",
+          "file": "elevenlabs/en-us/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:42+08:00",
+          "generated_at": "2026-10-14T14:48:47+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "7QN34D2r3hCNwbOYIeK0",
@@ -208,9 +166,9 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "How come you had time to write it today?"
+            "previous_text": "How come you had time to write today?"
           },
-          "sequence": "009",
+          "sequence": "007",
           "speaker": "child"
         }
       ]
@@ -228,7 +186,7 @@
           "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_title_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:44+08:00",
+          "generated_at": "2026-10-14T14:49:07+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "aQROLel5sQbj1vuIVi6B",
@@ -245,7 +203,7 @@
           "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_001_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:47+08:00",
+          "generated_at": "2026-10-14T14:49:09+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -253,7 +211,7 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "next_text": "C’est quoi, un journal de groupe ?"
+            "next_text": "Ils ont sans doute avancé ton tour parce que tu vas t’absenter de l’école."
           },
           "sequence": "001",
           "speaker": "child"
@@ -261,53 +219,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "C’est quoi, un journal de groupe ?",
+          "source_text": "Ils ont sans doute avancé ton tour parce que tu vas t’absenter de l’école.",
           "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_002_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:50+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "hFgOzpmS0CMtL2to8sAl",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "C’est mon tour d’écrire dans le journal du groupe !",
-            "next_text": "C’est un journal où on écrit chacun à notre tour dans le groupe. Aujourd’hui, c’est à moi."
-          },
-          "sequence": "002",
-          "speaker": "mother"
-        },
-        {
-          "segment_id": "dialogue:003",
-          "type": "dialogue",
-          "source_text": "C’est un journal où on écrit chacun à notre tour dans le groupe. Aujourd’hui, c’est à moi.",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_fr-fr.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:52+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "nr2EGJNe96rzn9FRlTId",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "C’est quoi, un journal de groupe ?",
-            "next_text": "Ils ont sans doute avancé ton tour parce que tu vas t’absenter de l’école."
-          },
-          "sequence": "003",
-          "speaker": "child"
-        },
-        {
-          "segment_id": "dialogue:004",
-          "type": "dialogue",
-          "source_text": "Ils ont sans doute avancé ton tour parce que tu vas t’absenter de l’école.",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_fr-fr.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:55+08:00",
+          "generated_at": "2026-10-14T14:49:12+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -315,20 +231,20 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "C’est un journal où on écrit chacun à notre tour dans le groupe. Aujourd’hui, c’est à moi.",
+            "previous_text": "C’est mon tour d’écrire dans le journal du groupe !",
             "next_text": "J’ai presque fini."
           },
-          "sequence": "004",
+          "sequence": "002",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:005",
+          "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "J’ai presque fini.",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_fr-fr.mp3",
+          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:57+08:00",
+          "generated_at": "2026-10-14T14:49:14+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -339,17 +255,17 @@
             "previous_text": "Ils ont sans doute avancé ton tour parce que tu vas t’absenter de l’école.",
             "next_text": "Il faut écrire combien de caractères ?"
           },
-          "sequence": "005",
+          "sequence": "003",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:006",
+          "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "Il faut écrire combien de caractères ?",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_fr-fr.mp3",
+          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:21:58+08:00",
+          "generated_at": "2026-10-14T14:49:17+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -360,17 +276,17 @@
             "previous_text": "J’ai presque fini.",
             "next_text": "Le prof a dit qu’il faut écrire au moins un texte. Plus de cent caractères par texte."
           },
-          "sequence": "006",
+          "sequence": "004",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:007",
+          "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "Le prof a dit qu’il faut écrire au moins un texte. Plus de cent caractères par texte.",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_fr-fr.mp3",
+          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:00+08:00",
+          "generated_at": "2026-10-14T14:49:20+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -379,19 +295,19 @@
             "similarity_boost": 1.0,
             "stability": 0.5,
             "previous_text": "Il faut écrire combien de caractères ?",
-            "next_text": "Comment ça se fait que tu aies eu le temps de l’écrire aujourd’hui ?"
+            "next_text": "Comment ça se fait que tu aies eu le temps d’écrire aujourd’hui ?"
           },
-          "sequence": "007",
+          "sequence": "005",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:008",
+          "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "Comment ça se fait que tu aies eu le temps d’écrire aujourd’hui ?",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_fr-fr.mp3",
+          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:34:50+08:00",
+          "generated_at": "2026-10-14T14:49:22+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -402,17 +318,17 @@
             "previous_text": "Le prof a dit qu’il faut écrire au moins un texte. Plus de cent caractères par texte.",
             "next_text": "Pendant le créneau A."
           },
-          "sequence": "008",
+          "sequence": "006",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:009",
+          "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "Pendant le créneau A.",
-          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_009_fr-fr.mp3",
+          "file": "elevenlabs/fr-fr/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:03+08:00",
+          "generated_at": "2026-10-14T14:49:24+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "nr2EGJNe96rzn9FRlTId",
@@ -420,9 +336,9 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "Comment ça se fait que tu aies eu le temps de l’écrire aujourd’hui ?"
+            "previous_text": "Comment ça se fait que tu aies eu le temps d’écrire aujourd’hui ?"
           },
-          "sequence": "009",
+          "sequence": "007",
           "speaker": "child"
         }
       ]
@@ -440,7 +356,7 @@
           "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_title_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:05+08:00",
+          "generated_at": "2026-10-14T14:49:28+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "ZCh4e9eZSUf41K4cmCEL",
@@ -457,7 +373,7 @@
           "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_001_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:08+08:00",
+          "generated_at": "2026-10-14T14:49:35+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -465,7 +381,7 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "next_text": "¿Qué es un diario de grupo?"
+            "next_text": "Seguramente han adelantado tu turno porque vas a faltar al colegio."
           },
           "sequence": "001",
           "speaker": "child"
@@ -473,53 +389,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "¿Qué es un diario de grupo?",
+          "source_text": "Seguramente han adelantado tu turno porque vas a faltar al colegio.",
           "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_002_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:10+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "RgXx32WYOGrd7gFNifSf",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "¡Me toca escribir en el diario del grupo!",
-            "next_text": "Es un diario que vamos escribiendo por turnos en el grupo. Hoy me toca a mí."
-          },
-          "sequence": "002",
-          "speaker": "mother"
-        },
-        {
-          "segment_id": "dialogue:003",
-          "type": "dialogue",
-          "source_text": "Es un diario que vamos escribiendo por turnos en el grupo. Hoy me toca a mí.",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_es-es.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:12+08:00",
-          "generation": {
-            "provider": "ElevenLabs",
-            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
-            "model_id": "eleven_v4",
-            "output_format": "mp3_44100_128",
-            "similarity_boost": 1.0,
-            "stability": 0.5,
-            "previous_text": "¿Qué es un diario de grupo?",
-            "next_text": "Seguramente han adelantado tu turno porque vas a faltar al colegio."
-          },
-          "sequence": "003",
-          "speaker": "child"
-        },
-        {
-          "segment_id": "dialogue:004",
-          "type": "dialogue",
-          "source_text": "Seguramente han adelantado tu turno porque vas a faltar al colegio.",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_es-es.mp3",
-          "mime_type": "audio/mpeg",
-          "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:15+08:00",
+          "generated_at": "2026-10-14T14:50:02+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -527,20 +401,20 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "Es un diario que vamos escribiendo por turnos en el grupo. Hoy me toca a mí.",
+            "previous_text": "¡Me toca escribir en el diario del grupo!",
             "next_text": "Ya casi he terminado."
           },
-          "sequence": "004",
+          "sequence": "002",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:005",
+          "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "Ya casi he terminado.",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_es-es.mp3",
+          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:16+08:00",
+          "generated_at": "2026-10-14T14:49:41+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -551,17 +425,17 @@
             "previous_text": "Seguramente han adelantado tu turno porque vas a faltar al colegio.",
             "next_text": "¿Cuántos caracteres tienes que escribir?"
           },
-          "sequence": "005",
+          "sequence": "003",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:006",
+          "segment_id": "dialogue:004",
           "type": "dialogue",
           "source_text": "¿Cuántos caracteres tienes que escribir?",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_es-es.mp3",
+          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:18+08:00",
+          "generated_at": "2026-10-14T14:49:43+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -572,17 +446,17 @@
             "previous_text": "Ya casi he terminado.",
             "next_text": "El profe dijo que hay que escribir al menos una entrada, con más de cien caracteres cada una."
           },
-          "sequence": "006",
+          "sequence": "004",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:007",
+          "segment_id": "dialogue:005",
           "type": "dialogue",
           "source_text": "El profe dijo que hay que escribir al menos una entrada, con más de cien caracteres cada una.",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_es-es.mp3",
+          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:21+08:00",
+          "generated_at": "2026-10-14T14:49:47+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -591,19 +465,19 @@
             "similarity_boost": 1.0,
             "stability": 0.5,
             "previous_text": "¿Cuántos caracteres tienes que escribir?",
-            "next_text": "¿Cómo es que has tenido tiempo de escribirlo hoy?"
+            "next_text": "¿Cómo es que has tenido tiempo para escribir hoy?"
           },
-          "sequence": "007",
+          "sequence": "005",
           "speaker": "child"
         },
         {
-          "segment_id": "dialogue:008",
+          "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "¿Cómo es que has tenido tiempo para escribir hoy?",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_008_es-es.mp3",
+          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:34:52+08:00",
+          "generated_at": "2026-10-14T14:49:49+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -614,17 +488,17 @@
             "previous_text": "El profe dijo que hay que escribir al menos una entrada, con más de cien caracteres cada una.",
             "next_text": "En el bloque A."
           },
-          "sequence": "008",
+          "sequence": "006",
           "speaker": "father"
         },
         {
-          "segment_id": "dialogue:009",
+          "segment_id": "dialogue:007",
           "type": "dialogue",
           "source_text": "En el bloque A.",
-          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_009_es-es.mp3",
+          "file": "elevenlabs/es-es/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-13T18:22:24+08:00",
+          "generated_at": "2026-10-14T14:49:51+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "Nh2zY9kknu6z4pZy6FhD",
@@ -632,13 +506,13 @@
             "output_format": "mp3_44100_128",
             "similarity_boost": 1.0,
             "stability": 0.5,
-            "previous_text": "¿Cómo es que has tenido tiempo de escribirlo hoy?"
+            "previous_text": "¿Cómo es que has tenido tiempo para escribir hoy?"
           },
-          "sequence": "009",
+          "sequence": "007",
           "speaker": "child"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-13T18:34:52+08:00"
+  "updated_at": "2026-10-14T14:51:11+08:00"
 }
