@@ -987,14 +987,30 @@
     margin: 16px 0 0;
     line-height: 1.7;
   }
+  .book-description ul,
+  .book-description ol {
+    margin: 16px 0 0;
+    padding-left: 24px;
+    line-height: 1.7;
+  }
+  .book-description li + li {
+    margin-top: 4px;
+  }
+  .book-description li > ul,
+  .book-description li > ol {
+    margin-top: 4px;
+  }
   .book-copy .book-author,
-  .book-copy .book-date {
+  .book-copy .book-date,
+  .book-copy .book-isbn {
     margin: 8px 0 0;
     color: var(--muted);
     font-size: 14px;
     line-height: 1.5;
   }
-  .book-copy .book-author + .book-date {
+  .book-copy .book-author + .book-date,
+  .book-copy .book-author + .book-isbn,
+  .book-copy .book-date + .book-isbn {
     margin-top: 4px;
   }
   .book-actions {
