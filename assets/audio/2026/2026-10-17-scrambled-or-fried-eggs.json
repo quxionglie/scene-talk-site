@@ -1,0 +1,581 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-17-scrambled-or-fried-eggs",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Scrambled or Fried Eggs?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "How do you like your eggs? Scrambled or fried?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Scrambled eggs? Like in egg fried rice?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Scrambled eggs? Like in egg fried rice?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "How do you like your eggs? Scrambled or fried?",
+            "next_text": "Yeah. Haven't you had them before?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Yeah. Haven't you had them before?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Scrambled eggs? Like in egg fried rice?",
+            "next_text": "Scrambled eggs? I've forgotten what they taste like!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Scrambled eggs? I've forgotten what they taste like!",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yeah. Haven't you had them before?",
+            "next_text": "Do you like boiled eggs for breakfast?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Do you like boiled eggs for breakfast?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Scrambled eggs? I've forgotten what they taste like!",
+            "next_text": "They don't taste that good."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "They don't taste that good.",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Do you like boiled eggs for breakfast?",
+            "next_text": "They're not as good as fried eggs, right?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "They're not as good as fried eggs, right?",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "They don't taste that good.",
+            "next_text": "Fried eggs taste even worse."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Fried eggs taste even worse.",
+          "file": "elevenlabs/en-us/2026-10-17-scrambled-or-fried-eggs_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "They're not as good as fried eggs, right?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Œufs brouillés ou au plat ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tu aimes les œufs comment ? Brouillés ou au plat ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Brouillés ? Comme dans le riz sauté aux œufs ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Brouillés ? Comme dans le riz sauté aux œufs ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu aimes les œufs comment ? Brouillés ou au plat ?",
+            "next_text": "Oui. Tu en as déjà mangé, non ?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Oui. Tu en as déjà mangé, non ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Brouillés ? Comme dans le riz sauté aux œufs ?",
+            "next_text": "Les œufs brouillés ? Je ne me souviens même plus du goût !"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Les œufs brouillés ? Je ne me souviens même plus du goût !",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oui. Tu en as déjà mangé, non ?",
+            "next_text": "Le matin, tu aimes manger des œufs bouillis ?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Le matin, tu aimes manger des œufs bouillis ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Les œufs brouillés ? Je ne me souviens même plus du goût !",
+            "next_text": "Ce n'est pas si bon que ça."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ce n'est pas si bon que ça.",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le matin, tu aimes manger des œufs bouillis ?",
+            "next_text": "C'est moins bon que les œufs au plat, c'est ça ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "C'est moins bon que les œufs au plat, c'est ça ?",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ce n'est pas si bon que ça.",
+            "next_text": "Les œufs au plat, c'est encore moins bon."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Les œufs au plat, c'est encore moins bon.",
+          "file": "elevenlabs/fr-fr/2026-10-17-scrambled-or-fried-eggs_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "C'est moins bon que les œufs au plat, c'est ça ?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Huevos revueltos o fritos?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cómo te gustan los huevos? ¿Revueltos o fritos?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:42:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¿Revueltos? ¿Como en el arroz frito con huevo?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿Revueltos? ¿Como en el arroz frito con huevo?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cómo te gustan los huevos? ¿Revueltos o fritos?",
+            "next_text": "Sí. ¿No los has probado ya?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Sí. ¿No los has probado ya?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Revueltos? ¿Como en el arroz frito con huevo?",
+            "next_text": "¿Huevos revueltos? ¡Ya no me acuerdo de a qué saben!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Huevos revueltos? ¡Ya no me acuerdo de a qué saben!",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sí. ¿No los has probado ya?",
+            "next_text": "¿Te gustan los huevos cocidos para desayunar?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Te gustan los huevos cocidos para desayunar?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Huevos revueltos? ¡Ya no me acuerdo de a qué saben!",
+            "next_text": "No están tan buenos."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "No están tan buenos.",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Te gustan los huevos cocidos para desayunar?",
+            "next_text": "No están tan buenos como los fritos, ¿no?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "No están tan buenos como los fritos, ¿no?",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No están tan buenos.",
+            "next_text": "Los fritos están todavía peor."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Los fritos están todavía peor.",
+          "file": "elevenlabs/es-es/2026-10-17-scrambled-or-fried-eggs_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-17T18:43:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No están tan buenos como los fritos, ¿no?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-17T18:43:13+08:00"
+}
