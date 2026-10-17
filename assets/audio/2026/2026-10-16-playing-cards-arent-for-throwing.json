@@ -175,11 +175,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "They're for playing card games, not for throwing around!",
+          "source_text": "They're for playing card games, not for throwing!",
           "file": "elevenlabs/en-us/2026-10-16-playing-cards-arent-for-throwing_dialogue_008_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-16T21:37:31+08:00",
+          "generated_at": "2026-10-17T09:49:02+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -387,11 +387,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "On s'en sert pour jouer aux cartes, pas pour les lancer partout !",
+          "source_text": "Les cartes, c'est pour jouer, pas pour les lancer !",
           "file": "elevenlabs/fr-fr/2026-10-16-playing-cards-arent-for-throwing_dialogue_008_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-16T21:37:57+08:00",
+          "generated_at": "2026-10-17T09:49:05+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -599,11 +599,11 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "¡Son para jugar a las cartas, no para lanzarlas por ahí!",
+          "source_text": "¡Son para jugar a las cartas, no para lanzarlas!",
           "file": "elevenlabs/es-es/2026-10-16-playing-cards-arent-for-throwing_dialogue_008_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-16T21:38:19+08:00",
+          "generated_at": "2026-10-17T09:49:07+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -640,5 +640,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-16T21:38:21+08:00"
+  "updated_at": "2026-10-17T09:49:07+08:00"
 }
