@@ -512,7 +512,23 @@
           "speaker": "child"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "循环日记到我了",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-14T14:51:11+08:00"
+  "updated_at": "2026-10-18T16:35:47+08:00"
 }
