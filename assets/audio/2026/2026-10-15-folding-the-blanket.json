@@ -568,6 +568,16 @@
           "speaker": "孩子"
         },
         {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "别把我被子弄乱了！",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "知道。",
@@ -590,5 +600,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-20T11:04:20+08:00"
+  "updated_at": "2026-10-20T11:42:13+08:00"
 }

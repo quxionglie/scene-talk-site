@@ -701,7 +701,23 @@
           "speaker": "child"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "闹钟没电了",
+          "file": "zh-cn/2026-10-19-the-alarm-clocks-battery-is-dead_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-19T20:29:10+08:00"
+  "updated_at": "2026-10-20T11:51:23+08:00"
 }

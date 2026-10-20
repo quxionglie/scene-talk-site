@@ -654,6 +654,16 @@
           "ai_generated": false
         },
         {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "如果家里面只让你一个人。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "啥意思？",
@@ -662,6 +672,16 @@
           "ai_generated": false,
           "sequence": "002",
           "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "一个人生活，一个人煮饭，一个人上学，一个人工作。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
         },
         {
           "segment_id": "dialogue:004",
@@ -674,6 +694,16 @@
           "speaker": "孩子"
         },
         {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "不要？以后你就这样子了。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
           "segment_id": "dialogue:006",
           "type": "dialogue",
           "source_text": "为什么啊？",
@@ -684,6 +714,16 @@
           "speaker": "孩子"
         },
         {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "你不觉得很舒服吗？我想玩就玩，想吃就吃，想打游戏就打游戏。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
           "segment_id": "dialogue:008",
           "type": "dialogue",
           "source_text": "游戏我都打腻了。",
@@ -692,9 +732,19 @@
           "ai_generated": false,
           "sequence": "008",
           "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "以后生日的时候，就是“祝我生日快乐”。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "父亲"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-20T11:09:52+08:00"
+  "updated_at": "2026-10-20T11:47:50+08:00"
 }
