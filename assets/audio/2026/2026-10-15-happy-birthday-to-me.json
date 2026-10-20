@@ -652,9 +652,49 @@
           "file": "zh-cn/2026-10-15-happy-birthday-to-me_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "啥意思？",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "不要。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "为什么啊？",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "游戏我都打腻了。",
+          "file": "zh-cn/2026-10-15-happy-birthday-to-me_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "孩子"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-18T16:35:47+08:00"
+  "updated_at": "2026-10-20T11:09:52+08:00"
 }

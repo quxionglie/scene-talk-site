@@ -526,9 +526,79 @@
           "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "循环日记到我了！",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "应该是你要请假了，才提前到你的。",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "我差不多写完了。",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "要写多少字吗？",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "老师说至少写一篇，一篇100多。",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "今天你怎么有时间写吗？",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "A段呀。",
+          "file": "zh-cn/2026-10-13-my-turn-to-write-in-the-group-diary_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-18T16:35:47+08:00"
+  "updated_at": "2026-10-20T10:59:35+08:00"
 }

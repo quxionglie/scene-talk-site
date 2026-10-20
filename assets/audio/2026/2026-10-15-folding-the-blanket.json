@@ -154,11 +154,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "Keep the blanket off the floor. It'll get dirty. Just fold it on the bed!",
+          "source_text": "Keep the blanket off the floor so it doesn't get dirty. Just fold it on the bed!",
           "file": "elevenlabs/en-us/2026-10-15-folding-the-blanket_dialogue_007_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-15T23:03:18+08:00",
+          "generated_at": "2026-10-20T10:02:07+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -324,11 +324,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "Ne mets pas la couette par terre, elle va se salir. Tu peux la plier sur le lit !",
+          "source_text": "Ne laisse pas la couette toucher le sol, elle va se salir. Plie-la sur le lit, c'est tout !",
           "file": "elevenlabs/fr-fr/2026-10-15-folding-the-blanket_dialogue_007_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-15T23:03:37+08:00",
+          "generated_at": "2026-10-20T10:02:15+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -494,11 +494,11 @@
         {
           "segment_id": "dialogue:007",
           "type": "dialogue",
-          "source_text": "No pongas el edredón en el suelo, que se ensucia. ¡Dóblalo en la cama!",
+          "source_text": "No dejes que el edredón toque el suelo, que se ensucia. ¡Dóblalo en la cama!",
           "file": "elevenlabs/es-es/2026-10-15-folding-the-blanket_dialogue_007_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-10-15T23:06:46+08:00",
+          "generated_at": "2026-10-20T10:02:23+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
@@ -526,9 +526,69 @@
           "file": "zh-cn/2026-10-15-folding-the-blanket_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你今天学了啥？",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "叠衣服。",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那你在家里叠被子，是什么意思？",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我要玩！",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "知道。",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "不要把被子弄地上脏了。你在床上叠就行！",
+          "file": "zh-cn/2026-10-15-folding-the-blanket_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-18T16:35:47+08:00"
+  "updated_at": "2026-10-20T11:04:20+08:00"
 }
