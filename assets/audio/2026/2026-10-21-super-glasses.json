@@ -1,0 +1,581 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-21-super-glasses",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Super Glasses",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Hey, I've got a surprise for you! I've got super glasses!",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "They look awful."
+          },
+          "sequence": "001",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "They look awful.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "l7kNoIfnJKPg7779LI2t",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hey, I've got a surprise for you! I've got super glasses!",
+            "next_text": "Watch out for the wire. It could poke you in the eye."
+          },
+          "sequence": "002",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Watch out for the wire. It could poke you in the eye.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "OZ0L6eISlOejga3XjDFt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "They look awful.",
+            "next_text": "I'll bend the wire back."
+          },
+          "sequence": "003",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "I'll bend the wire back.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Watch out for the wire. It could poke you in the eye.",
+            "next_text": "I want to try them on!"
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "I want to try them on!",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "l7kNoIfnJKPg7779LI2t",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I'll bend the wire back.",
+            "next_text": "Try them on outside the kitchen. Be careful you don't fall in here."
+          },
+          "sequence": "005",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Try them on outside the kitchen. Be careful you don't fall in here.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I want to try them on!",
+            "next_text": "Too big. They're way too big."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Too big. They're way too big.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Try them on outside the kitchen. Be careful you don't fall in here.",
+            "next_text": "I had my super glasses on, and the face scanner couldn't even recognize me. I had to ask the building staff to let me in."
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "I had my super glasses on, and the face scanner couldn't even recognize me. I had to ask the building staff to let me in.",
+          "file": "elevenlabs/en-us/2026-10-21-super-glasses_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:26:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Too big. They're way too big."
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Super lunettes",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Hé, j'ai une surprise pour toi ! J'ai des super lunettes !",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Elles sont moches."
+          },
+          "sequence": "001",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Elles sont moches.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hé, j'ai une surprise pour toi ! J'ai des super lunettes !",
+            "next_text": "Attention au fil de fer. Tu risques de te le mettre dans l'œil."
+          },
+          "sequence": "002",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Attention au fil de fer. Tu risques de te le mettre dans l'œil.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "hFgOzpmS0CMtL2to8sAl",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Elles sont moches.",
+            "next_text": "Je vais replier le fil de fer."
+          },
+          "sequence": "003",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Je vais replier le fil de fer.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Attention au fil de fer. Tu risques de te le mettre dans l'œil.",
+            "next_text": "Je veux les essayer !"
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Je veux les essayer !",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je vais replier le fil de fer.",
+            "next_text": "Essaie-les en dehors de la cuisine. Attention à ne pas tomber ici."
+          },
+          "sequence": "005",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Essaie-les en dehors de la cuisine. Attention à ne pas tomber ici.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:31:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je veux les essayer !",
+            "next_text": "Elles sont grandes, beaucoup trop grandes."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Elles sont grandes, beaucoup trop grandes.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Essaie-les en dehors de la cuisine. Attention à ne pas tomber ici.",
+            "next_text": "J'avais mes super lunettes, et le scanner ne reconnaissait même pas mon visage. J'ai dû demander au personnel de la résidence de m'ouvrir la porte."
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "J'avais mes super lunettes, et le scanner ne reconnaissait même pas mon visage. J'ai dû demander au personnel de la résidence de m'ouvrir la porte.",
+          "file": "elevenlabs/fr-fr/2026-10-21-super-glasses_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Elles sont grandes, beaucoup trop grandes."
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Supergafas",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¡Oye, tengo una sorpresa para ti! ¡Tengo unas supergafas!",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Qué feas."
+          },
+          "sequence": "001",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Qué feas.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Oye, tengo una sorpresa para ti! ¡Tengo unas supergafas!",
+            "next_text": "Cuidado con el alambre. Te lo puedes clavar en un ojo."
+          },
+          "sequence": "002",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Cuidado con el alambre. Te lo puedes clavar en un ojo.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "RgXx32WYOGrd7gFNifSf",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Qué feas.",
+            "next_text": "Voy a doblar el alambre hacia dentro."
+          },
+          "sequence": "003",
+          "speaker": "mother"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Voy a doblar el alambre hacia dentro.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cuidado con el alambre. Te lo puedes clavar en un ojo.",
+            "next_text": "¡Quiero probármelas!"
+          },
+          "sequence": "004",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡Quiero probármelas!",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Voy a doblar el alambre hacia dentro.",
+            "next_text": "Pruébatelas fuera de la cocina. Ten cuidado, no te vayas a caer aquí."
+          },
+          "sequence": "005",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Pruébatelas fuera de la cocina. Ten cuidado, no te vayas a caer aquí.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Quiero probármelas!",
+            "next_text": "Son grandes, demasiado grandes."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Son grandes, demasiado grandes.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pruébatelas fuera de la cocina. Ten cuidado, no te vayas a caer aquí.",
+            "next_text": "Llevaba mis supergafas y el lector de reconocimiento facial ni siquiera me reconocía. Tuve que pedir al personal de la comunidad que me abriera la puerta."
+          },
+          "sequence": "007",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Llevaba mis supergafas y el lector de reconocimiento facial ni siquiera me reconocía. Tuve que pedir al personal de la comunidad que me abriera la puerta.",
+          "file": "elevenlabs/es-es/2026-10-21-super-glasses_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-21T18:32:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Son grandes, demasiado grandes."
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-21T18:32:36+08:00"
+}
