@@ -463,9 +463,69 @@
           "file": "zh-cn/2026-10-19-isnt-your-head-cold_title_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "头上不冷吗？光溜溜的。",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "热呼呼的，打篮球出了汗。",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "你的外套呢？",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "在书包里面。",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "上课不穿外套吗？",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "上课要穿。",
+          "file": "zh-cn/2026-10-19-isnt-your-head-cold_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "孩子"
         }
       ]
     }
   ],
-  "updated_at": "2026-10-20T11:51:23+08:00"
+  "updated_at": "2026-10-22T10:45:54+08:00"
 }
