@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-26-blow-drying-hair",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Blow-Drying Hair",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Is the hair dryer on cold or hot?",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:02:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Hot!"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Hot!",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:02:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Is the hair dryer on cold or hot?",
+            "next_text": "Looks like your little brother hasn't blow-dried his hair yet! Have you?"
+          },
+          "sequence": "002",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Looks like your little brother hasn't blow-dried his hair yet! Have you?",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:02:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hot!",
+            "next_text": "I have!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "I have!",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:02:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "l7kNoIfnJKPg7779LI2t",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Looks like your little brother hasn't blow-dried his hair yet! Have you?",
+            "next_text": "Your hair is so short. Do you even need to blow-dry it?"
+          },
+          "sequence": "004",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Your hair is so short. Do you even need to blow-dry it?",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:03:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I have!",
+            "next_text": "Yeah!"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Yeah!",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:03:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Your hair is so short. Do you even need to blow-dry it?",
+            "next_text": "Do you need to blow-dry your hair in winter?"
+          },
+          "sequence": "006",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Do you need to blow-dry your hair in winter?",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yeah!",
+            "next_text": "Of course you need to in winter! You can't do it any other time of year!"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Of course you need to in winter! You can't do it any other time of year!",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:03:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Do you need to blow-dry your hair in winter?",
+            "next_text": "What did people do before there were hair dryers?"
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "What did people do before there were hair dryers?",
+          "file": "elevenlabs/en-us/2026-10-26-blow-drying-hair_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:03:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Of course you need to in winter! You can't do it any other time of year!"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Se sécher les cheveux",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tu utilises l'air froid ou l'air chaud du sèche-cheveux ?",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "L'air chaud !"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "L'air chaud !",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu utilises l'air froid ou l'air chaud du sèche-cheveux ?",
+            "next_text": "Je crois que ton petit frère ne s'est pas encore séché les cheveux ! Tu l'as fait ?"
+          },
+          "sequence": "002",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je crois que ton petit frère ne s'est pas encore séché les cheveux ! Tu l'as fait ?",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:04:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "L'air chaud !",
+            "next_text": "Oui, je l'ai fait !"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Oui, je l'ai fait !",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "GgV5QStPLpmkN7FOHJtY",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je crois que ton petit frère ne s'est pas encore séché les cheveux ! Tu l'as fait ?",
+            "next_text": "Tes cheveux sont tout courts. Tu as vraiment besoin du sèche-cheveux ?"
+          },
+          "sequence": "004",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tes cheveux sont tout courts. Tu as vraiment besoin du sèche-cheveux ?",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:05:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oui, je l'ai fait !",
+            "next_text": "Ben oui !"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Ben oui !",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:05:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tes cheveux sont tout courts. Tu as vraiment besoin du sèche-cheveux ?",
+            "next_text": "En hiver, il faut se sécher les cheveux au sèche-cheveux ?"
+          },
+          "sequence": "006",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "En hiver, il faut se sécher les cheveux au sèche-cheveux ?",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:05:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ben oui !",
+            "next_text": "En hiver, bien sûr qu'il faut utiliser le sèche-cheveux ! Le reste de l'année, il ne faut pas !"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "En hiver, bien sûr qu'il faut utiliser le sèche-cheveux ! Le reste de l'année, il ne faut pas !",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:05:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "En hiver, il faut se sécher les cheveux au sèche-cheveux ?",
+            "next_text": "Comment on faisait avant, quand il n'y avait pas de sèche-cheveux ?"
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Comment on faisait avant, quand il n'y avait pas de sèche-cheveux ?",
+          "file": "elevenlabs/fr-fr/2026-10-26-blow-drying-hair_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:05:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "En hiver, bien sûr qu'il faut utiliser le sèche-cheveux ! Le reste de l'année, il ne faut pas !"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Secarse el pelo",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:07:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Usas el aire frío o el caliente del secador?",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¡El caliente!"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡El caliente!",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Usas el aire frío o el caliente del secador?",
+            "next_text": "Creo que tu hermano pequeño todavía no se ha secado el pelo. ¿Tú ya te lo has secado?"
+          },
+          "sequence": "002",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Creo que tu hermano pequeño todavía no se ha secado el pelo. ¿Tú ya te lo has secado?",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡El caliente!",
+            "next_text": "¡Sí, ya me lo he secado!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Sí, ya me lo he secado!",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "y6WtESLj18d0diFRruBs",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Creo que tu hermano pequeño todavía no se ha secado el pelo. ¿Tú ya te lo has secado?",
+            "next_text": "Tienes el pelo tan corto. ¿De verdad necesitas usar el secador?"
+          },
+          "sequence": "004",
+          "speaker": "younger brother"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tienes el pelo tan corto. ¿De verdad necesitas usar el secador?",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Sí, ya me lo he secado!",
+            "next_text": "¡Sí!"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡Sí!",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tienes el pelo tan corto. ¿De verdad necesitas usar el secador?",
+            "next_text": "¿En invierno hay que secarse el pelo con secador?"
+          },
+          "sequence": "006",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿En invierno hay que secarse el pelo con secador?",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Sí!",
+            "next_text": "¡En invierno claro que hay que usar el secador! ¡El resto del año no se puede!"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¡En invierno claro que hay que usar el secador! ¡El resto del año no se puede!",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿En invierno hay que secarse el pelo con secador?",
+            "next_text": "¿Cómo se las arreglaba la gente antes, cuando no había secadores?"
+          },
+          "sequence": "008",
+          "speaker": "older brother"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¿Cómo se las arreglaba la gente antes, cuando no había secadores?",
+          "file": "elevenlabs/es-es/2026-10-26-blow-drying-hair_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-26T21:06:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡En invierno claro que hay que usar el secador! ¡El resto del año no se puede!"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-26T21:07:18+08:00"
+}
