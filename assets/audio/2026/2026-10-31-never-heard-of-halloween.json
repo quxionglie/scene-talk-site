@@ -1,0 +1,518 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-10-31-never-heard-of-halloween",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Never Heard of Halloween",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Today's Halloween. Or Halloween night, I should say. Have you heard of it?",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "No! What's Halloween?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "No! What's Halloween?",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Today's Halloween. Or Halloween night, I should say. Have you heard of it?",
+            "next_text": "It's a holiday about ghosts in other countries. People dress up in costumes to scare others. You knock on people's doors in your costume. If they don't give you candy, you play tricks on them."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "It's a holiday about ghosts in other countries. People dress up in costumes to scare others. You knock on people's doors in your costume. If they don't give you candy, you play tricks on them.",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No! What's Halloween?",
+            "next_text": "Have they talked about it at school?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Have they talked about it at school?",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's a holiday about ghosts in other countries. People dress up in costumes to scare others. You knock on people's doors in your costume. If they don't give you candy, you play tricks on them.",
+            "next_text": "No!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "No!",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Have they talked about it at school?",
+            "next_text": "Maybe people aren't allowed to talk about foreign holidays here in China anymore!"
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Maybe people aren't allowed to talk about foreign holidays here in China anymore!",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No!",
+            "next_text": "Now I'm too scared to go out tonight."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Now I'm too scared to go out tonight.",
+          "file": "elevenlabs/en-us/2026-10-31-never-heard-of-halloween_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Maybe people aren't allowed to talk about foreign holidays here in China anymore!"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Jamais entendu parler d'Halloween",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Aujourd'hui, c'est Halloween. Enfin, la nuit d'Halloween, plutôt. Tu en as déjà entendu parler ?",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Non ! C'est quoi, Halloween ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Non ! C'est quoi, Halloween ?",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Aujourd'hui, c'est Halloween. Enfin, la nuit d'Halloween, plutôt. Tu en as déjà entendu parler ?",
+            "next_text": "C'est une fête autour des fantômes dans d'autres pays. Les gens se déguisent pour faire peur aux autres. Tu te déguises et tu vas frapper aux portes. Si les gens ne te donnent pas de bonbons, tu leur joues des tours."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "C'est une fête autour des fantômes dans d'autres pays. Les gens se déguisent pour faire peur aux autres. Tu te déguises et tu vas frapper aux portes. Si les gens ne te donnent pas de bonbons, tu leur joues des tours.",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Non ! C'est quoi, Halloween ?",
+            "next_text": "On en a parlé à l'école ?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "On en a parlé à l'école ?",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "C'est une fête autour des fantômes dans d'autres pays. Les gens se déguisent pour faire peur aux autres. Tu te déguises et tu vas frapper aux portes. Si les gens ne te donnent pas de bonbons, tu leur joues des tours.",
+            "next_text": "Non !"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Non !",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "On en a parlé à l'école ?",
+            "next_text": "Peut-être qu'ici, en Chine, on n'a plus le droit de parler des fêtes étrangères !"
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Peut-être qu'ici, en Chine, on n'a plus le droit de parler des fêtes étrangères !",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Non !",
+            "next_text": "Alors maintenant, j'ai trop peur pour sortir ce soir."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Alors maintenant, j'ai trop peur pour sortir ce soir.",
+          "file": "elevenlabs/fr-fr/2026-10-31-never-heard-of-halloween_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Peut-être qu'ici, en Chine, on n'a plus le droit de parler des fêtes étrangères !"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Nunca había oído hablar de Halloween",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Hoy es Halloween. Bueno, la noche de Halloween, mejor dicho. ¿Has oído hablar de Halloween?",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:36:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¡No! ¿Qué es Halloween?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡No! ¿Qué es Halloween?",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hoy es Halloween. Bueno, la noche de Halloween, mejor dicho. ¿Has oído hablar de Halloween?",
+            "next_text": "Es una fiesta de fantasmas en otros países. La gente se disfraza para asustar a los demás. Te disfrazas y vas llamando a las puertas. Si no te dan caramelos, les haces alguna travesura."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Es una fiesta de fantasmas en otros países. La gente se disfraza para asustar a los demás. Te disfrazas y vas llamando a las puertas. Si no te dan caramelos, les haces alguna travesura.",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡No! ¿Qué es Halloween?",
+            "next_text": "¿Han hablado de eso en el colegio?"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Han hablado de eso en el colegio?",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Es una fiesta de fantasmas en otros países. La gente se disfraza para asustar a los demás. Te disfrazas y vas llamando a las puertas. Si no te dan caramelos, les haces alguna travesura.",
+            "next_text": "¡No!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡No!",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Han hablado de eso en el colegio?",
+            "next_text": "¡A lo mejor aquí en China ya no dejan hablar de fiestas extranjeras!"
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡A lo mejor aquí en China ya no dejan hablar de fiestas extranjeras!",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡No!",
+            "next_text": "Pues ahora me da miedo salir esta noche."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Pues ahora me da miedo salir esta noche.",
+          "file": "elevenlabs/es-es/2026-10-31-never-heard-of-halloween_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-10-31T11:35:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡A lo mejor aquí en China ya no dejan hablar de fiestas extranjeras!"
+          },
+          "sequence": "007",
+          "speaker": "child"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-31T11:36:32+08:00"
+}
