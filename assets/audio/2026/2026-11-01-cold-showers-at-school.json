@@ -1,0 +1,770 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-01-cold-showers-at-school",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Cold Showers at School",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "I used to take cold showers when I was at school!",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Which school was that?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Which school was that?",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I used to take cold showers when I was at school!",
+            "next_text": "Middle school. Middle school and high school."
+          },
+          "sequence": "002",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Middle school. Middle school and high school.",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Which school was that?",
+            "next_text": "You mean hot water, right? Not cold water!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "You mean hot water, right? Not cold water!",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Middle school. Middle school and high school.",
+            "next_text": "We took cold showers there!"
+          },
+          "sequence": "004",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "We took cold showers there!",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "You mean hot water, right? Not cold water!",
+            "next_text": "What about in winter?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "What about in winter?",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "We took cold showers there!",
+            "next_text": "Cold water!"
+          },
+          "sequence": "006",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Cold water!",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What about in winter?",
+            "next_text": "Didn't you get sick?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Didn't you get sick?",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cold water!",
+            "next_text": "At college, it was mostly cold water too."
+          },
+          "sequence": "008",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "At college, it was mostly cold water too.",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Didn't you get sick?",
+            "next_text": "Was the school that poor?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "Was the school that poor?",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_010_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:06:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "At college, it was mostly cold water too.",
+            "next_text": "Would you go and carry hot water back? It didn't even reach the dorm."
+          },
+          "sequence": "010",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:011",
+          "type": "dialogue",
+          "source_text": "Would you go and carry hot water back? It didn't even reach the dorm.",
+          "file": "elevenlabs/en-us/2026-11-01-cold-showers-at-school_dialogue_011_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Was the school that poor?"
+          },
+          "sequence": "011",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les douches froides à l'école",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Quand j'étais à l'école, je prenais des douches froides !",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "À quelle école tu prenais des douches froides ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "À quelle école tu prenais des douches froides ?",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quand j'étais à l'école, je prenais des douches froides !",
+            "next_text": "Au collège. Au collège et au lycée."
+          },
+          "sequence": "002",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Au collège. Au collège et au lycée.",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "À quelle école tu prenais des douches froides ?",
+            "next_text": "Tu veux dire de l'eau chaude, pas froide !"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Tu veux dire de l'eau chaude, pas froide !",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Au collège. Au collège et au lycée.",
+            "next_text": "Mais si, là-bas, on se douchait à l'eau froide !"
+          },
+          "sequence": "004",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Mais si, là-bas, on se douchait à l'eau froide !",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu veux dire de l'eau chaude, pas froide !",
+            "next_text": "Et en hiver ?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Et en hiver ?",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Mais si, là-bas, on se douchait à l'eau froide !",
+            "next_text": "De l'eau froide !"
+          },
+          "sequence": "006",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "De l'eau froide !",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et en hiver ?",
+            "next_text": "Tu ne tombais pas malade ?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Tu ne tombais pas malade ?",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "De l'eau froide !",
+            "next_text": "Même à l'université, c'était surtout de l'eau froide."
+          },
+          "sequence": "008",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Même à l'université, c'était surtout de l'eau froide.",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu ne tombais pas malade ?",
+            "next_text": "L'école était si pauvre que ça ?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "L'école était si pauvre que ça ?",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Même à l'université, c'était surtout de l'eau froide.",
+            "next_text": "Tu serais allée en chercher ? L'eau chaude n'arrivait même pas au dortoir."
+          },
+          "sequence": "010",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:011",
+          "type": "dialogue",
+          "source_text": "Tu serais allée en chercher ? L'eau chaude n'arrivait même pas au dortoir.",
+          "file": "elevenlabs/fr-fr/2026-11-01-cold-showers-at-school_dialogue_011_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "L'école était si pauvre que ça ?"
+          },
+          "sequence": "011",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Duchas frías en la escuela",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¡Cuando iba a la escuela me duchaba con agua fría!",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¿En qué escuela te duchabas con agua fría?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿En qué escuela te duchabas con agua fría?",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Cuando iba a la escuela me duchaba con agua fría!",
+            "next_text": "En secundaria. En secundaria y en bachillerato."
+          },
+          "sequence": "002",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "En secundaria. En secundaria y en bachillerato.",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿En qué escuela te duchabas con agua fría?",
+            "next_text": "¡Dirás agua caliente, no fría!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡Dirás agua caliente, no fría!",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "En secundaria. En secundaria y en bachillerato.",
+            "next_text": "¡Pues allí nos duchábamos con agua fría!"
+          },
+          "sequence": "004",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡Pues allí nos duchábamos con agua fría!",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Dirás agua caliente, no fría!",
+            "next_text": "¿Y en invierno?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Y en invierno?",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Pues allí nos duchábamos con agua fría!",
+            "next_text": "¡Agua fría!"
+          },
+          "sequence": "006",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¡Agua fría!",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y en invierno?",
+            "next_text": "¿No te ponías enfermo?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¿No te ponías enfermo?",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Agua fría!",
+            "next_text": "Incluso en la universidad, casi siempre era agua fría."
+          },
+          "sequence": "008",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Incluso en la universidad, casi siempre era agua fría.",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿No te ponías enfermo?",
+            "next_text": "¿La escuela era tan pobre?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "¿La escuela era tan pobre?",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Incluso en la universidad, casi siempre era agua fría.",
+            "next_text": "¿Ibas a ir a buscarla y traerla? El agua caliente ni siquiera llegaba al dormitorio."
+          },
+          "sequence": "010",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:011",
+          "type": "dialogue",
+          "source_text": "¿Ibas a ir a buscarla y traerla? El agua caliente ni siquiera llegaba al dormitorio.",
+          "file": "elevenlabs/es-es/2026-11-01-cold-showers-at-school_dialogue_011_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-01T20:07:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿La escuela era tan pobre?"
+          },
+          "sequence": "011",
+          "speaker": "father"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-11-01T20:07:50+08:00"
+}
