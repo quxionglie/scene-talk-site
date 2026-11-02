@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-02-the-streetlights-came-on-as-we-talked",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-02T22:26:53+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "The Streetlights Came On as We Talked",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "It's dark, and the streetlights still aren't on!",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Oh, they came on right after I said that."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Oh, they came on right after I said that.",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's dark, and the streetlights still aren't on!",
+            "next_text": "What a coincidence!"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "What a coincidence!",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oh, they came on right after I said that.",
+            "next_text": "What do you think makes the streetlights come on? Is it based on when the sun sets?"
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "What do you think makes the streetlights come on? Is it based on when the sun sets?",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What a coincidence!",
+            "next_text": "Someone must be in charge of them!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Someone must be in charge of them!",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:23:54+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What do you think makes the streetlights come on? Is it based on when the sun sets?",
+            "next_text": "In charge? I don't think anyone's in charge of them."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "In charge? I don't think anyone's in charge of them.",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Someone must be in charge of them!",
+            "next_text": "Maybe they're set on a timer or something. Like, the sun sets at 6:15, and just as it's getting dark, they come on."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Maybe they're set on a timer or something. Like, the sun sets at 6:15, and just as it's getting dark, they come on.",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "In charge? I don't think anyone's in charge of them.",
+            "next_text": "Or maybe they have sensors and turn on automatically when it gets dark."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Or maybe they have sensors and turn on automatically when it gets dark.",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Maybe they're set on a timer or something. Like, the sun sets at 6:15, and just as it's getting dark, they come on.",
+            "next_text": "I looked up and thought it was the moon!"
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "I looked up and thought it was the moon!",
+          "file": "elevenlabs/en-us/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Or maybe they have sensors and turn on automatically when it gets dark."
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les lampadaires se sont allumés pendant qu'on parlait",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Il fait nuit et les lampadaires ne sont toujours pas allumés !",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Ah, je viens juste de le dire et les lampadaires se sont allumés."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Ah, je viens juste de le dire et les lampadaires se sont allumés.",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il fait nuit et les lampadaires ne sont toujours pas allumés !",
+            "next_text": "Quelle coïncidence !"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Quelle coïncidence !",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, je viens juste de le dire et les lampadaires se sont allumés.",
+            "next_text": "À ton avis, qu'est-ce qui fait que les lampadaires s'allument ? C'est selon l'heure du coucher du soleil ?"
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "À ton avis, qu'est-ce qui fait que les lampadaires s'allument ? C'est selon l'heure du coucher du soleil ?",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quelle coïncidence !",
+            "next_text": "Il y a forcément quelqu'un qui s'en occupe !"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Il y a forcément quelqu'un qui s'en occupe !",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:24:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "À ton avis, qu'est-ce qui fait que les lampadaires s'allument ? C'est selon l'heure du coucher du soleil ?",
+            "next_text": "Qui s'en occupe ? Je ne pense pas que quelqu'un s'en occupe."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Qui s'en occupe ? Je ne pense pas que quelqu'un s'en occupe.",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il y a forcément quelqu'un qui s'en occupe !",
+            "next_text": "Ils sont peut-être réglés sur une minuterie, ou quelque chose comme ça. Par exemple, le soleil se couche à 18 h 15, il commence à faire nuit et les lampadaires s'allument."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ils sont peut-être réglés sur une minuterie, ou quelque chose comme ça. Par exemple, le soleil se couche à 18 h 15, il commence à faire nuit et les lampadaires s'allument.",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Qui s'en occupe ? Je ne pense pas que quelqu'un s'en occupe.",
+            "next_text": "Ou alors, ils ont des capteurs et s'allument automatiquement quand il fait nuit."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Ou alors, ils ont des capteurs et s'allument automatiquement quand il fait nuit.",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ils sont peut-être réglés sur une minuterie, ou quelque chose comme ça. Par exemple, le soleil se couche à 18 h 15, il commence à faire nuit et les lampadaires s'allument.",
+            "next_text": "J'ai levé les yeux et j'ai cru que c'était la lune !"
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "J'ai levé les yeux et j'ai cru que c'était la lune !",
+          "file": "elevenlabs/fr-fr/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ou alors, ils ont des capteurs et s'allument automatiquement quand il fait nuit."
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Las farolas se encendieron mientras hablábamos",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¡Ya es de noche y las farolas todavía no se han encendido!",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Ah, justo lo acabo de decir y se han encendido las farolas."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Ah, justo lo acabo de decir y se han encendido las farolas.",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Ya es de noche y las farolas todavía no se han encendido!",
+            "next_text": "¡Qué casualidad!"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Qué casualidad!",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, justo lo acabo de decir y se han encendido las farolas.",
+            "next_text": "¿Tú sabes de qué depende que se enciendan las farolas? ¿De la hora a la que se pone el sol?"
+          },
+          "sequence": "003",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¿Tú sabes de qué depende que se enciendan las farolas? ¿De la hora a la que se pone el sol?",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Qué casualidad!",
+            "next_text": "¡Seguro que hay alguien que se encarga!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡Seguro que hay alguien que se encarga!",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Tú sabes de qué depende que se enciendan las farolas? ¿De la hora a la que se pone el sol?",
+            "next_text": "¿Que se encarga? No creo que haya nadie que se encargue."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Que se encarga? No creo que haya nadie que se encargue.",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:25:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Seguro que hay alguien que se encarga!",
+            "next_text": "A lo mejor tienen un temporizador o algo así. Por ejemplo, el sol se pone a las seis y cuarto, justo empieza a oscurecer y se encienden."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "A lo mejor tienen un temporizador o algo así. Por ejemplo, el sol se pone a las seis y cuarto, justo empieza a oscurecer y se encienden.",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:26:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Que se encarga? No creo que haya nadie que se encargue.",
+            "next_text": "O a lo mejor tienen sensores y se encienden solos cuando oscurece."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "O a lo mejor tienen sensores y se encienden solos cuando oscurece.",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:26:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "A lo mejor tienen un temporizador o algo así. Por ejemplo, el sol se pone a las seis y cuarto, justo empieza a oscurecer y se encienden.",
+            "next_text": "¡He mirado hacia arriba y pensaba que era la luna!"
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¡He mirado hacia arriba y pensaba que era la luna!",
+          "file": "elevenlabs/es-es/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-02T22:26:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "O a lo mejor tienen sensores y se encienden solos cuando oscurece."
+          },
+          "sequence": "009",
+          "speaker": "child"
+        }
+      ]
+    }
+  ]
+}
