@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-04-where-does-rain-come-from",
+  "default_track_id": "en-US-elevenlabs",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Where Does Rain Come From?",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "What made you ask that today? You're even asking where rain comes from.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:22+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "I can ask if I want to."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "I can ask if I want to.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What made you ask that today? You're even asking where rain comes from.",
+            "next_text": "I thought you'd been learning about it again in science class..."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "I thought you'd been learning about it again in science class...",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I can ask if I want to.",
+            "next_text": "We did learn about it in science class."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "We did learn about it in science class.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I thought you'd been learning about it again in science class...",
+            "next_text": "When water vapor meets cold air, it forms water drops. When they get too heavy, they fall as rain."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "When water vapor meets cold air, it forms water drops. When they get too heavy, they fall as rain.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "We did learn about it in science class.",
+            "next_text": "Then the rain turns back into water vapor and goes up again."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Then the rain turns back into water vapor and goes up again.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:26:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "When water vapor meets cold air, it forms water drops. When they get too heavy, they fall as rain.",
+            "next_text": "Yeah, so it's a kind of cycle, right?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Yeah, so it's a kind of cycle, right?",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:27:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Then the rain turns back into water vapor and goes up again.",
+            "next_text": "You know, the ocean covers about 70% of the Earth, right? When the sun shines on it, the water evaporates into the air. That's why it rains a lot near the coast."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "You know, the ocean covers about 70% of the Earth, right? When the sun shines on it, the water evaporates into the air. That's why it rains a lot near the coast.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:27:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yeah, so it's a kind of cycle, right?",
+            "next_text": "We don't get that much rain here."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "We don't get that much rain here.",
+          "file": "elevenlabs/en-us/2026-11-04-where-does-rain-come-from_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:28:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "You know, the ocean covers about 70% of the Earth, right? When the sun shines on it, the water evaporates into the air. That's why it rains a lot near the coast."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "D'où vient la pluie ?",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:29:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Pourquoi tu poses cette question aujourd'hui ? Tu demandes même d'où vient la pluie !",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:29:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Je pose des questions si j'en ai envie."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Je pose des questions si j'en ai envie.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:33:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pourquoi tu poses cette question aujourd'hui ? Tu demandes même d'où vient la pluie !",
+            "next_text": "Je me disais qu'en cours de sciences, vous aviez encore…"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Je me disais qu'en cours de sciences, vous aviez encore…",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:29:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je pose des questions si j'en ai envie.",
+            "next_text": "On en a bien parlé en cours de sciences."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "On en a bien parlé en cours de sciences.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:29:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je me disais qu'en cours de sciences, vous aviez encore…",
+            "next_text": "Quand la vapeur d'eau rencontre de l'air froid, elle forme des gouttes d'eau. Quand elles sont trop lourdes, elles tombent : c'est la pluie."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Quand la vapeur d'eau rencontre de l'air froid, elle forme des gouttes d'eau. Quand elles sont trop lourdes, elles tombent : c'est la pluie.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:32:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "On en a bien parlé en cours de sciences.",
+            "next_text": "Puis la pluie redevient de la vapeur d'eau et remonte."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Puis la pluie redevient de la vapeur d'eau et remonte.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:29:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quand la vapeur d'eau rencontre de l'air froid, elle forme des gouttes d'eau. Quand elles sont trop lourdes, elles tombent : c'est la pluie.",
+            "next_text": "Oui, donc c'est une sorte de cycle, non ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Oui, donc c'est une sorte de cycle, non ?",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:30:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Puis la pluie redevient de la vapeur d'eau et remonte.",
+            "next_text": "Tu vois, les océans couvrent environ 70 % de la Terre, non ? Quand le soleil chauffe l'eau de mer, elle s'évapore dans l'air. C'est pour ça qu'il pleut souvent près de la côte."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Tu vois, les océans couvrent environ 70 % de la Terre, non ? Quand le soleil chauffe l'eau de mer, elle s'évapore dans l'air. C'est pour ça qu'il pleut souvent près de la côte.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:30:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oui, donc c'est une sorte de cycle, non ?",
+            "next_text": "Ici, il ne pleut pas tant que ça."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Ici, il ne pleut pas tant que ça.",
+          "file": "elevenlabs/fr-fr/2026-11-04-where-does-rain-come-from_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:30:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu vois, les océans couvrent environ 70 % de la Terre, non ? Quand le soleil chauffe l'eau de mer, elle s'évapore dans l'air. C'est pour ça qu'il pleut souvent près de la côte."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿De dónde viene la lluvia?",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:34:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cómo es que preguntas eso hoy? ¡Hasta preguntas de dónde viene la lluvia!",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:34:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Pregunto si quiero."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Pregunto si quiero.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:34:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cómo es que preguntas eso hoy? ¡Hasta preguntas de dónde viene la lluvia!",
+            "next_text": "Yo pensaba que en clase de ciencias habíais vuelto a…"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Yo pensaba que en clase de ciencias habíais vuelto a…",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:34:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pregunto si quiero.",
+            "next_text": "Sí que lo hemos visto en clase de ciencias."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Sí que lo hemos visto en clase de ciencias.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:34:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yo pensaba que en clase de ciencias habíais vuelto a…",
+            "next_text": "Cuando el vapor de agua entra en contacto con aire frío, se forman gotas de agua. Cuando pesan demasiado, caen: eso es la lluvia."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Cuando el vapor de agua entra en contacto con aire frío, se forman gotas de agua. Cuando pesan demasiado, caen: eso es la lluvia.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:35:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sí que lo hemos visto en clase de ciencias.",
+            "next_text": "Luego la lluvia vuelve a convertirse en vapor de agua y sube otra vez."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Luego la lluvia vuelve a convertirse en vapor de agua y sube otra vez.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:35:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cuando el vapor de agua entra en contacto con aire frío, se forman gotas de agua. Cuando pesan demasiado, caen: eso es la lluvia.",
+            "next_text": "Sí, así que es una especie de ciclo, ¿no?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Sí, así que es una especie de ciclo, ¿no?",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:35:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Luego la lluvia vuelve a convertirse en vapor de agua y sube otra vez.",
+            "next_text": "Mira, los océanos cubren más o menos el 70 % de la Tierra, ¿no? Cuando el sol calienta el agua del mar, se evapora y sube al cielo. Por eso llueve a menudo cerca de la costa."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Mira, los océanos cubren más o menos el 70 % de la Tierra, ¿no? Cuando el sol calienta el agua del mar, se evapora y sube al cielo. Por eso llueve a menudo cerca de la costa.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:35:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sí, así que es una especie de ciclo, ¿no?",
+            "next_text": "Aquí no llueve tanto."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Aquí no llueve tanto.",
+          "file": "elevenlabs/es-es/2026-11-04-where-does-rain-come-from_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-04T23:35:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Mira, los océanos cubren más o menos el 70 % de la Tierra, ¿no? Cuando el sol calienta el agua del mar, se evapora y sube al cielo. Por eso llueve a menudo cerca de la costa."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-11-04T23:35:19+08:00"
+}
