@@ -1038,6 +1038,9 @@
     margin: 12px 0 0;
     line-height: 1.7;
   }
+  .dialogue-comments {
+    margin-top: 34px;
+  }
   .dialogue-navigation {
     display: grid;
     grid-template-columns: 1fr 1fr;
