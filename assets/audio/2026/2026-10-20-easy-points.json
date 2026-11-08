@@ -349,6 +349,16 @@
           "speaker": "父亲"
         },
         {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "竹子。这么简单的题目还出！",
+          "file": "zh-cn/2026-10-20-easy-points_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
           "segment_id": "dialogue:003",
           "type": "dialogue",
           "source_text": "这是送分题。你们考试有些题目叫送分题。",
@@ -371,5 +381,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-22T10:53:01+08:00"
+  "updated_at": "2026-11-08T14:54:42+08:00"
 }
