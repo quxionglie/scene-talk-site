@@ -638,7 +638,113 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "吹头发",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你是吹冷风还是热风？吹风机。",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "热风呀！",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "好像你弟弟还没吹！你吹了吗？",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "我吹了！",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "弟弟"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "你的头发那么短，还需要吹吗？",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "要啊！",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "冬天要吹头发吗？",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "冬天本来就要吹，其它时候都不能吹！",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "以前没有吹风机的时候，怎么办？",
+          "file": "zh-cn/2026-10-26-blow-drying-hair_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-26T21:07:18+08:00"
+  "updated_at": "2026-11-08T21:29:48+08:00"
 }

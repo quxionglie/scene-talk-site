@@ -701,7 +701,123 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "孤独与心事",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "爸爸，你就一个人在那工作，孤不孤单？",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "那你说孤单不？你觉得我现在孤单吗？",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "现在不孤单。",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "唉，孤独啊，人生就那么孤独啊！",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "孤独就是孤单吗？",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "是啊，你说是为什么？都没人理解，想找个人说话都没有。",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "爸爸其实心里有很多事的。",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "想一下你有什么心事对我说吗？有没有？告诉我就行了，我不告诉别人。",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "这是秘密！",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "心事！有时候太痛苦了，你告诉我你就舒服多了。",
+          "file": "zh-cn/2026-11-04-loneliness-and-whats-on-your-mind_dialogue_010_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "010",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-11-04T23:58:17+08:00"
+  "updated_at": "2026-11-08T22:30:23+08:00"
 }

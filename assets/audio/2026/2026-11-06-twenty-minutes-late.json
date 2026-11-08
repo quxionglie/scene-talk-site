@@ -575,7 +575,93 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "晚了二十分钟",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "晚了差不多20分钟！",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "体测。",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "我就说有点奇怪了。",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "那你走快点。",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "不用走快，慢慢回去就行了。你们下午 A 段体测？",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "跳绳、50米跑，还有仰卧起坐。",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "喔，跳绳应该没问题。",
+          "file": "zh-cn/2026-11-06-twenty-minutes-late_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-11-06T18:45:07+08:00"
+  "updated_at": "2026-11-08T22:33:31+08:00"
 }

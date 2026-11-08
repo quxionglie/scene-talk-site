@@ -764,7 +764,133 @@
           "speaker": "older brother"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "椅子公交车",
+          "file": "zh-cn/2026-10-25-chair-bus_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "椅子公交车是用电还是用油的啊？",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "油。",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那你去哪里加油？",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "加油站呗！",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "公交车你放那么高干嘛啊？",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "那么高就是为了不会掉下去！",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "高了掉下来不会更惨吗！",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "为了接上床的高度。",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "弟弟"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "对呀对呀！",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "哥哥"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "去你那边玩不行吗，来我这边玩？",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_010_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "010",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:011",
+          "type": "dialogue",
+          "source_text": "不行，你这边很好玩，我那边无聊得很。",
+          "file": "zh-cn/2026-10-25-chair-bus_dialogue_011_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "011",
+          "speaker": "哥哥"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-25T22:36:08+08:00"
+  "updated_at": "2026-11-08T21:26:28+08:00"
 }

@@ -638,7 +638,113 @@
           "speaker": "child"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "找蚂蚁窝",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "能找到蚂蚁吗？",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "刚才那个不是蚂蚁窝吗？",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那个才找到一处地方，那两个小馒头刚好给它。",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "好多蚂蚁窝啊！",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "要不要把那个馒头拿过来？我还以为找不到了呢。",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "我去拿个馒头过来，你等一下。",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "我放细一点，看会不会搬走！",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "你的放大镜能看清楚吗？",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "看得清，它能放大。",
+          "file": "zh-cn/2026-10-30-looking-for-ant-nests_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-30T18:44:10+08:00"
+  "updated_at": "2026-11-08T21:40:45+08:00"
 }

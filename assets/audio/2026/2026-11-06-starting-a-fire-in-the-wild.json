@@ -701,7 +701,123 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "野外拿什么点火",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "野外生存，你想到拿什么点火？",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "拿个打火机点火。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "打火机最终会用完那些油或者气的。有打火石，网上有打火石卖。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "另外一种是放大镜，像一张纸那么大的。太阳照过来，你拿树叶把放大镜放过去聚焦就能点燃。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "那我的放大镜行吗？",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你的那个应该不行。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "我的只会反光。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "要不买个打火石。然后拿那个一搓就出很多火星。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "打火石搓它干嘛？",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "打火石是半夜晚上都可以打火。放大镜只能白天有太阳才能打火，如果没太阳你就呵呵呵，over 了。",
+          "file": "zh-cn/2026-11-06-starting-a-fire-in-the-wild_dialogue_010_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "010",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-11-06T19:24:44+08:00"
+  "updated_at": "2026-11-08T22:37:51+08:00"
 }

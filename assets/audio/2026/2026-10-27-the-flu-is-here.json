@@ -701,7 +701,123 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "流感来了",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "爸爸，明天还要戴口罩，老师说要戴。",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "那就戴吗，先戴一天。",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "体育课就不要戴了，运动会也不要戴了。",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "不要说只留一个鼻子这种，容易受伤！",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "受什么伤啊？",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "你的心肺容易受伤！",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "为什么容易受伤？",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "你呼吸都呼吸不了，不容易受伤吗？",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "能呼吸啊！",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "能呼吸？氧气你呼不够，你受伤了。",
+          "file": "zh-cn/2026-10-27-the-flu-is-here_dialogue_010_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "010",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-27T20:18:50+08:00"
+  "updated_at": "2026-11-08T21:34:44+08:00"
 }

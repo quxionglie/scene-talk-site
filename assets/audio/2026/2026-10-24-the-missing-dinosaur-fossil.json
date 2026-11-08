@@ -449,7 +449,83 @@
           "speaker": "father"
         }
       ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "丢了的恐龙化石",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "你的恐龙化石怎么丢了？",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "忘记了！",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "那我上次雨伞呢？",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "妈妈拿出去的，妈妈忘记拿回来了。",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "那不正常吗？",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "母亲"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "正常？掉了你没买一个新的！",
+          "file": "zh-cn/2026-10-24-the-missing-dinosaur-fossil_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-24T18:23:57+08:00"
+  "updated_at": "2026-11-08T21:22:35+08:00"
 }

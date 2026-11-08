@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-11-02-the-streetlights-came-on-as-we-talked",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-11-02T22:26:53+08:00",
+  "updated_at": "2026-11-08T21:55:32+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -637,6 +637,112 @@
           },
           "sequence": "009",
           "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "zh-CN-mandarin",
+      "code": "zh-CN",
+      "language": "汉语",
+      "variant": "普通话",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "说着说着路灯亮了",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_title_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "天黑了路灯还没亮！",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "啊，我刚说完，路灯就亮了。",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_002_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "002",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "这也太巧了！",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_003_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "003",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "你说路灯会亮根据什么来的？日落时间吗？",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_004_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "004",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "肯定有人负责！",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_005_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "005",
+          "speaker": "孩子"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "负责？不会有人负责的。",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_006_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "006",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "它可能调了个定时，类似这种。就像6点15太阳落山，刚好天快要黑，它就亮了。",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_007_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "007",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "或者自动感应的，到了点天一黑就自动亮了。",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_008_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "008",
+          "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "我抬头一看，还以为是月亮呢！",
+          "file": "zh-cn/2026-11-02-the-streetlights-came-on-as-we-talked_dialogue_009_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "009",
+          "speaker": "孩子"
         }
       ]
     }
