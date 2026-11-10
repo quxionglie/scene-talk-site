@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-10-are-there-sandstorms-in-the-desert",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-10T19:20:03+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Are There Sandstorms in the Desert?",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Are there sandstorms in the desert?",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Over ten years ago, places near the desert, like Beijing, used to get sandstorms in winter and spring!"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Over ten years ago, places like Beijing used to get sandstorms in both winter and spring. They're close to the desert!",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Are there sandstorms in the desert?",
+            "next_text": "Do you know what a sandstorm looks like?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Do you know what a sandstorm looks like?",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Over ten years ago, places near the desert, like Beijing, used to get sandstorms in winter and spring!",
+            "next_text": "No!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "No!",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Do you know what a sandstorm looks like?",
+            "next_text": "It's all gray and hazy. You can't see anything clearly. The air pollution is really bad!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "It's all gray and hazy. You can't see anything clearly. The air pollution is really bad!",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No!",
+            "next_text": "Can you show me a picture?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Can you show me a picture?",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's all gray and hazy. You can't see anything clearly. The air pollution is really bad!",
+            "next_text": "It's tiny particles of sand floating in the air. They've planted lots of trees now, so there are far fewer sandstorms."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "It's just tiny particles of sand floating in the air. They've planted lots of trees now, so sandstorms are much less common.",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Can you show me a picture?",
+            "next_text": "Are there trees in the desert?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Are there trees in the desert?",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:09:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "It's tiny particles of sand floating in the air. They've planted lots of trees now, so there are far fewer sandstorms.",
+            "next_text": "There aren't many trees in the desert. They've planted lots more since then."
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Deserts don't have many trees, but they've planted a lot more since then.",
+          "file": "elevenlabs/en-us/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:16+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Are there trees in the desert?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Il y a des tempêtes de sable dans le désert ?",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Il y a des tempêtes de sable dans le désert ?",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Il y a plus de dix ans, dans les endroits proches du désert, comme Pékin, il y avait des tempêtes de sable en hiver et au printemps !"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Il y a plus de dix ans, dans les endroits proches du désert, comme Pékin, il y avait des tempêtes de sable en hiver et au printemps !",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il y a des tempêtes de sable dans le désert ?",
+            "next_text": "Tu sais à quoi ressemble une tempête de sable ?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Tu sais à quoi ressemble une tempête de sable ?",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il y a plus de dix ans, dans les endroits proches du désert, comme Pékin, il y avait des tempêtes de sable en hiver et au printemps !",
+            "next_text": "Non !"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Non !",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu sais à quoi ressemble une tempête de sable ?",
+            "next_text": "Tout est gris et on ne voit rien clairement. L'air est très pollué !"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tout est gris et on ne voit rien clairement. L'air est très pollué !",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Non !",
+            "next_text": "Tu me montres une image ?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tu me montres une image ?",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tout est gris et on ne voit rien clairement. L'air est très pollué !",
+            "next_text": "Ce sont de toutes petites particules de sable qui flottent dans l'air. On a planté beaucoup d'arbres maintenant, alors il y a beaucoup moins de tempêtes de sable."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ce sont de toutes petites particules de sable qui flottent dans l'air. On a planté beaucoup d'arbres maintenant, alors il y a beaucoup moins de tempêtes de sable.",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu me montres une image ?",
+            "next_text": "Il y a des arbres dans le désert ?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Il y a des arbres dans le désert ?",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ce sont de toutes petites particules de sable qui flottent dans l'air. On a planté beaucoup d'arbres maintenant, alors il y a beaucoup moins de tempêtes de sable.",
+            "next_text": "Il n'y a pas beaucoup d'arbres dans le désert, mais on en a planté beaucoup depuis."
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Il n'y a pas beaucoup d'arbres dans le désert, mais on en a planté beaucoup depuis.",
+          "file": "elevenlabs/fr-fr/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il y a des arbres dans le désert ?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Hay tormentas de arena en el desierto?",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Hay tormentas de arena en el desierto?",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¡Hace más de diez años, en sitios como Pekín, cerca del desierto, había tormentas de arena tanto en invierno como en primavera!"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¡Hace más de diez años, en sitios como Pekín, cerca del desierto, había tormentas de arena tanto en invierno como en primavera!",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Hay tormentas de arena en el desierto?",
+            "next_text": "¿Sabes cómo es una tormenta de arena?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Sabes cómo es una tormenta de arena?",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Hace más de diez años, en sitios como Pekín, cerca del desierto, había tormentas de arena tanto en invierno como en primavera!",
+            "next_text": "¡No!"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "¡No!",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Sabes cómo es una tormenta de arena?",
+            "next_text": "Todo se ve gris y borroso. No se ve nada con claridad. ¡El aire está muy contaminado!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Todo se ve gris y borroso. No se ve nada con claridad. ¡El aire está muy contaminado!",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡No!",
+            "next_text": "¿Me enseñas una imagen?"
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¿Me enseñas una imagen?",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Todo se ve gris y borroso. No se ve nada con claridad. ¡El aire está muy contaminado!",
+            "next_text": "Son partículas muy pequeñas de arena que flotan en el aire. Ahora han plantado muchos árboles, así que hay muchas menos tormentas de arena."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Son partículas muy pequeñas de arena que flotan en el aire. Ahora han plantado muchos árboles, así que hay muchas menos tormentas de arena.",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:19:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Me enseñas una imagen?",
+            "next_text": "¿Hay árboles en el desierto?"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¿Hay árboles en el desierto?",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:20:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Son partículas muy pequeñas de arena que flotan en el aire. Ahora han plantado muchos árboles, así que hay muchas menos tormentas de arena.",
+            "next_text": "En el desierto hay pocos árboles, pero desde entonces han plantado muchos más."
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "En el desierto hay pocos árboles, pero desde entonces han plantado muchos más.",
+          "file": "elevenlabs/es-es/2026-11-10-are-there-sandstorms-in-the-desert_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-10T19:20:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Hay árboles en el desierto?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
