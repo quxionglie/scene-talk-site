@@ -1,0 +1,518 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-13-pickled-greens-from-home",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-13T23:31:18+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Pickled Mustard Greens from Home",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:29:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "What do you like best in fish with pickled mustard greens: the tofu, the bean sprouts, or the fish?",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:27:56+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "The fish."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "The fish.",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:04:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What do you like best in fish with pickled greens: the tofu, the bean sprouts, or the fish?",
+            "next_text": "Some people prefer the other ingredients."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Some people prefer the other ingredients.",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:04:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "The fish.",
+            "next_text": "When I was a kid, we used to pickle greens back home in winter."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "When I was a kid, we used to pickle mustard greens back home in winter.",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:27:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Some people prefer the other ingredients.",
+            "next_text": "Grandma's stir-fried pickled mustard greens were really good."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Grandma's stir-fried pickled mustard greens were really good.",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:28:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "g7LVvkPWALzPxOQbF6OE",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "When I was a kid, we used to pickle mustard greens back home in winter.",
+            "next_text": "Just blanch the mustard greens and leave them in a clay jar for a while. Then they're ready."
+          },
+          "sequence": "005",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Just blanch the mustard greens and leave them in a clay jar for a while. Then they're ready.",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:29:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Grandma's stir-fried pickled mustard greens were really good.",
+            "next_text": "Can't have that anymore..."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Can't have that anymore...",
+          "file": "elevenlabs/en-us/2026-11-13-pickled-greens-from-home_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:05:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Just blanch the greens and leave them in a clay jar for a while. Then they're ready."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Les feuilles de moutarde fermentées de chez nous",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:30:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Dans le poisson aux feuilles de moutarde fermentées, tu préfères le tofu, les pousses de soja ou le poisson ?",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:30:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Le poisson."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Le poisson.",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:10:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Dans le poisson aux légumes fermentés, tu préfères le tofu, les pousses de soja ou le poisson ?",
+            "next_text": "Il y en a qui préfèrent les autres ingrédients."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Il y en a qui préfèrent les autres ingrédients.",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:11:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le poisson.",
+            "next_text": "Quand j'étais petit, chez nous, on aimait bien faire fermenter des légumes en hiver."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Quand j'étais petit, chez nous, on aimait bien faire fermenter des feuilles de moutarde en hiver.",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:30:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Il y en a qui préfèrent les autres ingrédients.",
+            "next_text": "Les feuilles de moutarde fermentées que mamie faisait sauter étaient vraiment bonnes."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Les feuilles de moutarde fermentées que mamie faisait sauter étaient vraiment bonnes.",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:30:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "FvmvwvObRqIHojkEGh5N",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quand j'étais petit, chez nous, on aimait bien faire fermenter des feuilles de moutarde en hiver.",
+            "next_text": "Tu blanchis les feuilles de moutarde, puis tu les laisses quelque temps dans une jarre en terre. Et c'est prêt."
+          },
+          "sequence": "005",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Tu blanchis les feuilles de moutarde, puis tu les laisses quelque temps dans une jarre en terre. Et c'est prêt.",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:30:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Les feuilles de moutarde fermentées que mamie faisait sauter étaient vraiment bonnes.",
+            "next_text": "On ne pourra plus en manger…"
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "On ne pourra plus en manger…",
+          "file": "elevenlabs/fr-fr/2026-11-13-pickled-greens-from-home_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:11:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu blanchis les légumes, puis tu les laisses quelque temps dans une jarre en terre. Et c'est prêt."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Las hojas de mostaza fermentadas de mi tierra",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:31:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Del pescado con hojas de mostaza fermentadas, ¿qué te gusta más: el tofu, los brotes de soja o el pescado?",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:31:07+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "El pescado."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "El pescado.",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:12:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Del pescado con verduras fermentadas, ¿qué te gusta más: el tofu, los brotes de soja o el pescado?",
+            "next_text": "Hay gente que prefiere los otros ingredientes."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Hay gente que prefiere los otros ingredientes.",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:12:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "El pescado.",
+            "next_text": "Cuando era pequeño, en mi tierra nos gustaba fermentar verduras en invierno."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Cuando era pequeño, en mi tierra nos gustaba fermentar hojas de mostaza en invierno.",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:31:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hay gente que prefiere los otros ingredientes.",
+            "next_text": "Las hojas de mostaza fermentadas que salteaba la abuela estaban muy buenas."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Las hojas de mostaza fermentadas que salteaba la abuela estaban muy buenas.",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:31:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gD1IexrzCvsXPHUuT0s3",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cuando era pequeño, en mi tierra nos gustaba fermentar hojas de mostaza en invierno.",
+            "next_text": "Escaldas las hojas de mostaza, las dejas un tiempo en una tinaja de barro y ya está."
+          },
+          "sequence": "005",
+          "speaker": "mom"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Escaldas las hojas de mostaza, las dejas un tiempo en una tinaja de barro y ya está.",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:31:18+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Las hojas de mostaza fermentadas que salteaba la abuela estaban muy buenas.",
+            "next_text": "Ya no podremos volver a comerlas…"
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ya no podremos volver a comerlas…",
+          "file": "elevenlabs/es-es/2026-11-13-pickled-greens-from-home_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-13T23:12:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Escaldas las verduras, las dejas un tiempo en una tinaja de barro y ya está."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
