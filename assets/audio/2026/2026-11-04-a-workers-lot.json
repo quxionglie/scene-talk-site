@@ -878,9 +878,19 @@
           "ai_generated": false,
           "sequence": "010",
           "speaker": "父亲"
+        },
+        {
+          "segment_id": "dialogue:011",
+          "type": "dialogue",
+          "source_text": "这就是打工人的命。",
+          "file": "zh-cn/2026-11-04-a-workers-lot_dialogue_011_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "011",
+          "speaker": "父亲"
         }
       ]
     }
   ],
-  "updated_at": "2026-11-08T22:23:50+08:00"
+  "updated_at": "2026-11-15T09:27:37+08:00"
 }

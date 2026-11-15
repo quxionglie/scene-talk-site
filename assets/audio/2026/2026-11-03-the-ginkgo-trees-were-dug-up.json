@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-11-03-the-ginkgo-trees-were-dug-up",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-11-08T22:00:21+08:00",
+  "updated_at": "2026-11-15T09:09:52+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -727,7 +727,7 @@
         {
           "segment_id": "dialogue:008",
           "type": "dialogue",
-          "source_text": "他挖了几颗嘛，数一下？",
+          "source_text": "他挖了几棵嘛，数一下？",
           "file": "zh-cn/2026-11-03-the-ginkgo-trees-were-dug-up_dialogue_008_zh-cn.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": false,

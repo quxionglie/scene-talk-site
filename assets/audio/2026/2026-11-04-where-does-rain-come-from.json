@@ -654,6 +654,16 @@
           "ai_generated": false
         },
         {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "今天怎么问这个问题呢！还问天上的雨是怎么回事？",
+          "file": "zh-cn/2026-11-04-where-does-rain-come-from_dialogue_001_zh-cn.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": false,
+          "sequence": "001",
+          "speaker": "父亲"
+        },
+        {
           "segment_id": "dialogue:002",
           "type": "dialogue",
           "source_text": "我想问就问。",
@@ -736,5 +746,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-08T22:19:10+08:00"
+  "updated_at": "2026-11-15T09:25:21+08:00"
 }
