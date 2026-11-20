@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-11-19-which-way-is-north",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-11-20T09:44:03+08:00",
+  "updated_at": "2026-11-20T10:03:44+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -50,11 +50,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "The signs out on the road might be okay. Around here, though, they've got north and south all mixed up. The signs are all wrong!",
+          "source_text": "The signs out on the street might be right. But the ones here in our complex have north and south all mixed up. They're all wrong!",
           "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_002_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-20T09:41:51+08:00",
+          "generated_at": "2026-11-20T10:03:31+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -220,11 +220,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "Les panneaux dans la rue, ça va peut-être. Mais ici, dans la résidence, ils indiquent le nord et le sud n'importe comment. Ils sont tous faux, ces panneaux !",
+          "source_text": "Dans la rue, les panneaux sont peut-être fiables. Mais ici, dans la résidence, le nord et le sud, c'est n'importe quoi. Tous les panneaux indiquent la mauvaise direction !",
           "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_002_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-20T09:42:47+08:00",
+          "generated_at": "2026-11-20T10:03:39+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -390,11 +390,11 @@
         {
           "segment_id": "dialogue:002",
           "type": "dialogue",
-          "source_text": "Puede que las señales de la calle estén bien. Pero aquí, en la urbanización, ponen el norte y el sur donde les parece. ¡Están todas mal!",
+          "source_text": "A lo mejor las señales de la calle están bien. Pero aquí en la urbanización han puesto el norte y el sur al tuntún. ¡Están todas mal!",
           "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_002_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-20T09:43:46+08:00",
+          "generated_at": "2026-11-20T10:03:44+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
