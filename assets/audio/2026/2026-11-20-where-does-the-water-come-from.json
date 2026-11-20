@@ -1,0 +1,707 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-20-where-does-the-water-come-from",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-20T18:23:50+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Where Does the Water Come From?",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "They've stopped spraying over there, too. Where do you think that water comes from?",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "From a big pipe?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "From a big pipe?",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "They've stopped spraying over there, too. Where do you think that water comes from?",
+            "next_text": "Oh, does it pump water up from down there? Look. That's a pipe down there, right?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Oh, does it pump water up from down there? Look. That's a pipe down there, right?",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "From a big pipe?",
+            "next_text": "Maybe they pump it into a tank, then draw water from there for the sprayers."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Maybe they pump it into a tank, then draw water from there for the sprayers.",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oh, does it pump water up from down there? Look. That's a pipe down there, right?",
+            "next_text": "Isn't that water pretty dirty? From now on, don't go that way when they're spraying. I thought it was tap water. Turns out it isn't."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Isn't that water pretty dirty? From now on, don't go that way when they're spraying. I thought it was tap water. Turns out it isn't.",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Maybe they pump it into a tank, then draw water from there for the sprayers.",
+            "next_text": "I thought they brought the water in by truck every day. Guess I was wrong. They don't fill the tank from a tap either."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "I thought they brought the water in by truck every day. Guess I was wrong. They don't fill the tank from a tap either.",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Isn't that water pretty dirty? From now on, don't go that way when they're spraying. I thought it was tap water. Turns out it isn't.",
+            "next_text": "They were still spraying when I went to pick you up. By the time we came back, they'd stopped."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "They were still spraying when I went to pick you up. By the time we came back, they'd stopped.",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I thought they brought the water in by truck every day. Guess I was wrong. They don't fill the tank from a tap either.",
+            "next_text": "Uh-oh, you're in trouble!"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Uh-oh, you're in trouble!",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "They were still spraying when I went to pick you up. By the time we came back, they'd stopped.",
+            "next_text": "But I don't even go that way."
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "But I don't even go that way.",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Uh-oh, you're in trouble!",
+            "next_text": "So, that water... where do I even start?"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "So, that water... where do I even start?",
+          "file": "elevenlabs/en-us/2026-11-20-where-does-the-water-come-from_dialogue_010_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "But I don't even go that way."
+          },
+          "sequence": "010",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "D'où vient cette eau ?",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Tiens, les jets se sont arrêtés de ce côté-là aussi. À ton avis, elle vient d'où, cette eau ?",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "D'un gros tuyau ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "D'un gros tuyau ?",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:22:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tiens, les jets se sont arrêtés de ce côté-là aussi. À ton avis, elle vient d'où, cette eau ?",
+            "next_text": "Ah, tu crois qu'ils pompent l'eau qui est en bas ? Regarde, c'est bien un tuyau, là en bas ?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ah, tu crois qu'ils pompent l'eau qui est en bas ? Regarde, c'est bien un tuyau, là en bas ?",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "D'un gros tuyau ?",
+            "next_text": "Ils doivent pomper l'eau jusque dans une cuve. Ensuite, les brumisateurs puisent l'eau dans la cuve."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ils doivent pomper l'eau jusque dans une cuve. Ensuite, les brumisateurs puisent l'eau dans la cuve.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, tu crois qu'ils pompent l'eau qui est en bas ? Regarde, c'est bien un tuyau, là en bas ?",
+            "next_text": "Mais elle est plutôt sale, cette eau, non ? Ne passe plus par là quand les jets sont en marche. Je croyais que c'était de l'eau du robinet. Eh bien non."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Mais elle est plutôt sale, cette eau, non ? Ne passe plus par là quand les jets sont en marche. Je croyais que c'était de l'eau du robinet. Eh bien non.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ils doivent pomper l'eau jusque dans une cuve. Ensuite, les brumisateurs puisent l'eau dans la cuve.",
+            "next_text": "Je pensais qu'un camion apportait l'eau tous les jours. Même pas. Et ils ne remplissent pas non plus la cuve avec de l'eau du robinet."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je pensais qu'un camion apportait l'eau tous les jours. Même pas. Et ils ne remplissent pas non plus la cuve avec de l'eau du robinet.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Mais elle est plutôt sale, cette eau, non ? Ne passe plus par là quand les jets sont en marche. Je croyais que c'était de l'eau du robinet. Eh bien non.",
+            "next_text": "Quand je suis allé te chercher, les jets marchaient encore. Au retour, ils étaient arrêtés."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Quand je suis allé te chercher, les jets marchaient encore. Au retour, ils étaient arrêtés.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:14+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je pensais qu'un camion apportait l'eau tous les jours. Même pas. Et ils ne remplissent pas non plus la cuve avec de l'eau du robinet.",
+            "next_text": "T'es mal, alors !"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "T'es mal, alors !",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quand je suis allé te chercher, les jets marchaient encore. Au retour, ils étaient arrêtés.",
+            "next_text": "Mais moi, je passe même pas par là."
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Mais moi, je passe même pas par là.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "T'es mal, alors !",
+            "next_text": "Bref, cette eau, c'est toute une histoire."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "Bref, cette eau, c'est toute une histoire.",
+          "file": "elevenlabs/fr-fr/2026-11-20-where-does-the-water-come-from_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Mais moi, je passe même pas par là."
+          },
+          "sequence": "010",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿De dónde sale el agua?",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Por ese lado ya tampoco sale agua. ¿Tú de dónde crees que la sacan?",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "¿De una tubería grande?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "¿De una tubería grande?",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:28+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Por ese lado ya tampoco sale agua. ¿Tú de dónde crees que la sacan?",
+            "next_text": "Ah, ¿y si la bombean desde ahí abajo? Mira, ahí abajo hay una tubería, ¿la ves?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ah, ¿y si la bombean desde ahí abajo? Mira, ahí abajo hay una tubería, ¿la ves?",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿De una tubería grande?",
+            "next_text": "A lo mejor la bombean hasta un depósito y luego la sacan de ahí para rociarla."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "A lo mejor la bombean hasta un depósito y luego la sacan de ahí para rociarla.",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah, ¿y si la bombean desde ahí abajo? Mira, ahí abajo hay una tubería, ¿la ves?",
+            "next_text": "Pero esa agua está bastante sucia, ¿no? Cuando estén echando agua, ya no pases por ahí. Yo creía que era agua del grifo, pero resulta que no."
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Pero esa agua está bastante sucia, ¿no? Cuando estén echando agua, ya no pases por ahí. Yo creía que era agua del grifo, pero resulta que no.",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "A lo mejor la bombean hasta un depósito y luego la sacan de ahí para rociarla.",
+            "next_text": "Pensaba que traían el agua en camión todos los días. Pues no. Y tampoco llenan el depósito con agua del grifo."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Pensaba que traían el agua en camión todos los días. Pues no. Y tampoco llenan el depósito con agua del grifo.",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pero esa agua está bastante sucia, ¿no? Cuando estén echando agua, ya no pases por ahí. Yo creía que era agua del grifo, pero resulta que no.",
+            "next_text": "Cuando fui a recogerte, todavía salía agua. A la vuelta, ya no."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Cuando fui a recogerte, todavía salía agua. A la vuelta, ya no.",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Pensaba que traían el agua en camión todos los días. Pues no. Y tampoco llenan el depósito con agua del grifo.",
+            "next_text": "¡Pues vas apañado!"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "¡Pues vas apañado!",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cuando fui a recogerte, todavía salía agua. A la vuelta, ya no.",
+            "next_text": "¡Pero si yo ni paso por ahí!"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¡Pero si yo ni paso por ahí!",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Pues vas apañado!",
+            "next_text": "En fin, lo de esa agua tiene tela."
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "En fin, lo de esa agua tiene tela.",
+          "file": "elevenlabs/es-es/2026-11-20-where-does-the-water-come-from_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T18:23:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Pero si yo ni paso por ahí!"
+          },
+          "sequence": "010",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
