@@ -1,0 +1,518 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-19-which-way-is-north",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-20T09:44:03+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Which Way Is North?",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:43+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "If you go by that sign, you'll head the wrong way.",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "The signs out on the road might be okay. Around here, though, they've got north and south all mixed up. The signs are all wrong!"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "The signs out on the road might be okay. Around here, though, they've got north and south all mixed up. The signs are all wrong!",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "If you go by that sign, you'll head the wrong way.",
+            "next_text": "Which way do you think is north?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Which way do you think is north?",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "The signs out on the road might be okay. Around here, though, they've got north and south all mixed up. The signs are all wrong!",
+            "next_text": "That way. North is that way."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "That way. North is that way.",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Which way do you think is north?",
+            "next_text": "Yeah, that's right. See which way our window faces? That's where the north wind comes in."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Yeah, that's right. See which way our window faces? That's where the north wind comes in.",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "That way. North is that way.",
+            "next_text": "Then this sign is wrong."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Then this sign is wrong.",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yeah, that's right. See which way our window faces? That's where the north wind comes in.",
+            "next_text": "They just write whatever. It's a joke. If you're going to put directions on a sign, get them right! Otherwise, leave it blank."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "They just write whatever. It's a joke. If you're going to put directions on a sign, get them right! Otherwise, leave it blank.",
+          "file": "elevenlabs/en-us/2026-11-19-which-way-is-north_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Then this sign is wrong."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "C'est par où, le nord ?",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Si tu te fies à ce panneau, tu vas partir du mauvais côté.",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Les panneaux dans la rue, ça va peut-être. Mais ici, dans la résidence, ils indiquent le nord et le sud n'importe comment. Ils sont tous faux, ces panneaux !"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Les panneaux dans la rue, ça va peut-être. Mais ici, dans la résidence, ils indiquent le nord et le sud n'importe comment. Ils sont tous faux, ces panneaux !",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Si tu te fies à ce panneau, tu vas partir du mauvais côté.",
+            "next_text": "À ton avis, c'est par où, le nord ?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "À ton avis, c'est par où, le nord ?",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Les panneaux dans la rue, ça va peut-être. Mais ici, dans la résidence, ils indiquent le nord et le sud n'importe comment. Ils sont tous faux, ces panneaux !",
+            "next_text": "Par là. Le nord, c'est par là."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Par là. Le nord, c'est par là.",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "À ton avis, c'est par où, le nord ?",
+            "next_text": "Oui, c'est bien par là. Tu vois de quel côté donne notre fenêtre ? Le vent du nord entre par là."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Oui, c'est bien par là. Tu vois de quel côté donne notre fenêtre ? Le vent du nord entre par là.",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Par là. Le nord, c'est par là.",
+            "next_text": "Alors, ils se sont trompés sur ce panneau."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Alors, ils se sont trompés sur ce panneau.",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oui, c'est bien par là. Tu vois de quel côté donne notre fenêtre ? Le vent du nord entre par là.",
+            "next_text": "Ils ont écrit n'importe quoi. C'est une blague ! Soit tu n'écris rien, soit tu mets la bonne direction. Pourquoi en mettre une fausse ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ils ont écrit n'importe quoi. C'est une blague ! Soit tu n'écris rien, soit tu mets la bonne direction. Pourquoi en mettre une fausse ?",
+          "file": "elevenlabs/fr-fr/2026-11-19-which-way-is-north_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Alors, ils se sont trompés sur ce panneau."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "¿Por dónde queda el norte?",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:39+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Si le haces caso a esa señal, vas a ir por donde no es.",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Puede que las señales de la calle estén bien. Pero aquí, en la urbanización, ponen el norte y el sur donde les parece. ¡Están todas mal!"
+          },
+          "sequence": "001",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Puede que las señales de la calle estén bien. Pero aquí, en la urbanización, ponen el norte y el sur donde les parece. ¡Están todas mal!",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Si le haces caso a esa señal, vas a ir por donde no es.",
+            "next_text": "¿Por dónde crees que queda el norte?"
+          },
+          "sequence": "002",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿Por dónde crees que queda el norte?",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:49+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Puede que las señales de la calle estén bien. Pero aquí, en la urbanización, ponen el norte y el sur donde les parece. ¡Están todas mal!",
+            "next_text": "Por allí. El norte está por allí."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Por allí. El norte está por allí.",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Por dónde crees que queda el norte?",
+            "next_text": "Sí, por ahí. ¿Ves hacia dónde da nuestra ventana? Por ahí entra el viento del norte."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Sí, por ahí. ¿Ves hacia dónde da nuestra ventana? Por ahí entra el viento del norte.",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Por allí. El norte está por allí.",
+            "next_text": "Entonces esta señal está mal."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Entonces esta señal está mal.",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sí, por ahí. ¿Ves hacia dónde da nuestra ventana? Por ahí entra el viento del norte.",
+            "next_text": "Han puesto cualquier cosa. ¡Es de risa! O no pones nada o pones la dirección correcta. ¡No la pongas mal!"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Han puesto cualquier cosa. ¡Es de risa! O no pones nada o pones la dirección correcta. ¡No la pongas mal!",
+          "file": "elevenlabs/es-es/2026-11-19-which-way-is-north_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:44:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Entonces esta señal está mal."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}

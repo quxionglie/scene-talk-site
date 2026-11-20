@@ -1,0 +1,518 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-19-the-bonus-question-on-the-math-test",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-20T09:43:38+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "The Bonus Question on the Math Test",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "How many class periods did you spend on the test? One 40-minute period or two?",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "One period plus Block A. That's 80 minutes. It says 60 minutes on the test, but I think we had 80. I can't remember."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "One period plus Block A. That's 80 minutes. It says 60 minutes on the test, but I think we had 80. I can't remember.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "How many class periods did you spend on the test? One 40-minute period or two?",
+            "next_text": "I took a look at the test. Oh, it says 60 minutes."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "I took a look at the test. Oh, it says 60 minutes.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "One period plus Block A. That's 80 minutes. It says 60 minutes on the test, but I think we had 80. I can't remember.",
+            "next_text": "Then in Block A, we started on the back. We'd done this part first, so we were waiting for the teacher to grade it."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Then in Block A, we started on the back. We'd done this part first, so we were waiting for the teacher to grade it.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I took a look at the test. Oh, it says 60 minutes.",
+            "next_text": "I'll take a look when we get home. The way we read that “迎大运” bonus question, it's just 777 divided by 3. Couldn't be easier."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "I'll take a look when we get home. The way we read that “迎大运” bonus question, it's just 777 divided by 3. Couldn't be easier.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Then in Block A, we started on the back. We'd done this part first, so we were waiting for the teacher to grade it.",
+            "next_text": "Okay, okay."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Okay, okay.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I'll take a look when we get home. The way we read that “迎大运” bonus question, it's just 777 divided by 3. Couldn't be easier.",
+            "next_text": "It's just division. Think about your times tables. Three times what gives you a number ending in 7? Three times 9 is 27, so the answer ends in 9."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "It's just division. Think about your times tables. Three times what gives you a number ending in 7? Three times 9 is 27, so the answer ends in 9.",
+          "file": "elevenlabs/en-us/2026-11-19-the-bonus-question-on-the-math-test_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:41:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Okay, okay."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "La question bonus du contrôle de maths",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Vous avez eu combien de temps en classe pour faire le contrôle ? Un cours de 40 minutes ou deux ?",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Un cours plus le créneau A. Ça fait 80 minutes. Sur la feuille, c'est marqué 60 minutes, mais je crois qu'on a eu 80 minutes. Je ne sais plus."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Un cours plus le créneau A. Ça fait 80 minutes. Sur la feuille, c'est marqué 60 minutes, mais je crois qu'on a eu 80 minutes. Je ne sais plus.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Vous avez eu combien de temps en classe pour faire le contrôle ? Un cours de 40 minutes ou deux ?",
+            "next_text": "J'ai regardé la feuille. Ah oui, c'est bien marqué 60 minutes."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "J'ai regardé la feuille. Ah oui, c'est bien marqué 60 minutes.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Un cours plus le créneau A. Ça fait 80 minutes. Sur la feuille, c'est marqué 60 minutes, mais je crois qu'on a eu 80 minutes. Je ne sais plus.",
+            "next_text": "Et pendant le créneau A, on a commencé par le dos de la feuille. Cette partie-là, on l'avait faite en premier et on attendait que le prof vienne la corriger."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Et pendant le créneau A, on a commencé par le dos de la feuille. Cette partie-là, on l'avait faite en premier et on attendait que le prof vienne la corriger.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "J'ai regardé la feuille. Ah oui, c'est bien marqué 60 minutes.",
+            "next_text": "Je regarderai en rentrant. Pour la question bonus avec « 迎大运 », si on a bien compris, il suffit de diviser 777 par 3. Il n'y a pas plus simple."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Je regarderai en rentrant. Pour la question bonus avec « 迎大运 », si on a bien compris, il suffit de diviser 777 par 3. Il n'y a pas plus simple.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et pendant le créneau A, on a commencé par le dos de la feuille. Cette partie-là, on l'avait faite en premier et on attendait que le prof vienne la corriger.",
+            "next_text": "D'accord, d'accord."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "D'accord, d'accord.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je regarderai en rentrant. Pour la question bonus avec « 迎大运 », si on a bien compris, il suffit de diviser 777 par 3. Il n'y a pas plus simple.",
+            "next_text": "C'est juste une division. Pense à ta table de 3. Trois fois combien donne un nombre qui finit par 7 ? Trois fois 9, ça fait 27. Donc le dernier chiffre, c'est 9."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "C'est juste une division. Pense à ta table de 3. Trois fois combien donne un nombre qui finit par 7 ? Trois fois 9, ça fait 27. Donc le dernier chiffre, c'est 9.",
+          "file": "elevenlabs/fr-fr/2026-11-19-the-bonus-question-on-the-math-test_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:42:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "D'accord, d'accord."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "La pregunta extra del examen de matemáticas",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Cuántas clases os llevó hacer el examen? ¿Una de 40 minutos o dos?",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:10+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Una clase más el bloque A. Son 80 minutos. En la hoja pone 60 minutos, pero creo que tuvimos 80. No me acuerdo."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Una clase más el bloque A. Son 80 minutos. En la hoja pone 60 minutos, pero creo que tuvimos 80. No me acuerdo.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Cuántas clases os llevó hacer el examen? ¿Una de 40 minutos o dos?",
+            "next_text": "Le he echado un vistazo al examen. Ah, sí, pone 60 minutos."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Le he echado un vistazo al examen. Ah, sí, pone 60 minutos.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Una clase más el bloque A. Son 80 minutos. En la hoja pone 60 minutos, pero creo que tuvimos 80. No me acuerdo.",
+            "next_text": "Y en el bloque A empezamos por el otro lado de la hoja. Esta parte la hicimos primero y estábamos esperando a que viniera el profe a corregirla."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Y en el bloque A empezamos por el otro lado de la hoja. Esta parte la hicimos primero y estábamos esperando a que viniera el profe a corregirla.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:25+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le he echado un vistazo al examen. Ah, sí, pone 60 minutos.",
+            "next_text": "Le echaré un vistazo cuando lleguemos a casa. La pregunta extra de «迎大运», tal como la entendemos, es solo dividir 777 entre 3. Más fácil, imposible."
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Le echaré un vistazo cuando lleguemos a casa. La pregunta extra de «迎大运», tal como la entendemos, es solo dividir 777 entre 3. Más fácil, imposible.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Y en el bloque A empezamos por el otro lado de la hoja. Esta parte la hicimos primero y estábamos esperando a que viniera el profe a corregirla.",
+            "next_text": "Vale, vale."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Vale, vale.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:33+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le echaré un vistazo cuando lleguemos a casa. La pregunta extra de «迎大运», tal como la entendemos, es solo dividir 777 entre 3. Más fácil, imposible.",
+            "next_text": "Es solo una división. Piensa en la tabla del 3. ¿Tres por cuánto da un número que acaba en 7? Tres por 9 son 27, así que la última cifra es un 9."
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Es solo una división. Piensa en la tabla del 3. ¿Tres por cuánto da un número que acaba en 7? Tres por 9 son 27, así que la última cifra es un 9.",
+          "file": "elevenlabs/es-es/2026-11-19-the-bonus-question-on-the-math-test_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-20T09:43:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Vale, vale."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
