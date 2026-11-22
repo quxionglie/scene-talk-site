@@ -1,0 +1,581 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-22-i-thought-it-was-morning",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-22T19:11:59+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "I Thought It Was Morning",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:10:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "I thought it was seven or eight in the morning. Then I looked, and it was 5:05 in the afternoon! Why do you think that happened?",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:10:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "You were out cold."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "You were out cold.",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:10:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I thought it was seven or eight in the morning. Then I looked, and it was 5:05 in the afternoon! Why do you think that happened?",
+            "next_text": "Maybe I was just really tired!"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Maybe I was just really tired!",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:10:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "You were out cold.",
+            "next_text": "That happened to me once when I was a kid. I got up, washed my face and brushed my teeth. When I came back, I realized it was afternoon."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "That happened to me once when I was a kid. I got up, washed my face and brushed my teeth. When I came back, I realized it was afternoon.",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:00+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Maybe I was just really tired!",
+            "next_text": "Ha… that's wild!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ha… that's wild!",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:02+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "That happened to me once when I was a kid. I got up, washed my face and brushed my teeth. When I came back, I realized it was afternoon.",
+            "next_text": "I was going to get up and make myself some breakfast. Then I looked at the time and thought, “Wait, that can't be right!”"
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "I was going to get up and make myself some breakfast. Then I looked at the time and thought, “Wait, that can't be right!”",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ha… that's wild!",
+            "next_text": "I could hear you kids making a racket over there while I was sleeping."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "I could hear you kids making a racket over there while I was sleeping.",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I was going to get up and make myself some breakfast. Then I looked at the time and thought, “Wait, that can't be right!”",
+            "next_text": "It's morning. Time to get up again. Why am I so sleepy? I'll just sleep a little longer…"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "It's morning. Time to get up again. Why am I so sleepy? I'll just sleep a little longer…",
+          "file": "elevenlabs/en-us/2026-11-22-i-thought-it-was-morning_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I could hear you kids making a racket over there while I was sleeping."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je croyais que c'était le matin",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Je croyais qu'il était sept ou huit heures du matin. J'ai regardé l'heure, et il était 17 h 05 ! Pourquoi, à ton avis ?",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Tu dormais comme une souche."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Tu dormais comme une souche.",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je croyais qu'il était sept ou huit heures du matin. J'ai regardé l'heure, et il était 17 h 05 ! Pourquoi, à ton avis ?",
+            "next_text": "J'étais peut-être crevé !"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "J'étais peut-être crevé !",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:19+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Tu dormais comme une souche.",
+            "next_text": "Ça m'est arrivé une fois quand j'étais petit. Je me suis levé, je suis allé me laver le visage et me brosser les dents. C'est en revenant que j'ai compris qu'on était en plein après-midi."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Ça m'est arrivé une fois quand j'étais petit. Je me suis levé, je suis allé me laver le visage et me brosser les dents. C'est en revenant que j'ai compris qu'on était en plein après-midi.",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:23+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "J'étais peut-être crevé !",
+            "next_text": "Ah ah… c'est dingue !"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Ah ah… c'est dingue !",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ça m'est arrivé une fois quand j'étais petit. Je me suis levé, je suis allé me laver le visage et me brosser les dents. C'est en revenant que j'ai compris qu'on était en plein après-midi.",
+            "next_text": "J'allais même me lever pour me faire un petit déj. Et là, je regarde l'heure. Mais non, c'est pas possible !"
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "J'allais même me lever pour me faire un petit déj. Et là, je regarde l'heure. Mais non, c'est pas possible !",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:27+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ah ah… c'est dingue !",
+            "next_text": "Même en dormant, je vous entendais faire du boucan, là-bas."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Même en dormant, je vous entendais faire du boucan, là-bas.",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "J'allais même me lever pour me faire un petit déj. Et là, je regarde l'heure. Mais non, c'est pas possible !",
+            "next_text": "C'est le matin, il faut déjà se lever. Pourquoi j'ai si sommeil ? Je vais dormir encore un peu…"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "C'est le matin, il faut déjà se lever. Pourquoi j'ai si sommeil ? Je vais dormir encore un peu…",
+          "file": "elevenlabs/fr-fr/2026-11-22-i-thought-it-was-morning_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:32+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Même en dormant, je vous entendais faire du boucan, là-bas."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Creía que era por la mañana",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:35+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Creía que eran las siete o las ocho de la mañana. ¡Y cuando he mirado la hora, eran las cinco y cinco de la tarde! ¿Por qué crees que me ha pasado eso?",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Es que dormías como un tronco."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Es que dormías como un tronco.",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Creía que eran las siete o las ocho de la mañana. ¡Y cuando he mirado la hora, eran las cinco y cinco de la tarde! ¿Por qué crees que me ha pasado eso?",
+            "next_text": "¡Igual estaba agotado!"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¡Igual estaba agotado!",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Es que dormías como un tronco.",
+            "next_text": "De pequeño me pasó una vez. Me levanté, me lavé la cara y me cepillé los dientes. Cuando volví, me di cuenta de que era por la tarde."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "De pequeño me pasó una vez. Me levanté, me lavé la cara y me cepillé los dientes. Cuando volví, me di cuenta de que era por la tarde.",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Igual estaba agotado!",
+            "next_text": "¡Ja, ja! ¡Qué pasada!"
+          },
+          "sequence": "004",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¡Ja, ja! ¡Qué pasada!",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "De pequeño me pasó una vez. Me levanté, me lavé la cara y me cepillé los dientes. Cuando volví, me di cuenta de que era por la tarde.",
+            "next_text": "¡Si hasta iba a levantarme a preparar el desayuno! Pero al ver la hora he pensado que no podía ser."
+          },
+          "sequence": "005",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "¡Si hasta iba a levantarme a preparar el desayuno! Pero al ver la hora he pensado que no podía ser.",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Ja, ja! ¡Qué pasada!",
+            "next_text": "Hasta dormido os oía armar jaleo ahí."
+          },
+          "sequence": "006",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Hasta dormido os oía armar jaleo ahí.",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¡Si hasta iba a levantarme a preparar el desayuno! Pero al ver la hora he pensado que no podía ser.",
+            "next_text": "Ya es de mañana. Otra vez toca levantarse. ¿Por qué tengo tanto sueño? Voy a dormir un poquito más…"
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Ya es de mañana. Otra vez toca levantarse. ¿Por qué tengo tanto sueño? Voy a dormir un poquito más…",
+          "file": "elevenlabs/es-es/2026-11-22-i-thought-it-was-morning_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-22T19:11:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Hasta dormido os oía armar jaleo ahí."
+          },
+          "sequence": "008",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
