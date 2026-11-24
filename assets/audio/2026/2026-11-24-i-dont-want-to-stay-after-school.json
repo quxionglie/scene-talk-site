@@ -1,0 +1,707 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-24-i-dont-want-to-stay-after-school",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-24T18:11:08+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "I Don't Want to Stay After School",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:24+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Some kids in your class had to stay after school today?",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:29+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Yeah. How did you know?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Yeah. How did you know?",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:31+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Some kids in your class had to stay after school today?",
+            "next_text": "Your teacher posted it in the group chat. They have to stay until 6:20."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Your teacher posted it in the group chat. They have to stay until 6:20.",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Yeah. How did you know?",
+            "next_text": "Let me see..."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Let me see...",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:36+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Your teacher posted it in the group chat. They have to stay until 6:20.",
+            "next_text": "What about kids like you who go to Block A but not Block B?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "What about kids like you who go to Block A but not Block B?",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Let me see...",
+            "next_text": "I don't know."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "I don't know.",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_006_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:41+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "What about kids like you who go to Block A but not Block B?",
+            "next_text": "Is the teacher keeping them after school to go over some problems?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Is the teacher keeping them after school to go over some problems?",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_007_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I don't know.",
+            "next_text": "I don't know. I've never had to stay."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "I don't know. I've never had to stay.",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_008_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:48+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Is the teacher keeping them after school to go over some problems?",
+            "next_text": "Why don't you stay next time and see?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Why don't you stay next time and see?",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_009_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "I don't know. I've never had to stay.",
+            "next_text": "I don't want to!"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "I don't want to!",
+          "file": "elevenlabs/en-us/2026-11-24-i-dont-want-to-stay-after-school_dialogue_010_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Why don't you stay next time and see?"
+          },
+          "sequence": "010",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Je ne veux pas rester après les cours",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Des élèves de ta classe ont dû rester après les cours aujourd’hui ?",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:09:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Oui. Comment tu le sais ?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Oui. Comment tu le sais ?",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:40+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Des élèves de ta classe ont dû rester après les cours aujourd’hui ?",
+            "next_text": "Ton prof a envoyé un message dans le groupe. Ils doivent rester jusqu’à 18 h 20."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Ton prof a envoyé un message dans le groupe. Ils doivent rester jusqu’à 18 h 20.",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:03+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Oui. Comment tu le sais ?",
+            "next_text": "Fais voir…"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Fais voir…",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:05+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ton prof a envoyé un message dans le groupe. Ils doivent rester jusqu’à 18 h 20.",
+            "next_text": "Et pour ceux qui font le créneau A mais pas le B, comme toi, ça se passe comment ?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Et pour ceux qui font le créneau A mais pas le B, comme toi, ça se passe comment ?",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:09+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Fais voir…",
+            "next_text": "Je sais pas."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "Je sais pas.",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_006_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:11+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et pour ceux qui font le créneau A mais pas le B, comme toi, ça se passe comment ?",
+            "next_text": "Ton prof les fait rester pour leur expliquer les exercices ?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "Ton prof les fait rester pour leur expliquer les exercices ?",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_007_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:13+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je sais pas.",
+            "next_text": "Je sais pas. Moi, j’ai jamais eu à rester."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "Je sais pas. Moi, j’ai jamais eu à rester.",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_008_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:15+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Ton prof les fait rester pour leur expliquer les exercices ?",
+            "next_text": "Et si tu restais la prochaine fois, pour voir ?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "Et si tu restais la prochaine fois, pour voir ?",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_009_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Je sais pas. Moi, j’ai jamais eu à rester.",
+            "next_text": "J’ai pas envie !"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "J’ai pas envie !",
+          "file": "elevenlabs/fr-fr/2026-11-24-i-dont-want-to-stay-after-school_dialogue_010_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:20+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Et si tu restais la prochaine fois, pour voir ?"
+          },
+          "sequence": "010",
+          "speaker": "child"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "No quiero quedarme después de clase",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:42+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "¿Algunos de tus compañeros se han tenido que quedar después de clase hoy?",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:46+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Sí. ¿Cómo lo sabes?"
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Sí. ¿Cómo lo sabes?",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:50+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Algunos de tus compañeros se han tenido que quedar después de clase hoy?",
+            "next_text": "Lo ha dicho tu profe en el grupo. Se tienen que quedar hasta las seis y veinte."
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Lo ha dicho tu profe en el grupo. Se tienen que quedar hasta las seis y veinte.",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:53+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Sí. ¿Cómo lo sabes?",
+            "next_text": "A ver…"
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "A ver…",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Lo ha dicho tu profe en el grupo. Se tienen que quedar hasta las seis y veinte.",
+            "next_text": "¿Y qué pasa con los que, como tú, van al bloque A pero no al B?"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Y qué pasa con los que, como tú, van al bloque A pero no al B?",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:58+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "A ver…",
+            "next_text": "No sé."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:006",
+          "type": "dialogue",
+          "source_text": "No sé.",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_006_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:10:59+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y qué pasa con los que, como tú, van al bloque A pero no al B?",
+            "next_text": "¿Se quedan para que tu profe les explique los ejercicios?"
+          },
+          "sequence": "006",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:007",
+          "type": "dialogue",
+          "source_text": "¿Se quedan para que tu profe les explique los ejercicios?",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_007_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:11:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No sé.",
+            "next_text": "No sé. Nunca he tenido que quedarme."
+          },
+          "sequence": "007",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:008",
+          "type": "dialogue",
+          "source_text": "No sé. Nunca he tenido que quedarme.",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_008_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:11:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Se quedan para que tu profe les explique los ejercicios?",
+            "next_text": "¿Y si te quedas la próxima vez, a ver qué hacen?"
+          },
+          "sequence": "008",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:009",
+          "type": "dialogue",
+          "source_text": "¿Y si te quedas la próxima vez, a ver qué hacen?",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_009_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:11:06+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "No sé. Nunca he tenido que quedarme.",
+            "next_text": "¡No me apetece!"
+          },
+          "sequence": "009",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:010",
+          "type": "dialogue",
+          "source_text": "¡No me apetece!",
+          "file": "elevenlabs/es-es/2026-11-24-i-dont-want-to-stay-after-school_dialogue_010_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-24T18:11:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿Y si te quedas la próxima vez, a ver qué hacen?"
+          },
+          "sequence": "010",
+          "speaker": "child"
+        }
+      ]
+    }
+  ]
+}
