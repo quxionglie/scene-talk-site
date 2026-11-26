@@ -2,7 +2,7 @@
   "schema_version": 4,
   "dialogue_id": "2026-11-25-does-digua-mean-sweet-potato",
   "default_track_id": "en-US-elevenlabs",
-  "updated_at": "2026-11-26T18:11:31+08:00",
+  "updated_at": "2026-11-26T20:11:21+08:00",
   "tracks": [
     {
       "track_id": "en-US-elevenlabs",
@@ -71,11 +71,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "That's jicama. I wouldn't call it \"digua.\" Doesn't that mean sweet potato?",
+          "source_text": "No, that's jicama. \"Digua\" means sweet potato.",
           "file": "elevenlabs/en-us/2026-11-25-does-digua-mean-sweet-potato_dialogue_003_en-us.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-26T18:10:56+08:00",
+          "generated_at": "2026-11-26T20:11:08+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "gOupLcAkjEnguROwi4oS",
@@ -199,11 +199,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "Non, ça, c’est un jicama. « Digua », ça veut dire « patate douce », non ?",
+          "source_text": "Non, ça, c’est un jicama. « Digua », ça veut dire « patate douce ».",
           "file": "elevenlabs/fr-fr/2026-11-25-does-digua-mean-sweet-potato_dialogue_003_fr-fr.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-26T18:11:11+08:00",
+          "generated_at": "2026-11-26T20:11:12+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "UBXZKOKbt62aLQHhc1Jm",
@@ -327,11 +327,11 @@
         {
           "segment_id": "dialogue:003",
           "type": "dialogue",
-          "source_text": "No, eso es una jícama. ¿«Digua» no significa «boniato»?",
+          "source_text": "No, eso es una jícama. «Digua» significa «boniato».",
           "file": "elevenlabs/es-es/2026-11-25-does-digua-mean-sweet-potato_dialogue_003_es-es.mp3",
           "mime_type": "audio/mpeg",
           "ai_generated": true,
-          "generated_at": "2026-11-26T18:11:25+08:00",
+          "generated_at": "2026-11-26T20:11:21+08:00",
           "generation": {
             "provider": "ElevenLabs",
             "voice_id": "LlZr3QuzbW4WrPjgATHG",
