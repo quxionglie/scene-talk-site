@@ -1,0 +1,392 @@
+{
+  "schema_version": 4,
+  "dialogue_id": "2026-11-28-sunset-at-eight-in-the-morning",
+  "default_track_id": "en-US-elevenlabs",
+  "updated_at": "2026-11-28T20:44:55+08:00",
+  "tracks": [
+    {
+      "track_id": "en-US-elevenlabs",
+      "code": "en-US",
+      "language": "英语",
+      "variant": "美式英语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Sunset at Eight in the Morning",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_title_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:43:38+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ktkP7Nsj67dw2zcplQYt",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Looking at the sun, would you say it's morning or afternoon?",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_dialogue_001_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:43:44+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Looks like afternoon."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Looks like afternoon.",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_dialogue_002_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:43:47+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Looking at the sun, would you say it's morning or afternoon?",
+            "next_text": "The afternoon sun? I mean the evening sun. What's the difference between that and the morning sun?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "The afternoon sun? I mean the evening sun. What's the difference between that and the morning sun?",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_dialogue_003_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:43:52+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Looks like afternoon.",
+            "next_text": "When the sun goes down in the afternoon, you get dark."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "When the sun goes down in the afternoon, you get dark.",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_dialogue_004_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:43:57+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "7QN34D2r3hCNwbOYIeK0",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "The afternoon sun? I mean the evening sun. What's the difference between that and the morning sun?",
+            "next_text": "You mean it gets dark? It's not dark now. It's light out!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "You mean it gets dark? It's not dark now. It's light out!",
+          "file": "elevenlabs/en-us/2026-11-28-sunset-at-eight-in-the-morning_dialogue_005_en-us.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:01+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "gOupLcAkjEnguROwi4oS",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "When the sun goes down in the afternoon, you get dark."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "fr-FR-elevenlabs",
+      "code": "fr-FR",
+      "language": "法语",
+      "variant": "法国法语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Un coucher de soleil à huit heures du matin",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_title_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:04+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "aQROLel5sQbj1vuIVi6B",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "En regardant le soleil, tu dirais que c’est le matin ou l’après-midi ?",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_dialogue_001_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:08+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "On dirait l’après-midi."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "On dirait l’après-midi.",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_dialogue_002_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:12+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "En regardant le soleil, tu dirais que c’est le matin ou l’après-midi ?",
+            "next_text": "Le soleil de l’après-midi ? Enfin, je veux dire le soleil du soir. Quelle différence tu vois avec celui du matin ?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "Le soleil de l’après-midi ? Enfin, je veux dire le soleil du soir. Quelle différence tu vois avec celui du matin ?",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_dialogue_003_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:17+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "On dirait l’après-midi.",
+            "next_text": "Quand le soleil se couche l’après-midi, tu deviens tout sombre."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Quand le soleil se couche l’après-midi, tu deviens tout sombre.",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_dialogue_004_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:21+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "nr2EGJNe96rzn9FRlTId",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Le soleil de l’après-midi ? Enfin, je veux dire le soleil du soir. Quelle différence tu vois avec celui du matin ?",
+            "next_text": "Tu veux dire qu’il fait noir ? Mais là, il fait pas noir. Il fait jour !"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "Tu veux dire qu’il fait noir ? Mais là, il fait pas noir. Il fait jour !",
+          "file": "elevenlabs/fr-fr/2026-11-28-sunset-at-eight-in-the-morning_dialogue_005_fr-fr.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:26+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "UBXZKOKbt62aLQHhc1Jm",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Quand le soleil se couche l’après-midi, tu deviens tout sombre."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        }
+      ]
+    },
+    {
+      "track_id": "es-ES-elevenlabs",
+      "code": "es-ES",
+      "language": "西班牙语",
+      "variant": "西班牙本土西语",
+      "clips": [
+        {
+          "segment_id": "title",
+          "type": "title",
+          "source_text": "Una puesta de sol a las ocho de la mañana",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_title_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:30+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "ZCh4e9eZSUf41K4cmCEL",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5
+          }
+        },
+        {
+          "segment_id": "dialogue:001",
+          "type": "dialogue",
+          "source_text": "Al ver el sol, ¿dirías que es por la mañana o por la tarde?",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_dialogue_001_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:34+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "next_text": "Parece que es por la tarde."
+          },
+          "sequence": "001",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:002",
+          "type": "dialogue",
+          "source_text": "Parece que es por la tarde.",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_dialogue_002_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:37+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Al ver el sol, ¿dirías que es por la mañana o por la tarde?",
+            "next_text": "¿El sol de la tarde? Bueno, quería decir el del atardecer. ¿Qué diferencia hay entre ese y el de la mañana?"
+          },
+          "sequence": "002",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:003",
+          "type": "dialogue",
+          "source_text": "¿El sol de la tarde? Bueno, quería decir el del atardecer. ¿Qué diferencia hay entre ese y el de la mañana?",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_dialogue_003_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:45+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Parece que es por la tarde.",
+            "next_text": "Cuando se pone el sol por la tarde, tú te oscureces."
+          },
+          "sequence": "003",
+          "speaker": "father"
+        },
+        {
+          "segment_id": "dialogue:004",
+          "type": "dialogue",
+          "source_text": "Cuando se pone el sol por la tarde, tú te oscureces.",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_dialogue_004_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:51+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "Nh2zY9kknu6z4pZy6FhD",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "¿El sol de la tarde? Bueno, quería decir el del atardecer. ¿Qué diferencia hay entre ese y el de la mañana?",
+            "next_text": "¿Quieres decir que oscurece? Pero si ahora no está oscuro. ¡Es de día!"
+          },
+          "sequence": "004",
+          "speaker": "child"
+        },
+        {
+          "segment_id": "dialogue:005",
+          "type": "dialogue",
+          "source_text": "¿Quieres decir que oscurece? Pero si ahora no está oscuro. ¡Es de día!",
+          "file": "elevenlabs/es-es/2026-11-28-sunset-at-eight-in-the-morning_dialogue_005_es-es.mp3",
+          "mime_type": "audio/mpeg",
+          "ai_generated": true,
+          "generated_at": "2026-11-28T20:44:55+08:00",
+          "generation": {
+            "provider": "ElevenLabs",
+            "voice_id": "LlZr3QuzbW4WrPjgATHG",
+            "model_id": "eleven_v4",
+            "output_format": "mp3_44100_128",
+            "similarity_boost": 1.0,
+            "stability": 0.5,
+            "previous_text": "Cuando se pone el sol por la tarde, tú te oscureces."
+          },
+          "sequence": "005",
+          "speaker": "father"
+        }
+      ]
+    }
+  ]
+}
